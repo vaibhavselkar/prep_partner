@@ -262,6 +262,39 @@ export default function HomePage() {
         </div>
       )}
 
+      {/* Technical Sahayak MPSC Card */}
+      <div className="bg-gradient-to-r from-primary-900/50 via-bg-card to-purple-900/30 border border-primary-600/40 rounded-2xl p-6 space-y-4">
+        <div className="flex items-start justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <span className="text-4xl">⚙️</span>
+            <div>
+              <div className="flex items-center gap-2">
+                <h2 className="text-lg font-bold text-white font-devanagari">तांत्रिक सहायक</h2>
+                <span className="bg-yellow-500/20 border border-yellow-500/40 text-yellow-300 text-[10px] px-2 py-0.5 rounded-full font-semibold">NEW</span>
+              </div>
+              <p className="text-primary-400 text-sm">MPSC Group-C Bharti 2026 — Prep Hub</p>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-gray-400 text-sm font-devanagari">
+          वित्त विभाग, विमा संचालनालय · <strong className="text-gray-300">३ पदे</strong> · S-10 ₹29,200–92,300 · पूर्व परीक्षा <strong className="text-primary-300">27 सप्टेंबर 2026</strong>
+        </p>
+
+        <div className="flex flex-wrap gap-2">
+          {["AI Tutor 🤖", "MCQ सराव ❓", "Syllabus 📚", "Strategy 🎯", "Countdown ⏳"].map((f) => (
+            <span key={f} className="bg-bg/60 border border-gray-700/50 text-gray-400 text-xs px-3 py-1 rounded-full font-devanagari">{f}</span>
+          ))}
+        </div>
+
+        <Link
+          href="/technical-sahayak"
+          className="block text-center bg-primary-600 hover:bg-primary-500 text-white px-6 py-3 rounded-xl font-medium transition-colors font-devanagari"
+        >
+          ⚙️ तांत्रिक सहायक Prep Hub उघडा →
+        </Link>
+      </div>
+
       {/* Feature cards */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {[

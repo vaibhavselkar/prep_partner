@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
   { href: "/", label: "मुख्यपृष्ठ", labelEn: "Home", icon: "🏠" },
+  { href: "/technical-sahayak", label: "तांत्रिक सहायक", labelEn: "MPSC Prep", icon: "⚙️" },
   { href: "/study", label: "अभ्यास", labelEn: "Study", icon: "🎤" },
   { href: "/notes", label: "नोट्स", labelEn: "Notes", icon: "📝" },
   { href: "/quiz", label: "प्रश्नमंजुषा", labelEn: "Quiz", icon: "❓" },

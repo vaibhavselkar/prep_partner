@@ -2,6 +2,8 @@
   "functions": {
     "src/app/api/upload/route.ts": { "maxDuration": 30 },
     "src/app/api/chat/route.ts": { "maxDuration": 30 },
-    "src/app/api/quiz/route.ts": { "maxDuration": 30 }
+    "src/app/api/quiz/route.ts": { "maxDuration": 30 },
+    "src/app/api/mpsc-chat/route.ts": { "maxDuration": 30 },
+    "src/app/api/mpsc-quiz/route.ts": { "maxDuration": 30 }
   }
 }
