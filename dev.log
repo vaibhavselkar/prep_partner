@@ -1,0 +1,25 @@
+
+> marathi-notes-ai@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+[Error: EPERM: operation not permitted, open 'C:\Users\Vaibhav\Desktop\Prep_partner\.next\trace'] {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'C:\\Users\\Vaibhav\\Desktop\\Prep_partner\\.next\\trace'
+}
+ ✓ Ready in 11s
+ ○ Compiling / ...
+(node:19232) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+The user aborted a request.
+
+Retrying 1/3...
+ ✓ Compiled / in 21.4s (575 modules)
+ ✓ Compiled in 1465ms (263 modules)
