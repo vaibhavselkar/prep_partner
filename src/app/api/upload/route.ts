@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { extractPDFText } from "@/lib/pdfUtils";
 import { extractTextFromImage } from "@/lib/imageOcr";
-import { readPDFs, writePDFs, readProgress, writeProgress, ensureDataFiles } from "@/lib/dataStore";
+import { readPDFs, writeSinglePDF, deletePDF, readProgress, writeProgress } from "@/lib/dataStore";
 import type { PDFMeta, PDFProgress } from "@/types";
 import { randomUUID } from "crypto";
 import path from "path";
@@ -94,9 +94,7 @@ export async function POST(req: NextRequest) {
         uploadedAt: new Date().toISOString(),
       };
 
-      const pdfs = await readPDFs();
-      pdfs.push(entry);
-      await writePDFs(pdfs);
+      await writeSinglePDF(entry);
 
       const progress = await readProgress();
       progress[id] = {
@@ -129,9 +127,7 @@ export async function POST(req: NextRequest) {
       uploadedAt: new Date().toISOString(),
     };
 
-    const pdfs = await readPDFs();
-    pdfs.push(entry);
-    await writePDFs(pdfs);
+    await writeSinglePDF(entry);
 
     const progress = await readProgress();
     progress[id] = {
@@ -170,8 +166,8 @@ export async function DELETE(req: NextRequest) {
     const { id } = await req.json();
     const pdfs = await readPDFs();
     const toDelete = pdfs.find((p) => p.id === id);
-    const updated = pdfs.filter((p) => p.id !== id);
-    await writePDFs(updated);
+
+    await deletePDF(id);
 
     if (toDelete?.blobUrl.startsWith("/api/pdf-file/")) {
       const safeName = toDelete.blobUrl.replace("/api/pdf-file/", "");
@@ -184,4 +180,3 @@ export async function DELETE(req: NextRequest) {
   }
 }
 
-ensureDataFiles().catch(console.error);

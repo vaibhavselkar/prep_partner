@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { extractTextFromImage } from "@/lib/imageOcr";
-import { readPDFs, writePDFs, readProgress, writeProgress } from "@/lib/dataStore";
+import { writeSinglePDF, readProgress, writeProgress } from "@/lib/dataStore";
 import type { PDFMeta, PDFProgress } from "@/types";
 import { randomUUID } from "crypto";
 import path from "path";
@@ -58,12 +58,7 @@ export async function POST(req: NextRequest) {
       uploadedAt: new Date().toISOString(),
     };
 
-    const pdfs = await readPDFs();
-    // Replace if same folder name already exists
-    const existingIdx = pdfs.findIndex((p) => p.filename === docName);
-    if (existingIdx >= 0) pdfs.splice(existingIdx, 1);
-    pdfs.push(entry);
-    await writePDFs(pdfs);
+    await writeSinglePDF(entry);
 
     const progress = await readProgress();
     progress[id] = {
