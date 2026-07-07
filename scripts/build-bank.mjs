@@ -42,8 +42,10 @@ for (const q of all) {
   bySubtopic[k] = (bySubtopic[k] ?? 0) + 1;
 }
 
-// Fixed timestamp source: use file mtime max to stay deterministic-ish; fall back to env.
-const generatedAt = process.env.BANK_BUILD_DATE ?? new Date().toISOString().slice(0, 10);
+// Deterministic timestamp: the newest verifiedAt across all questions, so re-running the
+// build without content changes doesn't dirty git. BANK_BUILD_DATE env override still wins.
+const maxVerifiedAt = all.reduce((max, q) => (q.verifiedAt && q.verifiedAt > max ? q.verifiedAt : max), "1970-01-01");
+const generatedAt = process.env.BANK_BUILD_DATE ?? maxVerifiedAt;
 
 await writeFile(join(BANK_DIR, "_bundle.json"), JSON.stringify(all), "utf-8");
 await writeFile(

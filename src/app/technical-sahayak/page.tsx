@@ -221,6 +221,7 @@ function QuizSection() {
   const score = submitted
     ? questions.filter((q, i) => answers[i] === q.answer).length
     : 0;
+  const pct = questions.length > 0 ? score / questions.length : 0;
 
   return (
     <div className="space-y-6">
@@ -302,10 +303,10 @@ function QuizSection() {
       {questions.length > 0 && (
         <div className="space-y-4">
           {submitted && (
-            <div className={`rounded-xl p-4 text-center border ${score >= 4 ? "bg-green-900/20 border-green-700/40 text-green-400" : score >= 3 ? "bg-yellow-900/20 border-yellow-700/40 text-yellow-400" : "bg-red-900/20 border-red-700/40 text-red-400"}`}>
-              <p className="text-2xl font-bold">{score}/5</p>
+            <div className={`rounded-xl p-4 text-center border ${pct >= 0.8 ? "bg-green-900/20 border-green-700/40 text-green-400" : pct >= 0.6 ? "bg-yellow-900/20 border-yellow-700/40 text-yellow-400" : "bg-red-900/20 border-red-700/40 text-red-400"}`}>
+              <p className="text-2xl font-bold">{score}/{questions.length}</p>
               <p className="text-sm mt-1">
-                {score === 5 ? "उत्कृष्ट! 🎉 Perfect Score!" : score >= 4 ? "छान! 👍 Keep it up!" : score >= 3 ? "ठीक आहे — थोडा सराव करा" : "अजून सराव हवा — AI Tutor कडून मदत घ्या"}
+                {pct === 1 ? "उत्कृष्ट! 🎉 Perfect Score!" : pct >= 0.8 ? "छान! 👍 Keep it up!" : pct >= 0.6 ? "ठीक आहे — थोडा सराव करा" : "अजून सराव हवा — AI Tutor कडून मदत घ्या"}
               </p>
             </div>
           )}
@@ -418,7 +419,9 @@ function WeakAreas() {
         const subj = getSubject(w.subject);
         return (
           <div key={`${w.subject}/${w.subtopic}`} className="flex items-center justify-between text-sm">
-            <span className="text-gray-300 font-devanagari">{subj?.icon} {subj?.labelEn} · {w.subtopic}</span>
+            <span className="text-gray-300 font-devanagari">
+              {subj?.icon} {subj?.labelEn}{w.subtopic.startsWith("_") ? "" : ` · ${w.subtopic}`}
+            </span>
             <span className={pct < 40 ? "text-red-400" : "text-yellow-400"}>{pct}% ({w.attempts})</span>
           </div>
         );
@@ -437,6 +440,7 @@ function MockSection() {
   const [loading, setLoading] = useState(false);
   const [remaining, setRemaining] = useState(60 * 60); // 60 min
   const startedAt = useRef<number>(0);
+  const persisted = useRef(false);
 
   useEffect(() => {
     if (!started || submitted) return;
@@ -451,12 +455,20 @@ function MockSection() {
       const data = await res.json();
       setQuestions(data.questions);
       setAnswers({}); setSubmitted(false); setRemaining(60 * 60);
+      persisted.current = false;
       setStarted(true); startedAt.current = Date.now();
     } finally { setLoading(false); }
   };
 
   const submit = useCallback(() => {
     setSubmitted(true);
+  }, []);
+
+  // Persist the attempt exactly once whenever `submitted` flips to true, regardless of
+  // whether that happened via the manual "जमा करा" button or the countdown timing out.
+  useEffect(() => {
+    if (!submitted || persisted.current) return;
+    persisted.current = true;
     const bySubject: Record<string, { correct: number; total: number }> = {};
     let score = 0;
     questions.forEach((q, i) => {
@@ -473,7 +485,7 @@ function MockSection() {
         mock: { score, total: questions.length, durationSec: Math.round((Date.now() - startedAt.current) / 1000), bySubject },
       }),
     }).catch(() => {});
-  }, [questions, answers]);
+  }, [submitted, questions, answers]);
 
   if (!started) {
     return (
