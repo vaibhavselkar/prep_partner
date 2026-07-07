@@ -351,13 +351,38 @@ function QuizSection() {
                     <span className="text-gray-400 ml-2">{q.explanation}</span>
                   </div>
                 )}
+                {submitted && (
+                  <button
+                    onClick={async () => {
+                      const reason = prompt("काय चूक आहे? (उत्तर/अस्पष्ट/जुनी माहिती) / What's wrong?") || "";
+                      if (!reason) return;
+                      await fetch("/api/report", {
+                        method: "POST", headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ questionId: (q as unknown as { id: string }).id, reason }),
+                      });
+                      alert("धन्यवाद! तक्रार नोंदवली. / Reported. Thanks!");
+                    }}
+                    className="text-xs text-gray-500 hover:text-red-400 mt-1"
+                  >🚩 चूक कळवा / Report</button>
+                )}
               </div>
             );
           })}
 
           {!submitted && Object.keys(answers).length > 0 && (
             <button
-              onClick={() => setSubmitted(true)}
+              onClick={() => {
+                setSubmitted(true);
+                const items = questions.map((q, i) => ({
+                  subject: (q as unknown as { subject?: string }).subject ?? selectedTopic,
+                  subtopic: (q as unknown as { subtopic?: string }).subtopic ?? (selectedSubtopic || "_mixed"),
+                  correct: answers[i] === q.answer,
+                }));
+                fetch("/api/mpsc-progress", {
+                  method: "POST", headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ type: "quiz", items }),
+                }).catch(() => {});
+              }}
               className="w-full bg-green-700 hover:bg-green-600 text-white py-3 rounded-xl font-medium transition-colors font-devanagari"
             >
               उत्तरे तपासा / Check Answers
@@ -373,6 +398,31 @@ function QuizSection() {
           )}
         </div>
       )}
+    </div>
+  );
+}
+
+// ── Weak Areas Component ───────────────────────────────────────────────────────
+
+function WeakAreas() {
+  const [weak, setWeak] = useState<{ subject: string; subtopic: string; attempts: number; correct: number }[]>([]);
+  useEffect(() => {
+    fetch("/api/mpsc-progress").then((r) => r.json()).then((d) => setWeak(d.weakest ?? [])).catch(() => {});
+  }, []);
+  if (weak.length === 0) return null;
+  return (
+    <div className="bg-bg-card border border-red-700/40 rounded-xl p-5 space-y-3">
+      <h3 className="font-semibold text-red-300 font-devanagari">⚠️ कमकुवत विषय / Weak Areas</h3>
+      {weak.map((w) => {
+        const pct = Math.round((w.correct / w.attempts) * 100);
+        const subj = getSubject(w.subject);
+        return (
+          <div key={`${w.subject}/${w.subtopic}`} className="flex items-center justify-between text-sm">
+            <span className="text-gray-300 font-devanagari">{subj?.icon} {subj?.labelEn} · {w.subtopic}</span>
+            <span className={pct < 40 ? "text-red-400" : "text-yellow-400"}>{pct}% ({w.attempts})</span>
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -965,6 +1015,8 @@ export default function TechnicalSahayakPage() {
       {/* ── Tab: Strategy ────────────────────────────────────────────────── */}
       {activeTab === "strategy" && (
         <div className="space-y-4">
+          <WeakAreas />
+
           {/* Key stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
