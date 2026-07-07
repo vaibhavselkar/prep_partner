@@ -1,0 +1,218 @@
+[
+  {
+    "id": "science-physics-0001",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "SI एककांमध्ये बलाचे एकक कोणते आहे? / What is the SI unit of force?",
+    "options": [
+      "A. जूल / Joule",
+      "B. न्यूटन / Newton",
+      "C. पास्कल / Pascal",
+      "D. वॅट / Watt"
+    ],
+    "answer": "B",
+    "explanation": "Force is measured in Newton (N) in the SI system, defined as the force required to accelerate 1 kg mass at 1 m/s².",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0002",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "प्रकाशाचा वेग निर्वातात अंदाजे किती असतो? / What is the approximate speed of light in vacuum?",
+    "options": [
+      "A. 3 × 10^5 km/s",
+      "B. 3 × 10^8 m/s",
+      "C. 3 × 10^6 m/s",
+      "D. 3 × 10^10 m/s"
+    ],
+    "answer": "B",
+    "explanation": "The speed of light in vacuum is approximately 3 × 10^8 metres per second.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0003",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "वस्तूचे वजन कोणत्या उपकरणाने मोजले जाते? / Which instrument is used to measure the weight of an object?",
+    "options": [
+      "A. थर्मामीटर / Thermometer",
+      "B. बॅरोमीटर / Barometer",
+      "C. स्प्रिंग तराजू / Spring balance",
+      "D. अमीटर / Ammeter"
+    ],
+    "answer": "C",
+    "explanation": "A spring balance measures weight by the extension of a spring due to the force of gravity acting on the object.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0004",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "न्यूटनच्या गतीच्या पहिल्या नियमाला काय म्हणतात? / Newton's first law of motion is also known as the law of what?",
+    "options": [
+      "A. संवेग / Momentum",
+      "B. जडत्व / Inertia",
+      "C. गुरुत्वाकर्षण / Gravitation",
+      "D. ऊर्जा संवर्धन / Energy conservation"
+    ],
+    "answer": "B",
+    "explanation": "Newton's first law states that an object remains at rest or in uniform motion unless acted upon by an external force, hence called the law of inertia.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0005",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पाण्याच्या पृष्ठभागावर सुई तरंगण्याचे कारण काय आहे? / What causes a needle to float on the surface of water?",
+    "options": [
+      "A. पाण्याची घनता / Density of water",
+      "B. पृष्ठताण / Surface tension",
+      "C. स्निग्धता / Viscosity",
+      "D. आर्किमिडीजचे तत्त्व / Archimedes' principle"
+    ],
+    "answer": "B",
+    "explanation": "Surface tension of water creates a film-like effect on the surface that supports the weight of a light needle.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0006",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "उष्णतेचे SI एकक कोणते आहे? / What is the SI unit of heat energy?",
+    "options": [
+      "A. कॅलरी / Calorie",
+      "B. जूल / Joule",
+      "C. केल्विन / Kelvin",
+      "D. वॅट / Watt"
+    ],
+    "answer": "B",
+    "explanation": "Heat is a form of energy and its SI unit is the Joule.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0007",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "आवाजाचा वेग कोणत्या माध्यमात सर्वाधिक असतो? / In which medium does sound travel fastest?",
+    "options": [
+      "A. हवा / Air",
+      "B. पाणी / Water",
+      "C. लोखंड (घन) / Iron (solid)",
+      "D. निर्वात / Vacuum"
+    ],
+    "answer": "C",
+    "explanation": "Sound travels fastest in solids like iron because particles are closely packed, allowing faster transmission of vibrations; sound cannot travel through vacuum.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0008",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "विद्युत रोधाचे (Resistance) SI एकक कोणते आहे? / What is the SI unit of electrical resistance?",
+    "options": [
+      "A. अँपिअर / Ampere",
+      "B. व्होल्ट / Volt",
+      "C. ओहम / Ohm",
+      "D. फॅरड / Farad"
+    ],
+    "answer": "C",
+    "explanation": "Electrical resistance is measured in Ohms, as per Ohm's Law V = IR.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0009",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "उत्तल भिंग (Convex lens) कोणत्या दृष्टिदोषाच्या उपचारासाठी वापरले जाते? / A convex lens is used to correct which vision defect?",
+    "options": [
+      "A. निकटदृष्टिता (Myopia)",
+      "B. दूरदृष्टिता (Hypermetropia)",
+      "C. अबिंदुकता (Astigmatism)",
+      "D. रातांधळेपणा (Night blindness)"
+    ],
+    "answer": "B",
+    "explanation": "Hypermetropia (long-sightedness) is corrected using a convex lens, which converges light rays to focus on the retina.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0010",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका वस्तूचा संवेग (Momentum) कशावर अवलंबून असतो? / The momentum of an object depends on which quantities?",
+    "options": [
+      "A. फक्त वस्तुमान / Mass only",
+      "B. फक्त वेग / Velocity only",
+      "C. वस्तुमान आणि वेग / Mass and velocity",
+      "D. फक्त त्वरण / Acceleration only"
+    ],
+    "answer": "C",
+    "explanation": "Momentum (p) is defined as the product of mass and velocity, p = mv.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0011",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "अणुऊर्जा प्रकल्पांमध्ये अणुविखंडन (Nuclear fission) नियंत्रित करण्यासाठी कोणता पदार्थ वापरला जातो? / Which material is used as a control rod to regulate nuclear fission in nuclear reactors?",
+    "options": [
+      "A. ग्रॅफाइट / Graphite",
+      "B. कॅडमियम / Cadmium",
+      "C. युरेनियम / Uranium",
+      "D. जड पाणी / Heavy water"
+    ],
+    "answer": "B",
+    "explanation": "Cadmium (or boron) rods absorb excess neutrons and are used as control rods to regulate the chain reaction in nuclear reactors.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-physics-0012",
+    "subject": "science",
+    "subtopic": "physics",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "डॉप्लर परिणाम (Doppler Effect) कशाशी संबंधित आहे? / The Doppler Effect is related to a change in which property of a wave?",
+    "options": [
+      "A. तरंगलांबी व वारंवारता (आभासी बदल) / Apparent change in wavelength and frequency",
+      "B. प्रकाशाचा वेग / Speed of light",
+      "C. ध्वनीची तीव्रता / Loudness of sound",
+      "D. ध्वनीचा गुणधर्म (Timbre) / Quality of sound"
+    ],
+    "answer": "A",
+    "explanation": "The Doppler Effect describes the apparent change in frequency and wavelength of a wave due to relative motion between the source and observer.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

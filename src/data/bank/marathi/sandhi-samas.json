@@ -1,0 +1,218 @@
+[
+  {
+    "id": "marathi-sandhi-samas-0001",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "सूर्य + उदय = सूर्योदय — या शब्दात कोणती संधी आहे?",
+    "options": [
+      "A. दीर्घ संधी",
+      "B. गुण संधी",
+      "C. वृद्धी संधी",
+      "D. यण संधी"
+    ],
+    "answer": "B",
+    "explanation": "अ + उ = ओ असे स्वर मिळून जोडशब्द तयार झाल्यास ती गुण संधी असते (सूर्य+उदय=सूर्योदय).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0002",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "विद्या + आलय = विद्यालय — या शब्दात कोणती संधी आहे?",
+    "options": [
+      "A. गुण संधी",
+      "B. वृद्धी संधी",
+      "C. दीर्घ संधी",
+      "D. यण संधी"
+    ],
+    "answer": "C",
+    "explanation": "आ + आ = आ असे समान स्वर एकत्र येऊन दीर्घ स्वर तयार झाल्याने ही दीर्घ (सवर्णदीर्घ) संधी आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0003",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "मुनी + इंद्र = मुनींद्र — यामध्ये कोणत्या संधीचा प्रकार आढळतो?",
+    "options": [
+      "A. गुण संधी",
+      "B. यण संधी",
+      "C. दीर्घ संधी",
+      "D. वृद्धी संधी"
+    ],
+    "answer": "C",
+    "explanation": "ई + इ हे सजातीय स्वर एकत्र येऊन दीर्घ ई होतो, त्यामुळे ही दीर्घ (सवर्णदीर्घ) संधी आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0004",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "खालीलपैकी कोणता शब्द 'यण् संधी'चे उदाहरण आहे?",
+    "options": [
+      "A. सूर्योदय",
+      "B. इत्यादी",
+      "C. महेश",
+      "D. विद्यालय"
+    ],
+    "answer": "B",
+    "explanation": "इति + आदी मध्ये इ नंतर असमान स्वर आल्याने इ चा 'य्' होतो (इत्यादी), हे यण् संधीचे उदाहरण आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0005",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "सदा + एव = सदैव — या शब्दात कोणती संधी आहे?",
+    "options": [
+      "A. गुण संधी",
+      "B. वृद्धी संधी",
+      "C. दीर्घ संधी",
+      "D. यण संधी"
+    ],
+    "answer": "B",
+    "explanation": "अ/आ + ए/ऐ = ऐ असा परिणाम झाल्यास ती वृद्धी संधी असते (सदा+एव=सदैव).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0006",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'यशोगाथा' या शब्दातील संधी कोणत्या प्रकारची आहे?",
+    "options": [
+      "A. स्वर संधी",
+      "B. व्यंजन संधी",
+      "C. विसर्ग संधी",
+      "D. यण संधी"
+    ],
+    "answer": "C",
+    "explanation": "यश: + गाथा मध्ये विसर्गाचे रूपांतर होऊन 'यशोगाथा' तयार होते, म्हणजेच ही विसर्ग संधी आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0007",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "सत् + जन या शब्दांची योग्य संधी व तिचा प्रकार ओळखा.",
+    "options": [
+      "A. सज्जन - व्यंजन संधी",
+      "B. सज्जन - स्वर संधी",
+      "C. संजन - विसर्ग संधी",
+      "D. सज्जन - यण संधी"
+    ],
+    "answer": "A",
+    "explanation": "व्यंजनानंतर व्यंजन आल्याने त् चा ज् होतो (सत्+जन=सज्जन), म्हणून ही व्यंजन संधी आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0008",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'पती-पत्नी' हा कोणत्या समासाचे उदाहरण आहे?",
+    "options": [
+      "A. तत्पुरुष समास",
+      "B. द्वंद्व समास",
+      "C. बहुव्रीही समास",
+      "D. अव्ययीभाव समास"
+    ],
+    "answer": "B",
+    "explanation": "दोन्ही पदे प्रधान असून 'व' किंवा 'आणि' या समुच्चयबोधक शब्दाने जोडलेली असल्याने हा द्वंद्व समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0009",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'नीलकंठ' (शंकर) या सामासिक शब्दात कोणता समास आहे?",
+    "options": [
+      "A. कर्मधारय समास",
+      "B. द्विगु समास",
+      "C. बहुव्रीही समास",
+      "D. तत्पुरुष समास"
+    ],
+    "answer": "C",
+    "explanation": "'निळा आहे कंठ ज्याचा असा (शंकर)' असा अर्थ असून दोन्ही पदांहून तिसऱ्याच पदाचा (शंकराचा) बोध होतो, त्यामुळे हा बहुव्रीही समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0010",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'पंचवटी' या सामासिक शब्दात कोणता समास आहे?",
+    "options": [
+      "A. द्विगु समास",
+      "B. द्वंद्व समास",
+      "C. तत्पुरुष समास",
+      "D. अव्ययीभाव समास"
+    ],
+    "answer": "A",
+    "explanation": "पहिले पद संख्यावाचक असून समुदायाचा बोध होत असल्याने ('पाच वडांचा समूह') हा द्विगु समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0011",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'यथाशक्ती' या सामासिक शब्दात कोणता समास आहे?",
+    "options": [
+      "A. तत्पुरुष समास",
+      "B. कर्मधारय समास",
+      "C. अव्ययीभाव समास",
+      "D. द्वंद्व समास"
+    ],
+    "answer": "C",
+    "explanation": "पहिले पद अव्यय असून संपूर्ण सामासिक शब्द क्रियाविशेषणाप्रमाणे वापरला जातो, त्यामुळे हा अव्ययीभाव समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-sandhi-samas-0012",
+    "subject": "marathi",
+    "subtopic": "sandhi-samas",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'राजपुत्र' या सामासिक शब्दाचा समास व विग्रह ओळखा.",
+    "options": [
+      "A. तत्पुरुष समास - राजाचा पुत्र",
+      "B. कर्मधारय समास - राजा असा पुत्र",
+      "C. बहुव्रीही समास - राजा आहे पुत्र ज्याचा",
+      "D. द्वंद्व समास - राजा व पुत्र"
+    ],
+    "answer": "A",
+    "explanation": "गाळलेला विभक्ती प्रत्यय ('चा') भरून विग्रह केल्यास 'राजाचा पुत्र' असा अर्थ होतो व दुसरे पद प्रधान असल्याने हा तत्पुरुष समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

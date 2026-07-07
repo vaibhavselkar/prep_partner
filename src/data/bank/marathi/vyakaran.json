@@ -1,0 +1,218 @@
+[
+  {
+    "id": "marathi-vyakaran-0001",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'मुलगा शाळेत जातो.' या वाक्यातील काळ ओळखा.",
+    "options": [
+      "A. भूतकाळ",
+      "B. वर्तमानकाळ",
+      "C. भविष्यकाळ",
+      "D. रीती भूतकाळ"
+    ],
+    "answer": "B",
+    "explanation": "क्रियापदाचे रूप 'जातो' हे वर्तमानकाळ दर्शवते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0002",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'तो उद्या पुण्याला जाईल.' या वाक्यातील काळ कोणता?",
+    "options": [
+      "A. साधा भविष्यकाळ",
+      "B. साधा वर्तमानकाळ",
+      "C. साधा भूतकाळ",
+      "D. पूर्ण भूतकाळ"
+    ],
+    "answer": "A",
+    "explanation": "'जाईल' हे क्रियापद रूप भविष्यात घडणारी क्रिया दर्शवते म्हणून साधा भविष्यकाळ आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0003",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'मी पत्र लिहिले होते.' या वाक्यातील काळाचा प्रकार सांगा.",
+    "options": [
+      "A. साधा भूतकाळ",
+      "B. रीती भूतकाळ",
+      "C. पूर्ण भूतकाळ",
+      "D. अपूर्ण भूतकाळ"
+    ],
+    "answer": "C",
+    "explanation": "क्रिया भूतकाळात पूर्ण झाल्याचे 'होते' या साहाय्यक क्रियापदावरून स्पष्ट होते, त्यामुळे तो पूर्ण भूतकाळ आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0004",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'तो दररोज सकाळी फिरायला जात असे.' या वाक्यातील काळ ओळखा.",
+    "options": [
+      "A. साधा भूतकाळ",
+      "B. रीती भूतकाळ",
+      "C. अपूर्ण भूतकाळ",
+      "D. पूर्ण भूतकाळ"
+    ],
+    "answer": "B",
+    "explanation": "'जात असे' हे रूप पूर्वी सवयीने घडणारी क्रिया दर्शवते, म्हणजे रीती भूतकाळ.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0005",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'मी अभ्यास करत आहे.' या वाक्यातील काळाचा प्रकार कोणता?",
+    "options": [
+      "A. अपूर्ण वर्तमानकाळ",
+      "B. पूर्ण वर्तमानकाळ",
+      "C. साधा वर्तमानकाळ",
+      "D. रीती वर्तमानकाळ"
+    ],
+    "answer": "A",
+    "explanation": "क्रिया चालू असून अजून पूर्ण झालेली नाही, त्यामुळे तो अपूर्ण वर्तमानकाळ आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0006",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "खालीलपैकी 'वचन' म्हणजे काय?",
+    "options": [
+      "A. नामाचा लिंगबोध",
+      "B. नामावरून एक किंवा अनेक वस्तूंचा बोध होणे",
+      "C. क्रियापदाचा काळ दर्शवणे",
+      "D. वाक्यातील कर्त्याचा बोध"
+    ],
+    "answer": "B",
+    "explanation": "नामाच्या रूपावरून एक किंवा अनेक वस्तू/व्यक्तींचा बोध होणे यास वचन असे म्हणतात.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0007",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'घर' या शब्दाचे अनेकवचन कोणते?",
+    "options": [
+      "A. घरे",
+      "B. घरं",
+      "C. घरी",
+      "D. घराने"
+    ],
+    "answer": "A",
+    "explanation": "'घर' या नपुंसकलिंगी नामाचे अनेकवचन 'घरे' असे होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0008",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'नदी' या शब्दाचे अनेकवचन कोणते?",
+    "options": [
+      "A. नद्या",
+      "B. नदीं",
+      "C. नद्यां",
+      "D. नदीयां"
+    ],
+    "answer": "A",
+    "explanation": "स्त्रीलिंगी 'ई'कारान्त नामांचे अनेकवचन सामान्यतः 'या' असे होते, त्यामुळे 'नदी'चे अनेकवचन 'नद्या' होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0009",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'मुलगी हुशार आहे.' या वाक्यातील 'मुलगी' या नामाचे लिंग कोणते?",
+    "options": [
+      "A. पुल्लिंग",
+      "B. स्त्रीलिंग",
+      "C. नपुंसकलिंग",
+      "D. उभयलिंग"
+    ],
+    "answer": "B",
+    "explanation": "'मुलगी' हा शब्द स्त्रीलिंगी नाम आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0010",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "खालीलपैकी नपुंसकलिंगी नाम कोणते?",
+    "options": [
+      "A. राजा",
+      "B. राणी",
+      "C. पुस्तक",
+      "D. शेतकरी"
+    ],
+    "answer": "C",
+    "explanation": "'पुस्तक' हे नाम नपुंसकलिंगी आहे, तर 'राजा' पुल्लिंगी, 'राणी' स्त्रीलिंगी आणि 'शेतकरी' सामान्यतः पुल्लिंगी वापरले जाते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0011",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'शिक्षक विद्यार्थ्यांना शिकवत होते.' या वाक्यातील काळ ओळखा.",
+    "options": [
+      "A. अपूर्ण भूतकाळ",
+      "B. पूर्ण भूतकाळ",
+      "C. रीती भूतकाळ",
+      "D. साधा भूतकाळ"
+    ],
+    "answer": "A",
+    "explanation": "'शिकवत होते' हे रूप भूतकाळात क्रिया चालू असल्याचे दर्शवते, म्हणून तो अपूर्ण भूतकाळ आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "marathi-vyakaran-0012",
+    "subject": "marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'तो जर आला असता तर मी गेलो असतो.' या वाक्यातील काळाचा प्रकार सांगा.",
+    "options": [
+      "A. रीती भविष्यकाळ",
+      "B. संकेतार्थक भूतकाळ (करण भूत)",
+      "C. पूर्ण भविष्यकाळ",
+      "D. साधा भूतकाळ"
+    ],
+    "answer": "B",
+    "explanation": "'आला असता तर...गेलो असतो' या रचनेतून सशर्त/संकेतार्थक भूतकाळाचा बोध होतो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "aptitude-maths-0001",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "संख्येत 20% वाढ करून, नंतर मिळालेल्या संख्येत 20% घट केली, तर मूळ संख्येच्या तुलनेत निव्वळ बदल किती? / A number is increased by 20% and then the resulting number is decreased by 20%. What is the net percentage change compared to the original number?",
+    "options": [
+      "A. 4% वाढ / 4% increase",
+      "B. 4% घट / 4% decrease",
+      "C. कोणताही बदल नाही / No change",
+      "D. 40% घट / 40% decrease"
+    ],
+    "answer": "B",
+    "explanation": "100 चे 1.2 पट करून नंतर 0.8 पट केल्यास 96 मिळते, म्हणजे मूळ संख्येपेक्षा 4% घट होते / Taking 100 → ×1.2 → ×0.8 gives 96, a net 4% decrease.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0002",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "दोन संख्यांचे गुणोत्तर 3:5 आहे आणि त्यांची बेरीज 96 आहे, तर मोठी संख्या कोणती? / Two numbers are in the ratio 3:5 and their sum is 96. Find the larger number.",
+    "options": [
+      "A. 36",
+      "B. 40",
+      "C. 60",
+      "D. 64"
+    ],
+    "answer": "C",
+    "explanation": "एकूण 8 भाग = 96, म्हणजे 1 भाग = 12, मोठी संख्या = 5×12 = 60 / Total 8 parts = 96, so 1 part = 12, and the larger number = 5×12 = 60.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0003",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "A एक काम 12 दिवसांत आणि B तेच काम 18 दिवसांत पूर्ण करतो. दोघांनी एकत्र काम केल्यास ते किती दिवसांत पूर्ण होईल? / A can complete a work in 12 days and B can complete the same work in 18 days. In how many days will they complete it together?",
+    "options": [
+      "A. 6 दिवस / 6 days",
+      "B. 7 1/5 दिवस / 7 1/5 days",
+      "C. 9 दिवस / 9 days",
+      "D. 15 दिवस / 15 days"
+    ],
+    "answer": "B",
+    "explanation": "1/12 + 1/18 = 5/36, त्यामुळे एकत्र काम पूर्ण होण्यास 36/5 = 7.2 दिवस लागतील / 1/12 + 1/18 = 5/36, so together they take 36/5 = 7.2 days.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0004",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एका निवडणुकीत विजयी उमेदवाराला 60% मते मिळाली आणि तो 4000 मतांनी विजयी झाला. एकूण मतदान किती झाले? / In an election, the winning candidate received 60% of the votes and won by a margin of 4000 votes. What was the total number of votes polled?",
+    "options": [
+      "A. 16000",
+      "B. 18000",
+      "C. 20000",
+      "D. 24000"
+    ],
+    "answer": "C",
+    "explanation": "मताधिक्य हे एकूण मतांच्या 20% इतके आहे, त्यामुळे 20% = 4000 म्हणून एकूण मते = 20000 / The margin equals 20% of total votes, so 20% = 4000, giving total votes = 20000.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0005",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "2400 रुपये A, B, C मध्ये 2:3:5 या गुणोत्तरात वाटले असता C चा वाटा किती? / Rs. 2400 is divided among A, B and C in the ratio 2:3:5. What is C's share?",
+    "options": [
+      "A. Rs. 480",
+      "B. Rs. 720",
+      "C. Rs. 1000",
+      "D. Rs. 1200"
+    ],
+    "answer": "D",
+    "explanation": "एकूण भाग = 10, C चा वाटा = (5/10)×2400 = 1200 रुपये / Total parts = 10, so C's share = (5/10)×2400 = Rs. 1200.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0006",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "A आणि B एकत्र एक काम 10 दिवसांत पूर्ण करतात, तर A एकटा तेच काम 15 दिवसांत पूर्ण करतो. या कामासाठी मिळालेले 3000 रुपये कामाच्या प्रमाणात वाटल्यास B चा वाटा किती? / A and B together complete a work in 10 days, while A alone completes it in 15 days. If Rs. 3000 is divided between them in proportion to the work done, what is B's share?",
+    "options": [
+      "A. Rs. 900",
+      "B. Rs. 1000",
+      "C. Rs. 1500",
+      "D. Rs. 2000"
+    ],
+    "answer": "B",
+    "explanation": "A चा दर = 1/15, एकत्रित दर = 1/10, म्हणून B चा दर = 1/10 - 1/15 = 1/30; A:B = 2:1, त्यामुळे B ला (1/3)×3000 = 1000 रुपये मिळतील / A's rate = 1/15, combined rate = 1/10, so B's rate = 1/30; ratio A:B = 2:1, giving B a share of (1/3)×3000 = Rs. 1000.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0007",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका दुकानदाराने 2500 रुपये किमतीच्या वस्तूवर सलग 10% आणि 20% सूट दिली. वस्तूची विक्री किंमत किती? / A shopkeeper offers successive discounts of 10% and 20% on an item marked at Rs. 2500. What is the selling price?",
+    "options": [
+      "A. Rs. 1750",
+      "B. Rs. 1800",
+      "C. Rs. 1900",
+      "D. Rs. 2000"
+    ],
+    "answer": "B",
+    "explanation": "2500 × 0.9 × 0.8 = 1800 रुपये / 2500 × 0.9 × 0.8 = Rs. 1800.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0008",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "A ची कार्यक्षमता B च्या दुप्पट आहे. दोघे मिळून एक काम 12 दिवसांत पूर्ण करतात, तर A एकटा ते काम किती दिवसांत पूर्ण करेल? / A is twice as efficient as B. Together they complete a work in 12 days. In how many days will A alone complete the work?",
+    "options": [
+      "A. 15 दिवस / 15 days",
+      "B. 18 दिवस / 18 days",
+      "C. 20 दिवस / 20 days",
+      "D. 24 दिवस / 24 days"
+    ],
+    "answer": "B",
+    "explanation": "B चा दर x असल्यास A चा दर 2x आहे; एकत्रित दर 3x = 1/12, म्हणून A चा दर = 2x = 1/18, म्हणजे A ला एकट्याला 18 दिवस लागतील / If B's rate is x, A's rate is 2x; combined rate 3x = 1/12, so A's rate = 1/18, meaning A alone takes 18 days.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0009",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका जिल्हा परिषदेच्या परीक्षेत मुले व मुली यांचे गुणोत्तर 5:4 असून एकूण 540 उमेदवार उपस्थित होते. मुलींची संख्या किती? / In a Zilla Parishad exam, the ratio of boys to girls among candidates is 5:4, and a total of 540 candidates appeared. How many girls appeared?",
+    "options": [
+      "A. 200",
+      "B. 220",
+      "C. 240",
+      "D. 300"
+    ],
+    "answer": "C",
+    "explanation": "एकूण भाग = 9, प्रत्येक भाग = 60, मुली = 4×60 = 240 / Total parts = 9, each part = 60, so girls = 4×60 = 240.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0010",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "एका गावाची लोकसंख्या पहिल्या वर्षी 10% ने वाढली आणि दुसऱ्या वर्षी 10% ने घटली. सध्याची लोकसंख्या 9900 असल्यास मूळ लोकसंख्या किती होती? / The population of a village increased by 10% in the first year and decreased by 10% in the second year. If the present population is 9900, what was the original population?",
+    "options": [
+      "A. 9800",
+      "B. 9900",
+      "C. 10000",
+      "D. 10100"
+    ],
+    "answer": "C",
+    "explanation": "मूळ लोकसंख्या P असल्यास P×1.1×0.9 = 0.99P = 9900, म्हणून P = 10000 / If original population is P, then P×1.1×0.9 = 0.99P = 9900, so P = 10000.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0011",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "नळ A एक टाकी 6 तासांत भरतो आणि नळ B तीच टाकी 8 तासांत रिकामी करतो. दोन्ही नळ एकाच वेळी रिकाम्या टाकीत उघडले, तर टाकी किती तासांत भरेल? / Pipe A can fill a tank in 6 hours and pipe B can empty it in 8 hours. If both pipes are opened together on an empty tank, in how many hours will the tank be filled?",
+    "options": [
+      "A. 14 तास / 14 hours",
+      "B. 20 तास / 20 hours",
+      "C. 24 तास / 24 hours",
+      "D. 48 तास / 48 hours"
+    ],
+    "answer": "C",
+    "explanation": "निव्वळ दर = 1/6 - 1/8 = 1/24, त्यामुळे टाकी 24 तासांत भरेल / Net rate = 1/6 - 1/8 = 1/24, so the tank fills in 24 hours.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-maths-0012",
+    "subject": "aptitude",
+    "subtopic": "maths",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "दूध आणि पाणी यांचे मिश्रण 4:1 या गुणोत्तरात असून एकूण मिश्रण 25 लिटर आहे. हे गुणोत्तर 4:3 करण्यासाठी किती लिटर पाणी मिसळावे लागेल? / A mixture of milk and water is in the ratio 4:1, with a total of 25 litres. How many litres of water must be added to change the ratio to 4:3?",
+    "options": [
+      "A. 5 लिटर / 5 litres",
+      "B. 8 लिटर / 8 litres",
+      "C. 10 लिटर / 10 litres",
+      "D. 12 लिटर / 12 litres"
+    ],
+    "answer": "C",
+    "explanation": "दूध = 20 लिटर (स्थिर), सुरुवातीचे पाणी = 5 लिटर; 4:3 गुणोत्तरासाठी नवीन पाणी = 15 लिटर, म्हणजे 10 लिटर पाणी मिसळावे लागेल / Milk = 20 L (constant), initial water = 5 L; for ratio 4:3, new water must be 15 L, so 10 L of water must be added.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

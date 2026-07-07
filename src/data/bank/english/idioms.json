@@ -1,0 +1,218 @@
+[
+  {
+    "id": "english-idioms-0001",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "Choose the option that correctly explains the meaning of the idiom: 'To bell the cat'",
+    "options": [
+      "A. To decorate an animal",
+      "B. To take a risky task upon oneself for the benefit of all",
+      "C. To flatter someone in power",
+      "D. To ignore a dangerous situation"
+    ],
+    "answer": "B",
+    "explanation": "'To bell the cat' means to volunteer to perform a dangerous or risky task on behalf of a group.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0002",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "Select the correct meaning of the idiom: 'A bolt from the blue'",
+    "options": [
+      "A. An expected outcome",
+      "B. A sudden and unexpected event",
+      "C. A minor problem",
+      "D. A long-awaited announcement"
+    ],
+    "answer": "B",
+    "explanation": "'A bolt from the blue' refers to something that happens suddenly and without any warning.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0003",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "What does the idiom 'To burn the midnight oil' mean?",
+    "options": [
+      "A. To waste resources",
+      "B. To work or study late into the night",
+      "C. To start a fire accidentally",
+      "D. To celebrate late at night"
+    ],
+    "answer": "B",
+    "explanation": "'To burn the midnight oil' means to work or study hard late into the night, referring to the earlier use of oil lamps.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0004",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Identify the correct meaning of the idiom: 'To throw in the towel'",
+    "options": [
+      "A. To clean up a mess",
+      "B. To accept defeat and give up",
+      "C. To start a fight",
+      "D. To offer help to someone"
+    ],
+    "answer": "B",
+    "explanation": "'To throw in the towel' means to admit defeat and stop trying, an expression derived from boxing.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0005",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "The idiom 'To be in the doldrums' means:",
+    "options": [
+      "A. To be extremely happy",
+      "B. To be in a state of stagnation or depression",
+      "C. To be highly energetic",
+      "D. To be in great danger"
+    ],
+    "answer": "B",
+    "explanation": "'To be in the doldrums' means to be in a state of inactivity, stagnation, or low spirits.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0006",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Choose the correct meaning of the idiom: 'To cut corners'",
+    "options": [
+      "A. To finish a task perfectly",
+      "B. To do something in the cheapest or easiest way, often sacrificing quality",
+      "C. To take a shortcut route while travelling",
+      "D. To divide work equally among a team"
+    ],
+    "answer": "B",
+    "explanation": "'To cut corners' means to do something in the easiest, quickest, or cheapest way, often compromising on standards.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0007",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "What is the meaning of the idiom 'To be at loggerheads'?",
+    "options": [
+      "A. To be in complete agreement",
+      "B. To be in a strong disagreement or dispute with someone",
+      "C. To be confused about a decision",
+      "D. To be working together on a project"
+    ],
+    "answer": "B",
+    "explanation": "'To be at loggerheads' means to be in serious disagreement or conflict with someone.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0008",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Select the correct meaning of the idiom: 'To pull the wool over someone's eyes'",
+    "options": [
+      "A. To help someone see clearly",
+      "B. To deceive or trick someone",
+      "C. To protect someone from harm",
+      "D. To praise someone excessively"
+    ],
+    "answer": "B",
+    "explanation": "'To pull the wool over someone's eyes' means to deceive or mislead someone.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0009",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "The idiom 'A wild goose chase' refers to:",
+    "options": [
+      "A. A successful hunting expedition",
+      "B. A pointless or futile search or pursuit",
+      "C. A well-planned journey",
+      "D. A dangerous adventure in the wild"
+    ],
+    "answer": "B",
+    "explanation": "'A wild goose chase' means a foolish and hopeless search for something that is unattainable or does not exist.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0010",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "hard",
+    "language": "english",
+    "question": "Choose the correct meaning of the idiom: 'To show one's true colours'",
+    "options": [
+      "A. To wear bright coloured clothes",
+      "B. To reveal one's real character, often a negative one",
+      "C. To paint a picture skillfully",
+      "D. To celebrate a festival with colours"
+    ],
+    "answer": "B",
+    "explanation": "'To show one's true colours' means to reveal one's real nature or intentions, especially when previously hidden.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0011",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "hard",
+    "language": "english",
+    "question": "What does the idiom 'To rest on one's laurels' mean?",
+    "options": [
+      "A. To keep working hard despite past success",
+      "B. To be satisfied with past achievements and stop making further effort",
+      "C. To sleep peacefully after a hard day's work",
+      "D. To seek new challenges continuously"
+    ],
+    "answer": "B",
+    "explanation": "'To rest on one's laurels' means to be content with past successes and not try to achieve more.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-idioms-0012",
+    "subject": "english",
+    "subtopic": "idioms",
+    "difficulty": "hard",
+    "language": "english",
+    "question": "Identify the correct meaning of the idiom: 'To read between the lines'",
+    "options": [
+      "A. To read a text very quickly",
+      "B. To understand the hidden or implied meaning of something",
+      "C. To read only the important parts of a document",
+      "D. To translate a document into another language"
+    ],
+    "answer": "B",
+    "explanation": "'To read between the lines' means to understand the implied or hidden meaning behind what is said or written, not just the literal words.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

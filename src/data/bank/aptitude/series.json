@@ -1,0 +1,218 @@
+[
+  {
+    "id": "aptitude-series-0001",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 4, 8, 12, 16, ?, 24 / Find the missing number in the series: 4, 8, 12, 16, ?, 24",
+    "options": [
+      "A. 18",
+      "B. 20",
+      "C. 22",
+      "D. 19"
+    ],
+    "answer": "B",
+    "explanation": "ही मालिका 4 च्या पटीत आहे, म्हणून पुढील संख्या 20 आहे. / The series consists of multiples of 4, so the missing number is 20.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0002",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 3, 9, 27, 81, ? / Find the missing number in the series: 3, 9, 27, 81, ?",
+    "options": [
+      "A. 162",
+      "B. 200",
+      "C. 243",
+      "D. 324"
+    ],
+    "answer": "C",
+    "explanation": "प्रत्येक संख्येला 3 ने गुणल्यास पुढील संख्या मिळते, म्हणजे 81 × 3 = 243. / Each term is multiplied by 3, so 81 × 3 = 243.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0003",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 7, 14, 21, 28, ?, 42 / Find the missing number in the series: 7, 14, 21, 28, ?, 42",
+    "options": [
+      "A. 30",
+      "B. 32",
+      "C. 35",
+      "D. 36"
+    ],
+    "answer": "C",
+    "explanation": "ही मालिका 7 च्या पटीत आहे, म्हणून रिकाम्या जागी 35 येईल. / The series is multiples of 7, so the missing number is 35.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0004",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 1, 4, 9, 16, 25, ? / Find the missing number in the series: 1, 4, 9, 16, 25, ?",
+    "options": [
+      "A. 30",
+      "B. 32",
+      "C. 35",
+      "D. 36"
+    ],
+    "answer": "D",
+    "explanation": "ही मालिका सलग नैसर्गिक संख्यांच्या वर्गांची आहे (1², 2², 3²...), म्हणून पुढील संख्या 6² = 36 आहे. / The series consists of squares of consecutive natural numbers, so the next term is 6² = 36.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0005",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 2, 3, 5, 7, 11, ? / Find the missing number in the series: 2, 3, 5, 7, 11, ?",
+    "options": [
+      "A. 12",
+      "B. 13",
+      "C. 14",
+      "D. 15"
+    ],
+    "answer": "B",
+    "explanation": "ही मालिका मूळ संख्यांची (prime numbers) आहे, म्हणून 11 नंतरची मूळ संख्या 13 आहे. / The series is of prime numbers, and the prime following 11 is 13.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0006",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 1, 1, 2, 3, 5, 8, ? / Find the missing number in the series: 1, 1, 2, 3, 5, 8, ?",
+    "options": [
+      "A. 10",
+      "B. 11",
+      "C. 12",
+      "D. 13"
+    ],
+    "answer": "D",
+    "explanation": "ही फिबोनाची मालिका आहे, प्रत्येक संख्या आधीच्या दोन संख्यांची बेरीज असते, म्हणून 5+8=13. / This is the Fibonacci series where each term is the sum of the previous two, so 5+8=13.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0007",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 2, 6, 12, 20, 30, ? / Find the missing number in the series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "A. 38",
+      "B. 40",
+      "C. 42",
+      "D. 44"
+    ],
+    "answer": "C",
+    "explanation": "फरक 4, 6, 8, 10 असे 2 ने वाढत जातात (n²+n प्रकार), त्यामुळे पुढील फरक 12 असून उत्तर 30+12=42 आहे. / The differences increase by 2 each time (4,6,8,10), following n²+n, so the next difference is 12, giving 30+12=42.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0008",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 5, 11, 19, 29, 41, ? / Find the missing number in the series: 5, 11, 19, 29, 41, ?",
+    "options": [
+      "A. 51",
+      "B. 53",
+      "C. 55",
+      "D. 57"
+    ],
+    "answer": "C",
+    "explanation": "फरक 6, 8, 10, 12 असे 2 ने वाढत जातात, त्यामुळे पुढील फरक 14 असून उत्तर 41+14=55 आहे. / The differences increase by 2 each time (6,8,10,12), so the next difference is 14, giving 41+14=55.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0009",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 3, 8, 15, 24, 35, ? / Find the missing number in the series: 3, 8, 15, 24, 35, ?",
+    "options": [
+      "A. 44",
+      "B. 46",
+      "C. 48",
+      "D. 50"
+    ],
+    "answer": "C",
+    "explanation": "फरक 5, 7, 9, 11 असे 2 ने वाढत जातात (n²+2n प्रकार), त्यामुळे पुढील फरक 13 असून उत्तर 35+13=48 आहे. / The differences increase by 2 each time (5,7,9,11), following n²+2n, so the next difference is 13, giving 35+13=48.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0010",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 2, 5, 10, 17, 26, ? / Find the missing number in the series: 2, 5, 10, 17, 26, ?",
+    "options": [
+      "A. 35",
+      "B. 36",
+      "C. 37",
+      "D. 38"
+    ],
+    "answer": "C",
+    "explanation": "प्रत्येक संख्या n²+1 (n=1,2,3...) या नियमाने येते, त्यामुळे 6²+1=37 हे उत्तर आहे. / Each term follows n²+1, so for n=6, the value is 6²+1=37.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0011",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 6, 11, 21, 36, 56, ? / Find the missing number in the series: 6, 11, 21, 36, 56, ?",
+    "options": [
+      "A. 76",
+      "B. 79",
+      "C. 81",
+      "D. 84"
+    ],
+    "answer": "C",
+    "explanation": "फरक 5, 10, 15, 20 असे 5 च्या पटीत वाढत जातात, त्यामुळे पुढील फरक 25 असून उत्तर 56+25=81 आहे. / The differences increase in multiples of 5 (5,10,15,20), so the next difference is 25, giving 56+25=81.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-series-0012",
+    "subject": "aptitude",
+    "subtopic": "series",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 3, 9, 7, 13, 11, ?, 15 / Find the missing number in the series: 3, 9, 7, 13, 11, ?, 15",
+    "options": [
+      "A. 15",
+      "B. 16",
+      "C. 17",
+      "D. 18"
+    ],
+    "answer": "C",
+    "explanation": "ही मालिका आलटून-पालटून +6 आणि -2 या क्रियांनी तयार होते, म्हणजे 11+6=17. / The series alternates between adding 6 and subtracting 2, so 11+6=17.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

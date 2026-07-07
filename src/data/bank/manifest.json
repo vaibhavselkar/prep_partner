@@ -1,10 +1,45 @@
 {
-  "generatedAt": "2026-07-07",
-  "total": 3,
+  "generatedAt": "2026-07-08",
+  "total": 365,
   "bySubject": {
-    "gk": 3
+    "aptitude": 72,
+    "current_affairs": 44,
+    "english": 59,
+    "gk": 83,
+    "marathi": 60,
+    "science": 47
   },
   "bySubtopic": {
-    "gk/mh-geography": 3
+    "aptitude/analogy": 12,
+    "aptitude/coding-decoding": 12,
+    "aptitude/direction-blood": 12,
+    "aptitude/maths": 12,
+    "aptitude/series": 12,
+    "aptitude/syllogism": 12,
+    "current_affairs/mh-affairs": 12,
+    "current_affairs/national": 12,
+    "current_affairs/sci-tech-news": 10,
+    "current_affairs/sports-awards": 10,
+    "english/comprehension": 12,
+    "english/grammar": 11,
+    "english/idioms": 12,
+    "english/sentence": 12,
+    "english/vocabulary": 12,
+    "gk/constitution": 12,
+    "gk/economy": 11,
+    "gk/environment": 12,
+    "gk/india-geography": 12,
+    "gk/india-history": 12,
+    "gk/mh-geography": 12,
+    "gk/mh-history": 12,
+    "marathi/aakalan": 12,
+    "marathi/mhani-vakprachar": 12,
+    "marathi/sandhi-samas": 12,
+    "marathi/shabdsampada": 12,
+    "marathi/vyakaran": 12,
+    "science/biology": 11,
+    "science/chemistry": 12,
+    "science/physics": 12,
+    "science/tech": 12
   }
 }

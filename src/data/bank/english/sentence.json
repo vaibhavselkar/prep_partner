@@ -1,0 +1,218 @@
+[
+  {
+    "id": "english-sentence-0001",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "Choose the sentence that is grammatically correct.",
+    "options": [
+      "A. She has been working here since five years.",
+      "B. She has been working here for five years.",
+      "C. She is working here since five years.",
+      "D. She works here since five years."
+    ],
+    "answer": "B",
+    "explanation": "'For' is used with a period/duration of time (five years), while 'since' is used with a specific point in time.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0002",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Identify the grammatically correct sentence.",
+    "options": [
+      "A. Neither of the two candidates were selected for the post.",
+      "B. Neither of the two candidates was selected for the post.",
+      "C. Neither of the two candidates have been selected for the post.",
+      "D. Neither of the two candidates are selected for the post."
+    ],
+    "answer": "B",
+    "explanation": "'Neither' is a singular pronoun and always takes a singular verb, so 'was' is correct.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0003",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Select the correctly rearranged sentence from the given jumbled parts:\nP. to attend the meeting\nQ. the district collector\nR. has instructed all officers\nS. scheduled for tomorrow",
+    "options": [
+      "A. Q R P S",
+      "B. R Q P S",
+      "C. Q P R S",
+      "D. R P Q S"
+    ],
+    "answer": "A",
+    "explanation": "The logical order is 'The district collector has instructed all officers to attend the meeting scheduled for tomorrow' (Q-R-P-S).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0004",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "hard",
+    "language": "english",
+    "question": "Choose the correctly corrected sentence: 'Each of the students have submitted their assignment.'",
+    "options": [
+      "A. Each of the students has submitted their assignment.",
+      "B. Each of the students have submitted his assignment.",
+      "C. Each of the students has submitted his or her assignment.",
+      "D. Each of the students had submit their assignment."
+    ],
+    "answer": "C",
+    "explanation": "'Each' takes a singular verb 'has', and traditionally requires a singular pronoun 'his or her' for grammatical agreement.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0005",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "A. I am knowing him since childhood.",
+      "B. I know him since childhood.",
+      "C. I have known him since childhood.",
+      "D. I had known him since childhood."
+    ],
+    "answer": "C",
+    "explanation": "'Know' is a stative verb and, with 'since' indicating an action continuing from the past to the present, the present perfect tense 'have known' is correct.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0006",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Select the correctly ordered sentence from the jumbled words:\nP. the Mantralaya building\nQ. is located\nR. in the heart of Mumbai\nS. of Maharashtra",
+    "options": [
+      "A. P S Q R",
+      "B. Q P S R",
+      "C. P Q S R",
+      "D. S P Q R"
+    ],
+    "answer": "A",
+    "explanation": "The correct sentence reads 'The Mantralaya building of Maharashtra is located in the heart of Mumbai' (P-S-Q-R).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0007",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "Identify the grammatically correct sentence.",
+    "options": [
+      "A. He is one of the best officer in the department.",
+      "B. He is one of the best officers in the department.",
+      "C. He is one of the best officer of the department.",
+      "D. He is one of best officers in the department."
+    ],
+    "answer": "B",
+    "explanation": "The phrase 'one of the' must be followed by a plural noun, so 'officers' is correct.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0008",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Choose the correctly corrected version of: 'The number of unemployed youth are increasing every year.'",
+    "options": [
+      "A. The number of unemployed youth is increasing every year.",
+      "B. The number of unemployed youth are increased every year.",
+      "C. A number of unemployed youth is increasing every year.",
+      "D. The numbers of unemployed youth is increasing every year."
+    ],
+    "answer": "A",
+    "explanation": "'The number of' takes a singular verb, whereas 'A number of' takes a plural verb; here 'the number of...is increasing' is correct.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0009",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "hard",
+    "language": "english",
+    "question": "Select the correctly rearranged sentence from the jumbled parts:\nP. despite heavy rainfall\nQ. the farmers of Vidarbha\nR. continued sowing their crops\nS. in the region",
+    "options": [
+      "A. Q R P S",
+      "B. P Q R S",
+      "C. Q P R S",
+      "D. P R Q S"
+    ],
+    "answer": "A",
+    "explanation": "The logical sequence is 'The farmers of Vidarbha continued sowing their crops despite heavy rainfall in the region' (Q-R-P-S).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0010",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "hard",
+    "language": "english",
+    "question": "Which of the following sentences contains no grammatical error?",
+    "options": [
+      "A. She is senior than me in the office.",
+      "B. She is more senior than me in the office.",
+      "C. She is senior to me in the office.",
+      "D. She is more senior to me in the office."
+    ],
+    "answer": "C",
+    "explanation": "The adjective 'senior' (a comparative of Latin origin) is followed by 'to', not 'than', so 'senior to me' is correct.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0011",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Choose the grammatically correct sentence.",
+    "options": [
+      "A. If I was you, I would apply for that post.",
+      "B. If I were you, I would apply for that post.",
+      "C. If I am you, I would apply for that post.",
+      "D. If I would be you, I would apply for that post."
+    ],
+    "answer": "B",
+    "explanation": "In hypothetical/unreal conditional sentences (Type 2), the subjunctive 'were' is used for all subjects, including 'I'.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "english-sentence-0012",
+    "subject": "english",
+    "subtopic": "sentence",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Select the correctly ordered sentence from the jumbled words:\nP. every citizen\nQ. before the election\nR. must verify their names\nS. in the voters' list",
+    "options": [
+      "A. P R S Q",
+      "B. P Q R S",
+      "C. Q P R S",
+      "D. P R Q S"
+    ],
+    "answer": "A",
+    "explanation": "The correct sentence is 'Every citizen must verify their names in the voters' list before the election' (P-R-S-Q).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

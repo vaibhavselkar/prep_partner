@@ -1,0 +1,202 @@
+[
+  {
+    "id": "current_affairs-sci-tech-news-0001",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जानेवारी 2025 मध्ये इस्रोच्या स्पॅडेक्स (SpaDeX) मोहिमेत अंतराळात दोन उपग्रहांचे यशस्वी डॉकिंग करून भारत हा असे करणारा जगातील कितवा देश ठरला? / In January 2025, ISRO's SpaDeX mission achieved successful in-space docking of two satellites, making India which country in the world to accomplish this feat?",
+    "options": [
+      "A. दुसरा / Second",
+      "B. तिसरा / Third",
+      "C. चौथा / Fourth",
+      "D. पाचवा / Fifth"
+    ],
+    "answer": "C",
+    "explanation": "SpaDeX docking on 16 January 2025 made India the fourth nation after the USA, Russia, and China to achieve autonomous space docking.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  },
+  {
+    "id": "current_affairs-sci-tech-news-0002",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "इस्रोच्या स्पॅडेक्स मोहिमेत वापरण्यात आलेल्या स्वदेशी डॉकिंग प्रणालीचे नाव काय आहे? / What is the name of the indigenous docking system used in ISRO's SpaDeX mission?",
+    "options": [
+      "A. भारतीय अंतरिक्ष प्रणाली / Bharatiya Antariksha System",
+      "B. भारतीय डॉकिंग प्रणाली / Bharatiya Docking System",
+      "C. गगन डॉकिंग यंत्रणा / Gagan Docking Mechanism",
+      "D. आदित्य डॉकिंग यंत्र / Aditya Docking Unit"
+    ],
+    "answer": "B",
+    "explanation": "The SpaDeX mission demonstrated docking using the indigenously developed 'Bharatiya Docking System', paving the way for the Bharatiya Antariksha Station and Gaganyaan.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  },
+  {
+    "id": "current_affairs-sci-tech-news-0003",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "30 जुलै 2025 रोजी प्रक्षेपित करण्यात आलेला NISAR उपग्रह हा कोणत्या दोन देशांचा संयुक्त उपक्रम आहे? / The NISAR satellite, launched on 30 July 2025, is a joint mission between which two countries?",
+    "options": [
+      "A. भारत आणि रशिया / India and Russia",
+      "B. भारत आणि जपान / India and Japan",
+      "C. भारत आणि अमेरिका (नासा) / India and USA (NASA)",
+      "D. भारत आणि फ्रान्स / India and France"
+    ],
+    "answer": "C",
+    "explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar), launched via GSLV-F16 on 30 July 2025, is the world's first dual-frequency (L-band and S-band) radar imaging satellite, a joint ISRO-NASA mission.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  },
+  {
+    "id": "current_affairs-sci-tech-news-0004",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "18 मे 2025 रोजी इस्रोच्या PSLV-C61 प्रक्षेपकाचे अपयश कोणत्या टप्प्यात (स्टेज) झाले, ज्यामुळे EOS-09 उपग्रह गमवावा लागला? / During the 18 May 2025 PSLV-C61 launch failure that led to the loss of the EOS-09 satellite, at which stage did the anomaly occur?",
+    "options": [
+      "A. पहिला टप्पा / First stage",
+      "B. दुसरा टप्पा / Second stage",
+      "C. तिसरा टप्पा / Third stage",
+      "D. चौथा टप्पा / Fourth stage"
+    ],
+    "answer": "C",
+    "explanation": "A drop in chamber pressure in the PSLV's third stage caused the mission failure, only the third such failure in PSLV's 32-year history.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  },
+  {
+    "id": "current_affairs-sci-tech-news-0005",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारताच्या राष्ट्रीय क्वांटम मिशन अंतर्गत 2026 मध्ये किती किलोमीटर अंतराचे सुरक्षित क्वांटम संदेशवहन नेटवर्क यशस्वीरित्या प्रस्थापित करण्यात आले? / Under India's National Quantum Mission, a secure quantum communication network of how many kilometres was successfully demonstrated in 2026?",
+    "options": [
+      "A. 500 किमी / 500 km",
+      "B. 1000 किमी / 1000 km",
+      "C. 1500 किमी / 1500 km",
+      "D. 2000 किमी / 2000 km"
+    ],
+    "answer": "B",
+    "explanation": "India achieved a 1,000-km secure quantum communication network milestone under the National Quantum Mission using indigenous technology developed by QNu Labs.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  },
+  {
+    "id": "current_affairs-sci-tech-news-0006",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राष्ट्रीय क्वांटम मिशन अंतर्गत क्वांटम चिप व सेन्सर उत्पादनासाठी उभारण्यात येणाऱ्या दोन फॅब्रिकेशन सुविधांपैकी एक महाराष्ट्रातील कोणत्या संस्थेत उभारली जात आहे? / One of the two quantum chip and sensor fabrication facilities being set up under the National Quantum Mission is located at which Maharashtra institute?",
+    "options": [
+      "A. आयआयटी मुंबई / IIT Bombay",
+      "B. आयआयटी दिल्ली / IIT Delhi",
+      "C. आयआयएससी बंगळुरू / IISc Bangalore",
+      "D. आयआयटी मद्रास / IIT Madras"
+    ],
+    "answer": "A",
+    "explanation": "The two quantum chip and sensor fabrication facilities under the National Quantum Mission are being established at IIT Bombay and IISc Bangalore.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  },
+  {
+    "id": "current_affairs-sci-tech-news-0007",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "2025 सालचे भौतिकशास्त्रातील नोबेल पारितोषिक कोणत्या शोधासाठी जॉन क्लार्क, मिशेल डेव्होरे आणि जॉन मार्टिनिस यांना विभागून देण्यात आले? / The 2025 Nobel Prize in Physics was jointly awarded to John Clarke, Michel Devoret, and John Martinis for discoveries related to which phenomenon?",
+    "options": [
+      "A. गुरुत्वाकर्षण लहरी / Gravitational waves",
+      "B. विद्युत परिपथांमध्ये क्वांटम टनेलिंग / Quantum tunnelling in electrical circuits",
+      "C. एक्झोप्लॅनेट शोध / Exoplanet discovery",
+      "D. न्यूट्रिनो दोलन / Neutrino oscillation"
+    ],
+    "answer": "B",
+    "explanation": "They were awarded the 2025 Physics Nobel for demonstrating macroscopic quantum mechanical tunnelling and energy quantisation in an electrical circuit.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  },
+  {
+    "id": "current_affairs-sci-tech-news-0008",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "2025 सालचे रसायनशास्त्रातील नोबेल पारितोषिक सुसुमु किटागावा, रिचर्ड रॉब्सन आणि ओमर याघी यांना कोणत्या संशोधनासाठी देण्यात आले? / The 2025 Nobel Prize in Chemistry was awarded to Susumu Kitagawa, Richard Robson, and Omar Yaghi for the development of what?",
+    "options": [
+      "A. मेटल-ऑरगॅनिक फ्रेमवर्क्स (MOFs) / Metal-organic frameworks (MOFs)",
+      "B. mRNA लस तंत्रज्ञान / mRNA vaccine technology",
+      "C. CRISPR जनुक संपादन / CRISPR gene editing",
+      "D. सौर पेशी तंत्रज्ञान / Solar cell technology"
+    ],
+    "answer": "A",
+    "explanation": "They won the 2025 Chemistry Nobel for developing metal-organic frameworks (MOFs), porous materials used for gas storage, water harvesting and filtration.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  },
+  {
+    "id": "current_affairs-sci-tech-news-0009",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "गगनयान कार्यक्रमांतर्गत मानवरहित चाचणी उड्डाण गगनयान-1 (G1) मध्ये अंतराळवीरांच्या परिस्थितीचे अनुकरण करण्यासाठी कोणता रोबोट पाठवला जाणार आहे? / Which robot will be carried on the uncrewed Gaganyaan-1 (G1) test flight to simulate astronaut conditions?",
+    "options": [
+      "A. व्योममित्र / Vyommitra",
+      "B. आर्यभट्ट / Aryabhata",
+      "C. प्रज्ञान / Pragyan",
+      "D. मंगलयान बॉट / Mangalyaan Bot"
+    ],
+    "answer": "A",
+    "explanation": "The Gaganyaan-1 uncrewed test flight will carry the half-humanoid robot Vyommitra to provide data on life-support and environmental systems ahead of crewed flights.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  },
+  {
+    "id": "current_affairs-sci-tech-news-0010",
+    "subject": "current_affairs",
+    "subtopic": "sci-tech-news",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारताचे शेवटचे विज्ञान शाखेतील (भौतिकशास्त्र/रसायनशास्त्र/वैद्यकशास्त्र) नोबेल पारितोषिक विजेते, ज्यांनी भारतातच राहून संशोधन करून हा बहुमान मिळवला, ते कोण होते? / Who was the last Indian to win a Nobel Prize in the sciences (Physics/Chemistry/Medicine) while working entirely in India?",
+    "options": [
+      "A. सी. व्ही. रामन / C.V. Raman",
+      "B. होमी भाभा / Homi Bhabha",
+      "C. सुब्रमण्यन चंद्रशेखर / Subrahmanyan Chandrasekhar",
+      "D. वेंकटरामन रामकृष्णन / Venkatraman Ramakrishnan"
+    ],
+    "answer": "A",
+    "explanation": "C.V. Raman, who discovered the Raman Effect in 1930, remains India's only Nobel laureate in sciences awarded for work done entirely within India, a gap highlighted again after the 2025 Nobel announcements.",
+    "tags": [],
+    "verifiedAt": "2026-07-08",
+    "isCurrentAffairs": true,
+    "asOfDate": "2026-07-08"
+  }
+]

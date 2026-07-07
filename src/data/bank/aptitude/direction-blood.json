@@ -1,0 +1,218 @@
+[
+  {
+    "id": "aptitude-direction-blood-0001",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एक व्यक्ती उत्तरेकडे ५ किमी चालतो, नंतर उजवीकडे वळून ५ किमी चालतो, आणि पुन्हा उजवीकडे वळून ५ किमी चालतो. तो सुरुवातीच्या ठिकाणापासून किती अंतरावर व कोणत्या दिशेला आहे? / A man walks 5 km towards North, then turns right and walks 5 km, then again turns right and walks 5 km. How far and in which direction is he from his starting point?",
+    "options": [
+      "A. ५ किमी पश्चिम / 5 km West",
+      "B. ५ किमी पूर्व / 5 km East",
+      "C. १५ किमी उत्तर / 15 km North",
+      "D. ५ किमी दक्षिण / 5 km South"
+    ],
+    "answer": "B",
+    "explanation": "Plotting the path on coordinates (North then East then South) shows the final point lies 5 km due East of the starting point.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0002",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एक व्यक्ती १० मीटर उत्तरेकडे, नंतर १० मीटर पूर्वेकडे आणि नंतर १० मीटर दक्षिणेकडे चालतो. तो आता सुरुवातीच्या ठिकाणापासून कोणत्या दिशेला व किती अंतरावर आहे? / A person walks 10m North, then 10m East, then 10m South. Where is he now with respect to the starting point?",
+    "options": [
+      "A. १० मीटर उत्तर / 10m North",
+      "B. १० मीटर पश्चिम / 10m West",
+      "C. १० मीटर पूर्व / 10m East",
+      "D. २० मीटर दक्षिण / 20m South"
+    ],
+    "answer": "C",
+    "explanation": "The North and South displacements of 10m each cancel out, leaving only the 10m Eastward displacement.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0003",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका छायाचित्राकडे बोट दाखवत एक पुरुष म्हणाला, \"ती माझ्या आजोबांच्या एकुलत्या एक मुलाची मुलगी आहे.\" त्या स्त्रीचा त्या पुरुषाशी काय संबंध आहे? / Pointing to a photograph, a man said, \"She is the daughter of my grandfather's only son.\" How is the woman related to the man?",
+    "options": [
+      "A. बहीण / Sister",
+      "B. आई / Mother",
+      "C. भाची/पुतणी / Niece",
+      "D. मुलगी / Daughter"
+    ],
+    "answer": "A",
+    "explanation": "The grandfather's only son (since the speaker is a grandson, not a son) is the speaker's father, so his daughter is the speaker's sister.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0004",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एका स्त्रीची ओळख करून देताना एक पुरुष म्हणाला, \"तिची आई माझ्या आईची एकुलती एक मुलगी आहे.\" त्या पुरुषाचा त्या स्त्रीशी काय संबंध आहे? / Introducing a woman, a man said, \"Her mother is the only daughter of my mother.\" How is the man related to the woman?",
+    "options": [
+      "A. वडील / Father",
+      "B. मामा / Maternal uncle",
+      "C. काका / Paternal uncle",
+      "D. भाऊ / Brother"
+    ],
+    "answer": "B",
+    "explanation": "Since the speaker is male, his mother's only daughter must be his sister, and her daughter's maternal uncle is the speaker.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0005",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "रवी दक्षिणेकडे ६ किमी चालतो, नंतर डावीकडे वळून ३ किमी चालतो, आणि पुन्हा डावीकडे वळून ६ किमी चालतो. तो आता सुरुवातीच्या ठिकाणापासून किती अंतरावर व कोणत्या दिशेला आहे? / Ravi walks 6 km towards South, then turns left and walks 3 km, then again turns left and walks 6 km. How far and in which direction is he now from the starting point?",
+    "options": [
+      "A. ३ किमी पूर्व / 3 km East",
+      "B. ६ किमी पश्चिम / 6 km West",
+      "C. ९ किमी दक्षिण / 9 km South",
+      "D. ३ किमी उत्तर / 3 km North"
+    ],
+    "answer": "A",
+    "explanation": "Facing South and turning left twice makes him face North again; the two 6 km South-then-North legs cancel, leaving only the 3 km Eastward leg.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0006",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "A आणि B हे भाऊ आहेत. C आणि D या बहिणी आहेत. A चा मुलगा D चा भाऊ आहे. B चा C शी काय संबंध आहे? / A and B are brothers. C and D are sisters. A's son is D's brother. What is B's relation to C?",
+    "options": [
+      "A. वडील / Father",
+      "B. भाऊ / Brother",
+      "C. काका / Paternal Uncle",
+      "D. मामा / Maternal Uncle"
+    ],
+    "answer": "C",
+    "explanation": "Since A's son is D's brother, A is the father of C and D; B, being A's brother, is therefore the paternal uncle of C.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0007",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "एका सकाळी सुरेश सूर्याकडे पाठ करून चालू लागला. काही अंतर चालल्यानंतर तो डावीकडे वळला आणि नंतर पुन्हा उजवीकडे वळला. आता तो कोणत्या दिशेला चालत आहे? / One morning, Suresh started walking with his back towards the sun. After walking some distance, he turned to his left, then again turned to his right. In which direction is he walking now?",
+    "options": [
+      "A. उत्तर / North",
+      "B. दक्षिण / South",
+      "C. पूर्व / East",
+      "D. पश्चिम / West"
+    ],
+    "answer": "D",
+    "explanation": "In the morning the sun rises in the East, so having his back to it means Suresh initially faces West; a left turn then a right turn cancel each other, so he still faces West.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0008",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एका पुरुषाकडे बोट दाखवत एक स्त्री म्हणाली, \"त्याची आई माझ्या वडिलांची एकुलती एक मुलगी आहे.\" त्या स्त्रीचा त्या पुरुषाशी काय संबंध आहे? / Pointing to a man, a woman said, \"His mother is the only daughter of my father.\" How is the woman related to the man?",
+    "options": [
+      "A. बहीण / Sister",
+      "B. आई / Mother",
+      "C. मावशी/आत्या / Aunt",
+      "D. पत्नी / Wife"
+    ],
+    "answer": "B",
+    "explanation": "Since the speaker is a woman, her father's only daughter is the speaker herself, meaning she is the man's mother.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0009",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "एक पर्यटक पुणे रेल्वे स्थानकावरून पूर्वेकडे ८ किमी चालून एका मंदिरात पोहोचतो. नंतर तो उजवीकडे वळून ६ किमी चालून एका बाजारपेठेत पोहोचतो. रेल्वे स्थानक आणि बाजारपेठ यामधील कमीत कमी अंतर किती आणि बाजारपेठ स्थानकापासून कोणत्या दिशेला आहे? / A tourist starts from Pune railway station, walks 8 km East to reach a temple, then turns right and walks 6 km to reach a market. What is the shortest distance between the station and the market, and in which direction is the market from the station?",
+    "options": [
+      "A. १४ किमी, पूर्व / 14 km, East",
+      "B. १० किमी, आग्नेय (दक्षिण-पूर्व) / 10 km, South-East",
+      "C. १० किमी, ईशान्य (उत्तर-पूर्व) / 10 km, North-East",
+      "D. ६ किमी, दक्षिण / 6 km, South"
+    ],
+    "answer": "B",
+    "explanation": "The 8 km East and 6 km South legs form a right angle, so by the Pythagorean theorem the straight-line distance is 10 km, and the market lies in the South-East direction from the station.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0010",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "दीपक म्हणाला, \"ती मुलगी माझ्या आईच्या एकुलत्या एक नातवाची पत्नी आहे.\" दीपकचा त्या मुलीशी काय संबंध आहे? / Deepak said, \"She is the wife of my mother's only grandson.\" How is Deepak related to the girl?",
+    "options": [
+      "A. सासरे (श्वसुर) / Father-in-law",
+      "B. आजोबा / Grandfather",
+      "C. काका / Uncle",
+      "D. वडील / Father"
+    ],
+    "answer": "A",
+    "explanation": "The mother's only grandson is Deepak's own son, so the girl who is his son's wife is Deepak's daughter-in-law, making Deepak her father-in-law.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0011",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "राहुल उत्तरेकडे १५ मीटर चालतो. नंतर उजवीकडे वळून १० मीटर चालतो. पुन्हा उजवीकडे वळून १५ मीटर चालतो. नंतर डावीकडे वळून ५ मीटर चालतो. तो सुरुवातीच्या ठिकाणापासून किती अंतरावर व कोणत्या दिशेला आहे? / Rahul walks 15m towards North. He then turns right and walks 10m. He again turns right and walks 15m. He then turns left and walks 5m. How far and in which direction is he from his starting position?",
+    "options": [
+      "A. १५ मीटर पूर्व / 15m East",
+      "B. २० मीटर उत्तर / 20m North",
+      "C. १५ मीटर पश्चिम / 15m West",
+      "D. ५ मीटर दक्षिण / 5m South"
+    ],
+    "answer": "A",
+    "explanation": "Tracking the coordinates step by step (North, East, South, East) shows the North and South legs of 15m cancel, leaving a net 15m displacement due East.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "aptitude-direction-blood-0012",
+    "subject": "aptitude",
+    "subtopic": "direction-blood",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "P हा Q चा भाऊ आहे. R ही P ची आई आहे. S हा R चा वडील आहे. T हा S चा भाऊ आहे. Q चा T शी काय संबंध आहे? / P is the brother of Q. R is the mother of P. S is the father of R. T is the brother of S. How is Q related to T?",
+    "options": [
+      "A. आजोबा / Grandfather",
+      "B. पणतू आजोबा (आजोबांचा भाऊ) / Grand-uncle (grandfather's brother)",
+      "C. वडील / Father",
+      "D. काका / Uncle"
+    ],
+    "answer": "B",
+    "explanation": "R is the mother of both P and Q, S (R's father) is their grandfather, and T, being S's brother, is therefore Q's grand-uncle.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

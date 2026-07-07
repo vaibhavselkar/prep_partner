@@ -5,37 +5,214 @@
     "subtopic": "mh-geography",
     "difficulty": "easy",
     "language": "bilingual",
-    "question": "महाराष्ट्रातील सर्वात लांब नदी कोणती? / Which is the longest river in Maharashtra?",
-    "options": ["A. गोदावरी / Godavari", "B. कृष्णा / Krishna", "C. भीमा / Bhima", "D. तापी / Tapi"],
-    "answer": "A",
-    "explanation": "गोदावरी ही महाराष्ट्रातील सर्वात लांब नदी असून तिचा उगम त्र्यंबकेश्वर (नाशिक) येथे होतो. / The Godavari is the longest river in Maharashtra, originating at Trimbakeshwar, Nashik.",
-    "tags": ["rivers", "maharashtra"],
-    "verifiedAt": "2026-07-07"
+    "question": "महाराष्ट्रातील सर्वात उंच शिखर कोणते आहे? / Which is the highest peak in Maharashtra?",
+    "options": [
+      "A. साल्हेर / Salher",
+      "B. कळसूबाई / Kalsubai",
+      "C. हरिश्चंद्रगड / Harishchandragad",
+      "D. त्र्यंबकेश्वर / Trimbakeshwar"
+    ],
+    "answer": "B",
+    "explanation": "कळसूबाई शिखर (1,646 मी.) अहमदनगर जिल्ह्यातील अकोले तालुक्यात असून ते महाराष्ट्रातील सर्वोच्च शिखर आहे / Kalsubai peak (1,646 m) in Akole taluka, Ahmednagar district, is the highest peak in Maharashtra.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
   },
   {
     "id": "gk-mh-geography-0002",
     "subject": "gk",
     "subtopic": "mh-geography",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "language": "bilingual",
-    "question": "महाराष्ट्राची राजधानी व उपराजधानी अनुक्रमे कोणती? / What are the capital and sub-capital of Maharashtra respectively?",
-    "options": ["A. पुणे व नागपूर", "B. मुंबई व नागपूर", "C. मुंबई व पुणे", "D. नागपूर व मुंबई"],
-    "answer": "B",
-    "explanation": "मुंबई ही राजधानी तर नागपूर ही उपराजधानी (हिवाळी अधिवेशन) आहे. / Mumbai is the capital and Nagpur is the sub-capital (winter session).",
-    "tags": ["administration", "maharashtra"],
-    "verifiedAt": "2026-07-07"
+    "question": "महाराष्ट्रातील सर्वात लांब नदी कोणती आहे? / Which is the longest river in Maharashtra?",
+    "options": [
+      "A. भीमा / Bhima",
+      "B. तापी / Tapi",
+      "C. गोदावरी / Godavari",
+      "D. वर्धा / Wardha"
+    ],
+    "answer": "C",
+    "explanation": "गोदावरी नदी नाशिक जिल्ह्यातील त्र्यंबकेश्वर येथून उगम पावते आणि महाराष्ट्रातील सर्वात लांब नदी आहे / The Godavari, originating at Trimbakeshwar in Nashik district, is the longest river in Maharashtra.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
   },
   {
     "id": "gk-mh-geography-0003",
     "subject": "gk",
     "subtopic": "mh-geography",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पुनर्रचनेपूर्वी महाराष्ट्रात एकूण किती जिल्हे होते? / How many districts did Maharashtra have (before the recent reorganisation)?",
+    "options": [
+      "A. ३० / 30",
+      "B. ३३ / 33",
+      "C. ३६ / 36",
+      "D. ३८ / 38"
+    ],
+    "answer": "C",
+    "explanation": "महाराष्ट्रात ३६ जिल्हे होते, जे सहा प्रशासकीय विभागांत विभागलेले आहेत / Maharashtra had 36 districts, grouped into six administrative divisions.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "gk-mh-geography-0004",
+    "subject": "gk",
+    "subtopic": "mh-geography",
     "difficulty": "medium",
     "language": "bilingual",
-    "question": "महाराष्ट्रातील कोणत्या जिल्ह्याला सर्वाधिक समुद्रकिनारा लाभला आहे? / Which district of Maharashtra has the longest coastline?",
-    "options": ["A. रायगड / Raigad", "B. रत्नागिरी / Ratnagiri", "C. सिंधुदुर्ग / Sindhudurg", "D. ठाणे / Thane"],
+    "question": "महाराष्ट्रात एकूण किती प्रशासकीय (महसूल) विभाग आहेत? / How many administrative (revenue) divisions does Maharashtra have?",
+    "options": [
+      "A. चार / Four",
+      "B. पाच / Five",
+      "C. सहा / Six",
+      "D. सात / Seven"
+    ],
+    "answer": "C",
+    "explanation": "कोकण, पुणे, नाशिक, छत्रपती संभाजीनगर (औरंगाबाद), अमरावती व नागपूर असे सहा प्रशासकीय विभाग आहेत / Maharashtra has six revenue divisions: Konkan, Pune, Nashik, Chhatrapati Sambhajinagar (Aurangabad), Amravati and Nagpur.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "gk-mh-geography-0005",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "उल्कापातामुळे निर्माण झालेले खाऱ्या पाण्याचे सरोवर कोणत्या जिल्ह्यात आहे? / The saline lake formed by a meteorite impact is located in which district?",
+    "options": [
+      "A. बुलढाणा / Buldhana",
+      "B. अकोला / Akola",
+      "C. वाशीम / Washim",
+      "D. यवतमाळ / Yavatmal"
+    ],
+    "answer": "A",
+    "explanation": "लोणार सरोवर बुलढाणा जिल्ह्यात असून ते उल्कापातामुळे बेसाल्ट खडकात तयार झालेले खाऱ्या पाण्याचे सरोवर आहे / Lonar Lake, in Buldhana district, is a saline lake formed by a meteorite impact on basaltic rock.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "gk-mh-geography-0006",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील दुसऱ्या क्रमांकाचे उंच शिखर कोणते व ते कोणत्या जिल्ह्यात आहे? / Which is the second-highest peak in Maharashtra and in which district is it located?",
+    "options": [
+      "A. साल्हेर - नाशिक / Salher - Nashik",
+      "B. हरिश्चंद्रगड - अहमदनगर / Harishchandragad - Ahmednagar",
+      "C. तोरणा - पुणे / Torna - Pune",
+      "D. रायगड - रायगड / Raigad - Raigad"
+    ],
+    "answer": "A",
+    "explanation": "साल्हेर शिखर (सुमारे १,५६७ मी.) नाशिक जिल्ह्यात असून ते महाराष्ट्रातील दुसरे सर्वोच्च शिखर आहे / Salher peak (about 1,567 m) in Nashik district is the second-highest peak in Maharashtra.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "gk-mh-geography-0007",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "महाराष्ट्राच्या पश्चिम किनारपट्टीच्या प्रदेशाला काय म्हणतात? / What is the coastal region on Maharashtra's western side called?",
+    "options": [
+      "A. विदर्भ / Vidarbha",
+      "B. मराठवाडा / Marathwada",
+      "C. कोकण / Konkan",
+      "D. खानदेश / Khandesh"
+    ],
+    "answer": "C",
+    "explanation": "अरबी समुद्र व सह्याद्री यांच्यामधील अरुंद किनारी प्रदेशाला कोकण म्हणतात / The narrow coastal strip between the Arabian Sea and the Sahyadri range is called Konkan.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "gk-mh-geography-0008",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "क्षेत्रफळाच्या दृष्टीने महाराष्ट्रातील सर्वात मोठा जिल्हा कोणता आहे? / Which is the largest district of Maharashtra by area?",
+    "options": [
+      "A. पुणे / Pune",
+      "B. नागपूर / Nagpur",
+      "C. अहमदनगर / Ahmednagar",
+      "D. नाशिक / Nashik"
+    ],
+    "answer": "C",
+    "explanation": "अहमदनगर (सध्याचे अहिल्यानगर) हा क्षेत्रफळाच्या दृष्टीने महाराष्ट्रातील सर्वात मोठा जिल्हा आहे / Ahmednagar (now Ahilyanagar) is the largest district of Maharashtra by area.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "gk-mh-geography-0009",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "क्षेत्रफळाच्या दृष्टीने महाराष्ट्रातील सर्वात लहान जिल्हा कोणता आहे? / Which is the smallest district of Maharashtra by area?",
+    "options": [
+      "A. मुंबई शहर / Mumbai City",
+      "B. भंडारा / Bhandara",
+      "C. वर्धा / Wardha",
+      "D. सिंधुदुर्ग / Sindhudurg"
+    ],
+    "answer": "A",
+    "explanation": "मुंबई शहर हा क्षेत्रफळाच्या दृष्टीने महाराष्ट्रातील सर्वात लहान जिल्हा आहे / Mumbai City is the smallest district of Maharashtra by area.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "gk-mh-geography-0010",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील काळी माती (रेगूर माती) मुख्यतः कोणत्या खडकाच्या झीजेपासून तयार होते? / The black soil (regur soil) of Maharashtra is mainly formed from the weathering of which rock?",
+    "options": [
+      "A. ग्रॅनाइट / Granite",
+      "B. बेसाल्ट (दख्खनचा सापळा) / Basalt (Deccan Trap)",
+      "C. वालुकाश्म / Sandstone",
+      "D. संगमरवर / Marble"
+    ],
     "answer": "B",
-    "explanation": "रत्नागिरी जिल्ह्याला महाराष्ट्रातील सर्वाधिक लांबीचा समुद्रकिनारा लाभला आहे. / Ratnagiri district has the longest coastline in Maharashtra.",
-    "tags": ["coast", "maharashtra"],
-    "verifiedAt": "2026-07-07"
+    "explanation": "दख्खनच्या पठारावरील बेसाल्ट (दख्खन सापळा) खडकाच्या झीजेतून काळी कसदार माती तयार झाली आहे / The black cotton soil of the Deccan Plateau is formed from the weathering of basalt (Deccan Trap) rock.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "gk-mh-geography-0011",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "महाराष्ट्राच्या सीमा एकूण किती राज्यांना (केंद्रशासित प्रदेश वगळून) लागून आहेत? / Maharashtra shares its border with how many states (excluding union territories)?",
+    "options": [
+      "A. चार / Four",
+      "B. पाच / Five",
+      "C. सहा / Six",
+      "D. आठ / Eight"
+    ],
+    "answer": "C",
+    "explanation": "महाराष्ट्राला गुजरात, मध्य प्रदेश, छत्तीसगड, तेलंगणा, कर्नाटक व गोवा अशा सहा राज्यांची सीमा लागून आहे / Maharashtra borders six states: Gujarat, Madhya Pradesh, Chhattisgarh, Telangana, Karnataka and Goa.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "gk-mh-geography-0012",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील बहुतांश नद्या पूर्वेकडे वाहतात, परंतु कोणती प्रमुख नदी पश्चिमेकडे वाहून अरबी समुद्राला मिळते? / Most rivers of Maharashtra flow eastward, but which major river flows westward to join the Arabian Sea?",
+    "options": [
+      "A. कृष्णा / Krishna",
+      "B. तापी / Tapi",
+      "C. वैनगंगा / Wainganga",
+      "D. पेनगंगा / Penganga"
+    ],
+    "answer": "B",
+    "explanation": "तापी नदी सातपुडा पर्वतरांगेतून उगम पावून खानदेश प्रदेशातून पश्चिमेकडे वाहत जाऊन अरबी समुद्राला मिळते / The Tapi river originates in the Satpura range and flows westward through the Khandesh region to join the Arabian Sea.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
   }
 ]
