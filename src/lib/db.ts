@@ -1,5 +1,5 @@
 import { neon } from "@neondatabase/serverless";
-import type { PDFMeta, ProgressStore, PDFProgress, QuizResult } from "@/types";
+import type { PDFMeta, ProgressStore, PDFProgress, QuizResult, TopicStat, MockAttempt, ReportedQuestion } from "@/types";
 
 function getDb() {
   if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL is not set");
@@ -36,6 +36,19 @@ export async function initDb() {
       last_studied TEXT NOT NULL DEFAULT ''
     )
   `;
+  await sql`CREATE TABLE IF NOT EXISTS mpsc_topic_stats (
+    subject TEXT NOT NULL, subtopic TEXT NOT NULL,
+    attempts INTEGER NOT NULL DEFAULT 0, correct INTEGER NOT NULL DEFAULT 0,
+    last_practiced TEXT NOT NULL DEFAULT '', PRIMARY KEY (subject, subtopic)
+  )`;
+  await sql`CREATE TABLE IF NOT EXISTS mpsc_mock_attempts (
+    id TEXT PRIMARY KEY, date TEXT NOT NULL, total INTEGER NOT NULL,
+    score INTEGER NOT NULL, duration_sec INTEGER NOT NULL, by_subject JSONB NOT NULL DEFAULT '{}'
+  )`;
+  await sql`CREATE TABLE IF NOT EXISTS mpsc_reports (
+    id TEXT PRIMARY KEY, question_id TEXT NOT NULL, reason TEXT NOT NULL,
+    note TEXT NOT NULL DEFAULT '', created_at TEXT NOT NULL
+  )`;
 }
 
 // ── PDFs ──────────────────────────────────────────────────────────────────────
@@ -135,4 +148,45 @@ export async function dbWriteProgress(pdfId: string, p: PDFProgress) {
       quiz_results = EXCLUDED.quiz_results,
       last_studied = EXCLUDED.last_studied
   `;
+}
+
+// ── MPSC Topic Stats ──────────────────────────────────────────────────────────
+
+export async function dbReadTopicStats(): Promise<TopicStat[]> {
+  const sql = getDb();
+  const rows = await sql`SELECT * FROM mpsc_topic_stats`;
+  return rows.map((r) => ({ subject: r.subject as string, subtopic: r.subtopic as string,
+    attempts: r.attempts as number, correct: r.correct as number, lastPracticed: r.last_practiced as string }));
+}
+export async function dbWriteTopicStats(stats: TopicStat[]) {
+  const sql = getDb();
+  for (const s of stats) {
+    await sql`INSERT INTO mpsc_topic_stats (subject, subtopic, attempts, correct, last_practiced)
+      VALUES (${s.subject}, ${s.subtopic}, ${s.attempts}, ${s.correct}, ${s.lastPracticed})
+      ON CONFLICT (subject, subtopic) DO UPDATE SET
+        attempts = EXCLUDED.attempts, correct = EXCLUDED.correct, last_practiced = EXCLUDED.last_practiced`;
+  }
+}
+export async function dbReadMockAttempts(): Promise<MockAttempt[]> {
+  const sql = getDb();
+  const rows = await sql`SELECT * FROM mpsc_mock_attempts ORDER BY date DESC`;
+  return rows.map((r) => ({ id: r.id as string, date: r.date as string, total: r.total as number,
+    score: r.score as number, durationSec: r.duration_sec as number,
+    bySubject: r.by_subject as MockAttempt["bySubject"] }));
+}
+export async function dbAppendMockAttempt(a: MockAttempt) {
+  const sql = getDb();
+  await sql`INSERT INTO mpsc_mock_attempts (id, date, total, score, duration_sec, by_subject)
+    VALUES (${a.id}, ${a.date}, ${a.total}, ${a.score}, ${a.durationSec}, ${JSON.stringify(a.bySubject)})`;
+}
+export async function dbAppendReport(r: ReportedQuestion) {
+  const sql = getDb();
+  await sql`INSERT INTO mpsc_reports (id, question_id, reason, note, created_at)
+    VALUES (${r.id}, ${r.questionId}, ${r.reason}, ${r.note}, ${r.createdAt})`;
+}
+export async function dbReadReports(): Promise<ReportedQuestion[]> {
+  const sql = getDb();
+  const rows = await sql`SELECT * FROM mpsc_reports ORDER BY created_at DESC`;
+  return rows.map((r) => ({ id: r.id as string, questionId: r.question_id as string,
+    reason: r.reason as string, note: r.note as string, createdAt: r.created_at as string }));
 }

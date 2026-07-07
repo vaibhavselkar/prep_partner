@@ -77,3 +77,14 @@ export interface MockAttempt {
   durationSec: number;
   bySubject: Record<string, { correct: number; total: number }>;
 }
+
+export interface TopicStat {
+  subject: string; subtopic: string; attempts: number; correct: number; lastPracticed: string;
+}
+export interface ReportedQuestion {
+  id: string; questionId: string; reason: string; note: string; createdAt: string;
+}
+export interface MpscProgress {
+  topicStats: TopicStat[];
+  mockAttempts: MockAttempt[];
+}
