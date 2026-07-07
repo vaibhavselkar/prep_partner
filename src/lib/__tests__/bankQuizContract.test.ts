@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { buildBankQuiz } from "@/app/api/bank-quiz/route";
+import { buildBankQuiz } from "@/lib/bankQuiz";
 
 describe("buildBankQuiz", () => {
   it("clamps count to 1..50 and returns questions", () => {
