@@ -1,0 +1,218 @@
+[
+  {
+    "id": "economy-govt-finance-0001",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारताचे नियंत्रक व महालेखापरीक्षक (CAG) यांची नियुक्ती भारतीय राज्यघटनेच्या कोणत्या कलमानुसार केली जाते? / Under which Article of the Indian Constitution is the Comptroller and Auditor General (CAG) of India appointed?",
+    "options": [
+      "A. कलम १४८ / Article 148",
+      "B. कलम ११२ / Article 112",
+      "C. कलम २८० / Article 280",
+      "D. कलम ३२४ / Article 324"
+    ],
+    "answer": "A",
+    "explanation": "Article 148 of the Constitution provides for the appointment of the CAG by the President of India.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0002",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "CAG चा कार्यकाळ किती आहे? / What is the tenure of the CAG of India?",
+    "options": [
+      "A. ५ वर्षे किंवा वयाची ६२ वर्षे, जे आधी असेल ते / 5 years or 62 years of age, whichever is earlier",
+      "B. ६ वर्षे किंवा वयाची ६५ वर्षे, जे आधी असेल ते / 6 years or 65 years of age, whichever is earlier",
+      "C. आजीवन, योग्य वर्तन असेपर्यंत / For life, during good behaviour",
+      "D. ४ वर्षे, नूतनीकरणीय / 4 years, renewable"
+    ],
+    "answer": "B",
+    "explanation": "The CAG holds office for 6 years or until attaining the age of 65 years, whichever is earlier.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0003",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "केंद्र सरकारच्या खात्यांसंबंधीचा CAG चा अहवाल सर्वप्रथम कोणास सादर केला जातो? / To whom is the CAG's report on the accounts of the Union Government first submitted?",
+    "options": [
+      "A. पंतप्रधान / Prime Minister",
+      "B. राष्ट्रपती / President",
+      "C. लोकसभा अध्यक्ष / Speaker of Lok Sabha",
+      "D. वित्त मंत्री / Finance Minister"
+    ],
+    "answer": "B",
+    "explanation": "As per Article 151, the CAG submits Union accounts reports to the President, who causes them to be laid before Parliament.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0004",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "वित्तीय तूट (Fiscal Deficit) याची व्याख्या काय आहे? / What is the correct definition of Fiscal Deficit?",
+    "options": [
+      "A. महसुली खर्च वजा महसुली प्राप्ती / Revenue expenditure minus revenue receipts",
+      "B. एकूण खर्च वजा कर्जाव्यतिरिक्त एकूण प्राप्ती / Total expenditure minus total receipts excluding borrowings",
+      "C. भांडवली खर्च वजा भांडवली प्राप्ती / Capital expenditure minus capital receipts",
+      "D. वित्तीय तूट वजा व्याज देयके / Fiscal deficit minus interest payments"
+    ],
+    "answer": "B",
+    "explanation": "Fiscal deficit is the excess of total expenditure over total receipts (revenue plus non-debt capital receipts), i.e., the amount the government needs to borrow.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0005",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "प्राथमिक तूट (Primary Deficit) कशी काढली जाते? / How is Primary Deficit calculated?",
+    "options": [
+      "A. महसुली तूट वजा भांडवली प्राप्ती / Revenue deficit minus capital receipts",
+      "B. वित्तीय तूट अधिक व्याज देयके / Fiscal deficit plus interest payments",
+      "C. वित्तीय तूट वजा व्याज देयके / Fiscal deficit minus interest payments",
+      "D. एकूण खर्च वजा महसुली प्राप्ती / Total expenditure minus revenue receipts"
+    ],
+    "answer": "C",
+    "explanation": "Primary deficit = Fiscal deficit − Interest payments; it shows borrowing requirement excluding interest on past debt.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0006",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राजकोषीय उत्तरदायित्व आणि अर्थसंकल्प व्यवस्थापन (FRBM) कायदा कोणत्या वर्षी संमत झाला? / In which year was the Fiscal Responsibility and Budget Management (FRBM) Act enacted?",
+    "options": [
+      "A. २००० / 2000",
+      "B. २००३ / 2003",
+      "C. २००८ / 2008",
+      "D. २०१४ / 2014"
+    ],
+    "answer": "B",
+    "explanation": "The FRBM Act was enacted by Parliament in 2003 to ensure fiscal discipline and reduce fiscal deficit.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0007",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "वस्तू व सेवा कर (GST) भारतीय राज्यघटनेत कितव्या घटनादुरुस्तीद्वारे समाविष्ट करण्यात आला? / GST was introduced into the Indian Constitution through which Constitutional Amendment Act?",
+    "options": [
+      "A. ९७ वी / 97th",
+      "B. १०१ वी / 101st",
+      "C. १०३ वी / 103rd",
+      "D. ७३ वी / 73rd"
+    ],
+    "answer": "B",
+    "explanation": "The 101st Constitutional Amendment Act, 2016 introduced GST in India, inserting Article 246A and 279A among others.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0008",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "वस्तू व सेवा कर परिषदेची (GST Council) तरतूद राज्यघटनेच्या कोणत्या कलमात आहे आणि तिचे अध्यक्षपद कोण भूषवते? / The GST Council is constituted under which Article, and who chairs it?",
+    "options": [
+      "A. कलम २७९A – केंद्रीय अर्थमंत्री / Article 279A – Union Finance Minister",
+      "B. कलम २८० – राष्ट्रपती / Article 280 – President",
+      "C. कलम २७५ – पंतप्रधान / Article 275 – Prime Minister",
+      "D. कलम २४६A – उपराष्ट्रपती / Article 246A – Vice President"
+    ],
+    "answer": "A",
+    "explanation": "Article 279A provides for the GST Council, chaired by the Union Finance Minister, with state finance ministers as members.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0009",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "राज्यांतर्गत (intra-state) वस्तू व सेवांच्या पुरवठ्यावर GST अंतर्गत कोणते कर आकारले जातात? / Which taxes are levied on intra-state supply of goods and services under GST?",
+    "options": [
+      "A. फक्त IGST / Only IGST",
+      "B. CGST आणि SGST / CGST and SGST",
+      "C. फक्त UTGST / Only UTGST",
+      "D. VAT आणि उत्पादन शुल्क / VAT and Excise duty"
+    ],
+    "answer": "B",
+    "explanation": "Intra-state supplies attract both Central GST (CGST) and State GST (SGST), levied simultaneously by the Centre and the State.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0010",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणती वस्तू सध्या GST च्या कक्षेबाहेर आहे? / Which of the following is currently kept outside the ambit of GST?",
+    "options": [
+      "A. मोबाईल फोन / Mobile phones",
+      "B. पेट्रोल आणि डिझेल / Petrol and Diesel",
+      "C. वस्त्रे / Textiles",
+      "D. उपाहारगृह सेवा / Restaurant services"
+    ],
+    "answer": "B",
+    "explanation": "Petroleum products like petrol, diesel, ATF, natural gas and crude oil, along with alcohol for human consumption, are currently outside GST.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0011",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "भारताचा संचित निधी (Consolidated Fund of India) याची तरतूद राज्यघटनेच्या कोणत्या कलमात आहे? / The Consolidated Fund of India is provided for under which Article of the Constitution?",
+    "options": [
+      "A. कलम २६६(१) / Article 266(1)",
+      "B. कलम २६७ / Article 267",
+      "C. कलम ११२ / Article 112",
+      "D. कलम २८२ / Article 282"
+    ],
+    "answer": "A",
+    "explanation": "Article 266(1) establishes the Consolidated Fund of India, into which all government revenues and loans are credited; withdrawal requires parliamentary authorization.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0012",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "धनविधेयक (Money Bill) संसदेत प्रथम कोणत्या सभागृहात सादर करता येते? / A Money Bill can be introduced first only in which House of Parliament?",
+    "options": [
+      "A. राज्यसभा / Rajya Sabha",
+      "B. लोकसभा / Lok Sabha",
+      "C. दोन्ही सभागृहांत एकाच वेळी / Both Houses simultaneously",
+      "D. संयुक्त सभेत / Joint sitting"
+    ],
+    "answer": "B",
+    "explanation": "As per Article 110, a Money Bill, including the Finance Bill related to the budget, can be introduced only in the Lok Sabha.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

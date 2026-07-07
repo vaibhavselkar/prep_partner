@@ -1,0 +1,218 @@
+[
+  {
+    "id": "economy-industry-eco-0001",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "औद्योगिक धोरण ठराव १९४८ नुसार पूर्णतः केंद्र सरकारसाठी (सरकारी मक्तेदारी) राखीव ठेवलेले उद्योग कोणते? / As per the Industrial Policy Resolution 1948, which industries were reserved exclusively as a Central Government monopoly?",
+    "options": [
+      "A. लोखंड व पोलाद, जहाजबांधणी, दूरसंचार / Iron & steel, shipbuilding, telecommunications",
+      "B. शस्त्रास्त्रे व दारूगोळा, अणुऊर्जा, रेल्वे वाहतूक / Arms & ammunition, atomic energy, railway transport",
+      "C. सिमेंट, साखर, कापड / Cement, sugar, textiles",
+      "D. खते, कोळसा, वीजनिर्मिती / Fertilizers, coal, power generation"
+    ],
+    "answer": "B",
+    "explanation": "IPR 1948 declared arms & ammunition, atomic energy and railway transport as exclusive state monopoly industries.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0002",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "औद्योगिक धोरण ठराव १९५६ ने उद्योगांचे किती वर्गांमध्ये (शेड्यूल) वर्गीकरण केले? / Into how many schedules did the Industrial Policy Resolution 1956 classify industries?",
+    "options": [
+      "A. दोन (अ, ब) / Two (A, B)",
+      "B. तीन (अ, ब, क) / Three (A, B, C)",
+      "C. चार (अ, ब, क, ड) / Four (A, B, C, D)",
+      "D. पाच / Five"
+    ],
+    "answer": "B",
+    "explanation": "IPR 1956 classified industries into Schedule A (exclusive state responsibility), Schedule B (mixed public-private) and Schedule C (private sector).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0003",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "१९५६ च्या औद्योगिक धोरणातील शेड्यूल 'अ' मध्ये किती उद्योग समाविष्ट होते ज्यांची भविष्यातील वाढ पूर्णतः सरकारची जबाबदारी होती? / Under the 1956 Industrial Policy, how many industries were listed in Schedule A whose future development was the exclusive responsibility of the State?",
+    "options": [
+      "A. १२ / 12",
+      "B. १७ / 17",
+      "C. २० / 20",
+      "D. २५ / 25"
+    ],
+    "answer": "B",
+    "explanation": "Schedule A of IPR 1956 listed 17 industries reserved exclusively for the state.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0004",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "१९९१ च्या नवीन औद्योगिक धोरणाचा मुख्य उद्देश काय होता? / What was the primary objective of the New Industrial Policy of 1991?",
+    "options": [
+      "A. सर्व उद्योग राष्ट्रीयीकृत करणे / Nationalize all industries",
+      "B. औद्योगिक परवाना पद्धत रद्द करून उदारीकरण, खाजगीकरण व जागतिकीकरणास चालना देणे / Abolish industrial licensing and promote liberalization, privatization and globalization",
+      "C. लघुउद्योगांवर बंदी घालणे / Ban small scale industries",
+      "D. परकीय गुंतवणुकीवर पूर्ण बंदी घालणे / Completely ban foreign investment"
+    ],
+    "answer": "B",
+    "explanation": "The 1991 policy dismantled the License-Permit Raj, reduced public sector reservation, and opened the economy to private and foreign investment (LPG reforms).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0005",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "१९९१ च्या औद्योगिक धोरणानंतर सार्वजनिक क्षेत्रासाठी राखीव उद्योगांची संख्या १७ वरून किती करण्यात आली? / After the 1991 Industrial Policy, the number of industries reserved exclusively for the public sector was reduced from 17 to how many?",
+    "options": [
+      "A. २ / 2",
+      "B. ४ / 4",
+      "C. ८ / 8",
+      "D. १२ / 12"
+    ],
+    "answer": "C",
+    "explanation": "The 1991 policy initially reduced the industries reserved exclusively for the public sector from 17 to 8 (later further reduced over time to just 2 - atomic energy substances and railway operations).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0006",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "मक्तेदारी व निर्बंधात्मक व्यापार प्रथा (MRTP) कायदा कोणत्या वर्षी लागू करण्यात आला? / In which year was the Monopolies and Restrictive Trade Practices (MRTP) Act enacted?",
+    "options": [
+      "A. १९५१ / 1951",
+      "B. १९५६ / 1956",
+      "C. १९६९ / 1969",
+      "D. १९९१ / 1991"
+    ],
+    "answer": "C",
+    "explanation": "The MRTP Act was enacted in 1969 to prevent concentration of economic power and monopolistic practices; it was later replaced by the Competition Act, 2002.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0007",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "परकीय चलन नियमन कायदा (FERA) च्या जागी कोणता कायदा आणण्यात आला? / Which Act replaced the Foreign Exchange Regulation Act (FERA)?",
+    "options": [
+      "A. सेबी कायदा १९९२ / SEBI Act 1992",
+      "B. परकीय चलन व्यवस्थापन कायदा (FEMA) १९९९ / Foreign Exchange Management Act (FEMA) 1999",
+      "C. स्पर्धा कायदा २००२ / Competition Act 2002",
+      "D. कंपनी कायदा २०१३ / Companies Act 2013"
+    ],
+    "answer": "B",
+    "explanation": "FERA (1973) was repealed and replaced by the more liberal FEMA in 1999, reflecting the post-1991 liberalization approach.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0008",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्र औद्योगिक विकास महामंडळ (MIDC) ची स्थापना कोणत्या वर्षी झाली? / In which year was the Maharashtra Industrial Development Corporation (MIDC) established?",
+    "options": [
+      "A. १९५६ / 1956",
+      "B. १९६० / 1960",
+      "C. १९६२ / 1962",
+      "D. १९७५ / 1975"
+    ],
+    "answer": "C",
+    "explanation": "MIDC was established in 1962 under the Maharashtra Industrial Development Act, 1961, to develop industrial areas and infrastructure across the state.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0009",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील औद्योगिक प्रकल्पांना दीर्घकालीन वित्तपुरवठा करणारी 'SICOM' ही संस्था कशासाठी ओळखली जाते? / SICOM in Maharashtra is primarily known as an institution for what purpose?",
+    "options": [
+      "A. कृषी पतपुरवठा / Agricultural credit",
+      "B. औद्योगिक प्रकल्पांना वित्तीय सहाय्य व गुंतवणूक / Financial assistance and investment for industrial projects",
+      "C. शालेय शिक्षण अनुदान / School education grants",
+      "D. रस्ते बांधणी / Road construction"
+    ],
+    "answer": "B",
+    "explanation": "The State Industrial and Investment Corporation of Maharashtra (SICOM) provides term loans and financial assistance to promote industrial development in the state.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0010",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "दुसर्या पंचवार्षिक योजनेत (१९५६-६१) महालनोबिस प्रतिकृतीनुसार कोणत्या क्षेत्रावर भर देण्यात आला? / Under the Mahalanobis model followed in the Second Five Year Plan (1956-61), which sector was given priority?",
+    "options": [
+      "A. कृषी क्षेत्र / Agriculture sector",
+      "B. जड व मूलभूत उद्योग / Heavy and basic industries",
+      "C. सेवा क्षेत्र / Service sector",
+      "D. लघु व कुटीर उद्योग मात्र / Small and cottage industries only"
+    ],
+    "answer": "B",
+    "explanation": "The Mahalanobis strategy in the Second Plan emphasized rapid industrialization through development of heavy and basic industries (capital goods sector).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0011",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "सूक्ष्म, लघु व मध्यम उद्योग विकास (MSMED) कायदा कोणत्या वर्षी लागू करण्यात आला? / In which year was the Micro, Small and Medium Enterprises Development (MSMED) Act enacted?",
+    "options": [
+      "A. १९९१ / 1991",
+      "B. १९९९ / 1999",
+      "C. २००६ / 2006",
+      "D. २०१४ / 2014"
+    ],
+    "answer": "C",
+    "explanation": "The MSMED Act, 2006 provided the first legal framework for recognition of the concept of 'enterprise' comprising both manufacturing and service entities, classifying them as micro, small and medium.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0012",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "निर्गुंतवणूक (Disinvestment) व सार्वजनिक मालमत्ता व्यवस्थापनाशी संबंधित केंद्रीय अर्थ मंत्रालयाचा विभाग कोणता? / Which department under the Union Ministry of Finance deals with disinvestment and management of public assets?",
+    "options": [
+      "A. महसूल विभाग / Department of Revenue",
+      "B. गुंतवणूक व सार्वजनिक मालमत्ता व्यवस्थापन विभाग (DIPAM) / Department of Investment and Public Asset Management (DIPAM)",
+      "C. आर्थिक व्यवहार विभाग / Department of Economic Affairs",
+      "D. खर्च विभाग / Department of Expenditure"
+    ],
+    "answer": "B",
+    "explanation": "DIPAM, under the Ministry of Finance, formulates and implements the government's disinvestment policy for central public sector enterprises.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

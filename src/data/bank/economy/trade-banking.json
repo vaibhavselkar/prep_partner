@@ -1,0 +1,218 @@
+[
+  {
+    "id": "economy-trade-banking-0001",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "रेपो दर म्हणजे काय? / What is the Repo Rate?",
+    "options": [
+      "A. रिझर्व्ह बँकेने बँकांना अल्प मुदतीसाठी कर्ज देण्याचा दर / The rate at which RBI lends short-term funds to banks",
+      "B. बँकांनी रिझर्व्ह बँकेकडे ठेवलेल्या ठेवींवरील व्याजदर / The interest rate banks earn on deposits with RBI",
+      "C. बँकांनी ग्राहकांना कर्ज देण्याचा किमान दर / The minimum rate at which banks lend to customers",
+      "D. परकीय चलन विनिमय दर / The foreign exchange conversion rate"
+    ],
+    "answer": "A",
+    "explanation": "Repo rate is the rate at which RBI lends short-term money to commercial banks against government securities.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0002",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "CRR (रोख राखीव प्रमाण) संदर्भात खालीलपैकी कोणते विधान बरोबर आहे? / Which statement about CRR (Cash Reserve Ratio) is correct?",
+    "options": [
+      "A. बँकांना त्यांच्या एकूण ठेवींचा ठराविक भाग रोख स्वरूपात रिझर्व्ह बँकेकडे ठेवावा लागतो / Banks must keep a certain percentage of their total deposits as cash with RBI",
+      "B. बँकांना त्यांच्या ठेवींचा भाग सोने व रोख्यांमध्ये गुंतवावा लागतो / Banks must invest a portion of deposits in gold and securities",
+      "C. हे केवळ सहकारी बँकांना लागू होते / It applies only to cooperative banks",
+      "D. CRR वर बँकांना व्याज मिळते / Banks earn interest on CRR balances"
+    ],
+    "answer": "A",
+    "explanation": "CRR is the mandatory percentage of net demand and time liabilities that banks must hold as cash reserve with RBI, on which no interest is paid.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0003",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "SLR (वैधानिक तरलता प्रमाण) मध्ये बँकांना कोणत्या स्वरूपात मालमत्ता राखावी लागते? / In SLR (Statutory Liquidity Ratio), in what form must banks maintain assets?",
+    "options": [
+      "A. केवळ रोख स्वरूपात रिझर्व्ह बँकेकडे / Only as cash with RBI",
+      "B. रोकड, सोने आणि मान्यताप्राप्त सरकारी रोखे यांच्या स्वरूपात स्वतःकडे / As cash, gold and approved government securities held by the bank itself",
+      "C. परकीय चलनात / In foreign currency reserves",
+      "D. फक्त शेअर बाजारातील गुंतवणुकीत / Only in stock market investments"
+    ],
+    "answer": "B",
+    "explanation": "SLR requires banks to maintain a specified percentage of net demand and time liabilities in the form of cash, gold, or approved government securities held by themselves (unlike CRR, which is with RBI).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0004",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारतीय रिझर्व्ह बँकेची (RBI) स्थापना कोणत्या वर्षी झाली? / In which year was the Reserve Bank of India (RBI) established?",
+    "options": [
+      "A. 1935",
+      "B. 1949",
+      "C. 1947",
+      "D. 1926"
+    ],
+    "answer": "A",
+    "explanation": "RBI was established on 1 April 1935 under the Reserve Bank of India Act, 1934, and was nationalized in 1949.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0005",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारतात बँकांचे राष्ट्रीयीकरण पहिल्यांदा कोणत्या वर्षी झाले, ज्यात 14 मोठ्या व्यापारी बँकांचा समावेश होता? / In which year were 14 major commercial banks first nationalized in India?",
+    "options": [
+      "A. 1969",
+      "B. 1955",
+      "C. 1980",
+      "D. 1991"
+    ],
+    "answer": "A",
+    "explanation": "On 19 July 1969, the Government of India nationalized 14 major commercial banks under Prime Minister Indira Gandhi; a second round nationalized 6 more banks in 1980.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0006",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "देशाचा 'चालू खाते' (Current Account) समतोल कशाशी संबंधित आहे? / What does a country's 'Current Account' balance primarily relate to?",
+    "options": [
+      "A. वस्तू व सेवांची निर्यात-आयात, तसेच प्राथमिक व दुय्यम उत्पन्नाचा ओघ / Trade in goods and services, plus primary and secondary income flows",
+      "B. फक्त परकीय थेट गुंतवणूक (FDI) / Only foreign direct investment (FDI)",
+      "C. फक्त परकीय कर्जाची परतफेड / Only repayment of foreign loans",
+      "D. फक्त सोन्याचा साठा / Only gold reserves"
+    ],
+    "answer": "A",
+    "explanation": "The current account of the Balance of Payments records trade in goods and services, income flows, and unilateral transfers (remittances), unlike the capital account which records asset/liability transactions.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0007",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारताच्या भरणा तोल (Balance of Payments) मध्ये परकीय गुंतवणूक (FDI/FII), बाह्य कर्ज याचा समावेश कोणत्या खात्यात होतो? / In India's Balance of Payments, foreign investment (FDI/FII) and external borrowings are recorded under which account?",
+    "options": [
+      "A. चालू खाते / Current Account",
+      "B. भांडवली खाते / Capital Account",
+      "C. महसुली खाते / Revenue Account",
+      "D. अर्थसंकल्पीय खाते / Budgetary Account"
+    ],
+    "answer": "B",
+    "explanation": "The Capital Account of the BoP records cross-border transactions in financial assets and liabilities, including FDI, FII/portfolio investment, and external commercial borrowings.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0008",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "प्रधानमंत्री जन धन योजना (PMJDY) कोणत्या वर्षी सुरू करण्यात आली? / In which year was the Pradhan Mantri Jan Dhan Yojana (PMJDY) launched?",
+    "options": [
+      "A. 2014",
+      "B. 2010",
+      "C. 2016",
+      "D. 2019"
+    ],
+    "answer": "A",
+    "explanation": "PMJDY, a national financial inclusion mission providing access to banking, was launched on 28 August 2014.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0009",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "जन धन योजनेअंतर्गत उघडलेल्या मूलभूत बचत बँक ठेव खात्यासोबत खातेदाराला कोणती सुविधा दिली जाते? / Under Jan Dhan Yojana, which facility is provided along with the basic savings bank deposit account?",
+    "options": [
+      "A. RuPay डेबिट कार्ड व अपघात विमा संरक्षण / RuPay debit card with accident insurance cover",
+      "B. आयकरातून पूर्ण सूट / Complete income tax exemption",
+      "C. मोफत आंतरराष्ट्रीय क्रेडिट कार्ड / Free international credit card",
+      "D. शेअर बाजारात हमी परतावा / Guaranteed stock market returns"
+    ],
+    "answer": "A",
+    "explanation": "Jan Dhan accounts come with a RuPay debit card that includes accident insurance cover, along with facilities like overdraft and access to other financial products.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0010",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "महाराष्ट्र राज्य सहकारी बँक (MSC Bank) ही कोणत्या प्रकारच्या सहकारी बँकिंग संरचनेचा भाग आहे? / The Maharashtra State Cooperative Bank (MSC Bank) is the apex institution of which cooperative banking structure?",
+    "options": [
+      "A. त्रिस्तरीय अल्प मुदत सहकारी पतपुरवठा संरचना (राज्य, जिल्हा मध्यवर्ती, प्राथमिक कृषी पतसंस्था) / Three-tier short-term cooperative credit structure (State, District Central, Primary Agricultural Credit Societies)",
+      "B. फक्त शहरी सहकारी बँकिंग संरचना / Only urban cooperative banking structure",
+      "C. खाजगी क्षेत्रातील बँकिंग संरचना / Private sector banking structure",
+      "D. प्रादेशिक ग्रामीण बँकिंग संरचना (RRB) / Regional Rural Banking structure"
+    ],
+    "answer": "A",
+    "explanation": "MSC Bank is the apex (state-level) body of Maharashtra's three-tier short-term cooperative credit structure, below which are District Central Cooperative Banks and Primary Agricultural Credit Societies.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0011",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "चलनविषयक धोरण समिती (Monetary Policy Committee - MPC) मध्ये एकूण किती सदस्य असतात? / How many total members does the Monetary Policy Committee (MPC) of RBI have?",
+    "options": [
+      "A. सहा (RBI गव्हर्नरसह) / Six (including the RBI Governor)",
+      "B. तीन / Three",
+      "C. दहा / Ten",
+      "D. आठ / Eight"
+    ],
+    "answer": "A",
+    "explanation": "The MPC constituted under the RBI Act (amended 2016) has six members: the RBI Governor (Chairperson), one Deputy Governor, one RBI official, and three external members appointed by the Government.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0012",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "बँक दर (Bank Rate) आणि रेपो दर यांच्यातील प्रमुख फरक काय आहे? / What is the key difference between the Bank Rate and the Repo Rate?",
+    "options": [
+      "A. बँक दराने रिझर्व्ह बँक तारण न ठेवता दीर्घकालीन कर्ज देते, तर रेपो दर तारणासह अल्प मुदतीच्या (सामान्यतः रात्रीच्या) कर्जासाठी असतो / Bank Rate is for long-term lending without collateral, while Repo Rate is for short-term (usually overnight) collateralized lending",
+      "B. दोन्ही एकसारखेच असतात व एकाच उद्देशाने वापरले जातात / Both are identical and used for the same purpose",
+      "C. बँक दर फक्त परकीय चलनासाठी लागू होतो / Bank Rate applies only to foreign exchange",
+      "D. रेपो दर फक्त सहकारी बँकांसाठी असतो / Repo Rate applies only to cooperative banks"
+    ],
+    "answer": "A",
+    "explanation": "Bank Rate is the rate at which RBI provides long-term finance without any collateral/repurchase agreement, whereas Repo Rate involves short-term collateralized borrowing (typically overnight) against government securities.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "economy-agriculture-eco-0001",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "खरीप हंगामातील पिकांची पेरणी साधारणपणे कोणत्या काळात केली जाते? / During which period are Kharif season crops generally sown?",
+    "options": [
+      "A. जून-जुलै (मान्सूनच्या आगमनासोबत) / June-July (with the onset of monsoon)",
+      "B. ऑक्टोबर-नोव्हेंबर / October-November",
+      "C. मार्च-एप्रिल / March-April",
+      "D. डिसेंबर-जानेवारी / December-January"
+    ],
+    "answer": "A",
+    "explanation": "खरीप पिके मान्सूनच्या आगमनासोबत जून-जुलैमध्ये पेरली जातात आणि सप्टेंबर-ऑक्टोबरमध्ये काढली जातात (उदा. भात, कापूस, ज्वारी, सोयाबीन). / Kharif crops are sown in June-July with the monsoon and harvested in September-October (e.g., rice, cotton, jowar, soybean).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0002",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणते पीक हे रब्बी हंगामातील पीक आहे? / Which of the following is a Rabi season crop?",
+    "options": [
+      "A. भात / Rice",
+      "B. कापूस / Cotton",
+      "C. गहू / Wheat",
+      "D. बाजरी / Bajra (pearl millet)"
+    ],
+    "answer": "C",
+    "explanation": "गहू हे रब्बी हंगामातील प्रमुख पीक आहे, जे ऑक्टोबर-डिसेंबरमध्ये पेरले जाते आणि मार्च-एप्रिलमध्ये काढले जाते. / Wheat is a major Rabi crop, sown in October-December and harvested in March-April.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0003",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "रब्बी हंगामाच्या काढणीनंतर आणि खरीप हंगामाच्या पेरणीपूर्वी घेतल्या जाणार्या अल्पकालीन उन्हाळी पिकांच्या हंगामाला काय म्हणतात? / The short-duration summer cropping season taken between the Rabi harvest and Kharif sowing is called?",
+    "options": [
+      "A. हेमंत हंगाम / Hemant season",
+      "B. झैद हंगाम / Zaid season",
+      "C. वसंत हंगाम / Vasant season",
+      "D. शरद हंगाम / Sharad season"
+    ],
+    "answer": "B",
+    "explanation": "झैद हंगाम साधारणपणे मार्च ते जून या काळात असतो आणि यामध्ये टरबूज, काकडी, उन्हाळी मूग यांसारखी पिके घेतली जातात. / The Zaid season runs roughly from March to June, growing crops like watermelon, cucumber, and summer moong.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0004",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "किमान आधारभूत किंमत (MSP) निश्चित करण्यासाठी केंद्र सरकारला शिफारस कोणती संस्था करते? / Which body recommends the Minimum Support Price (MSP) to the Central Government?",
+    "options": [
+      "A. नाबार्ड (NABARD)",
+      "B. कृषी लागत व मूल्य आयोग (CACP)",
+      "C. भारतीय अन्न महामंडळ (FCI)",
+      "D. नीती आयोग (NITI Aayog)"
+    ],
+    "answer": "B",
+    "explanation": "कृषी लागत व मूल्य आयोग (Commission for Agricultural Costs and Prices - CACP) हा कृषी मंत्रालयाच्या अंतर्गत असून तो पिकांच्या MSP बाबत शिफारस करतो. / The Commission for Agricultural Costs and Prices (CACP), under the Ministry of Agriculture, recommends MSP for crops.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0005",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "सध्या केंद्र सरकार साधारणपणे किती पिकांसाठी किमान आधारभूत किंमत (MSP) जाहीर करते? / For approximately how many crops does the Central Government currently announce MSP?",
+    "options": [
+      "A. 15",
+      "B. 18",
+      "C. 23",
+      "D. 30"
+    ],
+    "answer": "C",
+    "explanation": "केंद्र सरकार 7 तृणधान्ये, 5 कडधान्ये, 7 तेलबिया आणि 4 व्यापारी पिके अशा एकूण 23 पिकांसाठी MSP जाहीर करते. / The Central Government announces MSP for 23 crops - 7 cereals, 5 pulses, 7 oilseeds and 4 commercial crops.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0006",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "प्रधानमंत्री फसल बीमा योजना (PMFBY) कोणत्या वर्षी सुरू करण्यात आली? / In which year was the Pradhan Mantri Fasal Bima Yojana (PMFBY) launched?",
+    "options": [
+      "A. 2014",
+      "B. 2016",
+      "C. 2018",
+      "D. 2020"
+    ],
+    "answer": "B",
+    "explanation": "PMFBY ही योजना जानेवारी 2016 मध्ये सुरू करण्यात आली आणि तिने पूर्वीच्या NAIS व MNAIS योजनांची जागा घेतली. / PMFBY was launched in January 2016, replacing the earlier NAIS and MNAIS crop insurance schemes.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0007",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "प्रधानमंत्री फसल बीमा योजनेअंतर्गत (PMFBY) खरीप पिकांसाठी शेतकऱ्याला भरावा लागणारा जास्तीत जास्त विमा हप्ता किती आहे? / Under PMFBY, what is the maximum premium a farmer has to pay for Kharif crops?",
+    "options": [
+      "A. विमा रकमेच्या 1.5%",
+      "B. विमा रकमेच्या 2%",
+      "C. विमा रकमेच्या 5%",
+      "D. विमा रकमेच्या 10%"
+    ],
+    "answer": "B",
+    "explanation": "PMFBY अंतर्गत खरीप पिकांसाठी शेतकऱ्याचा हप्ता विमा रकमेच्या 2%, रब्बीसाठी 1.5% आणि नगदी/फळबाग पिकांसाठी 5% इतका मर्यादित ठेवला आहे. / Under PMFBY, the farmer's premium is capped at 2% for Kharif crops, 1.5% for Rabi crops, and 5% for annual commercial/horticultural crops.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0008",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "1960 च्या दशकातील हरितक्रांती (Green Revolution) भारतात सर्वाधिक प्रभावी कोणत्या राज्यांमध्ये ठरली? / The Green Revolution of the 1960s was most effective in which Indian states?",
+    "options": [
+      "A. पंजाब आणि हरियाणा / Punjab and Haryana",
+      "B. महाराष्ट्र आणि गुजरात / Maharashtra and Gujarat",
+      "C. केरळ आणि तमिळनाडू / Kerala and Tamil Nadu",
+      "D. आसाम आणि पश्चिम बंगाल / Assam and West Bengal"
+    ],
+    "answer": "A",
+    "explanation": "उच्च उत्पादन देणाऱ्या वाणांचा (HYV) वापर, सिंचन सुविधा आणि रासायनिक खतांमुळे पंजाब व हरियाणा येथे हरितक्रांतीचा सर्वाधिक परिणाम दिसून आला, विशेषतः गहू उत्पादनात. / Due to HYV seeds, irrigation, and fertilizer use, the Green Revolution had its greatest impact in Punjab and Haryana, especially in wheat production.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0009",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्रात एकूण सिंचित क्षेत्रापैकी सर्वाधिक क्षेत्र कोणत्या सिंचन स्रोतामार्फत भिजवले जाते? / In Maharashtra, the largest share of irrigated area is covered by which source of irrigation?",
+    "options": [
+      "A. कालवे / Canals",
+      "B. विहिरी व कूपनलिका (भूजल) / Wells and tube wells (groundwater)",
+      "C. तलाव / Tanks",
+      "D. उपसा जलसिंचन योजना / Lift irrigation schemes"
+    ],
+    "answer": "B",
+    "explanation": "महाराष्ट्रात कालव्यांच्या तुलनेत विहिरी व कूपनलिकांद्वारे (भूजल सिंचन) सर्वाधिक क्षेत्र सिंचित केले जाते. / In Maharashtra, wells and tube wells (groundwater irrigation) cover a larger irrigated area than canals.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0010",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील कूळ कायदा (Tenancy Act), ज्याद्वारे 'कसेल त्याची जमीन' हे तत्त्व लागू करण्यात आले, तो कोणत्या वर्षी लागू झाला? / In which year was the Bombay Tenancy and Agricultural Lands Act (implementing 'land to the tiller') enacted?",
+    "options": [
+      "A. 1948",
+      "B. 1955",
+      "C. 1961",
+      "D. 1971"
+    ],
+    "answer": "A",
+    "explanation": "मुंबई कूळवहिवाट व शेतजमीन अधिनियम, 1948 अन्वये कुळांना संरक्षण देऊन 'कसेल त्याची जमीन' हे तत्त्व राबवण्यात आले. / The Bombay Tenancy and Agricultural Lands Act, 1948 protected tenants and implemented the principle of 'land to the tiller'.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0011",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "महाराष्ट्रात शेतजमिनीवर कमाल मर्यादा (Ceiling on Landholdings) लागू करणारा कायदा कोणत्या वर्षी संमत झाला? / In which year was the Maharashtra Agricultural Lands (Ceiling on Holdings) Act passed?",
+    "options": [
+      "A. 1948",
+      "B. 1961",
+      "C. 1975",
+      "D. 1985"
+    ],
+    "answer": "B",
+    "explanation": "महाराष्ट्र शेतजमीन (जमीनधारणेची कमाल मर्यादा) अधिनियम, 1961 अन्वये जमीन धारणेवर कमाल मर्यादा घालून अतिरिक्त जमीन भूमिहीनांना वाटण्याची तरतूद करण्यात आली. / The Maharashtra Agricultural Lands (Ceiling on Holdings) Act, 1961 imposed ceilings on land holdings and provided for distributing surplus land to the landless.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0012",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "प्रधानमंत्री कृषी सिंचन योजनेंतर्गत (PMKSY) ठिबक व तुषार सिंचनाला प्रोत्साहन देणारा घटक कोणता आहे? / Under the Pradhan Mantri Krishi Sinchayee Yojana (PMKSY), which component promotes drip and sprinkler irrigation?",
+    "options": [
+      "A. हर खेत को पानी / Har Khet Ko Pani",
+      "B. प्रति थेंब अधिक पीक (Per Drop More Crop) / Per Drop More Crop",
+      "C. जलसंधारण अभियान / Jal Sandharan Abhiyan",
+      "D. नील क्रांती / Neel Kranti"
+    ],
+    "answer": "B",
+    "explanation": "PMKSY (2015) अंतर्गत 'प्रति थेंब अधिक पीक' (Per Drop More Crop) हा घटक सूक्ष्म सिंचन (ठिबक व तुषार) पद्धतींच्या माध्यमातून पाण्याचा कार्यक्षम वापर वाढवण्यावर भर देतो. / Under PMKSY (2015), the 'Per Drop More Crop' component focuses on improving water use efficiency through micro-irrigation methods like drip and sprinkler irrigation.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

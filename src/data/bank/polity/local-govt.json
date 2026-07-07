@@ -1,0 +1,218 @@
+[
+  {
+    "id": "polity-local-govt-0001",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "73 व्या घटनादुरुस्ती कायद्याने (1992) पंचायती राज संस्थांना कोणता दर्जा प्रदान करण्यात आला? / The 73rd Constitutional Amendment Act (1992) granted which status to Panchayati Raj Institutions?",
+    "options": [
+      "A. फक्त कायदेशीर दर्जा / Merely legal status",
+      "B. घटनात्मक दर्जा / Constitutional status",
+      "C. न्यायालयीन दर्जा / Judicial status",
+      "D. फक्त कार्यकारी दर्जा / Executive status only"
+    ],
+    "answer": "B",
+    "explanation": "The 73rd Amendment Act, 1992 inserted Part IX (Articles 243-243O) giving constitutional status and backing to Panchayati Raj institutions.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0002",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पंचायतींसाठीचे विषय कोणत्या अनुसूचीत नमूद केले आहेत आणि त्यात एकूण किती विषय आहेत? / Panchayats' subjects are listed in which Schedule, and how many subjects does it contain?",
+    "options": [
+      "A. दहावी अनुसूची - 18 विषय / 10th Schedule - 18 subjects",
+      "B. अकरावी अनुसूची - 29 विषय / 11th Schedule - 29 subjects",
+      "C. बारावी अनुसूची - 29 विषय / 12th Schedule - 29 subjects",
+      "D. नववी अनुसूची - 18 विषय / 9th Schedule - 18 subjects"
+    ],
+    "answer": "B",
+    "explanation": "The 73rd Amendment added the Eleventh Schedule listing 29 subjects that may be devolved to Panchayats.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0003",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "74 व्या घटनादुरुस्तीने नागरी स्थानिक स्वराज्य संस्थांसाठी जोडलेल्या बारावी अनुसूचीत एकूण किती विषय आहेत? / How many subjects are listed in the Twelfth Schedule added by the 74th Amendment for urban local bodies?",
+    "options": [
+      "A. 29",
+      "B. 18",
+      "C. 22",
+      "D. 15"
+    ],
+    "answer": "B",
+    "explanation": "The Twelfth Schedule, inserted by the 74th Amendment Act, 1992, lists 18 functional items for Municipalities.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0004",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राज्य निवडणूक आयोगाबाबतची तरतूद घटनेच्या कोणत्या अनुच्छेदात आहे? / The provision regarding the State Election Commission is contained in which Article of the Constitution?",
+    "options": [
+      "A. अनुच्छेद 243",
+      "B. अनुच्छेद 243K",
+      "C. अनुच्छेद 324",
+      "D. अनुच्छेद 280"
+    ],
+    "answer": "B",
+    "explanation": "Article 243K vests the State Election Commission with superintendence, direction and control of elections to Panchayats (Article 243ZA extends this to Municipalities).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0005",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पंचायत राज व्यवस्थेतील त्रिस्तरीय रचनेचा योग्य चढता क्रम (गाव ते जिल्हा) कोणता आहे? / What is the correct ascending order (village to district) of the three-tier Panchayati Raj structure?",
+    "options": [
+      "A. पंचायत समिती - ग्रामपंचायत - जिल्हा परिषद / Panchayat Samiti - Gram Panchayat - Zilla Parishad",
+      "B. ग्रामपंचायत - पंचायत समिती - जिल्हा परिषद / Gram Panchayat - Panchayat Samiti - Zilla Parishad",
+      "C. जिल्हा परिषद - पंचायत समिती - ग्रामपंचायत / Zilla Parishad - Panchayat Samiti - Gram Panchayat",
+      "D. ग्रामपंचायत - जिल्हा परिषद - पंचायत समिती / Gram Panchayat - Zilla Parishad - Panchayat Samiti"
+    ],
+    "answer": "B",
+    "explanation": "The three-tier system runs from Gram Panchayat (village) to Panchayat Samiti (block/taluka) to Zilla Parishad (district).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0006",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "जिल्हा परिषदेचे पदसिद्ध राजकीय प्रमुख कोण असतात? / Who is the ex-officio political head of a Zilla Parishad?",
+    "options": [
+      "A. मुख्य कार्यकारी अधिकारी / Chief Executive Officer",
+      "B. जिल्हाधिकारी / District Collector",
+      "C. अध्यक्ष / President",
+      "D. सभापती / Sabhapati"
+    ],
+    "answer": "C",
+    "explanation": "The President (Adhyaksha), elected by the elected members of the Zilla Parishad, is its political head, while the CEO (an IAS officer) is the administrative head.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0007",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "त्रिस्तरीय पंचायती राज व्यवस्थेची शिफारस कोणत्या समितीने केली होती? / Which committee recommended the three-tier Panchayati Raj system?",
+    "options": [
+      "A. अशोक मेहता समिती / Ashok Mehta Committee",
+      "B. बलवंतराय मेहता समिती / Balwantrai Mehta Committee",
+      "C. एल.एम. सिंघवी समिती / L.M. Singhvi Committee",
+      "D. जी.व्ही.के. राव समिती / G.V.K. Rao Committee"
+    ],
+    "answer": "B",
+    "explanation": "The Balwantrai Mehta Committee (1957) recommended the three-tier Panchayati Raj system, which was first adopted by Rajasthan in 1959.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0008",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "महाराष्ट्रात जिल्हा परिषद व पंचायत समित्यांची स्थापना करणारा कायदा कोणत्या वर्षी संमत झाला? / In which year was the Maharashtra Zilla Parishads and Panchayat Samitis Act, establishing these bodies, passed?",
+    "options": [
+      "A. 1956",
+      "B. 1961",
+      "C. 1973",
+      "D. 1992"
+    ],
+    "answer": "B",
+    "explanation": "The Maharashtra Zilla Parishads and Panchayat Samitis Act, 1961 established the three-tier Panchayati Raj system in Maharashtra, effective from 1 May 1962.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0009",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "घटनेनुसार पंचायतींमधील महिलांसाठीचे किमान आरक्षण किती टक्के निश्चित करण्यात आले आहे? / As per the Constitution, what is the minimum reservation percentage prescribed for women in Panchayats?",
+    "options": [
+      "A. 25%",
+      "B. एक तृतीयांश (33%) / One-third (33%)",
+      "C. 50%",
+      "D. 40%"
+    ],
+    "answer": "B",
+    "explanation": "Article 243D(3) mandates not less than one-third of total seats (including SC/ST women's seats) be reserved for women; Maharashtra, however, has enhanced this to 50% by state law.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0010",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "जिल्हा नियोजन समितीबाबतची तरतूद घटनेच्या कोणत्या अनुच्छेदात आहे? / The provision for the District Planning Committee is contained in which Article of the Constitution?",
+    "options": [
+      "A. अनुच्छेद 243ZD",
+      "B. अनुच्छेद 243I",
+      "C. अनुच्छेद 243E",
+      "D. अनुच्छेद 243ZE"
+    ],
+    "answer": "A",
+    "explanation": "Article 243ZD, inserted by the 74th Amendment, provides for constitution of a District Planning Committee to consolidate plans prepared by Panchayats and Municipalities in the district.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0011",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पंचायत किंवा नगरपालिकेची मुदत संपण्यापूर्वी ती बरखास्त झाल्यास, नवीन निवडणूक किती कालावधीत घेणे बंधनकारक आहे? / If a Panchayat or Municipality is dissolved before completion of its term, within what period must fresh elections be held?",
+    "options": [
+      "A. 3 महिने / 3 months",
+      "B. 6 महिने / 6 months",
+      "C. 1 वर्ष / 1 year",
+      "D. 2 वर्षे / 2 years"
+    ],
+    "answer": "B",
+    "explanation": "As per Articles 243E and 243U, fresh elections must be completed within six months of dissolution, and the reconstituted body continues only for the remainder of the original five-year term.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-local-govt-0012",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "मुंबई शहराचा कारभार पाहणारी बृहन्मुंबई महानगरपालिका कोणत्या कायद्यांतर्गत कार्यरत आहे? / The Brihanmumbai Municipal Corporation, governing the city of Mumbai, functions under which Act?",
+    "options": [
+      "A. मुंबई महानगरपालिका अधिनियम, 1888 / Mumbai Municipal Corporation Act, 1888",
+      "B. मुंबई प्रांतिक महानगरपालिका अधिनियम, 1949 / Bombay Provincial Municipal Corporation Act, 1949",
+      "C. महाराष्ट्र नगरपरिषद अधिनियम, 1965 / Maharashtra Municipal Councils Act, 1965",
+      "D. 74 वी घटनादुरुस्ती अधिनियम, 1992 / 74th Constitutional Amendment Act, 1992"
+    ],
+    "answer": "A",
+    "explanation": "The Brihanmumbai Municipal Corporation (Mumbai) is governed by the Mumbai Municipal Corporation Act, 1888, whereas other Municipal Corporations in Maharashtra are governed by the Bombay Provincial Municipal Corporation Act, 1949.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

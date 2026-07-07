@@ -1,0 +1,218 @@
+[
+  {
+    "id": "arithmetic-time-work-speed-0001",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका रेल्वे गाडीची लांबी ३०० मीटर आहे आणि ती ताशी ९० किमी वेगाने धावत आहे. ती एका स्थिर खांबाला (पोलला) ओलांडण्यासाठी किती वेळ घेईल? / A train 300 metres long is running at a speed of 90 km/h. How long will it take to cross a stationary pole?",
+    "options": [
+      "A. १० सेकंद / 10 seconds",
+      "B. १२ सेकंद / 12 seconds",
+      "C. १५ सेकंद / 15 seconds",
+      "D. २० सेकंद / 20 seconds"
+    ],
+    "answer": "B",
+    "explanation": "Speed = 90 × 5/18 = 25 m/s, so time = 300/25 = 12 seconds.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0002",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एक १२० मीटर लांबीची गाडी ताशी ५४ किमी वेगाने आणि दुसरी १८० मीटर लांबीची गाडी ताशी ३६ किमी वेगाने एकमेकांच्या विरुद्ध दिशेने येत आहेत. त्या एकमेकांना ओलांडण्यासाठी किती वेळ लागेल? / A train 120 m long running at 54 km/h and another train 180 m long running at 36 km/h are moving in opposite directions towards each other. How long will they take to cross each other?",
+    "options": [
+      "A. ८ सेकंद / 8 seconds",
+      "B. १० सेकंद / 10 seconds",
+      "C. १२ सेकंद / 12 seconds",
+      "D. १५ सेकंद / 15 seconds"
+    ],
+    "answer": "C",
+    "explanation": "Relative speed = 54+36 = 90 km/h = 25 m/s; total length = 300 m; time = 300/25 = 12 seconds.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0003",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एक होडी प्रवाहाच्या दिशेने ताशी २० किमी आणि प्रवाहाच्या विरुद्ध दिशेने ताशी १२ किमी वेगाने जाते. स्थिर पाण्यात होडीचा वेग किती? / A boat travels downstream at 20 km/h and upstream at 12 km/h. What is the speed of the boat in still water?",
+    "options": [
+      "A. १४ किमी/तास / 14 km/h",
+      "B. १५ किमी/तास / 15 km/h",
+      "C. १६ किमी/तास / 16 km/h",
+      "D. १८ किमी/तास / 18 km/h"
+    ],
+    "answer": "C",
+    "explanation": "Speed in still water = (downstream + upstream)/2 = (20+12)/2 = 16 km/h.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0004",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एक नळ (पाईप) एक टाकी ६ तासांत भरतो आणि दुसरा नळ तीच टाकी ८ तासांत भरतो. दोन्ही नळ एकाच वेळी उघडल्यास टाकी किती वेळात भरेल? / Pipe A can fill a tank in 6 hours and pipe B can fill the same tank in 8 hours. If both pipes are opened together, in how much time will the tank be filled?",
+    "options": [
+      "A. ३ ३/७ तास / 3 3/7 hours",
+      "B. ४ तास / 4 hours",
+      "C. ३ तास / 3 hours",
+      "D. ५ तास / 5 hours"
+    ],
+    "answer": "A",
+    "explanation": "Combined rate = 1/6 + 1/8 = 7/24 per hour, so time = 24/7 = 3 3/7 hours.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0005",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "'अ' एक काम १२ दिवसांत पूर्ण करतो आणि 'ब' तेच काम १८ दिवसांत पूर्ण करतो. दोघे मिळून काम किती दिवसांत पूर्ण करतील? / A can complete a work in 12 days and B can complete the same work in 18 days. In how many days will they complete the work together?",
+    "options": [
+      "A. ६ दिवस / 6 days",
+      "B. ७.२ दिवस / 7.2 days",
+      "C. ८ दिवस / 8 days",
+      "D. ९ दिवस / 9 days"
+    ],
+    "answer": "B",
+    "explanation": "Combined rate = 1/12 + 1/18 = 5/36 per day, so time = 36/5 = 7.2 days.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0006",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एक माणूस एका ठिकाणापासून दुसऱ्या ठिकाणापर्यंत निम्मे अंतर ताशी ४० किमी वेगाने आणि उरलेले निम्मे अंतर ताशी ६० किमी वेगाने प्रवास करतो. संपूर्ण प्रवासाचा सरासरी वेग किती? / A man travels half the distance at 40 km/h and the remaining half distance at 60 km/h. What is his average speed for the entire journey?",
+    "options": [
+      "A. ४५ किमी/तास / 45 km/h",
+      "B. ४८ किमी/तास / 48 km/h",
+      "C. ५० किमी/तास / 50 km/h",
+      "D. ५२ किमी/तास / 52 km/h"
+    ],
+    "answer": "B",
+    "explanation": "Average speed for equal distances = 2ab/(a+b) = 2×40×60/100 = 48 km/h.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0007",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "'अ' ची कार्यक्षमता 'ब' पेक्षा दुप्पट आहे. दोघे मिळून एक काम १२ दिवसांत पूर्ण करतात, तर 'अ' एकटा तेच काम किती दिवसांत पूर्ण करेल? / A is twice as efficient as B. Together they complete a work in 12 days. In how many days will A alone complete the work?",
+    "options": [
+      "A. १५ दिवस / 15 days",
+      "B. १६ दिवस / 16 days",
+      "C. १८ दिवस / 18 days",
+      "D. २४ दिवस / 24 days"
+    ],
+    "answer": "C",
+    "explanation": "If B's rate = x and A's rate = 2x, then 3x = 1/12, so x = 1/36; A's rate = 1/18, meaning A alone takes 18 days.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0008",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एक नळ टाकी १० तासांत भरतो, तर दुसरा नळ (गळती) तीच भरलेली टाकी १५ तासांत रिकामी करतो. दोन्ही एकाच वेळी उघडल्यास रिकामी टाकी भरण्यास किती वेळ लागेल? / An inlet pipe can fill a tank in 10 hours, while an outlet pipe can empty the same full tank in 15 hours. If both are opened together, how long will it take to fill an empty tank?",
+    "options": [
+      "A. २० तास / 20 hours",
+      "B. २५ तास / 25 hours",
+      "C. ३० तास / 30 hours",
+      "D. ३५ तास / 35 hours"
+    ],
+    "answer": "C",
+    "explanation": "Net rate = 1/10 − 1/15 = 1/30 per hour, so the tank fills in 30 hours.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0009",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "१५० मीटर लांबीची एक गाडी २५० मीटर लांबीचा प्लॅटफॉर्म २० सेकंदांत ओलांडते. गाडीचा वेग ताशी किती किमी आहे? / A train 150 metres long crosses a platform 250 metres long in 20 seconds. What is the speed of the train in km/h?",
+    "options": [
+      "A. ६० किमी/तास / 60 km/h",
+      "B. ६६ किमी/तास / 66 km/h",
+      "C. ७२ किमी/तास / 72 km/h",
+      "D. ८० किमी/तास / 80 km/h"
+    ],
+    "answer": "C",
+    "explanation": "Total distance = 150+250 = 400 m; speed = 400/20 = 20 m/s = 20×18/5 = 72 km/h.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0010",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "दोन व्यक्ती एकमेकांपासून ६० किमी अंतरावर असलेल्या ठिकाणांहून एकमेकांच्या दिशेने अनुक्रमे ताशी १५ किमी व १० किमी वेगाने चालू लागतात. त्या किती तासांनी एकमेकांना भेटतील? / Two persons start from places 60 km apart and walk towards each other at speeds of 15 km/h and 10 km/h respectively. After how many hours will they meet?",
+    "options": [
+      "A. १.५ तास / 1.5 hours",
+      "B. २ तास / 2 hours",
+      "C. २.४ तास / 2.4 hours",
+      "D. ३ तास / 3 hours"
+    ],
+    "answer": "C",
+    "explanation": "Relative speed = 15+10 = 25 km/h; time to meet = 60/25 = 2.4 hours.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0011",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "एक माणूस प्रवाहाच्या दिशेने ३० किमी अंतर २ तासांत, तर प्रवाहाच्या विरुद्ध दिशेने १८ किमी अंतर ३ तासांत पार करतो. प्रवाहाचा वेग किती आहे? / A man rows 30 km downstream in 2 hours and 18 km upstream in 3 hours. What is the speed of the stream?",
+    "options": [
+      "A. ३ किमी/तास / 3 km/h",
+      "B. ४ किमी/तास / 4 km/h",
+      "C. ४.५ किमी/तास / 4.5 km/h",
+      "D. ६ किमी/तास / 6 km/h"
+    ],
+    "answer": "C",
+    "explanation": "Downstream speed = 30/2 = 15 km/h, upstream speed = 18/3 = 6 km/h; stream speed = (15−6)/2 = 4.5 km/h.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-time-work-speed-0012",
+    "subject": "arithmetic",
+    "subtopic": "time-work-speed",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "१५ माणसे एक काम २० दिवसांत पूर्ण करतात. तेच काम २५ माणसे किती दिवसांत पूर्ण करतील (सर्वांची कार्यक्षमता समान)? / 15 men can complete a work in 20 days. In how many days will 25 men (with the same efficiency) complete the same work?",
+    "options": [
+      "A. १० दिवस / 10 days",
+      "B. १२ दिवस / 12 days",
+      "C. १४ दिवस / 14 days",
+      "D. १५ दिवस / 15 days"
+    ],
+    "answer": "B",
+    "explanation": "Total work = 15×20 = 300 man-days; time for 25 men = 300/25 = 12 days.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

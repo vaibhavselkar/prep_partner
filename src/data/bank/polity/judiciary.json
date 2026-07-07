@@ -1,0 +1,218 @@
+[
+  {
+    "id": "polity-judiciary-0001",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारतीय राज्यघटनेच्या कोणत्या कलमान्वये सर्वोच्च न्यायालयाची स्थापना करण्यात आली आहे? / Under which Article of the Indian Constitution has the Supreme Court been established?",
+    "options": [
+      "A. कलम १२४ / Article 124",
+      "B. कलम २१४ / Article 214",
+      "C. कलम २२६ / Article 226",
+      "D. कलम ३२ / Article 32"
+    ],
+    "answer": "A",
+    "explanation": "Article 124 provides for the establishment and constitution of the Supreme Court of India.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0002",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "१९५० मध्ये सर्वोच्च न्यायालयाची स्थापना झाल्यावर त्याने कोणत्या संस्थेची जागा घेतली? / When the Supreme Court of India was established in 1950, which body did it replace?",
+    "options": [
+      "A. भारताचे संघीय न्यायालय (Federal Court of India) / Federal Court of India",
+      "B. प्रिव्ही कौन्सिल / Privy Council",
+      "C. कोलकाता उच्च न्यायालय / Calcutta High Court",
+      "D. सदर अदालत / Sadar Adalat"
+    ],
+    "answer": "A",
+    "explanation": "The Supreme Court of India, established on 26 January 1950, succeeded the Federal Court of India which was set up under the Government of India Act, 1935.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0003",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "केंद्र व राज्य किंवा राज्या-राज्यांमधील वादांबाबत सर्वोच्च न्यायालयाचे मूळ अधिकारक्षेत्र (Original Jurisdiction) कोणत्या कलमात नमूद आहे? / The original jurisdiction of the Supreme Court over disputes between the Union and States, or between States, is provided under which Article?",
+    "options": [
+      "A. कलम १३१ / Article 131",
+      "B. कलम १३२ / Article 132",
+      "C. कलम १३६ / Article 136",
+      "D. कलम १४३ / Article 143"
+    ],
+    "answer": "A",
+    "explanation": "Article 131 confers exclusive original jurisdiction on the Supreme Court in disputes between the Government of India and States, or between States.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0004",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "मूलभूत हक्कांच्या अंमलबजावणीसाठीच 'इतर कोणत्याही कारणासाठी' सुद्धा रिट (writ) जारी करण्याचा व्यापक अधिकार उच्च न्यायालयांना कोणत्या कलमाखाली आहे, जो सर्वोच्च न्यायालयाच्या कलम ३२ पेक्षा व्यापक आहे? / Which Article empowers High Courts to issue writs not only for enforcement of Fundamental Rights but also 'for any other purpose', making it wider than the Supreme Court's power under Article 32?",
+    "options": [
+      "A. कलम ३२ / Article 32",
+      "B. कलम २२६ / Article 226",
+      "C. कलम २२७ / Article 227",
+      "D. कलम २२८ / Article 228"
+    ],
+    "answer": "B",
+    "explanation": "Article 226 empowers High Courts to issue writs for enforcement of Fundamental Rights and also for any other purpose, giving it a wider scope than Article 32.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0005",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "मुंबई उच्च न्यायालय ही कलकत्ता व मद्रास यांच्यासोबत स्थापन झालेल्या तीन मूळ सनदी (Chartered) उच्च न्यायालयांपैकी एक आहे. ती कोणत्या वर्षी स्थापन झाली? / The Bombay High Court is one of the three original chartered High Courts established along with Calcutta and Madras. In which year was it established?",
+    "options": [
+      "A. १८५७ / 1857",
+      "B. १८६१ / 1861",
+      "C. १८६२ / 1862",
+      "D. १९३५ / 1935"
+    ],
+    "answer": "C",
+    "explanation": "Under the Indian High Courts Act, 1861, the Bombay, Calcutta and Madras High Courts were actually established in 1862.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0006",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणते मुंबई उच्च न्यायालयाचे खंडपीठ (Bench) नाही? / Which of the following is NOT a bench of the Bombay High Court?",
+    "options": [
+      "A. नागपूर / Nagpur",
+      "B. छत्रपती संभाजीनगर (औरंगाबाद) / Chhatrapati Sambhajinagar (Aurangabad)",
+      "C. पणजी (गोवा) / Panaji (Goa)",
+      "D. नाशिक / Nashik"
+    ],
+    "answer": "D",
+    "explanation": "The Bombay High Court has benches at Nagpur, Chhatrapati Sambhajinagar (Aurangabad) and Panaji (Goa); there is no bench at Nashik.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0007",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्र व गोवा यांच्याव्यतिरिक्त, मुंबई उच्च न्यायालयाचे अधिकारक्षेत्र कोणत्या केंद्रशासित प्रदेशापर्यंत विस्तारलेले आहे? / Besides Maharashtra and Goa, the jurisdiction of the Bombay High Court extends to which Union Territory?",
+    "options": [
+      "A. पुडुचेरी / Puducherry",
+      "B. दादरा आणि नगर हवेली आणि दमण आणि दीव / Dadra and Nagar Haveli and Daman and Diu",
+      "C. लक्षद्वीप / Lakshadweep",
+      "D. चंदीगड / Chandigarh"
+    ],
+    "answer": "B",
+    "explanation": "The Bombay High Court's territorial jurisdiction covers Maharashtra, Goa, and the Union Territory of Dadra and Nagar Haveli and Daman and Diu.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0008",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राज्याच्या राज्यपालांकडून, संबंधित उच्च न्यायालयाशी सल्लामसलत करून, जिल्हा न्यायाधीशांची नियुक्ती कोणत्या कलमाखाली केली जाते? / Under which Article are District Judges appointed by the Governor of a State in consultation with the High Court?",
+    "options": [
+      "A. कलम २३३ / Article 233",
+      "B. कलम २३५ / Article 235",
+      "C. कलम २१७ / Article 217",
+      "D. कलम १२४ / Article 124"
+    ],
+    "answer": "A",
+    "explanation": "Article 233 provides that appointments of District Judges shall be made by the Governor in consultation with the High Court exercising jurisdiction over that State.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0009",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "अधीनस्थ न्यायालयांवरील (Subordinate Courts) नियंत्रण (नेमणुका, बढती, शिस्त) कोणत्या कलमाखाली संबंधित उच्च न्यायालयाकडे सोपवण्यात आले आहे? / Under which Article is the control over subordinate courts (postings, promotions, discipline of judicial officers) vested in the High Court?",
+    "options": [
+      "A. कलम २२६ / Article 226",
+      "B. कलम २२७ / Article 227",
+      "C. कलम २३५ / Article 235",
+      "D. कलम २३६ / Article 236"
+    ],
+    "answer": "C",
+    "explanation": "Article 235 vests the control over subordinate courts, including postings, promotions and discipline of judicial officers, in the High Court.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0010",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "सर्वोच्च न्यायालयाच्या न्यायाधीशांचे निवृत्तीचे वय ६५ वर्षे आहे, तर उच्च न्यायालयाच्या न्यायाधीशांचे निवृत्तीचे वय किती आहे? / The retirement age of a Supreme Court judge is 65 years. What is the retirement age of a High Court judge?",
+    "options": [
+      "A. ५८ वर्षे / 58 years",
+      "B. ६० वर्षे / 60 years",
+      "C. ६२ वर्षे / 62 years",
+      "D. ६५ वर्षे / 65 years"
+    ],
+    "answer": "C",
+    "explanation": "A High Court judge holds office until the age of 62 years, as against 65 years for a Supreme Court judge.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0011",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "स्वतंत्र भारताचे पहिले सरन्यायाधीश (Chief Justice of India) कोण होते? / Who was the first Chief Justice of India?",
+    "options": [
+      "A. एम. हिदायतुल्ला / M. Hidayatullah",
+      "B. एच. जे. कानिया / H. J. Kania",
+      "C. पी. बी. गजेंद्रगडकर / P. B. Gajendragadkar",
+      "D. वाय. व्ही. चंद्रचूड / Y. V. Chandrachud"
+    ],
+    "answer": "B",
+    "explanation": "Justice H. J. Kania was the first Chief Justice of India, serving from 1950 to 1951.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-judiciary-0012",
+    "subject": "polity",
+    "subtopic": "judiciary",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राष्ट्रपती कायद्याच्या किंवा वस्तुस्थितीच्या प्रश्नावर सर्वोच्च न्यायालयाचा सल्ला (Advisory Opinion) मागू शकतात, ही तरतूद कोणत्या कलमात आहे? / The provision under which the President may seek the advisory opinion of the Supreme Court on a question of law or fact is contained in which Article?",
+    "options": [
+      "A. कलम १४१ / Article 141",
+      "B. कलम १४२ / Article 142",
+      "C. कलम १४३ / Article 143",
+      "D. कलम १४५ / Article 145"
+    ],
+    "answer": "C",
+    "explanation": "Article 143 empowers the President to refer questions of law or fact of public importance to the Supreme Court for its advisory opinion.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

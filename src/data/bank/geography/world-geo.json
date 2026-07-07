@@ -1,0 +1,218 @@
+[
+  {
+    "id": "geography-world-geo-0001",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पृथ्वीवर एकूण किती खंड आहेत? / How many continents are there on Earth?",
+    "options": [
+      "A. 5 / 5",
+      "B. 6 / 6",
+      "C. 7 / 7",
+      "D. 8 / 8"
+    ],
+    "answer": "C",
+    "explanation": "पृथ्वीवर एकूण सात खंड आहेत - आशिया, आफ्रिका, उत्तर अमेरिका, दक्षिण अमेरिका, अंटार्क्टिका, युरोप आणि ऑस्ट्रेलिया. / There are seven continents on Earth: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0002",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "क्षेत्रफळाच्या दृष्टीने सर्वात मोठा खंड कोणता आहे? / Which is the largest continent by area?",
+    "options": [
+      "A. आफ्रिका / Africa",
+      "B. आशिया / Asia",
+      "C. उत्तर अमेरिका / North America",
+      "D. युरोप / Europe"
+    ],
+    "answer": "B",
+    "explanation": "आशिया खंड क्षेत्रफळ व लोकसंख्या या दोन्ही बाबतीत सर्वात मोठा खंड आहे. / Asia is the largest continent both in area and population.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0003",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "क्षेत्रफळाच्या दृष्टीने सर्वात मोठा महासागर कोणता आहे? / Which is the largest ocean by area?",
+    "options": [
+      "A. अटलांटिक महासागर / Atlantic Ocean",
+      "B. हिंदी महासागर / Indian Ocean",
+      "C. प्रशांत महासागर / Pacific Ocean",
+      "D. आर्क्टिक महासागर / Arctic Ocean"
+    ],
+    "answer": "C",
+    "explanation": "प्रशांत महासागर हा क्षेत्रफळाने सर्वात मोठा व सर्वात खोल महासागर आहे. / The Pacific Ocean is the largest and deepest ocean in the world.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0004",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "मुख्य रेखावृत्त (Prime Meridian, 0° रेखांश) कोणत्या शहरातून जाते? / The Prime Meridian (0° longitude) passes through which city?",
+    "options": [
+      "A. पॅरिस / Paris",
+      "B. ग्रीनिच (लंडन) / Greenwich (London)",
+      "C. न्यूयॉर्क / New York",
+      "D. मॉस्को / Moscow"
+    ],
+    "answer": "B",
+    "explanation": "मुख्य रेखावृत्त इंग्लंडमधील ग्रीनिच येथून जाते व त्यावरून प्रमाणवेळ (GMT) निश्चित होते. / The Prime Meridian passes through Greenwich, England, and is the basis for Greenwich Mean Time (GMT).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0005",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "आंतरराष्ट्रीय वार रेषा (International Date Line) साधारणपणे कोणत्या रेखांशाजवळून जाते? / The International Date Line roughly follows which longitude?",
+    "options": [
+      "A. 0° / 0°",
+      "B. 90°पूर्व / 90°E",
+      "C. 180° / 180°",
+      "D. 90°पश्चिम / 90°W"
+    ],
+    "answer": "C",
+    "explanation": "आंतरराष्ट्रीय वार रेषा साधारणपणे 180° रेखांशावरून प्रशांत महासागरातून जाते. / The International Date Line roughly follows the 180° longitude through the Pacific Ocean.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0006",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "कर्कवृत्त (Tropic of Cancer) भारतातील खालीलपैकी कोणत्या राज्यातून जात नाही? / The Tropic of Cancer does NOT pass through which of the following Indian states?",
+    "options": [
+      "A. गुजरात / Gujarat",
+      "B. महाराष्ट्र / Maharashtra",
+      "C. मध्य प्रदेश / Madhya Pradesh",
+      "D. पश्चिम बंगाल / West Bengal"
+    ],
+    "answer": "B",
+    "explanation": "कर्कवृत्त भारतातील गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगड, झारखंड, पश्चिम बंगाल, त्रिपुरा व मिझोराम या आठ राज्यांतून जाते; महाराष्ट्रातून जात नाही. / The Tropic of Cancer passes through eight Indian states (Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram) but not through Maharashtra.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0007",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारताची प्रमाण रेखांश (Standard Meridian) किती अंश आहे? / What is India's Standard Meridian?",
+    "options": [
+      "A. 82.5° पूर्व / 82.5°E",
+      "B. 75° पूर्व / 75°E",
+      "C. 90° पूर्व / 90°E",
+      "D. 68.5° पूर्व / 68.5°E"
+    ],
+    "answer": "A",
+    "explanation": "भारताची प्रमाणवेळ 82.5° पूर्व रेखांशावर (उत्तर प्रदेशातील मिर्झापूरजवळून) आधारित आहे. / India's Standard Time is based on the 82.5°E meridian, passing near Mirzapur, Uttar Pradesh.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0008",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "नगर A चे रेखांश 90° पूर्व आणि नगर B चे रेखांश 30° पश्चिम आहे. नगर A मध्ये दुपारी 12:00 वाजता नगर B मध्ये किती वाजलेले असतील? / City A is at 90°E and City B is at 30°W. When it is 12:00 noon at City A, what time is it at City B?",
+    "options": [
+      "A. पहाटे 4:00 / 4:00 AM",
+      "B. रात्री 8:00 / 8:00 PM",
+      "C. सकाळी 8:00 / 8:00 AM",
+      "D. दुपारी 4:00 / 4:00 PM"
+    ],
+    "answer": "A",
+    "explanation": "दोन्ही रेखांशांमधील फरक 120° आहे (90+30), म्हणजे वेळेचा फरक 8 तास (120÷15); B हे A च्या पश्चिमेस असल्याने वेळ 8 तास मागे, म्हणजे पहाटे 4:00. / The longitude difference is 120° (90+30), giving a time difference of 8 hours (120÷15); since B is west of A, its time is 8 hours behind, i.e., 4:00 AM.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0009",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जगातील बहुतांश भूकंप व ज्वालामुखींचे केंद्र असलेल्या पट्ट्याला काय म्हणतात? / The belt containing most of the world's earthquakes and volcanoes is known as?",
+    "options": [
+      "A. रिंग ऑफ फायर / Ring of Fire",
+      "B. अल्पाइन पट्टा / Alpine Belt",
+      "C. मध्य-अटलांटिक कटक / Mid-Atlantic Ridge",
+      "D. सह्याद्री पट्टा / Sahyadri Belt"
+    ],
+    "answer": "A",
+    "explanation": "प्रशांत महासागराच्या किनाऱ्यालगत असलेल्या 'रिंग ऑफ फायर' पट्ट्यात जगातील सुमारे ७५% सक्रिय ज्वालामुखी व बहुतांश भूकंप आढळतात. / The Pacific 'Ring of Fire' contains about 75% of the world's active volcanoes and most of its earthquakes.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0010",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भूकंपाची तीव्रता (magnitude) मोजण्यासाठी कोणते मापन वापरले जाते? / Which scale is used to measure the magnitude of an earthquake?",
+    "options": [
+      "A. रिश्टर स्केल / Richter Scale",
+      "B. सेल्सिअस स्केल / Celsius Scale",
+      "C. ब्युफर्ट स्केल / Beaufort Scale",
+      "D. डेसिबल स्केल / Decibel Scale"
+    ],
+    "answer": "A",
+    "explanation": "भूकंपाची तीव्रता रिश्टर स्केलवर मोजली जाते, तर वाऱ्याचा वेग ब्युफर्ट स्केलवर मोजतात. / Earthquake magnitude is measured on the Richter Scale, while wind speed is measured on the Beaufort Scale.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0011",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "बंगालचा उपसागर व अरबी समुद्रात निर्माण होणाऱ्या उष्णकटिबंधीय वादळांना काय म्हणतात? / Tropical storms forming in the Bay of Bengal and Arabian Sea are called?",
+    "options": [
+      "A. हरिकेन / Hurricane",
+      "B. टायफून / Typhoon",
+      "C. चक्रीवादळ (सायक्लोन) / Cyclone",
+      "D. टोर्नेडो / Tornado"
+    ],
+    "answer": "C",
+    "explanation": "हिंदी महासागर क्षेत्रात (बंगालचा उपसागर, अरबी समुद्र) निर्माण होणाऱ्या उष्णकटिबंधीय वादळांना 'सायक्लोन' म्हणतात, तर अटलांटिकमध्ये 'हरिकेन' आणि वायव्य प्रशांत भागात 'टायफून' म्हणतात. / Tropical storms in the Indian Ocean region are called 'cyclones', those in the Atlantic 'hurricanes', and those in the north-west Pacific 'typhoons'.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "geography-world-geo-0012",
+    "subject": "geography",
+    "subtopic": "world-geo",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "विषुववृत्त (Equator) खालीलपैकी कोणत्या खंडातून जात नाही? / The Equator does NOT pass through which of the following continents?",
+    "options": [
+      "A. आफ्रिका / Africa",
+      "B. दक्षिण अमेरिका / South America",
+      "C. ऑस्ट्रेलिया / Australia",
+      "D. आशिया / Asia"
+    ],
+    "answer": "C",
+    "explanation": "विषुववृत्त आफ्रिका, दक्षिण अमेरिका व आशिया (इंडोनेशिया) खंडांतून जाते, परंतु ऑस्ट्रेलिया खंडातून जात नाही. / The Equator passes through Africa, South America, and Asia (Indonesia), but not through Australia.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

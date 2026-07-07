@@ -1,0 +1,218 @@
+[
+  {
+    "id": "arithmetic-data-interpretation-0001",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका सामन्यात ५ फलंदाजांनी केलेल्या धावा (बार आलेख): अ=४५, ब=६०, क=३८, ड=७२, इ=५५. या ५ फलंदाजांच्या धावांची सरासरी किती? / In a match, runs scored by 5 batsmen (bar graph) are: A=45, B=60, C=38, D=72, E=55. What is the average runs scored by these 5 batsmen?",
+    "options": [
+      "A. 50 / 50",
+      "B. 54 / 54",
+      "C. 58 / 58",
+      "D. 60 / 60"
+    ],
+    "answer": "B",
+    "explanation": "Total runs = 45+60+38+72+55 = 270; average = 270/5 = 54.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0002",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पाई चार्टमध्ये एका कुटुंबाच्या ₹४०,००० च्या मासिक बजेटचे वितरण दाखवले आहे: अन्न ३५%, भाडे २५%, शिक्षण १५%, वाहतूक १०%, इतर १५%. अन्न आणि भाडे यावर एकूण किती रक्कम खर्च होते? / A pie chart shows distribution of a family's monthly budget of Rs 40,000: Food 35%, Rent 25%, Education 15%, Transport 10%, Others 15%. What is the total amount spent on Food and Rent together?",
+    "options": [
+      "A. ₹20,000 / Rs 20,000",
+      "B. ₹22,000 / Rs 22,000",
+      "C. ₹24,000 / Rs 24,000",
+      "D. ₹26,000 / Rs 26,000"
+    ],
+    "answer": "C",
+    "explanation": "Food + Rent = 35% + 25% = 60% of Rs 40,000 = Rs 24,000.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0003",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "खालील तक्ता महाराष्ट्रातील ४ जिल्ह्यांतील २०२० मधील ऊस उत्पादन (लाख टनांत) दर्शवतो: कोल्हापूर १२०, पुणे ९५, अहमदनगर ११०, सोलापूर ८५. कोल्हापूरचे उत्पादन एकूण उत्पादनाच्या अंदाजे किती टक्के आहे? / The following table shows sugarcane production (in lakh tonnes) of 4 Maharashtra districts in 2020: Kolhapur 120, Pune 95, Ahmednagar 110, Solapur 85. Kolhapur's production is approximately what percentage of the total production?",
+    "options": [
+      "A. 25% / 25%",
+      "B. 29% / 29%",
+      "C. 33% / 33%",
+      "D. 37% / 37%"
+    ],
+    "answer": "B",
+    "explanation": "Total = 120+95+110+85 = 410; Kolhapur's share = 120/410 × 100 ≈ 29%.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0004",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एका कंपनीचा नफा (लाख रुपयांत) रेषा आलेखाप्रमाणे आहे: २०१८:२०, २०१९:३५, २०२०:२५, २०२१:५०, २०२२:४०. २०१९ ते २०२१ या काळात नफ्यात किती टक्के वाढ झाली? / A company's profit (in lakh Rs) as per the line graph is: 2018:20, 2019:35, 2020:25, 2021:50, 2022:40. What is the percentage increase in profit from 2019 to 2021?",
+    "options": [
+      "A. 30% / 30%",
+      "B. 35% / 35%",
+      "C. 43% / 43%",
+      "D. 50% / 50%"
+    ],
+    "answer": "C",
+    "explanation": "Increase = 50-35 = 15; percentage increase = (15/35) × 100 ≈ 43%.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0005",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "बार आलेखानुसार ५ शाळांमधील विद्यार्थ्यांची संख्या पुढीलप्रमाणे: शाळा अ २५०, ब ३००, क २७५, ड ३२०, इ २००. सर्वाधिक आणि सर्वात कमी विद्यार्थी संख्या यामधील फरक किती? / As per the bar graph, the number of students in 5 schools is: School A 250, B 300, C 275, D 320, E 200. What is the difference between the highest and lowest number of students?",
+    "options": [
+      "A. 100 / 100",
+      "B. 110 / 110",
+      "C. 120 / 120",
+      "D. 130 / 130"
+    ],
+    "answer": "C",
+    "explanation": "Highest = 320 (School D), lowest = 200 (School E); difference = 320-200 = 120.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0006",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका निवडणुकीत ४ उमेदवारांना मिळालेल्या मतांचे वितरण पाई चार्टमध्ये असे आहे: अ ४०%, ब २५%, क २०%, ड १५%. एकूण २,००,००० मते पडली असल्यास, उमेदवार ब याला किती मते मिळाली? / In an election, the distribution of votes received by 4 candidates is shown in a pie chart: A 40%, B 25%, C 20%, D 15%. If a total of 2,00,000 votes were polled, how many votes did candidate B receive?",
+    "options": [
+      "A. 40,000 / 40,000",
+      "B. 45,000 / 45,000",
+      "C. 50,000 / 50,000",
+      "D. 55,000 / 55,000"
+    ],
+    "answer": "C",
+    "explanation": "Votes for B = 25% of 2,00,000 = 50,000.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0007",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील एका जिल्ह्यात ४ महिन्यांत नोंदवलेला पाऊस (मिमी) पुढीलप्रमाणे: जून २००, जुलै ३५०, ऑगस्ट ३००, सप्टेंबर १५०. या ४ महिन्यांतील सरासरी मासिक पाऊस किती? / The rainfall (mm) recorded in a Maharashtra district over 4 months is: June 200, July 350, August 300, September 150. What is the average monthly rainfall for these 4 months?",
+    "options": [
+      "A. 200 mm / 200 mm",
+      "B. 225 mm / 225 mm",
+      "C. 250 mm / 250 mm",
+      "D. 275 mm / 275 mm"
+    ],
+    "answer": "C",
+    "explanation": "Total rainfall = 200+350+300+150 = 1000 mm; average = 1000/4 = 250 mm.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0008",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "रेषा आलेखानुसार ५ दिवसांचे तापमान (°से) पुढीलप्रमाणे: सोम ३०, मंगळ ३३, बुध २८, गुरु ३५, शुक्र ३२. मागील दिवसाच्या तुलनेत कोणत्या दिवशी तापमानात सर्वाधिक वाढ झाली? / As per the line graph, the temperature (°C) over 5 days is: Mon 30, Tue 33, Wed 28, Thu 35, Fri 32. On which day was the increase in temperature compared to the previous day the highest?",
+    "options": [
+      "A. मंगळवार / Tuesday",
+      "B. बुधवार / Wednesday",
+      "C. गुरुवार / Thursday",
+      "D. शुक्रवार / Friday"
+    ],
+    "answer": "C",
+    "explanation": "Day-to-day changes: Tue +3, Wed -5, Thu +7, Fri -3; Thursday shows the largest rise of 7°C over Wednesday.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0009",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एका डीलरने ४ तिमाहीत विकलेल्या दुचाकींची संख्या बार आलेखात अशी आहे: तिमाही१ १५०, तिमाही२ १८०, तिमाही३ २१०, तिमाही४ १६०. तिमाही३ ची विक्री एकूण विक्रीच्या किती टक्के आहे? / A dealer's two-wheeler sales over 4 quarters as per the bar graph are: Q1 150, Q2 180, Q3 210, Q4 160. What percentage of total sales does Q3 represent?",
+    "options": [
+      "A. 25% / 25%",
+      "B. 28% / 28%",
+      "C. 30% / 30%",
+      "D. 32% / 32%"
+    ],
+    "answer": "C",
+    "explanation": "Total sales = 150+180+210+160 = 700; Q3 share = 210/700 × 100 = 30%.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0010",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका गावातील ५०० हेक्टर एकूण क्षेत्राचा जमीन वापर पाई चार्टमध्ये असा आहे: शेती ६०%, जंगल २०%, निवासी १०%, इतर १०%. जंगल आणि निवासी क्षेत्र मिळून किती हेक्टर आहे? / The land use pattern of a village with total area 500 hectares is shown in a pie chart: Agriculture 60%, Forest 20%, Residential 10%, Others 10%. What is the combined area under Forest and Residential?",
+    "options": [
+      "A. 100 हेक्टर / 100 hectares",
+      "B. 120 हेक्टर / 120 hectares",
+      "C. 150 हेक्टर / 150 hectares",
+      "D. 180 हेक्टर / 180 hectares"
+    ],
+    "answer": "C",
+    "explanation": "Forest + Residential = 20% + 10% = 30% of 500 hectares = 150 hectares.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0011",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एका विद्यार्थ्याला ५ विषयांत (प्रत्येकी १०० गुण) मिळालेले गुण तक्त्यात असे आहेत: मराठी ७८, इंग्रजी ६५, गणित ९०, विज्ञान ८२, इतिहास ७०. त्याची एकूण टक्केवारी किती? / The marks obtained by a student in 5 subjects (out of 100 each) as per the table are: Marathi 78, English 65, Maths 90, Science 82, History 70. What is his overall percentage?",
+    "options": [
+      "A. 74% / 74%",
+      "B. 75% / 75%",
+      "C. 77% / 77%",
+      "D. 80% / 80%"
+    ],
+    "answer": "C",
+    "explanation": "Total marks = 78+65+90+82+70 = 385 out of 500; percentage = 385/500 × 100 = 77%.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "arithmetic-data-interpretation-0012",
+    "subject": "arithmetic",
+    "subtopic": "data-interpretation",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "एका कंपनीची निर्यात (कोटी रुपयांत) रेषा आलेखानुसार पुढीलप्रमाणे: २०१९:८०, २०२०:१००, २०२१:९०, २०२२:१२०, २०२३:१५०. २०१९ ते २०२३ या काळात निर्यातीत किती टक्के वाढ झाली? / A company's exports (in crore Rs) as per the line graph are: 2019:80, 2020:100, 2021:90, 2022:120, 2023:150. What is the percentage increase in exports from 2019 to 2023?",
+    "options": [
+      "A. 75% / 75%",
+      "B. 80% / 80%",
+      "C. 87.5% / 87.5%",
+      "D. 90% / 90%"
+    ],
+    "answer": "C",
+    "explanation": "Increase = 150-80 = 70; percentage increase = (70/80) × 100 = 87.5%.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]
