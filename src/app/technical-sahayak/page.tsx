@@ -2,6 +2,7 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useChat } from "ai/react";
+import { SYLLABUS, getSubject } from "@/lib/syllabus";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -174,7 +175,8 @@ function useCountdown(targetDate: string) {
 // ── Quiz Component ─────────────────────────────────────────────────────────────
 
 function QuizSection() {
-  const [selectedTopic, setSelectedTopic] = useState("maharashtra_gk");
+  const [selectedTopic, setSelectedTopic] = useState("gk");
+  const [selectedSubtopic, setSelectedSubtopic] = useState<string>("");
   const [difficulty, setDifficulty] = useState("medium");
   const [language, setLanguage] = useState("bilingual");
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
@@ -189,14 +191,25 @@ function QuizSection() {
     setAnswers({});
     setSubmitted(false);
     try {
-      const res = await fetch("/api/mpsc-quiz", {
+      const res = await fetch("/api/bank-quiz", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ topic: selectedTopic, count: 5, difficulty, language }),
+        body: JSON.stringify({
+          subject: selectedTopic,
+          subtopic: selectedSubtopic || undefined,
+          difficulty,
+          language,
+          count: 5,
+        }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error);
-      setQuestions(data.questions);
+      if (!data.questions?.length) {
+        setError("या विषयासाठी अजून प्रश्न उपलब्ध नाहीत. दुसरा विषय निवडा. / No questions yet for this topic.");
+        setQuestions([]);
+      } else {
+        setQuestions(data.questions);
+      }
     } catch {
       setError("Quiz निर्मिती अयशस्वी. पुन्हा प्रयत्न करा.");
     } finally {
@@ -219,13 +232,30 @@ function QuizSection() {
             <label className="text-xs text-gray-500 font-devanagari">विषय निवडा</label>
             <select
               value={selectedTopic}
-              onChange={(e) => setSelectedTopic(e.target.value)}
+              onChange={(e) => {
+                setSelectedTopic(e.target.value);
+                setSelectedSubtopic("");
+              }}
               className="w-full bg-bg-hover border border-gray-700/50 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-primary-500"
             >
-              {TOPICS.map((t) => (
-                <option key={t.id} value={t.id}>
-                  {t.icon} {t.label} / {t.labelEn}
+              {SYLLABUS.map((s) => (
+                <option key={s.key} value={s.key}>
+                  {s.icon} {s.label} / {s.labelEn}
                 </option>
+              ))}
+            </select>
+          </div>
+
+          <div className="space-y-1">
+            <label className="text-xs text-gray-500 font-devanagari">उप-विषय / Sub-topic</label>
+            <select
+              value={selectedSubtopic}
+              onChange={(e) => setSelectedSubtopic(e.target.value)}
+              className="w-full bg-bg-hover border border-gray-700/50 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-primary-500"
+            >
+              <option value="">All / सर्व</option>
+              {getSubject(selectedTopic)?.subtopics.map((t) => (
+                <option key={t.key} value={t.key}>{t.label} / {t.labelEn}</option>
               ))}
             </select>
           </div>
