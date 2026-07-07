@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useChat } from "ai/react";
-import { SYLLABUS, getSubject } from "@/lib/syllabus";
+import { ALL_SUBJECTS, PRELIMS_SUBJECTS, MAINS_SUBJECTS, EXAM_PATTERN, getSubject } from "@/lib/syllabus";
 import { getNotes } from "@/lib/notes";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
@@ -18,90 +18,7 @@ type Tab = "overview" | "syllabus" | "chat" | "quiz" | "mock" | "notes" | "strat
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
-const TOPICS = [
-  { id: "maharashtra_gk", label: "महाराष्ट्र GK", labelEn: "Maharashtra GK", icon: "🗺️" },
-  { id: "marathi", label: "मराठी भाषा", labelEn: "Marathi Language", icon: "📖" },
-  { id: "english", label: "English", labelEn: "English", icon: "🔤" },
-  { id: "aptitude", label: "बौद्धिक क्षमता", labelEn: "Aptitude", icon: "🧠" },
-  { id: "maths", label: "गणित", labelEn: "Mathematics", icon: "🔢" },
-  { id: "science", label: "विज्ञान", labelEn: "Science", icon: "🔬" },
-  { id: "india_gk", label: "भारत GK", labelEn: "India GK", icon: "🇮🇳" },
-  { id: "constitution", label: "राज्यघटना", labelEn: "Constitution", icon: "⚖️" },
-  { id: "reasoning", label: "तर्कशक्ती", labelEn: "Reasoning", icon: "🔍" },
-  { id: "current_affairs", label: "चालू घडामोडी", labelEn: "Current Affairs", icon: "📰" },
-];
-
-const SYLLABUS_PRELIMS = [
-  {
-    subject: "मराठी भाषा",
-    subjectEn: "Marathi Language",
-    icon: "📖",
-    marks: "~20",
-    topics: [
-      "संधी (Sandhi) व समास (Samas)",
-      "म्हणी व वाक्यप्रचार",
-      "विरुद्धार्थी व समानार्थी शब्द",
-      "शब्दसंपदा व वाक्यरचना",
-      "उतारा आकलन (Reading Comprehension)",
-      "व्याकरण — काळ, वचन, लिंग",
-    ],
-  },
-  {
-    subject: "English",
-    subjectEn: "English Language",
-    icon: "🔤",
-    marks: "~15",
-    topics: [
-      "Grammar — Tenses, Articles, Prepositions",
-      "Vocabulary — Synonyms, Antonyms",
-      "Reading Comprehension",
-      "Sentence Correction & Rearrangement",
-      "Idioms & Phrases",
-    ],
-  },
-  {
-    subject: "सामान्य ज्ञान",
-    subjectEn: "General Knowledge",
-    icon: "🌐",
-    marks: "~30",
-    topics: [
-      "महाराष्ट्राचा इतिहास (History of Maharashtra)",
-      "महाराष्ट्राचा भूगोल (Geography of Maharashtra)",
-      "भारताचा इतिहास व भूगोल",
-      "भारतीय राज्यघटना (Indian Constitution)",
-      "विज्ञान व तंत्रज्ञान (Science & Technology)",
-      "पर्यावरण (Environment)",
-      "महाराष्ट्र व भारत अर्थव्यवस्था",
-    ],
-  },
-  {
-    subject: "बौद्धिक क्षमता",
-    subjectEn: "Mental Ability & Aptitude",
-    icon: "🧠",
-    marks: "~25",
-    topics: [
-      "संख्यामालिका (Number Series)",
-      "कोडिंग-डिकोडिंग (Coding-Decoding)",
-      "साधर्म्य (Analogies)",
-      "दिशा चाचणी (Direction Test)",
-      "रक्तसंबंध (Blood Relations)",
-      "न्यायनिगमन (Syllogisms)",
-      "गणितीय तर्क (Mathematical Reasoning)",
-    ],
-  },
-  {
-    subject: "चालू घडामोडी",
-    subjectEn: "Current Affairs",
-    icon: "📰",
-    marks: "~10",
-    topics: [
-      "महाराष्ट्र शासन घडामोडी",
-      "राष्ट्रीय घडामोडी",
-      "क्रीडा व पुरस्कार",
-      "विज्ञान व तंत्रज्ञान घडामोडी",
-    ],
-  },
-];
+const TOPICS = PRELIMS_SUBJECTS.map((s) => ({ id: s.key, label: s.label, labelEn: s.labelEn, icon: s.icon }));
 
 const EXAM_DATES = [
   { date: "27 जून 2026", event: "अर्ज सुरुवात", eventEn: "Application Opens", done: true, color: "green" },
@@ -240,7 +157,7 @@ function QuizSection() {
               }}
               className="w-full bg-bg-hover border border-gray-700/50 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-primary-500"
             >
-              {SYLLABUS.map((s) => (
+              {ALL_SUBJECTS.map((s) => (
                 <option key={s.key} value={s.key}>
                   {s.icon} {s.label} / {s.labelEn}
                 </option>
@@ -583,11 +500,11 @@ function ChatSection() {
 
   const quickPrompts = [
     { label: "महाराष्ट्र भूगोल explain करा", emoji: "🗺️" },
-    { label: "Exam pattern काय आहे?", emoji: "📋" },
-    { label: "संधी चे प्रकार सांगा", emoji: "📖" },
+    { label: "Exam pattern व negative marking काय आहे?", emoji: "📋" },
+    { label: "राज्यघटना चे मूलभूत हक्क सांगा", emoji: "⚖️" },
     { label: "5 reasoning tricks दे", emoji: "🧠" },
     { label: "Current affairs quiz घे", emoji: "📰" },
-    { label: "Technical Sahayak पदाबद्दल सांगा", emoji: "💼" },
+    { label: "उद्योग निरीक्षक व तांत्रिक सहायक पदांबद्दल सांगा", emoji: "💼" },
   ];
 
   return (
@@ -694,12 +611,12 @@ function ChatSection() {
 // ── Notes Component ───────────────────────────────────────────────────────────
 
 function NotesSection() {
-  const [subject, setSubject] = useState<string>(SYLLABUS[0].key);
+  const [subject, setSubject] = useState<string>(ALL_SUBJECTS[0].key);
   const docs = getNotes().filter((n) => n.subject === subject);
   return (
     <div className="space-y-4">
       <div className="flex gap-2 flex-wrap">
-        {SYLLABUS.map((s) => (
+        {ALL_SUBJECTS.map((s) => (
           <button key={s.key} onClick={() => setSubject(s.key)}
             className={`px-3 py-1 rounded-full text-xs ${subject === s.key ? "bg-primary-600 text-white" : "bg-bg-hover text-gray-400"}`}>
             {s.icon} {s.labelEn}
@@ -744,19 +661,19 @@ export default function TechnicalSahayakPage() {
             <div className="flex items-center gap-3 mb-2">
               <span className="text-3xl">⚙️</span>
               <div>
-                <h1 className="text-xl font-bold text-white font-devanagari">तांत्रिक सहायक</h1>
-                <p className="text-primary-400 text-sm">Technical Sahayak — MPSC Group-C 2026</p>
+                <h1 className="text-xl font-bold text-white font-devanagari">उद्योग निरीक्षक व तांत्रिक सहायक</h1>
+                <p className="text-primary-400 text-sm">Industry Inspector &amp; Technical Assistant — MPSC Group-C 2026</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-2 mt-3">
               <span className="bg-primary-600/20 border border-primary-500/30 text-primary-300 text-xs px-3 py-1 rounded-full font-devanagari">
-                वित्त विभाग | Finance Dept
+                उद्योग निरीक्षक | ₹34,400–1,12,400
               </span>
-              <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-3 py-1 rounded-full">
-                3 Vacancies
+              <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-3 py-1 rounded-full font-devanagari">
+                तांत्रिक सहायक (विमा संचालनालय) | ₹29,200–92,300
               </span>
               <span className="bg-green-600/20 border border-green-500/30 text-green-300 text-xs px-3 py-1 rounded-full">
-                S-10 | ₹29,200-92,300
+                2,619 Group-C Vacancies
               </span>
             </div>
           </div>
@@ -873,11 +790,13 @@ export default function TechnicalSahayakPage() {
                   titleEn: "Combined Prelims",
                   color: "primary",
                   details: [
-                    "CBT (Computer Based Test)",
-                    "एकूण गुण: 100",
+                    `${EXAM_PATTERN.prelims.mode} (Computer Based Test)`,
+                    `प्रश्न: ${EXAM_PATTERN.prelims.questions} · एकूण गुण: ${EXAM_PATTERN.prelims.marks}`,
+                    `कालावधी: ${EXAM_PATTERN.prelims.durationMin} मिनिटे`,
+                    `प्रत्येक चुकीच्या उत्तरास ${EXAM_PATTERN.prelims.negativeMarking} गुण वजा / ${EXAM_PATTERN.prelims.negativeMarking} negative marking`,
                     "तारीख: 27 सप्टेंबर 2026",
+                    "गुण केवळ पात्रतेसाठी (शॉर्टलिस्टिंग) — अंतिम गुणवत्तेत मोजले जात नाहीत / Marks for shortlisting only",
                     "सर्व Group-C पदांसाठी एकच परीक्षा",
-                    "Negative marking नाही",
                   ],
                 },
                 {
@@ -885,9 +804,9 @@ export default function TechnicalSahayakPage() {
                   titleEn: "Combined Mains",
                   color: "purple",
                   details: [
-                    "एकूण गुण: 400",
-                    "Papers: मराठी+English, GS, Aptitude, Technical",
-                    "प्रत्येक Paper: 100 गुण",
+                    `${EXAM_PATTERN.mains.papers} Papers × ${EXAM_PATTERN.mains.marksPerPaper} गुण (Paper 1: भाषा — common, Paper 2: पदनिहाय)`,
+                    `प्रत्येक Paper: ${EXAM_PATTERN.mains.durationMinPerPaper} मिनिटे · MCQ प्रत्येकी ${EXAM_PATTERN.mains.marksPerQuestion} गुण`,
+                    `प्रत्येक चुकीच्या उत्तरास ${EXAM_PATTERN.mains.negativeMarking} गुण वजा / ${EXAM_PATTERN.mains.negativeMarking} negative marking`,
                     "Prelims qualify केल्यानंतरच",
                     "तारीख: TBD (announced later)",
                   ],
@@ -951,15 +870,17 @@ export default function TechnicalSahayakPage() {
       {activeTab === "syllabus" && (
         <div className="space-y-4">
           <div className="bg-yellow-900/20 border border-yellow-700/40 rounded-xl p-4 text-sm text-yellow-300 font-devanagari">
-            ⚡ पूर्व परीक्षा: 100 गुण — सर्व Group-C पदांसाठी एकत्रित परीक्षा (CBT) | Prelims: 100 Marks — Combined CBT for all Group-C posts
+            ⚡ पूर्व परीक्षा: {EXAM_PATTERN.prelims.questions} प्रश्न · {EXAM_PATTERN.prelims.marks} गुण · {EXAM_PATTERN.prelims.durationMin} मिनिटे — सर्व Group-C पदांसाठी एकत्रित परीक्षा (CBT), प्रत्येक चुकीच्या उत्तरास {EXAM_PATTERN.prelims.negativeMarking} गुण वजा | Prelims: {EXAM_PATTERN.prelims.marks} Marks, {EXAM_PATTERN.prelims.durationMin} min — Combined CBT for all Group-C posts, {EXAM_PATTERN.prelims.negativeMarking} negative marking
           </div>
-          {SYLLABUS_PRELIMS.map((sub) => (
-            <div key={sub.subject} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
+
+          <h2 className="font-semibold text-gray-200 font-devanagari">पूर्व परीक्षा अभ्यासक्रम / Prelims Syllabus (8 विषय)</h2>
+          {PRELIMS_SUBJECTS.map((sub) => (
+            <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
               <div className="flex items-center gap-3 px-5 py-4 bg-bg-hover border-b border-gray-700/40">
                 <span className="text-2xl">{sub.icon}</span>
                 <div className="flex-1">
-                  <p className="font-semibold text-gray-200 font-devanagari">{sub.subject}</p>
-                  <p className="text-xs text-gray-500">{sub.subjectEn}</p>
+                  <p className="font-semibold text-gray-200 font-devanagari">{sub.label}</p>
+                  <p className="text-xs text-gray-500">{sub.labelEn}</p>
                 </div>
                 <span className="bg-primary-600/20 border border-primary-500/30 text-primary-300 text-xs px-3 py-1 rounded-full">
                   ~{sub.marks} marks
@@ -967,10 +888,10 @@ export default function TechnicalSahayakPage() {
               </div>
               <div className="px-5 py-4">
                 <ul className="grid sm:grid-cols-2 gap-2">
-                  {sub.topics.map((t) => (
-                    <li key={t} className="flex items-start gap-2 text-sm text-gray-400 font-devanagari">
+                  {sub.subtopics.map((t) => (
+                    <li key={t.key} className="flex items-start gap-2 text-sm text-gray-400 font-devanagari">
                       <span className="text-primary-400 mt-0.5 shrink-0">→</span>
-                      {t}
+                      {t.label} / {t.labelEn}
                     </li>
                   ))}
                 </ul>
@@ -978,26 +899,71 @@ export default function TechnicalSahayakPage() {
             </div>
           ))}
 
-          {/* Mains note */}
-          <div className="bg-purple-900/20 border border-purple-700/40 rounded-xl p-5 space-y-3">
-            <h3 className="font-semibold text-purple-300 font-devanagari">मुख्य परीक्षा (Mains) — 400 गुण</h3>
-            <div className="grid sm:grid-cols-2 gap-3">
-              {[
-                { paper: "Paper 1", topic: "मराठी व English भाषा", marks: "100" },
-                { paper: "Paper 2", topic: "सामान्य अध्ययन (General Studies)", marks: "100" },
-                { paper: "Paper 3", topic: "बौद्धिक क्षमता व अभियोग्यता", marks: "100" },
-                { paper: "Paper 4", topic: "तांत्रिक/विषय ज्ञान (Technical)", marks: "100" },
-              ].map((p) => (
-                <div key={p.paper} className="flex items-center justify-between bg-bg/60 rounded-lg px-4 py-3">
-                  <div>
-                    <p className="text-xs text-purple-400 font-semibold">{p.paper}</p>
-                    <p className="text-sm text-gray-300 font-devanagari">{p.topic}</p>
+          {/* Mains */}
+          <h2 className="font-semibold text-gray-200 font-devanagari pt-2">मुख्य परीक्षा अभ्यासक्रम / Mains Syllabus</h2>
+          <div className="bg-purple-900/20 border border-purple-700/40 rounded-xl p-4 text-sm text-purple-300 font-devanagari">
+            प्रत्येक Paper: {EXAM_PATTERN.mains.marksPerPaper} गुण · {EXAM_PATTERN.mains.durationMinPerPaper} मिनिटे · MCQ प्रत्येकी {EXAM_PATTERN.mains.marksPerQuestion} गुण · {EXAM_PATTERN.mains.negativeMarking} negative marking
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-purple-300 font-devanagari mb-2">Paper 1 — भाषा (सर्व पदांसाठी समान) / Language (common)</h3>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {MAINS_SUBJECTS.filter((s) => s.paper === 1).map((sub) => (
+                <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
+                  <div className="flex items-center gap-3 px-4 py-3 bg-bg-hover border-b border-gray-700/40">
+                    <span className="text-xl">{sub.icon}</span>
+                    <div className="flex-1">
+                      <p className="font-semibold text-sm text-gray-200 font-devanagari">{sub.label}</p>
+                      <p className="text-xs text-gray-500">{sub.labelEn}</p>
+                    </div>
+                    <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-2 py-1 rounded-full">
+                      {sub.marks} marks
+                    </span>
                   </div>
-                  <span className="text-purple-300 font-bold">{p.marks}</span>
+                  <ul className="px-4 py-3 space-y-1.5">
+                    {sub.subtopics.map((t) => (
+                      <li key={t.key} className="flex items-start gap-2 text-xs text-gray-400 font-devanagari">
+                        <span className="text-purple-400 mt-0.5 shrink-0">→</span>
+                        {t.label} / {t.labelEn}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               ))}
             </div>
           </div>
+
+          {(["industry-inspector", "technical-assistant"] as const).map((post) => (
+            <div key={post}>
+              <h3 className="font-semibold text-purple-300 font-devanagari mb-2 mt-3">
+                Paper 2 — {post === "industry-inspector" ? "उद्योग निरीक्षक / Industry Inspector" : "तांत्रिक सहायक / Technical Assistant"}
+              </h3>
+              <div className="grid sm:grid-cols-2 gap-4">
+                {MAINS_SUBJECTS.filter((s) => s.paper === 2 && s.post === post).map((sub) => (
+                  <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
+                    <div className="flex items-center gap-3 px-4 py-3 bg-bg-hover border-b border-gray-700/40">
+                      <span className="text-xl">{sub.icon}</span>
+                      <div className="flex-1">
+                        <p className="font-semibold text-sm text-gray-200 font-devanagari">{sub.label}</p>
+                        <p className="text-xs text-gray-500">{sub.labelEn}</p>
+                      </div>
+                      <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-2 py-1 rounded-full">
+                        {sub.marks} marks
+                      </span>
+                    </div>
+                    <ul className="px-4 py-3 space-y-1.5">
+                      {sub.subtopics.map((t) => (
+                        <li key={t.key} className="flex items-start gap-2 text-xs text-gray-400 font-devanagari">
+                          <span className="text-purple-400 mt-0.5 shrink-0">→</span>
+                          {t.label} / {t.labelEn}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       )}
 
