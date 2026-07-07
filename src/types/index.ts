@@ -45,3 +45,26 @@ export interface ProgressStore {
 
 export type OrbState = "idle" | "listening" | "thinking" | "speaking";
 export type SpeechLanguage = "mr-IN" | "en-IN" | "hi-IN";
+
+export interface BankQuestion {
+  id: string;
+  subject: string;
+  subtopic: string;
+  difficulty: "easy" | "medium" | "hard";
+  language: "marathi" | "english" | "bilingual";
+  question: string;
+  options: [string, string, string, string];
+  answer: "A" | "B" | "C" | "D";
+  explanation: string;
+  tags: string[];
+  verifiedAt: string;
+  isCurrentAffairs?: boolean;
+  asOfDate?: string;
+}
+
+export interface BankManifest {
+  generatedAt: string;
+  total: number;
+  bySubject: Record<string, number>;
+  bySubtopic: Record<string, number>;
+}

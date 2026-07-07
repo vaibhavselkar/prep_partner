@@ -1,0 +1,41 @@
+[
+  {
+    "id": "gk-mh-geography-0001",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील सर्वात लांब नदी कोणती? / Which is the longest river in Maharashtra?",
+    "options": ["A. गोदावरी / Godavari", "B. कृष्णा / Krishna", "C. भीमा / Bhima", "D. तापी / Tapi"],
+    "answer": "A",
+    "explanation": "गोदावरी ही महाराष्ट्रातील सर्वात लांब नदी असून तिचा उगम त्र्यंबकेश्वर (नाशिक) येथे होतो. / The Godavari is the longest river in Maharashtra, originating at Trimbakeshwar, Nashik.",
+    "tags": ["rivers", "maharashtra"],
+    "verifiedAt": "2026-07-07"
+  },
+  {
+    "id": "gk-mh-geography-0002",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्राची राजधानी व उपराजधानी अनुक्रमे कोणती? / What are the capital and sub-capital of Maharashtra respectively?",
+    "options": ["A. पुणे व नागपूर", "B. मुंबई व नागपूर", "C. मुंबई व पुणे", "D. नागपूर व मुंबई"],
+    "answer": "B",
+    "explanation": "मुंबई ही राजधानी तर नागपूर ही उपराजधानी (हिवाळी अधिवेशन) आहे. / Mumbai is the capital and Nagpur is the sub-capital (winter session).",
+    "tags": ["administration", "maharashtra"],
+    "verifiedAt": "2026-07-07"
+  },
+  {
+    "id": "gk-mh-geography-0003",
+    "subject": "gk",
+    "subtopic": "mh-geography",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील कोणत्या जिल्ह्याला सर्वाधिक समुद्रकिनारा लाभला आहे? / Which district of Maharashtra has the longest coastline?",
+    "options": ["A. रायगड / Raigad", "B. रत्नागिरी / Ratnagiri", "C. सिंधुदुर्ग / Sindhudurg", "D. ठाणे / Thane"],
+    "answer": "B",
+    "explanation": "रत्नागिरी जिल्ह्याला महाराष्ट्रातील सर्वाधिक लांबीचा समुद्रकिनारा लाभला आहे. / Ratnagiri district has the longest coastline in Maharashtra.",
+    "tags": ["coast", "maharashtra"],
+    "verifiedAt": "2026-07-07"
+  }
+]
