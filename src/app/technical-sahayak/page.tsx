@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useChat } from "ai/react";
 import { SYLLABUS, getSubject } from "@/lib/syllabus";
+import { getNotes } from "@/lib/notes";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -13,7 +14,7 @@ interface QuizQuestion {
   explanation: string;
 }
 
-type Tab = "overview" | "syllabus" | "chat" | "quiz" | "mock" | "strategy";
+type Tab = "overview" | "syllabus" | "chat" | "quiz" | "mock" | "notes" | "strategy";
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
@@ -628,6 +629,32 @@ function ChatSection() {
   );
 }
 
+// ── Notes Component ───────────────────────────────────────────────────────────
+
+function NotesSection() {
+  const [subject, setSubject] = useState<string>(SYLLABUS[0].key);
+  const docs = getNotes().filter((n) => n.subject === subject);
+  return (
+    <div className="space-y-4">
+      <div className="flex gap-2 flex-wrap">
+        {SYLLABUS.map((s) => (
+          <button key={s.key} onClick={() => setSubject(s.key)}
+            className={`px-3 py-1 rounded-full text-xs ${subject === s.key ? "bg-primary-600 text-white" : "bg-bg-hover text-gray-400"}`}>
+            {s.icon} {s.labelEn}
+          </button>
+        ))}
+      </div>
+      {docs.length === 0 ? (
+        <p className="text-center text-gray-500 py-10 font-devanagari">या विषयासाठी नोट्स लवकरच येत आहेत.</p>
+      ) : docs.map((d) => (
+        <div key={d.subtopic} className="bg-bg-card border border-gray-700/50 rounded-xl p-5">
+          <pre className="whitespace-pre-wrap text-sm text-gray-300 font-devanagari">{d.body}</pre>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 // ── Main Page ──────────────────────────────────────────────────────────────────
 
 export default function TechnicalSahayakPage() {
@@ -641,6 +668,7 @@ export default function TechnicalSahayakPage() {
     { id: "chat", label: "AI Tutor", labelEn: "AI Tutor", icon: "🤖" },
     { id: "quiz", label: "MCQ सराव", labelEn: "Quiz", icon: "❓" },
     { id: "mock", label: "सराव परीक्षा", labelEn: "Mock Test", icon: "📝" },
+    { id: "notes", label: "अभ्यास नोट्स", labelEn: "Study Notes", icon: "📚" },
     { id: "strategy", label: "रणनीती", labelEn: "Strategy", icon: "🎯" },
   ];
 
@@ -930,6 +958,9 @@ export default function TechnicalSahayakPage() {
 
       {/* ── Tab: Mock Test ───────────────────────────────────────────────── */}
       {activeTab === "mock" && <MockSection />}
+
+      {/* ── Tab: Notes ───────────────────────────────────────────────────── */}
+      {activeTab === "notes" && <NotesSection />}
 
       {/* ── Tab: Strategy ────────────────────────────────────────────────── */}
       {activeTab === "strategy" && (
