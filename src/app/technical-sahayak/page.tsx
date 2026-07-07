@@ -13,7 +13,7 @@ interface QuizQuestion {
   explanation: string;
 }
 
-type Tab = "overview" | "syllabus" | "chat" | "quiz" | "strategy";
+type Tab = "overview" | "syllabus" | "chat" | "quiz" | "mock" | "strategy";
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
@@ -376,6 +376,115 @@ function QuizSection() {
   );
 }
 
+// ── Mock Test Component ──────────────────────────────────────────────────────
+
+function MockSection() {
+  const [questions, setQuestions] = useState<QuizQuestion[]>([]);
+  const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [started, setStarted] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [remaining, setRemaining] = useState(60 * 60); // 60 min
+  const startedAt = useRef<number>(0);
+
+  useEffect(() => {
+    if (!started || submitted) return;
+    const id = setInterval(() => setRemaining((r) => (r <= 1 ? (clearInterval(id), setSubmitted(true), 0) : r - 1)), 1000);
+    return () => clearInterval(id);
+  }, [started, submitted]);
+
+  const start = async () => {
+    setLoading(true);
+    try {
+      const res = await fetch("/api/mock?size=100");
+      const data = await res.json();
+      setQuestions(data.questions);
+      setAnswers({}); setSubmitted(false); setRemaining(60 * 60);
+      setStarted(true); startedAt.current = Date.now();
+    } finally { setLoading(false); }
+  };
+
+  const submit = useCallback(() => {
+    setSubmitted(true);
+    const bySubject: Record<string, { correct: number; total: number }> = {};
+    let score = 0;
+    questions.forEach((q, i) => {
+      const subj = (q as unknown as { subject: string }).subject;
+      const b = (bySubject[subj] ??= { correct: 0, total: 0 });
+      b.total += 1;
+      if (answers[i] === q.answer) { score += 1; b.correct += 1; }
+    });
+    fetch("/api/mpsc-progress", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        type: "mock",
+        mock: { score, total: questions.length, durationSec: Math.round((Date.now() - startedAt.current) / 1000), bySubject },
+      }),
+    }).catch(() => {});
+  }, [questions, answers]);
+
+  if (!started) {
+    return (
+      <div className="bg-bg-card border border-gray-700/50 rounded-2xl p-6 text-center space-y-4">
+        <p className="text-4xl">📝</p>
+        <h3 className="font-semibold text-gray-200 font-devanagari">पूर्ण लांबीची सराव परीक्षा</h3>
+        <p className="text-sm text-gray-400 font-devanagari">100 प्रश्न · 60 मिनिटे · विषयनिहाय गुणभार / 100 Q · 60 min · real weightage</p>
+        <button onClick={start} disabled={loading}
+          className="bg-primary-600 hover:bg-primary-500 disabled:opacity-50 text-white px-6 py-3 rounded-xl font-medium font-devanagari">
+          {loading ? "तयार होत आहे..." : "सुरू करा / Start Mock"}
+        </button>
+      </div>
+    );
+  }
+
+  const mm = String(Math.floor(remaining / 60)).padStart(2, "0");
+  const ss = String(remaining % 60).padStart(2, "0");
+  const score = submitted ? questions.filter((q, i) => answers[i] === q.answer).length : 0;
+
+  return (
+    <div className="space-y-4">
+      <div className="sticky top-16 z-10 flex items-center justify-between bg-bg-card border border-gray-700/50 rounded-xl px-4 py-3">
+        <span className="text-sm text-gray-400">{Object.keys(answers).length}/{questions.length} answered</span>
+        {!submitted && <span className={`font-mono font-bold ${remaining < 300 ? "text-red-400" : "text-primary-300"}`}>⏱ {mm}:{ss}</span>}
+        {!submitted && <button onClick={submit} className="bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-devanagari">जमा करा</button>}
+      </div>
+
+      {submitted && (
+        <div className="bg-bg-card border border-primary-700/40 rounded-xl p-5 text-center">
+          <p className="text-3xl font-bold text-primary-300">{score}/{questions.length}</p>
+          <p className="text-sm text-gray-400 mt-1">{Math.round((score / questions.length) * 100)}%</p>
+        </div>
+      )}
+
+      {questions.map((q, idx) => {
+        const chosen = answers[idx];
+        return (
+          <div key={idx} className="bg-bg-card border border-gray-700/50 rounded-xl p-4 space-y-2">
+            <p className="text-gray-200 text-sm font-medium"><span className="text-primary-400 mr-2">Q{idx + 1}.</span>{q.question}</p>
+            <div className="grid sm:grid-cols-2 gap-2">
+              {q.options.map((opt) => {
+                const letter = opt[0];
+                let cls = "text-left px-3 py-2 rounded-lg border text-sm ";
+                if (!submitted) cls += chosen === letter ? "border-primary-500 bg-primary-600/20 text-primary-300" : "border-gray-700/50 bg-bg-hover text-gray-300";
+                else if (letter === q.answer) cls += "border-green-500 bg-green-900/20 text-green-300";
+                else if (letter === chosen) cls += "border-red-500 bg-red-900/20 text-red-300";
+                else cls += "border-gray-700/30 bg-bg text-gray-500";
+                return <button key={letter} disabled={submitted} onClick={() => setAnswers((a) => ({ ...a, [idx]: letter }))} className={cls}>{opt}</button>;
+              })}
+            </div>
+            {submitted && <p className="text-xs text-gray-400">{q.explanation}</p>}
+          </div>
+        );
+      })}
+
+      {submitted && (
+        <button onClick={() => { setStarted(false); setQuestions([]); }} className="w-full bg-bg-card border border-gray-700/50 text-gray-300 py-3 rounded-xl font-devanagari">नवीन सराव परीक्षा / New Mock</button>
+      )}
+    </div>
+  );
+}
+
 // ── Chat Component ─────────────────────────────────────────────────────────────
 
 function ChatSection() {
@@ -531,6 +640,7 @@ export default function TechnicalSahayakPage() {
     { id: "syllabus", label: "अभ्यासक्रम", labelEn: "Syllabus", icon: "📚" },
     { id: "chat", label: "AI Tutor", labelEn: "AI Tutor", icon: "🤖" },
     { id: "quiz", label: "MCQ सराव", labelEn: "Quiz", icon: "❓" },
+    { id: "mock", label: "सराव परीक्षा", labelEn: "Mock Test", icon: "📝" },
     { id: "strategy", label: "रणनीती", labelEn: "Strategy", icon: "🎯" },
   ];
 
@@ -817,6 +927,9 @@ export default function TechnicalSahayakPage() {
 
       {/* ── Tab: Quiz ────────────────────────────────────────────────────── */}
       {activeTab === "quiz" && <QuizSection />}
+
+      {/* ── Tab: Mock Test ───────────────────────────────────────────────── */}
+      {activeTab === "mock" && <MockSection />}
 
       {/* ── Tab: Strategy ────────────────────────────────────────────────── */}
       {activeTab === "strategy" && (
