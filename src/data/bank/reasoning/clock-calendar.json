@@ -1,0 +1,218 @@
+[
+  {
+    "id": "reasoning-clock-calendar-0001",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "घड्याळात ३:१५ वाजता तास काटा व मिनिट काटा यांच्यामधील कोन किती अंश असेल? / At 3:15, what is the angle between the hour hand and the minute hand of a clock?",
+    "options": [
+      "A. ५° / 5°",
+      "B. ७.५° / 7.5°",
+      "C. १०° / 10°",
+      "D. १२.५° / 12.5°"
+    ],
+    "answer": "B",
+    "explanation": "तास काटा = 90+7.5=97.5°, मिनिट काटा = 90°, फरक = 7.5° / Hour hand position = 97.5°, minute hand = 90°, difference = 7.5°.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0002",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "बरोबर ४:०० वाजता घड्याळाच्या दोन्ही काट्यांमधील कोन किती असेल? / At exactly 4:00, what is the angle between the hour and minute hands of a clock?",
+    "options": [
+      "A. ९०° / 90°",
+      "B. १००° / 100°",
+      "C. १२०° / 120°",
+      "D. १५०° / 150°"
+    ],
+    "answer": "C",
+    "explanation": "तास काटा 4 वर म्हणजे 120° आणि मिनिट काटा 12 वर म्हणजे 0°, फरक 120° / Hour hand at 4 = 120°, minute hand at 12 = 0°, difference = 120°.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0003",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "४ ते ५ या वेळेदरम्यान घड्याळाचे दोन्ही काटे एकमेकांवर केव्हा येतील? / Between 4 and 5 o'clock, at what time will the two hands of a clock coincide?",
+    "options": [
+      "A. ४ वाजून २० मिनिटे / 4:20",
+      "B. ४ वाजून २१ ९/११ मिनिटे / 4:21 9/11",
+      "C. ४ वाजून २२ मिनिटे / 4:22",
+      "D. ४ वाजून २४ मिनिटे / 4:24"
+    ],
+    "answer": "B",
+    "explanation": "काटे एकत्र येण्याचा सूत्र M = 60H/11 वापरून, H=4 साठी M = 240/11 = 21 9/11 मिनिटे / Using coincidence formula M = 60H/11, for H=4, M = 240/11 = 21 9/11 minutes.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0004",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "२४ तासांत घड्याळाचे तास काटा व मिनिट काटा किती वेळा एकमेकांवर येतात? / In 24 hours, how many times do the hour hand and minute hand of a clock coincide?",
+    "options": [
+      "A. २० वेळा / 20 times",
+      "B. २२ वेळा / 22 times",
+      "C. २४ वेळा / 24 times",
+      "D. ११ वेळा / 11 times"
+    ],
+    "answer": "B",
+    "explanation": "प्रत्येक १२ तासांत काटे ११ वेळा एकत्र येतात, म्हणून २४ तासांत २२ वेळा / The hands coincide 11 times in every 12 hours, hence 22 times in 24 hours.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0005",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "१२ तासांत घड्याळाचे काटे किती वेळा एकमेकांशी काटकोन (९०°) करतात? / In 12 hours, how many times do the hands of a clock form a right angle (90°) with each other?",
+    "options": [
+      "A. ११ वेळा / 11 times",
+      "B. २२ वेळा / 22 times",
+      "C. २४ वेळा / 24 times",
+      "D. ४४ वेळा / 44 times"
+    ],
+    "answer": "B",
+    "explanation": "प्रत्येक तासात साधारण २ वेळा काटकोन होतो, पण आच्छादनामुळे १२ तासांत एकूण २२ वेळा होतो / Right angles occur roughly twice per hour, but due to overlap the total in 12 hours is 22 times.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0006",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "२४ तासांत घड्याळाचे काटे किती वेळा एकमेकांच्या बरोबर विरुद्ध (१८०°) स्थितीत येतात? / In 24 hours, how many times do the hands of a clock become exactly opposite (180°) to each other?",
+    "options": [
+      "A. ११ वेळा / 11 times",
+      "B. २० वेळा / 20 times",
+      "C. २२ वेळा / 22 times",
+      "D. २४ वेळा / 24 times"
+    ],
+    "answer": "C",
+    "explanation": "१२ तासांत ११ वेळा विरुद्ध स्थिती येते, म्हणून २४ तासांत २२ वेळा / The hands are opposite 11 times in 12 hours, hence 22 times in 24 hours.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0007",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "१ जानेवारी २०२४ हा सोमवार होता. २०२४ हे लीप वर्ष असल्यास १ जानेवारी २०२५ हा कोणता वार असेल? / 1st January 2024 was a Monday. Given that 2024 is a leap year, what day will 1st January 2025 be?",
+    "options": [
+      "A. मंगळवार / Tuesday",
+      "B. बुधवार / Wednesday",
+      "C. गुरुवार / Thursday",
+      "D. रविवार / Sunday"
+    ],
+    "answer": "B",
+    "explanation": "लीप वर्षात ३६६ दिवस असतात, ३६६ ला ७ ने भागल्यास बाकी २ उरते, म्हणून सोमवार + २ = बुधवार / A leap year has 366 days; 366 mod 7 = 2, so Monday + 2 days = Wednesday.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0008",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "आज मंगळवार आहे. आजपासून ६१ दिवसांनंतर कोणता वार असेल? / Today is Tuesday. What day will it be 61 days from today?",
+    "options": [
+      "A. शुक्रवार / Friday",
+      "B. शनिवार / Saturday",
+      "C. रविवार / Sunday",
+      "D. सोमवार / Monday"
+    ],
+    "answer": "C",
+    "explanation": "६१ ला ७ ने भागल्यास बाकी ५ उरते, म्हणून मंगळवार + ५ दिवस = रविवार / 61 mod 7 = 5, so Tuesday + 5 days = Sunday.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0009",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "भारताला स्वातंत्र्य मिळाले तो दिवस, १५ ऑगस्ट १९४७ हा कोणता वार होता? / India gained independence on 15th August 1947. What day of the week was it?",
+    "options": [
+      "A. गुरुवार / Thursday",
+      "B. शुक्रवार / Friday",
+      "C. शनिवार / Saturday",
+      "D. रविवार / Sunday"
+    ],
+    "answer": "B",
+    "explanation": "पंचांग गणनेनुसार १५ ऑगस्ट १९४७ हा शुक्रवार होता, हे ऐतिहासिकदृष्ट्या ज्ञात सत्य आहे / As per calendar computation and historically established fact, 15 August 1947 was a Friday.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0010",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणते वर्ष लीप वर्ष नाही? / Which of the following is NOT a leap year?",
+    "options": [
+      "A. २००० / 2000",
+      "B. २००४ / 2004",
+      "C. २१०० / 2100",
+      "D. २४०० / 2400"
+    ],
+    "answer": "C",
+    "explanation": "शतकी वर्ष लीप वर्ष होण्यासाठी ते ४०० ने नि:शेष विभाज्य असावे लागते; २१०० हे १०० ने भाग जाते पण ४०० ने नाही, त्यामुळे ते लीप वर्ष नाही / A century year is a leap year only if divisible by 400; 2100 is divisible by 100 but not by 400, so it is not a leap year.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0011",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "७:२० वाजता घड्याळाच्या तास काटा व मिनिट काटा यांच्यामधील कोन किती अंश असेल? / At 7:20, what is the angle between the hour hand and minute hand of a clock?",
+    "options": [
+      "A. ८०° / 80°",
+      "B. ९०° / 90°",
+      "C. १००° / 100°",
+      "D. ११०° / 110°"
+    ],
+    "answer": "C",
+    "explanation": "तास काटा = 210+10=220°, मिनिट काटा = 120°, फरक = 100° / Hour hand position = 220°, minute hand position = 120°, difference = 100°.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-clock-calendar-0012",
+    "subject": "reasoning",
+    "subtopic": "clock-calendar",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "एक घड्याळ दर २४ तासांत १६ मिनिटे मागे पडते. दुपारी बरोबर १२ वाजता घड्याळ बरोबर वेळ दाखवत असल्यास, त्याच रात्री बरोबर १२ वाजता (मध्यरात्री) ते घड्याळ कोणती वेळ दाखवेल? / A clock loses 16 minutes every 24 hours. If it shows the correct time at 12 noon, what time will it show at midnight (12 hours later) the same day?",
+    "options": [
+      "A. ११:४४ रात्री / 11:44 PM",
+      "B. ११:४८ रात्री / 11:48 PM",
+      "C. ११:५२ रात्री / 11:52 PM",
+      "D. ११:५६ रात्री / 11:56 PM"
+    ],
+    "answer": "C",
+    "explanation": "२४ तासांत १६ मिनिटे मागे पडत असल्यास १२ तासांत ८ मिनिटे मागे पडेल, म्हणजे मध्यरात्री १२:०० ऐवजी ११:५२ दाखवेल / Losing 16 minutes in 24 hours means losing 8 minutes in 12 hours, so it will show 11:52 PM instead of 12:00 midnight.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

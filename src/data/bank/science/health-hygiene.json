@@ -1,0 +1,218 @@
+[
+  {
+    "id": "science-health-hygiene-0001",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "जीवनसत्व 'क' (Vitamin C) च्या कमतरतेमुळे कोणता रोग होतो? / Deficiency of Vitamin C causes which disease?",
+    "options": [
+      "A. मुडदूस / Rickets",
+      "B. स्कर्व्ही / Scurvy",
+      "C. रातांधळेपणा / Night blindness",
+      "D. बेरीबेरी / Beriberi"
+    ],
+    "answer": "B",
+    "explanation": "व्हिटॅमिन C (एस्कॉर्बिक आम्ल) च्या अभावामुळे स्कर्व्ही हा रोग होतो, ज्यात हिरड्यांमधून रक्तस्राव होतो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0002",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "जीवनसत्व 'अ' (Vitamin A) च्या कमतरतेमुळे कोणता विकार होतो? / Deficiency of Vitamin A leads to which condition?",
+    "options": [
+      "A. रातांधळेपणा / Night blindness",
+      "B. अशक्तपणा (अ‍ॅनिमिया) / Anaemia",
+      "C. गॉयटर / Goitre",
+      "D. मुडदूस / Rickets"
+    ],
+    "answer": "A",
+    "explanation": "व्हिटॅमिन A च्या अभावामुळे डोळ्यांच्या रेटिनावर परिणाम होऊन रातांधळेपणा होतो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0003",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "'ड' जीवनसत्वाच्या कमतरतेमुळे लहान मुलांमध्ये कोणता आजार होतो? / Deficiency of Vitamin D in children causes which disease?",
+    "options": [
+      "A. स्कर्व्ही / Scurvy",
+      "B. मुडदूस / Rickets",
+      "C. पेलाग्रा / Pellagra",
+      "D. बेरीबेरी / Beriberi"
+    ],
+    "answer": "B",
+    "explanation": "व्हिटॅमिन D च्या अभावामुळे कॅल्शियम शोषणावर परिणाम होऊन हाडे मऊ राहतात, याला मुडदूस (Rickets) म्हणतात.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0004",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "आयोडीनच्या कमतरतेमुळे कोणता रोग होतो? / Iodine deficiency leads to which disease?",
+    "options": [
+      "A. गलगंड (गॉयटर) / Goitre",
+      "B. मलेरिया / Malaria",
+      "C. क्षयरोग / Tuberculosis",
+      "D. कुष्ठरोग / Leprosy"
+    ],
+    "answer": "A",
+    "explanation": "आयोडीनच्या कमतरतेमुळे थायरॉईड ग्रंथी मोठी होते व गलगंड (गॉयटर) हा रोग होतो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0005",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणता रोग डास (मच्छर) चावल्यामुळे होत नाही? / Which of the following diseases is NOT transmitted by mosquito bite?",
+    "options": [
+      "A. मलेरिया / Malaria",
+      "B. डेंग्यू / Dengue",
+      "C. हिवताप (चिकुनगुनिया) / Chikungunya",
+      "D. कॉलरा / Cholera"
+    ],
+    "answer": "D",
+    "explanation": "कॉलरा हा दूषित पाणी व अन्नामुळे होणारा जलजन्य रोग असून तो डासांमुळे पसरत नाही.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0006",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राष्ट्रीय लसीकरण कार्यक्रमांतर्गत (Universal Immunization Programme) BCG लस कोणत्या रोगापासून संरक्षण देते? / Under the Universal Immunization Programme, the BCG vaccine protects against which disease?",
+    "options": [
+      "A. गोवर / Measles",
+      "B. क्षयरोग / Tuberculosis",
+      "C. पोलिओ / Polio",
+      "D. धनुर्वात / Tetanus"
+    ],
+    "answer": "B",
+    "explanation": "BCG (Bacillus Calmette-Guerin) लस बालकांना क्षयरोगापासून (टीबी) संरक्षण देण्यासाठी दिली जाते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0007",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "मधुमेह (Diabetes Mellitus) हा कोणत्या प्रकारचा रोग आहे? / Diabetes Mellitus is classified as which type of disease?",
+    "options": [
+      "A. संसर्गजन्य रोग / Communicable disease",
+      "B. असंसर्गजन्य रोग / Non-communicable disease",
+      "C. आनुवंशिक जिवाणूजन्य रोग / Hereditary bacterial disease",
+      "D. विषाणूजन्य रोग / Viral disease"
+    ],
+    "answer": "B",
+    "explanation": "मधुमेह हा इन्सुलिनच्या कमतरतेमुळे किंवा अकार्यक्षमतेमुळे होणारा असंसर्गजन्य (Non-communicable) आजार आहे, तो एका व्यक्तीकडून दुसऱ्या व्यक्तीस पसरत नाही.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0008",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "क्षयरोग (Tuberculosis) हा कोणत्या सूक्ष्मजीवामुळे होतो? / Tuberculosis is caused by which microorganism?",
+    "options": [
+      "A. मायकोबॅक्टेरियम ट्युबरक्युलॉसिस / Mycobacterium tuberculosis",
+      "B. प्लाजमोडियम / Plasmodium",
+      "C. व्हिब्रिओ कॉलरी / Vibrio cholerae",
+      "D. साल्मोनेला टायफी / Salmonella typhi"
+    ],
+    "answer": "A",
+    "explanation": "क्षयरोग हा मायकोबॅक्टेरियम ट्युबरक्युलॉसिस या जिवाणूमुळे होणारा संसर्गजन्य रोग असून तो प्रामुख्याने फुफ्फुसांवर परिणाम करतो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0009",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "संतुलित आहारात (Balanced Diet) कोणत्या घटकाचे प्रमाण शरीरास उष्णता व ऊर्जा पुरवण्यासाठी सर्वाधिक आवश्यक असते? / In a balanced diet, which component is primarily required to supply the body with heat and energy?",
+    "options": [
+      "A. प्रथिने / Proteins",
+      "B. कर्बोदके (कार्बोहायड्रेट्स) / Carbohydrates",
+      "C. जीवनसत्वे / Vitamins",
+      "D. खनिजे / Minerals"
+    ],
+    "answer": "B",
+    "explanation": "कर्बोदके (कार्बोहायड्रेट्स) ही शरीराला मुख्य ऊर्जा व उष्णता पुरवणारा घटक आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0010",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "'प्रधानमंत्री सुरक्षित मातृत्व अभियान' (PMSMA) या योजनेचा मुख्य उद्देश काय आहे? / What is the main objective of the 'Pradhan Mantri Surakshit Matritva Abhiyan' (PMSMA)?",
+    "options": [
+      "A. वृद्धांना मोफत औषधे देणे / Providing free medicines to elderly",
+      "B. गरोदर स्त्रियांना मोफत व दर्जेदार प्रसूतीपूर्व आरोग्य तपासणी देणे / Providing free, quality antenatal checkups to pregnant women",
+      "C. शालेय विद्यार्थ्यांना मध्यान्ह भोजन देणे / Providing mid-day meals to school students",
+      "D. ग्रामीण रस्ते बांधकाम करणे / Constructing rural roads"
+    ],
+    "answer": "B",
+    "explanation": "PMSMA अंतर्गत दर महिन्याच्या ठराविक दिवशी गरोदर मातांना मोफत प्रसूतीपूर्व आरोग्य तपासणी व सेवा पुरवली जाते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0011",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "प्रथिनांच्या (Proteins) तीव्र कमतरतेमुळे लहान मुलांमध्ये होणाऱ्या कुपोषण आजारास काय म्हणतात? / Severe protein deficiency in children causing malnutrition is known as?",
+    "options": [
+      "A. क्वाशिओरकॉर / Kwashiorkor",
+      "B. स्कर्व्ही / Scurvy",
+      "C. गलगंड / Goitre",
+      "D. रातांधळेपणा / Night blindness"
+    ],
+    "answer": "A",
+    "explanation": "प्रथिनांच्या तीव्र कमतरतेमुळे लहान मुलांमध्ये पोट फुगणे, सूज यासारखी लक्षणे असलेला क्वाशिओरकॉर हा कुपोषण आजार होतो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-health-hygiene-0012",
+    "subject": "science",
+    "subtopic": "health-hygiene",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील कुपोषणाचे प्रमाण कमी करण्यासाठी तसेच बालकांच्या व मातांच्या पोषण स्थितीत सुधारणा करण्यासाठी सुरू करण्यात आलेली केंद्र पुरस्कृत योजना कोणती? / Which centrally sponsored scheme was launched to reduce malnutrition and improve nutritional status of children and mothers, including in Maharashtra?",
+    "options": [
+      "A. एकात्मिक बाल विकास सेवा योजना (ICDS) / Integrated Child Development Services (ICDS)",
+      "B. स्वच्छ भारत अभियान / Swachh Bharat Abhiyan",
+      "C. प्रधानमंत्री आवास योजना / Pradhan Mantri Awas Yojana",
+      "D. उज्ज्वला योजना / Ujjwala Yojana"
+    ],
+    "answer": "A",
+    "explanation": "एकात्मिक बाल विकास सेवा योजना (ICDS) ही अंगणवाडीमार्फत बालक व मातांचे पोषण, आरोग्य व शिक्षण यासाठी राबवली जाणारी योजना आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

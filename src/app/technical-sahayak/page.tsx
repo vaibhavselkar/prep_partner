@@ -2,6 +2,8 @@
 
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useChat } from "ai/react";
+import { ALL_SUBJECTS, PRELIMS_SUBJECTS, MAINS_SUBJECTS, EXAM_PATTERN, getSubject } from "@/lib/syllabus";
+import { getNotes } from "@/lib/notes";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -12,94 +14,11 @@ interface QuizQuestion {
   explanation: string;
 }
 
-type Tab = "overview" | "syllabus" | "chat" | "quiz" | "strategy";
+type Tab = "overview" | "syllabus" | "chat" | "quiz" | "mock" | "notes" | "strategy";
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
-const TOPICS = [
-  { id: "maharashtra_gk", label: "महाराष्ट्र GK", labelEn: "Maharashtra GK", icon: "🗺️" },
-  { id: "marathi", label: "मराठी भाषा", labelEn: "Marathi Language", icon: "📖" },
-  { id: "english", label: "English", labelEn: "English", icon: "🔤" },
-  { id: "aptitude", label: "बौद्धिक क्षमता", labelEn: "Aptitude", icon: "🧠" },
-  { id: "maths", label: "गणित", labelEn: "Mathematics", icon: "🔢" },
-  { id: "science", label: "विज्ञान", labelEn: "Science", icon: "🔬" },
-  { id: "india_gk", label: "भारत GK", labelEn: "India GK", icon: "🇮🇳" },
-  { id: "constitution", label: "राज्यघटना", labelEn: "Constitution", icon: "⚖️" },
-  { id: "reasoning", label: "तर्कशक्ती", labelEn: "Reasoning", icon: "🔍" },
-  { id: "current_affairs", label: "चालू घडामोडी", labelEn: "Current Affairs", icon: "📰" },
-];
-
-const SYLLABUS_PRELIMS = [
-  {
-    subject: "मराठी भाषा",
-    subjectEn: "Marathi Language",
-    icon: "📖",
-    marks: "~20",
-    topics: [
-      "संधी (Sandhi) व समास (Samas)",
-      "म्हणी व वाक्यप्रचार",
-      "विरुद्धार्थी व समानार्थी शब्द",
-      "शब्दसंपदा व वाक्यरचना",
-      "उतारा आकलन (Reading Comprehension)",
-      "व्याकरण — काळ, वचन, लिंग",
-    ],
-  },
-  {
-    subject: "English",
-    subjectEn: "English Language",
-    icon: "🔤",
-    marks: "~15",
-    topics: [
-      "Grammar — Tenses, Articles, Prepositions",
-      "Vocabulary — Synonyms, Antonyms",
-      "Reading Comprehension",
-      "Sentence Correction & Rearrangement",
-      "Idioms & Phrases",
-    ],
-  },
-  {
-    subject: "सामान्य ज्ञान",
-    subjectEn: "General Knowledge",
-    icon: "🌐",
-    marks: "~30",
-    topics: [
-      "महाराष्ट्राचा इतिहास (History of Maharashtra)",
-      "महाराष्ट्राचा भूगोल (Geography of Maharashtra)",
-      "भारताचा इतिहास व भूगोल",
-      "भारतीय राज्यघटना (Indian Constitution)",
-      "विज्ञान व तंत्रज्ञान (Science & Technology)",
-      "पर्यावरण (Environment)",
-      "महाराष्ट्र व भारत अर्थव्यवस्था",
-    ],
-  },
-  {
-    subject: "बौद्धिक क्षमता",
-    subjectEn: "Mental Ability & Aptitude",
-    icon: "🧠",
-    marks: "~25",
-    topics: [
-      "संख्यामालिका (Number Series)",
-      "कोडिंग-डिकोडिंग (Coding-Decoding)",
-      "साधर्म्य (Analogies)",
-      "दिशा चाचणी (Direction Test)",
-      "रक्तसंबंध (Blood Relations)",
-      "न्यायनिगमन (Syllogisms)",
-      "गणितीय तर्क (Mathematical Reasoning)",
-    ],
-  },
-  {
-    subject: "चालू घडामोडी",
-    subjectEn: "Current Affairs",
-    icon: "📰",
-    marks: "~10",
-    topics: [
-      "महाराष्ट्र शासन घडामोडी",
-      "राष्ट्रीय घडामोडी",
-      "क्रीडा व पुरस्कार",
-      "विज्ञान व तंत्रज्ञान घडामोडी",
-    ],
-  },
-];
+const TOPICS = PRELIMS_SUBJECTS.map((s) => ({ id: s.key, label: s.label, labelEn: s.labelEn, icon: s.icon }));
 
 const EXAM_DATES = [
   { date: "27 जून 2026", event: "अर्ज सुरुवात", eventEn: "Application Opens", done: true, color: "green" },
@@ -174,7 +93,8 @@ function useCountdown(targetDate: string) {
 // ── Quiz Component ─────────────────────────────────────────────────────────────
 
 function QuizSection() {
-  const [selectedTopic, setSelectedTopic] = useState("maharashtra_gk");
+  const [selectedTopic, setSelectedTopic] = useState("gk");
+  const [selectedSubtopic, setSelectedSubtopic] = useState<string>("");
   const [difficulty, setDifficulty] = useState("medium");
   const [language, setLanguage] = useState("bilingual");
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
@@ -189,14 +109,25 @@ function QuizSection() {
     setAnswers({});
     setSubmitted(false);
     try {
-      const res = await fetch("/api/mpsc-quiz", {
+      const res = await fetch("/api/bank-quiz", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ topic: selectedTopic, count: 5, difficulty, language }),
+        body: JSON.stringify({
+          subject: selectedTopic,
+          subtopic: selectedSubtopic || undefined,
+          difficulty,
+          language,
+          count: 5,
+        }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error);
-      setQuestions(data.questions);
+      if (!data.questions?.length) {
+        setError("या विषयासाठी अजून प्रश्न उपलब्ध नाहीत. दुसरा विषय निवडा. / No questions yet for this topic.");
+        setQuestions([]);
+      } else {
+        setQuestions(data.questions);
+      }
     } catch {
       setError("Quiz निर्मिती अयशस्वी. पुन्हा प्रयत्न करा.");
     } finally {
@@ -207,6 +138,7 @@ function QuizSection() {
   const score = submitted
     ? questions.filter((q, i) => answers[i] === q.answer).length
     : 0;
+  const pct = questions.length > 0 ? score / questions.length : 0;
 
   return (
     <div className="space-y-6">
@@ -219,13 +151,30 @@ function QuizSection() {
             <label className="text-xs text-gray-500 font-devanagari">विषय निवडा</label>
             <select
               value={selectedTopic}
-              onChange={(e) => setSelectedTopic(e.target.value)}
+              onChange={(e) => {
+                setSelectedTopic(e.target.value);
+                setSelectedSubtopic("");
+              }}
               className="w-full bg-bg-hover border border-gray-700/50 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-primary-500"
             >
-              {TOPICS.map((t) => (
-                <option key={t.id} value={t.id}>
-                  {t.icon} {t.label} / {t.labelEn}
+              {ALL_SUBJECTS.map((s) => (
+                <option key={s.key} value={s.key}>
+                  {s.icon} {s.label} / {s.labelEn}
                 </option>
+              ))}
+            </select>
+          </div>
+
+          <div className="space-y-1">
+            <label className="text-xs text-gray-500 font-devanagari">उप-विषय / Sub-topic</label>
+            <select
+              value={selectedSubtopic}
+              onChange={(e) => setSelectedSubtopic(e.target.value)}
+              className="w-full bg-bg-hover border border-gray-700/50 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-primary-500"
+            >
+              <option value="">All / सर्व</option>
+              {getSubject(selectedTopic)?.subtopics.map((t) => (
+                <option key={t.key} value={t.key}>{t.label} / {t.labelEn}</option>
               ))}
             </select>
           </div>
@@ -271,10 +220,10 @@ function QuizSection() {
       {questions.length > 0 && (
         <div className="space-y-4">
           {submitted && (
-            <div className={`rounded-xl p-4 text-center border ${score >= 4 ? "bg-green-900/20 border-green-700/40 text-green-400" : score >= 3 ? "bg-yellow-900/20 border-yellow-700/40 text-yellow-400" : "bg-red-900/20 border-red-700/40 text-red-400"}`}>
-              <p className="text-2xl font-bold">{score}/5</p>
+            <div className={`rounded-xl p-4 text-center border ${pct >= 0.8 ? "bg-green-900/20 border-green-700/40 text-green-400" : pct >= 0.6 ? "bg-yellow-900/20 border-yellow-700/40 text-yellow-400" : "bg-red-900/20 border-red-700/40 text-red-400"}`}>
+              <p className="text-2xl font-bold">{score}/{questions.length}</p>
               <p className="text-sm mt-1">
-                {score === 5 ? "उत्कृष्ट! 🎉 Perfect Score!" : score >= 4 ? "छान! 👍 Keep it up!" : score >= 3 ? "ठीक आहे — थोडा सराव करा" : "अजून सराव हवा — AI Tutor कडून मदत घ्या"}
+                {pct === 1 ? "उत्कृष्ट! 🎉 Perfect Score!" : pct >= 0.8 ? "छान! 👍 Keep it up!" : pct >= 0.6 ? "ठीक आहे — थोडा सराव करा" : "अजून सराव हवा — AI Tutor कडून मदत घ्या"}
               </p>
             </div>
           )}
@@ -320,13 +269,38 @@ function QuizSection() {
                     <span className="text-gray-400 ml-2">{q.explanation}</span>
                   </div>
                 )}
+                {submitted && (
+                  <button
+                    onClick={async () => {
+                      const reason = prompt("काय चूक आहे? (उत्तर/अस्पष्ट/जुनी माहिती) / What's wrong?") || "";
+                      if (!reason) return;
+                      await fetch("/api/report", {
+                        method: "POST", headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ questionId: (q as unknown as { id: string }).id, reason }),
+                      });
+                      alert("धन्यवाद! तक्रार नोंदवली. / Reported. Thanks!");
+                    }}
+                    className="text-xs text-gray-500 hover:text-red-400 mt-1"
+                  >🚩 चूक कळवा / Report</button>
+                )}
               </div>
             );
           })}
 
           {!submitted && Object.keys(answers).length > 0 && (
             <button
-              onClick={() => setSubmitted(true)}
+              onClick={() => {
+                setSubmitted(true);
+                const items = questions.map((q, i) => ({
+                  subject: (q as unknown as { subject?: string }).subject ?? selectedTopic,
+                  subtopic: (q as unknown as { subtopic?: string }).subtopic ?? (selectedSubtopic || "_mixed"),
+                  correct: answers[i] === q.answer,
+                }));
+                fetch("/api/mpsc-progress", {
+                  method: "POST", headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ type: "quiz", items }),
+                }).catch(() => {});
+              }}
               className="w-full bg-green-700 hover:bg-green-600 text-white py-3 rounded-xl font-medium transition-colors font-devanagari"
             >
               उत्तरे तपासा / Check Answers
@@ -341,6 +315,151 @@ function QuizSection() {
             </button>
           )}
         </div>
+      )}
+    </div>
+  );
+}
+
+// ── Weak Areas Component ───────────────────────────────────────────────────────
+
+function WeakAreas() {
+  const [weak, setWeak] = useState<{ subject: string; subtopic: string; attempts: number; correct: number }[]>([]);
+  useEffect(() => {
+    fetch("/api/mpsc-progress").then((r) => r.json()).then((d) => setWeak(d.weakest ?? [])).catch(() => {});
+  }, []);
+  if (weak.length === 0) return null;
+  return (
+    <div className="bg-bg-card border border-red-700/40 rounded-xl p-5 space-y-3">
+      <h3 className="font-semibold text-red-300 font-devanagari">⚠️ कमकुवत विषय / Weak Areas</h3>
+      {weak.map((w) => {
+        const pct = Math.round((w.correct / w.attempts) * 100);
+        const subj = getSubject(w.subject);
+        return (
+          <div key={`${w.subject}/${w.subtopic}`} className="flex items-center justify-between text-sm">
+            <span className="text-gray-300 font-devanagari">
+              {subj?.icon} {subj?.labelEn}{w.subtopic.startsWith("_") ? "" : ` · ${w.subtopic}`}
+            </span>
+            <span className={pct < 40 ? "text-red-400" : "text-yellow-400"}>{pct}% ({w.attempts})</span>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+// ── Mock Test Component ──────────────────────────────────────────────────────
+
+function MockSection() {
+  const [questions, setQuestions] = useState<QuizQuestion[]>([]);
+  const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [started, setStarted] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [remaining, setRemaining] = useState(60 * 60); // 60 min
+  const startedAt = useRef<number>(0);
+  const persisted = useRef(false);
+
+  useEffect(() => {
+    if (!started || submitted) return;
+    const id = setInterval(() => setRemaining((r) => (r <= 1 ? (clearInterval(id), setSubmitted(true), 0) : r - 1)), 1000);
+    return () => clearInterval(id);
+  }, [started, submitted]);
+
+  const start = async () => {
+    setLoading(true);
+    try {
+      const res = await fetch("/api/mock?size=100");
+      const data = await res.json();
+      setQuestions(data.questions);
+      setAnswers({}); setSubmitted(false); setRemaining(60 * 60);
+      persisted.current = false;
+      setStarted(true); startedAt.current = Date.now();
+    } finally { setLoading(false); }
+  };
+
+  const submit = useCallback(() => {
+    setSubmitted(true);
+  }, []);
+
+  // Persist the attempt exactly once whenever `submitted` flips to true, regardless of
+  // whether that happened via the manual "जमा करा" button or the countdown timing out.
+  useEffect(() => {
+    if (!submitted || persisted.current) return;
+    persisted.current = true;
+    const bySubject: Record<string, { correct: number; total: number }> = {};
+    let score = 0;
+    questions.forEach((q, i) => {
+      const subj = (q as unknown as { subject: string }).subject;
+      const b = (bySubject[subj] ??= { correct: 0, total: 0 });
+      b.total += 1;
+      if (answers[i] === q.answer) { score += 1; b.correct += 1; }
+    });
+    fetch("/api/mpsc-progress", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        type: "mock",
+        mock: { score, total: questions.length, durationSec: Math.round((Date.now() - startedAt.current) / 1000), bySubject },
+      }),
+    }).catch(() => {});
+  }, [submitted, questions, answers]);
+
+  if (!started) {
+    return (
+      <div className="bg-bg-card border border-gray-700/50 rounded-2xl p-6 text-center space-y-4">
+        <p className="text-4xl">📝</p>
+        <h3 className="font-semibold text-gray-200 font-devanagari">पूर्ण लांबीची सराव परीक्षा</h3>
+        <p className="text-sm text-gray-400 font-devanagari">100 प्रश्न · 60 मिनिटे · विषयनिहाय गुणभार / 100 Q · 60 min · real weightage</p>
+        <button onClick={start} disabled={loading}
+          className="bg-primary-600 hover:bg-primary-500 disabled:opacity-50 text-white px-6 py-3 rounded-xl font-medium font-devanagari">
+          {loading ? "तयार होत आहे..." : "सुरू करा / Start Mock"}
+        </button>
+      </div>
+    );
+  }
+
+  const mm = String(Math.floor(remaining / 60)).padStart(2, "0");
+  const ss = String(remaining % 60).padStart(2, "0");
+  const score = submitted ? questions.filter((q, i) => answers[i] === q.answer).length : 0;
+
+  return (
+    <div className="space-y-4">
+      <div className="sticky top-16 z-10 flex items-center justify-between bg-bg-card border border-gray-700/50 rounded-xl px-4 py-3">
+        <span className="text-sm text-gray-400">{Object.keys(answers).length}/{questions.length} answered</span>
+        {!submitted && <span className={`font-mono font-bold ${remaining < 300 ? "text-red-400" : "text-primary-300"}`}>⏱ {mm}:{ss}</span>}
+        {!submitted && <button onClick={submit} className="bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-devanagari">जमा करा</button>}
+      </div>
+
+      {submitted && (
+        <div className="bg-bg-card border border-primary-700/40 rounded-xl p-5 text-center">
+          <p className="text-3xl font-bold text-primary-300">{score}/{questions.length}</p>
+          <p className="text-sm text-gray-400 mt-1">{Math.round((score / questions.length) * 100)}%</p>
+        </div>
+      )}
+
+      {questions.map((q, idx) => {
+        const chosen = answers[idx];
+        return (
+          <div key={idx} className="bg-bg-card border border-gray-700/50 rounded-xl p-4 space-y-2">
+            <p className="text-gray-200 text-sm font-medium"><span className="text-primary-400 mr-2">Q{idx + 1}.</span>{q.question}</p>
+            <div className="grid sm:grid-cols-2 gap-2">
+              {q.options.map((opt) => {
+                const letter = opt[0];
+                let cls = "text-left px-3 py-2 rounded-lg border text-sm ";
+                if (!submitted) cls += chosen === letter ? "border-primary-500 bg-primary-600/20 text-primary-300" : "border-gray-700/50 bg-bg-hover text-gray-300";
+                else if (letter === q.answer) cls += "border-green-500 bg-green-900/20 text-green-300";
+                else if (letter === chosen) cls += "border-red-500 bg-red-900/20 text-red-300";
+                else cls += "border-gray-700/30 bg-bg text-gray-500";
+                return <button key={letter} disabled={submitted} onClick={() => setAnswers((a) => ({ ...a, [idx]: letter }))} className={cls}>{opt}</button>;
+              })}
+            </div>
+            {submitted && <p className="text-xs text-gray-400">{q.explanation}</p>}
+          </div>
+        );
+      })}
+
+      {submitted && (
+        <button onClick={() => { setStarted(false); setQuestions([]); }} className="w-full bg-bg-card border border-gray-700/50 text-gray-300 py-3 rounded-xl font-devanagari">नवीन सराव परीक्षा / New Mock</button>
       )}
     </div>
   );
@@ -381,11 +500,11 @@ function ChatSection() {
 
   const quickPrompts = [
     { label: "महाराष्ट्र भूगोल explain करा", emoji: "🗺️" },
-    { label: "Exam pattern काय आहे?", emoji: "📋" },
-    { label: "संधी चे प्रकार सांगा", emoji: "📖" },
+    { label: "Exam pattern व negative marking काय आहे?", emoji: "📋" },
+    { label: "राज्यघटना चे मूलभूत हक्क सांगा", emoji: "⚖️" },
     { label: "5 reasoning tricks दे", emoji: "🧠" },
     { label: "Current affairs quiz घे", emoji: "📰" },
-    { label: "Technical Sahayak पदाबद्दल सांगा", emoji: "💼" },
+    { label: "उद्योग निरीक्षक व तांत्रिक सहायक पदांबद्दल सांगा", emoji: "💼" },
   ];
 
   return (
@@ -489,6 +608,32 @@ function ChatSection() {
   );
 }
 
+// ── Notes Component ───────────────────────────────────────────────────────────
+
+function NotesSection() {
+  const [subject, setSubject] = useState<string>(ALL_SUBJECTS[0].key);
+  const docs = getNotes().filter((n) => n.subject === subject);
+  return (
+    <div className="space-y-4">
+      <div className="flex gap-2 flex-wrap">
+        {ALL_SUBJECTS.map((s) => (
+          <button key={s.key} onClick={() => setSubject(s.key)}
+            className={`px-3 py-1 rounded-full text-xs ${subject === s.key ? "bg-primary-600 text-white" : "bg-bg-hover text-gray-400"}`}>
+            {s.icon} {s.labelEn}
+          </button>
+        ))}
+      </div>
+      {docs.length === 0 ? (
+        <p className="text-center text-gray-500 py-10 font-devanagari">या विषयासाठी नोट्स लवकरच येत आहेत.</p>
+      ) : docs.map((d) => (
+        <div key={d.subtopic} className="bg-bg-card border border-gray-700/50 rounded-xl p-5">
+          <pre className="whitespace-pre-wrap text-sm text-gray-300 font-devanagari">{d.body}</pre>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 // ── Main Page ──────────────────────────────────────────────────────────────────
 
 export default function TechnicalSahayakPage() {
@@ -501,6 +646,8 @@ export default function TechnicalSahayakPage() {
     { id: "syllabus", label: "अभ्यासक्रम", labelEn: "Syllabus", icon: "📚" },
     { id: "chat", label: "AI Tutor", labelEn: "AI Tutor", icon: "🤖" },
     { id: "quiz", label: "MCQ सराव", labelEn: "Quiz", icon: "❓" },
+    { id: "mock", label: "सराव परीक्षा", labelEn: "Mock Test", icon: "📝" },
+    { id: "notes", label: "अभ्यास नोट्स", labelEn: "Study Notes", icon: "📚" },
     { id: "strategy", label: "रणनीती", labelEn: "Strategy", icon: "🎯" },
   ];
 
@@ -514,19 +661,19 @@ export default function TechnicalSahayakPage() {
             <div className="flex items-center gap-3 mb-2">
               <span className="text-3xl">⚙️</span>
               <div>
-                <h1 className="text-xl font-bold text-white font-devanagari">तांत्रिक सहायक</h1>
-                <p className="text-primary-400 text-sm">Technical Sahayak — MPSC Group-C 2026</p>
+                <h1 className="text-xl font-bold text-white font-devanagari">उद्योग निरीक्षक व तांत्रिक सहायक</h1>
+                <p className="text-primary-400 text-sm">Industry Inspector &amp; Technical Assistant — MPSC Group-C 2026</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-2 mt-3">
               <span className="bg-primary-600/20 border border-primary-500/30 text-primary-300 text-xs px-3 py-1 rounded-full font-devanagari">
-                वित्त विभाग | Finance Dept
+                उद्योग निरीक्षक | ₹34,400–1,12,400
               </span>
-              <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-3 py-1 rounded-full">
-                3 Vacancies
+              <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-3 py-1 rounded-full font-devanagari">
+                तांत्रिक सहायक (विमा संचालनालय) | ₹29,200–92,300
               </span>
               <span className="bg-green-600/20 border border-green-500/30 text-green-300 text-xs px-3 py-1 rounded-full">
-                S-10 | ₹29,200-92,300
+                2,619 Group-C Vacancies
               </span>
             </div>
           </div>
@@ -643,11 +790,13 @@ export default function TechnicalSahayakPage() {
                   titleEn: "Combined Prelims",
                   color: "primary",
                   details: [
-                    "CBT (Computer Based Test)",
-                    "एकूण गुण: 100",
+                    `${EXAM_PATTERN.prelims.mode} (Computer Based Test)`,
+                    `प्रश्न: ${EXAM_PATTERN.prelims.questions} · एकूण गुण: ${EXAM_PATTERN.prelims.marks}`,
+                    `कालावधी: ${EXAM_PATTERN.prelims.durationMin} मिनिटे`,
+                    `प्रत्येक चुकीच्या उत्तरास ${EXAM_PATTERN.prelims.negativeMarking} गुण वजा / ${EXAM_PATTERN.prelims.negativeMarking} negative marking`,
                     "तारीख: 27 सप्टेंबर 2026",
+                    "गुण केवळ पात्रतेसाठी (शॉर्टलिस्टिंग) — अंतिम गुणवत्तेत मोजले जात नाहीत / Marks for shortlisting only",
                     "सर्व Group-C पदांसाठी एकच परीक्षा",
-                    "Negative marking नाही",
                   ],
                 },
                 {
@@ -655,9 +804,9 @@ export default function TechnicalSahayakPage() {
                   titleEn: "Combined Mains",
                   color: "purple",
                   details: [
-                    "एकूण गुण: 400",
-                    "Papers: मराठी+English, GS, Aptitude, Technical",
-                    "प्रत्येक Paper: 100 गुण",
+                    `${EXAM_PATTERN.mains.papers} Papers × ${EXAM_PATTERN.mains.marksPerPaper} गुण (Paper 1: भाषा — common, Paper 2: पदनिहाय)`,
+                    `प्रत्येक Paper: ${EXAM_PATTERN.mains.durationMinPerPaper} मिनिटे · MCQ प्रत्येकी ${EXAM_PATTERN.mains.marksPerQuestion} गुण`,
+                    `प्रत्येक चुकीच्या उत्तरास ${EXAM_PATTERN.mains.negativeMarking} गुण वजा / ${EXAM_PATTERN.mains.negativeMarking} negative marking`,
                     "Prelims qualify केल्यानंतरच",
                     "तारीख: TBD (announced later)",
                   ],
@@ -721,15 +870,17 @@ export default function TechnicalSahayakPage() {
       {activeTab === "syllabus" && (
         <div className="space-y-4">
           <div className="bg-yellow-900/20 border border-yellow-700/40 rounded-xl p-4 text-sm text-yellow-300 font-devanagari">
-            ⚡ पूर्व परीक्षा: 100 गुण — सर्व Group-C पदांसाठी एकत्रित परीक्षा (CBT) | Prelims: 100 Marks — Combined CBT for all Group-C posts
+            ⚡ पूर्व परीक्षा: {EXAM_PATTERN.prelims.questions} प्रश्न · {EXAM_PATTERN.prelims.marks} गुण · {EXAM_PATTERN.prelims.durationMin} मिनिटे — सर्व Group-C पदांसाठी एकत्रित परीक्षा (CBT), प्रत्येक चुकीच्या उत्तरास {EXAM_PATTERN.prelims.negativeMarking} गुण वजा | Prelims: {EXAM_PATTERN.prelims.marks} Marks, {EXAM_PATTERN.prelims.durationMin} min — Combined CBT for all Group-C posts, {EXAM_PATTERN.prelims.negativeMarking} negative marking
           </div>
-          {SYLLABUS_PRELIMS.map((sub) => (
-            <div key={sub.subject} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
+
+          <h2 className="font-semibold text-gray-200 font-devanagari">पूर्व परीक्षा अभ्यासक्रम / Prelims Syllabus (8 विषय)</h2>
+          {PRELIMS_SUBJECTS.map((sub) => (
+            <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
               <div className="flex items-center gap-3 px-5 py-4 bg-bg-hover border-b border-gray-700/40">
                 <span className="text-2xl">{sub.icon}</span>
                 <div className="flex-1">
-                  <p className="font-semibold text-gray-200 font-devanagari">{sub.subject}</p>
-                  <p className="text-xs text-gray-500">{sub.subjectEn}</p>
+                  <p className="font-semibold text-gray-200 font-devanagari">{sub.label}</p>
+                  <p className="text-xs text-gray-500">{sub.labelEn}</p>
                 </div>
                 <span className="bg-primary-600/20 border border-primary-500/30 text-primary-300 text-xs px-3 py-1 rounded-full">
                   ~{sub.marks} marks
@@ -737,10 +888,10 @@ export default function TechnicalSahayakPage() {
               </div>
               <div className="px-5 py-4">
                 <ul className="grid sm:grid-cols-2 gap-2">
-                  {sub.topics.map((t) => (
-                    <li key={t} className="flex items-start gap-2 text-sm text-gray-400 font-devanagari">
+                  {sub.subtopics.map((t) => (
+                    <li key={t.key} className="flex items-start gap-2 text-sm text-gray-400 font-devanagari">
                       <span className="text-primary-400 mt-0.5 shrink-0">→</span>
-                      {t}
+                      {t.label} / {t.labelEn}
                     </li>
                   ))}
                 </ul>
@@ -748,26 +899,71 @@ export default function TechnicalSahayakPage() {
             </div>
           ))}
 
-          {/* Mains note */}
-          <div className="bg-purple-900/20 border border-purple-700/40 rounded-xl p-5 space-y-3">
-            <h3 className="font-semibold text-purple-300 font-devanagari">मुख्य परीक्षा (Mains) — 400 गुण</h3>
-            <div className="grid sm:grid-cols-2 gap-3">
-              {[
-                { paper: "Paper 1", topic: "मराठी व English भाषा", marks: "100" },
-                { paper: "Paper 2", topic: "सामान्य अध्ययन (General Studies)", marks: "100" },
-                { paper: "Paper 3", topic: "बौद्धिक क्षमता व अभियोग्यता", marks: "100" },
-                { paper: "Paper 4", topic: "तांत्रिक/विषय ज्ञान (Technical)", marks: "100" },
-              ].map((p) => (
-                <div key={p.paper} className="flex items-center justify-between bg-bg/60 rounded-lg px-4 py-3">
-                  <div>
-                    <p className="text-xs text-purple-400 font-semibold">{p.paper}</p>
-                    <p className="text-sm text-gray-300 font-devanagari">{p.topic}</p>
+          {/* Mains */}
+          <h2 className="font-semibold text-gray-200 font-devanagari pt-2">मुख्य परीक्षा अभ्यासक्रम / Mains Syllabus</h2>
+          <div className="bg-purple-900/20 border border-purple-700/40 rounded-xl p-4 text-sm text-purple-300 font-devanagari">
+            प्रत्येक Paper: {EXAM_PATTERN.mains.marksPerPaper} गुण · {EXAM_PATTERN.mains.durationMinPerPaper} मिनिटे · MCQ प्रत्येकी {EXAM_PATTERN.mains.marksPerQuestion} गुण · {EXAM_PATTERN.mains.negativeMarking} negative marking
+          </div>
+
+          <div>
+            <h3 className="font-semibold text-purple-300 font-devanagari mb-2">Paper 1 — भाषा (सर्व पदांसाठी समान) / Language (common)</h3>
+            <div className="grid sm:grid-cols-2 gap-4">
+              {MAINS_SUBJECTS.filter((s) => s.paper === 1).map((sub) => (
+                <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
+                  <div className="flex items-center gap-3 px-4 py-3 bg-bg-hover border-b border-gray-700/40">
+                    <span className="text-xl">{sub.icon}</span>
+                    <div className="flex-1">
+                      <p className="font-semibold text-sm text-gray-200 font-devanagari">{sub.label}</p>
+                      <p className="text-xs text-gray-500">{sub.labelEn}</p>
+                    </div>
+                    <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-2 py-1 rounded-full">
+                      {sub.marks} marks
+                    </span>
                   </div>
-                  <span className="text-purple-300 font-bold">{p.marks}</span>
+                  <ul className="px-4 py-3 space-y-1.5">
+                    {sub.subtopics.map((t) => (
+                      <li key={t.key} className="flex items-start gap-2 text-xs text-gray-400 font-devanagari">
+                        <span className="text-purple-400 mt-0.5 shrink-0">→</span>
+                        {t.label} / {t.labelEn}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               ))}
             </div>
           </div>
+
+          {(["industry-inspector", "technical-assistant"] as const).map((post) => (
+            <div key={post}>
+              <h3 className="font-semibold text-purple-300 font-devanagari mb-2 mt-3">
+                Paper 2 — {post === "industry-inspector" ? "उद्योग निरीक्षक / Industry Inspector" : "तांत्रिक सहायक / Technical Assistant"}
+              </h3>
+              <div className="grid sm:grid-cols-2 gap-4">
+                {MAINS_SUBJECTS.filter((s) => s.paper === 2 && s.post === post).map((sub) => (
+                  <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
+                    <div className="flex items-center gap-3 px-4 py-3 bg-bg-hover border-b border-gray-700/40">
+                      <span className="text-xl">{sub.icon}</span>
+                      <div className="flex-1">
+                        <p className="font-semibold text-sm text-gray-200 font-devanagari">{sub.label}</p>
+                        <p className="text-xs text-gray-500">{sub.labelEn}</p>
+                      </div>
+                      <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-2 py-1 rounded-full">
+                        {sub.marks} marks
+                      </span>
+                    </div>
+                    <ul className="px-4 py-3 space-y-1.5">
+                      {sub.subtopics.map((t) => (
+                        <li key={t.key} className="flex items-start gap-2 text-xs text-gray-400 font-devanagari">
+                          <span className="text-purple-400 mt-0.5 shrink-0">→</span>
+                          {t.label} / {t.labelEn}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       )}
 
@@ -788,9 +984,17 @@ export default function TechnicalSahayakPage() {
       {/* ── Tab: Quiz ────────────────────────────────────────────────────── */}
       {activeTab === "quiz" && <QuizSection />}
 
+      {/* ── Tab: Mock Test ───────────────────────────────────────────────── */}
+      {activeTab === "mock" && <MockSection />}
+
+      {/* ── Tab: Notes ───────────────────────────────────────────────────── */}
+      {activeTab === "notes" && <NotesSection />}
+
       {/* ── Tab: Strategy ────────────────────────────────────────────────── */}
       {activeTab === "strategy" && (
         <div className="space-y-4">
+          <WeakAreas />
+
           {/* Key stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[

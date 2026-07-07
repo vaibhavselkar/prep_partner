@@ -1,0 +1,434 @@
+[
+  {
+    "id": "reasoning-series-coding-0001",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका ठराविक सांकेतिक भाषेत, जर CAT ला DBU असे लिहितात (प्रत्येक अक्षर एका पुढील अक्षराने बदलले आहे), तर त्याच सांकेतिक भाषेत DOG कसे लिहितील? / In a certain code language, if CAT is written as DBU (each letter shifted one place forward), how is DOG written in that code?",
+    "options": [
+      "A. EPH",
+      "B. EQH",
+      "C. FPH",
+      "D. EPI"
+    ],
+    "answer": "A",
+    "explanation": "Shifting each letter one place forward: D→E, O→P, G→H gives EPH.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0002",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "एका सांकेतिक भाषेत BOOK ला 2-15-15-11 असे लिहितात (अक्षरांचे वर्णमालेतील स्थान वापरून), तर PEN कसे लिहतील? / In a code, BOOK is written as 2-15-15-11 (using the alphabetical position of each letter). How is PEN written?",
+    "options": [
+      "A. 16-5-14",
+      "B. 15-5-14",
+      "C. 16-4-14",
+      "D. 16-5-13"
+    ],
+    "answer": "A",
+    "explanation": "P=16, E=5, N=14, so PEN is coded as 16-5-14.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0003",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जर MADRAS ला NBESBT असे लिहितात (प्रत्येक अक्षर एक स्थान पुढे सरकवले आहे), तर BOMBAY कसे लिहतील? / If MADRAS is coded as NBESBT (each letter shifted one place forward), how is BOMBAY coded?",
+    "options": [
+      "A. CPNCBZ",
+      "B. CPNCBY",
+      "C. CQNCBZ",
+      "D. CPMCBZ"
+    ],
+    "answer": "A",
+    "explanation": "Shifting each letter of BOMBAY forward by one gives C-P-N-C-B-Z, i.e., CPNCBZ.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0004",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "एका सांकेतिक भाषेत A=Z, B=Y, C=X अशा उलट क्रमाने अक्षरे बदलली जातात. या नियमानुसार CAT कसे लिहतील? / In a code, letters are replaced in reverse order: A=Z, B=Y, C=X, and so on. Following this rule, how is CAT coded?",
+    "options": [
+      "A. XZG",
+      "B. XZH",
+      "C. YZG",
+      "D. XYG"
+    ],
+    "answer": "A",
+    "explanation": "Using the rule position n → (27−n): C(3)→X(24), A(1)→Z(26), T(20)→G(7), giving XZG.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0005",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "एका सांकेतिक भाषेत, प्रत्येक अक्षर वर्णमालेत विरुद्ध क्रमांकाच्या अक्षराने (A↔Z, B↔Y...) बदलले जाते, त्यामुळे GARDEN ला TZIWVM असे लिहितात. याच नियमानुसार FLOWER कसे लिहतील? / In a code, each letter is replaced by its mirror letter in the alphabet (A↔Z, B↔Y, ...), so GARDEN becomes TZIWVM. Using the same rule, how is FLOWER coded?",
+    "options": [
+      "A. UOLDVI",
+      "B. ULODVI",
+      "C. UOLDIV",
+      "D. VOLDVI"
+    ],
+    "answer": "A",
+    "explanation": "Applying n→(27−n) to F,L,O,W,E,R gives U,O,L,D,V,I, i.e., UOLDVI.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0006",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "जर TABLE ला UBCMF असे लिहितात (प्रत्येक अक्षर एक स्थान पुढे सरकवले आहे), तर CHAIR कसे लिहतील? / If TABLE is coded as UBCMF (each letter shifted forward by one), how is CHAIR coded?",
+    "options": [
+      "A. DIBJS",
+      "B. DIBJT",
+      "C. DHBJS",
+      "D. DIBIS"
+    ],
+    "answer": "A",
+    "explanation": "Shifting each letter of CHAIR forward by one gives D-I-B-J-S, i.e., DIBJS.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0007",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जर PAPER ला QBQFS असे लिहितात, तर PENCIL कसे लिहतील? / If PAPER is coded as QBQFS, how is PENCIL coded?",
+    "options": [
+      "A. QFODJM",
+      "B. QFOCJM",
+      "C. QGODJM",
+      "D. QFODKM"
+    ],
+    "answer": "A",
+    "explanation": "Shifting each letter of PENCIL forward by one gives Q-F-O-D-J-M, i.e., QFODJM.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0008",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जर ROSE या शब्दाचा कोड 57 असेल (प्रत्येक अक्षराच्या वर्णमाला-स्थानांची बेरीज), तर LOTUS चा कोड काय असेल? / If the code for ROSE is 57 (sum of the alphabetical positions of its letters), what is the code for LOTUS?",
+    "options": [
+      "A. 87",
+      "B. 85",
+      "C. 89",
+      "D. 82"
+    ],
+    "answer": "A",
+    "explanation": "L(12)+O(15)+T(20)+U(21)+S(19) = 87.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0009",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "एका सांकेतिक भाषेत 'ink is red' असे 'pit na oo' लिहितात, 'chalk is white' असे 'la oo fu' लिहितात, आणि 'chalk and ink' असे 'la ce pit' लिहितात. तर 'white' साठी कोड काय असेल? / In a code language, 'ink is red' is written as 'pit na oo', 'chalk is white' is written as 'la oo fu', and 'chalk and ink' is written as 'la ce pit'. What is the code for 'white'?",
+    "options": [
+      "A. fu",
+      "B. la",
+      "C. oo",
+      "D. ce"
+    ],
+    "answer": "A",
+    "explanation": "Comparing sentences: 'is'=oo (common to sentences 1,2), 'ink'=pit (common to 1,3), 'chalk'=la (common to 2,3), leaving 'white'=fu in sentence 2.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0010",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जर TEACHER ला UFBDIFS असे लिहितात, तर CHILDREN कसे लिहतील? / If TEACHER is coded as UFBDIFS, how is CHILDREN coded?",
+    "options": [
+      "A. DIJMESFO",
+      "B. DIJMFSEO",
+      "C. DIJNESFO",
+      "D. DIJMESOF"
+    ],
+    "answer": "A",
+    "explanation": "Shifting each letter of CHILDREN forward by one gives D-I-J-M-E-S-F-O, i.e., DIJMESFO.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0011",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "जर MPSC या शब्दाचा कोड (अक्षरांची वर्णमाला-स्थाने वापरून) 13-16-19-3 असेल, तर SSC या शब्दाचा कोड काय असेल? / If the code for MPSC (using alphabetical positions of letters) is 13-16-19-3, what is the code for SSC?",
+    "options": [
+      "A. 19-19-3",
+      "B. 19-18-3",
+      "C. 18-19-3",
+      "D. 19-19-4"
+    ],
+    "answer": "A",
+    "explanation": "S=19, S=19, C=3, so SSC is coded as 19-19-3.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0012",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "एका सांकेतिक भाषेत प्रत्येक अक्षर (27 वजा त्याचे वर्णमाला-स्थान) या नियमाने बदलले जाते, त्यामुळे INDIA ला 18-13-23-18-26 असे लिहितात. याच नियमानुसार PUNE कसे लिहतील? / In a code, each letter is replaced using the rule (27 minus its alphabetical position), so INDIA is coded as 18-13-23-18-26. Using the same rule, how is PUNE coded?",
+    "options": [
+      "A. 11-6-13-22",
+      "B. 11-6-14-22",
+      "C. 10-6-13-22",
+      "D. 11-7-13-22"
+    ],
+    "answer": "A",
+    "explanation": "Using 27−n: P(16)→11, U(21)→6, N(14)→13, E(5)→22, giving 11-6-13-22.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0013",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 4, 8, 12, 16, ?, 24 / Find the missing number in the series: 4, 8, 12, 16, ?, 24",
+    "options": [
+      "A. 18",
+      "B. 20",
+      "C. 22",
+      "D. 19"
+    ],
+    "answer": "B",
+    "explanation": "ही मालिका 4 च्या पटीत आहे, म्हणून पुढील संख्या 20 आहे. / The series consists of multiples of 4, so the missing number is 20.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0014",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 3, 9, 27, 81, ? / Find the missing number in the series: 3, 9, 27, 81, ?",
+    "options": [
+      "A. 162",
+      "B. 200",
+      "C. 243",
+      "D. 324"
+    ],
+    "answer": "C",
+    "explanation": "प्रत्येक संख्येला 3 ने गुणल्यास पुढील संख्या मिळते, म्हणजे 81 × 3 = 243. / Each term is multiplied by 3, so 81 × 3 = 243.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0015",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 7, 14, 21, 28, ?, 42 / Find the missing number in the series: 7, 14, 21, 28, ?, 42",
+    "options": [
+      "A. 30",
+      "B. 32",
+      "C. 35",
+      "D. 36"
+    ],
+    "answer": "C",
+    "explanation": "ही मालिका 7 च्या पटीत आहे, म्हणून रिकाम्या जागी 35 येईल. / The series is multiples of 7, so the missing number is 35.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0016",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 1, 4, 9, 16, 25, ? / Find the missing number in the series: 1, 4, 9, 16, 25, ?",
+    "options": [
+      "A. 30",
+      "B. 32",
+      "C. 35",
+      "D. 36"
+    ],
+    "answer": "D",
+    "explanation": "ही मालिका सलग नैसर्गिक संख्यांच्या वर्गांची आहे (1², 2², 3²...), म्हणून पुढील संख्या 6² = 36 आहे. / The series consists of squares of consecutive natural numbers, so the next term is 6² = 36.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0017",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 2, 3, 5, 7, 11, ? / Find the missing number in the series: 2, 3, 5, 7, 11, ?",
+    "options": [
+      "A. 12",
+      "B. 13",
+      "C. 14",
+      "D. 15"
+    ],
+    "answer": "B",
+    "explanation": "ही मालिका मूळ संख्यांची (prime numbers) आहे, म्हणून 11 नंतरची मूळ संख्या 13 आहे. / The series is of prime numbers, and the prime following 11 is 13.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0018",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 1, 1, 2, 3, 5, 8, ? / Find the missing number in the series: 1, 1, 2, 3, 5, 8, ?",
+    "options": [
+      "A. 10",
+      "B. 11",
+      "C. 12",
+      "D. 13"
+    ],
+    "answer": "D",
+    "explanation": "ही फिबोनाची मालिका आहे, प्रत्येक संख्या आधीच्या दोन संख्यांची बेरीज असते, म्हणून 5+8=13. / This is the Fibonacci series where each term is the sum of the previous two, so 5+8=13.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0019",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 2, 6, 12, 20, 30, ? / Find the missing number in the series: 2, 6, 12, 20, 30, ?",
+    "options": [
+      "A. 38",
+      "B. 40",
+      "C. 42",
+      "D. 44"
+    ],
+    "answer": "C",
+    "explanation": "फरक 4, 6, 8, 10 असे 2 ने वाढत जातात (n²+n प्रकार), त्यामुळे पुढील फरक 12 असून उत्तर 30+12=42 आहे. / The differences increase by 2 each time (4,6,8,10), following n²+n, so the next difference is 12, giving 30+12=42.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0020",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 5, 11, 19, 29, 41, ? / Find the missing number in the series: 5, 11, 19, 29, 41, ?",
+    "options": [
+      "A. 51",
+      "B. 53",
+      "C. 55",
+      "D. 57"
+    ],
+    "answer": "C",
+    "explanation": "फरक 6, 8, 10, 12 असे 2 ने वाढत जातात, त्यामुळे पुढील फरक 14 असून उत्तर 41+14=55 आहे. / The differences increase by 2 each time (6,8,10,12), so the next difference is 14, giving 41+14=55.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0021",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 3, 8, 15, 24, 35, ? / Find the missing number in the series: 3, 8, 15, 24, 35, ?",
+    "options": [
+      "A. 44",
+      "B. 46",
+      "C. 48",
+      "D. 50"
+    ],
+    "answer": "C",
+    "explanation": "फरक 5, 7, 9, 11 असे 2 ने वाढत जातात (n²+2n प्रकार), त्यामुळे पुढील फरक 13 असून उत्तर 35+13=48 आहे. / The differences increase by 2 each time (5,7,9,11), following n²+2n, so the next difference is 13, giving 35+13=48.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0022",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 2, 5, 10, 17, 26, ? / Find the missing number in the series: 2, 5, 10, 17, 26, ?",
+    "options": [
+      "A. 35",
+      "B. 36",
+      "C. 37",
+      "D. 38"
+    ],
+    "answer": "C",
+    "explanation": "प्रत्येक संख्या n²+1 (n=1,2,3...) या नियमाने येते, त्यामुळे 6²+1=37 हे उत्तर आहे. / Each term follows n²+1, so for n=6, the value is 6²+1=37.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0023",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 6, 11, 21, 36, 56, ? / Find the missing number in the series: 6, 11, 21, 36, 56, ?",
+    "options": [
+      "A. 76",
+      "B. 79",
+      "C. 81",
+      "D. 84"
+    ],
+    "answer": "C",
+    "explanation": "फरक 5, 10, 15, 20 असे 5 च्या पटीत वाढत जातात, त्यामुळे पुढील फरक 25 असून उत्तर 56+25=81 आहे. / The differences increase in multiples of 5 (5,10,15,20), so the next difference is 25, giving 56+25=81.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-series-coding-0024",
+    "subject": "reasoning",
+    "subtopic": "series-coding",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "पुढील मालिकेतील रिकाम्या जागी कोणती संख्या येईल? 3, 9, 7, 13, 11, ?, 15 / Find the missing number in the series: 3, 9, 7, 13, 11, ?, 15",
+    "options": [
+      "A. 15",
+      "B. 16",
+      "C. 17",
+      "D. 18"
+    ],
+    "answer": "C",
+    "explanation": "ही मालिका आलटून-पालटून +6 आणि -2 या क्रियांनी तयार होते, म्हणजे 11+6=17. / The series alternates between adding 6 and subtracting 2, so 11+6=17.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

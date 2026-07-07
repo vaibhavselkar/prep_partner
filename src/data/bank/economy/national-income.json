@@ -1,0 +1,200 @@
+[
+  {
+    "id": "economy-national-income-0001",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारताच्या राष्ट्रीय उत्पन्नाचा (National Income) अंदाज कोणती संस्था प्रकाशित करते? / Which organization publishes the estimates of India's National Income?",
+    "options": [
+      "A. भारतीय रिझर्व्ह बँक / Reserve Bank of India",
+      "B. राष्ट्रीय सांख्यिकी कार्यालय (NSO) / National Statistical Office (NSO)",
+      "C. निती आयोग / NITI Aayog",
+      "D. वित्त आयोग / Finance Commission"
+    ],
+    "answer": "B",
+    "explanation": "राष्ट्रीय सांख्यिकी कार्यालय (NSO), सांख्यिकी व कार्यक्रम अंमलबजावणी मंत्रालयाच्या अंतर्गत, भारताच्या राष्ट्रीय उत्पन्नाचे अधिकृत अंदाज प्रकाशित करते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0002",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारतातील पहिली पंचवार्षिक योजना कोणत्या क्षेत्रावर भर देत होती? / The First Five Year Plan of India laid emphasis on which sector?",
+    "options": [
+      "A. उद्योग / Industry",
+      "B. सेवा क्षेत्र / Service sector",
+      "C. कृषी व सिंचन / Agriculture and irrigation",
+      "D. माहिती तंत्रज्ञान / Information Technology"
+    ],
+    "answer": "C",
+    "explanation": "पहिली पंचवार्षिक योजना (1951-56) हॅरॉड-डोमर प्रतिकृतीवर आधारित असून कृषी व सिंचनाला प्राधान्य देण्यात आले होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0003",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "'हरित क्रांती' (Green Revolution) प्रामुख्याने कोणत्या पिकाशी संबंधित होती? / The 'Green Revolution' was primarily associated with which crop?",
+    "options": [
+      "A. ऊस / Sugarcane",
+      "B. कापूस / Cotton",
+      "C. गहू / Wheat",
+      "D. चहा / Tea"
+    ],
+    "answer": "C",
+    "explanation": "1960 च्या दशकात एम. एस. स्वामिनाथन यांच्या नेतृत्वाखाली हरित क्रांती प्रामुख्याने गहू व तांदूळ या पिकांच्या उच्च उत्पादक जातींशी संबंधित होती, त्यात गहू हे सर्वाधिक यशस्वी पीक ठरले.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0004",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारतात वस्तू व सेवा कर (GST) कोणत्या तारखेपासून लागू करण्यात आला? / From which date was the Goods and Services Tax (GST) implemented in India?",
+    "options": [
+      "A. 1 एप्रिल 2016 / 1 April 2016",
+      "B. 1 जुलै 2017 / 1 July 2017",
+      "C. 1 जानेवारी 2018 / 1 January 2018",
+      "D. 26 जानेवारी 2017 / 26 January 2017"
+    ],
+    "answer": "B",
+    "explanation": "101 व्या घटनादुरुस्तीनंतर वस्तू व सेवा कर (GST) संपूर्ण भारतात 1 जुलै 2017 पासून लागू करण्यात आला.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0005",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारतीय रिझर्व्ह बँकेची (RBI) स्थापना कोणत्या वर्षी झाली? / In which year was the Reserve Bank of India (RBI) established?",
+    "options": [
+      "A. 1935",
+      "B. 1947",
+      "C. 1949",
+      "D. 1956"
+    ],
+    "answer": "A",
+    "explanation": "भारतीय रिझर्व्ह बँकेची स्थापना 1 एप्रिल 1935 रोजी रिझर्व्ह बँक ऑफ इंडिया कायदा 1934 अंतर्गत झाली.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0006",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "चलनवाढ (Inflation) नियंत्रित करण्यासाठी RBI कोणते धोरण साधन प्रामुख्याने वापरते? / Which policy tool does the RBI primarily use to control inflation?",
+    "options": [
+      "A. आयात शुल्क / Import duty",
+      "B. रेपो दर / Repo rate",
+      "C. प्राप्तिकर दर / Income tax rate",
+      "D. निर्यात अनुदान / Export subsidy"
+    ],
+    "answer": "B",
+    "explanation": "RBI चलनवाढ नियंत्रित करण्यासाठी रेपो दरात बदल करून पतपुरवठा व व्याजदरांवर नियंत्रण ठेवते, हे चलनविषयक धोरणाचे (Monetary Policy) प्रमुख साधन आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0007",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारतातील नियोजन आयोगाच्या (Planning Commission) जागी 2015 मध्ये कोणती संस्था स्थापन करण्यात आली? / Which body replaced the Planning Commission of India in 2015?",
+    "options": [
+      "A. वित्त आयोग / Finance Commission",
+      "B. निती आयोग / NITI Aayog",
+      "C. आर्थिक सल्लागार परिषद / Economic Advisory Council",
+      "D. राष्ट्रीय विकास परिषद / National Development Council"
+    ],
+    "answer": "B",
+    "explanation": "1 जानेवारी 2015 रोजी नियोजन आयोगाच्या जागी निती आयोग (National Institution for Transforming India) स्थापन करण्यात आले.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0008",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "स्थूल देशांतर्गत उत्पादनात (GDP) महाराष्ट्राचे स्थान भारतातील राज्यांमध्ये कसे आहे? / What is Maharashtra's position among Indian states in terms of Gross State Domestic Product (GSDP)?",
+    "options": [
+      "A. दुसरे / Second",
+      "B. पहिले / First",
+      "C. तिसरे / Third",
+      "D. पाचवे / Fifth"
+    ],
+    "answer": "B",
+    "explanation": "महाराष्ट्र हे भारतातील सर्वाधिक स्थूल राज्य उत्पन्न (GSDP) असलेले राज्य असून देशाच्या अर्थव्यवस्थेत सर्वाधिक योगदान देणारे राज्य आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0009",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारतातील 1991 च्या आर्थिक सुधारणांचे (Economic Reforms) प्रमुख वैशिष्ट्य कोणते नव्हते? / Which was NOT a key feature of India's 1991 economic reforms?",
+    "options": [
+      "A. उदारीकरण / Liberalisation",
+      "B. खाजगीकरण / Privatisation",
+      "C. जागतिकीकरण / Globalisation",
+      "D. संपूर्ण राष्ट्रीयीकरण / Complete nationalisation"
+    ],
+    "answer": "D",
+    "explanation": "1991 च्या आर्थिक सुधारणा या उदारीकरण, खाजगीकरण व जागतिकीकरण (LPG) या तत्त्वांवर आधारित होत्या, संपूर्ण राष्ट्रीयीकरण हे त्याच्या विरुद्ध धोरण आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0010",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "राष्ट्रीय ग्रामीण रोजगार हमी कायदा (MGNREGA) कोणत्या वर्षी अंमलात आणला गेला? / In which year was the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) implemented?",
+    "options": [
+      "A. 2005",
+      "B. 2010",
+      "C. 2000",
+      "D. 2014"
+    ],
+    "answer": "A",
+    "explanation": "राष्ट्रीय ग्रामीण रोजगार हमी कायदा 2005 मध्ये संमत झाला व त्याची अंमलबजावणी 2006 पासून सुरू झाली, नंतर त्याचे नाव महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार हमी कायदा (MGNREGA) असे करण्यात आले.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0011",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "भारताचा 'गिनी गुणांक' (Gini Coefficient) कशाचे मोजमाप करतो? / What does India's 'Gini Coefficient' measure?",
+    "options": [
+      "A. महागाई दर / Inflation rate",
+      "B. उत्पन्न विषमता / Income inequality",
+      "C. बेरोजगारी दर / Unemployment rate",
+      "D. विदेशी गुंतवणूक / Foreign investment"
+    ],
+    "answer": "B",
+    "explanation": "गिनी गुणांक हा 0 ते 1 (किंवा 0 ते 100) दरम्यान उत्पन्न किंवा संपत्तीच्या वितरणातील विषमता मोजण्यासाठी वापरला जाणारा सांख्यिकीय निर्देशांक आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

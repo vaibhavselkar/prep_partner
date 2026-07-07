@@ -1,0 +1,200 @@
+[
+  {
+    "id": "science-biology-0001",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "मानवी शरीरातील सर्वात मोठी ग्रंथी कोणती आहे? / Which is the largest gland in the human body?",
+    "options": [
+      "A. स्वादुपिंड / Pancreas",
+      "B. यकृत / Liver",
+      "C. थायरॉईड / Thyroid",
+      "D. पिट्युटरी / Pituitary"
+    ],
+    "answer": "B",
+    "explanation": "यकृत (Liver) हे मानवी शरीरातील सर्वात मोठी ग्रंथी असून पचन, चयापचय व विषनिर्मूलनात महत्त्वाची भूमिका बजावते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0002",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "प्रकाशसंश्लेषण क्रियेमध्ये सूर्यप्रकाश शोषून घेणारे प्रमुख रंगद्रव्य कोणते आहे? / Which is the main pigment that absorbs sunlight during photosynthesis?",
+    "options": [
+      "A. कॅरोटीन / Carotene",
+      "B. झॅन्थोफिल / Xanthophyll",
+      "C. क्लोरोफिल / Chlorophyll",
+      "D. अँथोसायनिन / Anthocyanin"
+    ],
+    "answer": "C",
+    "explanation": "क्लोरोफिल हे हरितलवकातील प्रमुख रंगद्रव्य असून ते सूर्यप्रकाश शोषून प्रकाशसंश्लेषण क्रियेस चालना देते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0003",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "मानवी हृदयात एकूण किती कप्पे (कक्ष) असतात? / How many chambers does the human heart have in total?",
+    "options": [
+      "A. दोन / Two",
+      "B. तीन / Three",
+      "C. चार / Four",
+      "D. पाच / Five"
+    ],
+    "answer": "C",
+    "explanation": "मानवी हृदयात दोन कर्णिका (atria) आणि दोन जवनिका (ventricles) मिळून एकूण चार कप्पे असतात.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0004",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "'जनुकशास्त्राचा जनक' (Father of Genetics) म्हणून कोणाला ओळखले जाते? / Who is known as the 'Father of Genetics'?",
+    "options": [
+      "A. चार्ल्स डार्विन / Charles Darwin",
+      "B. ग्रेगोर मेंडेल / Gregor Mendel",
+      "C. लुई पाश्चर / Louis Pasteur",
+      "D. रॉबर्ट हूक / Robert Hooke"
+    ],
+    "answer": "B",
+    "explanation": "ग्रेगोर मेंडेल यांनी वाटाण्याच्या रोपांवर प्रयोग करून आनुवंशिकतेचे नियम मांडले, म्हणून त्यांना 'जनुकशास्त्राचा जनक' म्हटले जाते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0005",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "मानवी शरीरातील कोणत्या भागात 'इन्सुलिन' या संप्रेरकाची निर्मिती होते? / In which part of the human body is the hormone 'insulin' produced?",
+    "options": [
+      "A. यकृत / Liver",
+      "B. स्वादुपिंडातील बीटा पेशी / Beta cells of pancreas",
+      "C. वृक्क / Kidney",
+      "D. प्लीहा / Spleen"
+    ],
+    "answer": "B",
+    "explanation": "स्वादुपिंडातील लॅंगरहान्सच्या द्वीपिकांतील बीटा पेशी इन्सुलिन या संप्रेरकाची निर्मिती करतात, जे रक्तातील साखरेचे प्रमाण नियंत्रित करते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0006",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पेशीला 'पेशीचे शक्तिगृह' (Powerhouse of the cell) असे कोणत्या पेशीअंगामुळे संबोधले जाते? / Which cell organelle is called the 'Powerhouse of the cell'?",
+    "options": [
+      "A. गॉल्जी संकुल / Golgi apparatus",
+      "B. लयकारिका / Lysosome",
+      "C. तंतुकणिका / Mitochondria",
+      "D. अंतर्द्रव्यजालिका / Endoplasmic reticulum"
+    ],
+    "answer": "C",
+    "explanation": "तंतुकणिका (Mitochondria) श्वसन क्रियेद्वारे ATP च्या स्वरूपात ऊर्जा निर्माण करते, म्हणून तिला पेशीचे शक्तिगृह म्हणतात.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0007",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "मानवी रक्तातील कोणत्या पेशी शरीराच्या रोगप्रतिकारक शक्तीसाठी (प्रतिकारशक्ती) जबाबदार असतात? / Which blood cells are responsible for the body's immunity?",
+    "options": [
+      "A. तांबड्या पेशी / Red blood cells",
+      "B. पांढऱ्या पेशी / White blood cells",
+      "C. रक्तपट्टिका / Platelets",
+      "D. प्लाझ्मा / Plasma"
+    ],
+    "answer": "B",
+    "explanation": "पांढऱ्या रक्तपेशी (WBC) शरीरात रोगजंतूंशी लढून रोगप्रतिकारक शक्ती प्रदान करतात.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0008",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "मानवी शरीरात 'व्हिटॅमिन डी' ची निर्मिती कशामुळे होते? / What causes the production of 'Vitamin D' in the human body?",
+    "options": [
+      "A. सूर्यप्रकाशाच्या संपर्कामुळे त्वचेत / Skin exposure to sunlight",
+      "B. फुफ्फुसातील ऑक्सिजनामुळे / Oxygen in lungs",
+      "C. यकृतातील पित्तरसामुळे / Bile in liver",
+      "D. जठरातील आम्लामुळे / Acid in stomach"
+    ],
+    "answer": "A",
+    "explanation": "सूर्यप्रकाशातील अतिनील किरणांच्या संपर्कात आल्यावर त्वचेत व्हिटॅमिन डी ची निर्मिती होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0009",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणता रोग विषाणूमुळे (Virus) होत नाही? / Which of the following diseases is NOT caused by a virus?",
+    "options": [
+      "A. गोवर / Measles",
+      "B. क्षयरोग (टीबी) / Tuberculosis",
+      "C. कांजिण्या / Chickenpox",
+      "D. पोलिओ / Polio"
+    ],
+    "answer": "B",
+    "explanation": "क्षयरोग (टीबी) हा मायकोबॅक्टेरियम ट्युबरक्युलॉसिस या जीवाणूमुळे (Bacteria) होणारा रोग आहे, तर इतर तिन्ही विषाणूजन्य रोग आहेत.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0010",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "मानवी शरीरातील सर्वात लांब हाड कोणते आहे? / Which is the longest bone in the human body?",
+    "options": [
+      "A. ह्युमरस / Humerus",
+      "B. फिमर (मांडीचे हाड) / Femur",
+      "C. टिबिया / Tibia",
+      "D. रेडियस / Radius"
+    ],
+    "answer": "B",
+    "explanation": "फिमर हे मांडीतील हाड मानवी शरीरातील सर्वात लांब व मजबूत हाड आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-biology-0011",
+    "subject": "science",
+    "subtopic": "biology",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "सजीवांच्या वर्गीकरण पद्धतीत सर्वात लहान वर्गीकरण एकक (Taxonomic unit) कोणते आहे? / Which is the smallest taxonomic unit in the classification of living organisms?",
+    "options": [
+      "A. वंश (Genus)",
+      "B. कुळ (Family)",
+      "C. जाती (Species)",
+      "D. गण (Order)"
+    ],
+    "answer": "C",
+    "explanation": "जाती (Species) हे वर्गीकरणातील सर्वात लहान व मूलभूत एकक असून एकाच जातीचे सजीव आपापसात प्रजनन करून सुफलनक्षम संतती निर्माण करू शकतात.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "polity-union-govt-0001",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारताच्या राष्ट्रपतीपदासाठी किमान वयोमर्यादा किती आहे? / What is the minimum age prescribed for the office of the President of India?",
+    "options": [
+      "A. ३० वर्षे / 30 years",
+      "B. ३५ वर्षे / 35 years",
+      "C. ४० वर्षे / 40 years",
+      "D. २५ वर्षे / 25 years"
+    ],
+    "answer": "B",
+    "explanation": "अनुच्छेद ५८ नुसार राष्ट्रपतीपदासाठी किमान वय ३५ वर्षे असणे आवश्यक आहे. / Article 58 requires a candidate for President to be at least 35 years of age.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0002",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राष्ट्रपतींची निवडणूक करणाऱ्या निर्वाचक मंडळात (Electoral College) खालीलपैकी कोणाचा समावेश होत नाही? / Who among the following is NOT included in the Electoral College that elects the President of India?",
+    "options": [
+      "A. लोकसभेचे निर्वाचित सदस्य / Elected members of the Lok Sabha",
+      "B. राज्यसभेचे निर्वाचित सदस्य / Elected members of the Rajya Sabha",
+      "C. राज्य विधानसभांचे निर्वाचित सदस्य / Elected members of State Legislative Assemblies",
+      "D. राज्यसभेतील नामनिर्देशित सदस्य / Nominated members of the Rajya Sabha"
+    ],
+    "answer": "D",
+    "explanation": "अनुच्छेद ५४ नुसार संसद व राज्य विधानसभांचे केवळ निर्वाचित सदस्य निर्वाचक मंडळात असतात, नामनिर्देशित सदस्य त्यात मतदान करू शकत नाहीत. / Under Article 54, only elected members of Parliament and State Assemblies form the Electoral College; nominated members are excluded.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0003",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारताचे उपराष्ट्रपती पदसिद्ध (ex-officio) अध्यक्ष कोणत्या सभागृहाचे असतात? / The Vice-President of India is the ex-officio Chairman of which House?",
+    "options": [
+      "A. लोकसभा / Lok Sabha",
+      "B. राज्यसभा / Rajya Sabha",
+      "C. विधानसभा / Legislative Assembly",
+      "D. विधान परिषद / Legislative Council"
+    ],
+    "answer": "B",
+    "explanation": "अनुच्छेद ६४ नुसार उपराष्ट्रपती हे राज्यसभेचे पदसिद्ध अध्यक्ष असतात. / Article 64 makes the Vice-President the ex-officio Chairman of the Rajya Sabha.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0004",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राष्ट्रपतींवर महाभियोग (Impeachment) कोणत्या आधारावर चालवला जाऊ शकतो? / On what ground can impeachment proceedings be initiated against the President?",
+    "options": [
+      "A. आर्थिक गैरव्यवहार / Financial irregularity",
+      "B. संविधानाचे उल्लंघन / Violation of the Constitution",
+      "C. वैद्यकीय अकार्यक्षमता / Medical incapacity",
+      "D. पक्षांतर / Defection"
+    ],
+    "answer": "B",
+    "explanation": "अनुच्छेद ६१ नुसार संविधानाचे उल्लंघन केल्याच्या आरोपावरूनच राष्ट्रपतींवर महाभियोग चालवता येतो. / Article 61 provides that the President can be impeached only for violation of the Constitution.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0005",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राज्यघटनेनुसार राज्यसभेची कमाल सदस्यसंख्या किती निश्चित करण्यात आली आहे? / As per the Constitution, what is the maximum permissible strength of the Rajya Sabha?",
+    "options": [
+      "A. २०० / 200",
+      "B. २४५ / 245",
+      "C. २५० / 250",
+      "D. २७५ / 275"
+    ],
+    "answer": "C",
+    "explanation": "अनुच्छेद ८० नुसार राज्यसभेची कमाल सदस्यसंख्या २५० (२३८ निर्वाचित + १२ नामनिर्देशित) निश्चित करण्यात आली आहे. / Article 80 fixes the maximum strength of the Rajya Sabha at 250 (238 elected + 12 nominated).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0006",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "राष्ट्रपती राज्यसभेवर किती सदस्य साहित्य, विज्ञान, कला व समाजसेवा या क्षेत्रांतील विशेष ज्ञान किंवा अनुभव असलेल्या व्यक्तींमधून नामनिर्देशित करू शकतात? / How many members can the President nominate to the Rajya Sabha from persons having special knowledge or practical experience in literature, science, art and social service?",
+    "options": [
+      "A. १० / 10",
+      "B. १२ / 12",
+      "C. १५ / 15",
+      "D. २ / 2"
+    ],
+    "answer": "B",
+    "explanation": "अनुच्छेद ८० नुसार राष्ट्रपती राज्यसभेवर १२ सदस्य नामनिर्देशित करतात. / Article 80 empowers the President to nominate 12 members to the Rajya Sabha.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0007",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "राज्यसभेचा सदस्य होण्यासाठी किमान वयोमर्यादा किती आहे? / What is the minimum age required to become a member of the Rajya Sabha?",
+    "options": [
+      "A. २५ वर्षे / 25 years",
+      "B. ३० वर्षे / 30 years",
+      "C. ३५ वर्षे / 35 years",
+      "D. २१ वर्षे / 21 years"
+    ],
+    "answer": "B",
+    "explanation": "अनुच्छेद ८४ नुसार राज्यसभा सदस्यत्वासाठी किमान वय ३० वर्षे आवश्यक आहे, तर लोकसभेसाठी ते २५ वर्षे आहे. / Article 84 prescribes a minimum age of 30 years for Rajya Sabha membership, compared to 25 years for the Lok Sabha.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0008",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "धनविधेयक (Money Bill) सर्वप्रथम कोणत्या सभागृहात मांडता येते? / A Money Bill can be introduced first only in which House of Parliament?",
+    "options": [
+      "A. राज्यसभा / Rajya Sabha",
+      "B. लोकसभा / Lok Sabha",
+      "C. दोन्ही सभागृहांत एकाच वेळी / Both Houses simultaneously",
+      "D. संयुक्त बैठकीत / In a joint sitting"
+    ],
+    "answer": "B",
+    "explanation": "अनुच्छेद ११० व ११९अ नुसार धनविधेयक केवळ लोकसभेत मांडले जाऊ शकते. / Under Articles 110 and 109, a Money Bill can be introduced only in the Lok Sabha.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0009",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "अविश्वास ठराव (No-Confidence Motion) कोणत्या सभागृहात मांडला जाऊ शकतो? / A No-Confidence Motion against the Council of Ministers can be moved only in which House?",
+    "options": [
+      "A. राज्यसभा / Rajya Sabha",
+      "B. लोकसभा / Lok Sabha",
+      "C. दोन्ही सभागृहांत / Both Houses",
+      "D. विधानसभा / State Legislative Assembly"
+    ],
+    "answer": "B",
+    "explanation": "मंत्रिमंडळ सामूहिकरीत्या लोकसभेला जबाबदार असल्याने अविश्वास ठराव केवळ लोकसभेतच मांडला जातो. / Since the Council of Ministers is collectively responsible to the Lok Sabha, a no-confidence motion can be moved only there.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0010",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "मंत्रिमंडळ सामूहिकरीत्या कोणत्या सभागृहास जबाबदार असते, असे कोणत्या अनुच्छेदात नमूद आहे? / Which Article states that the Council of Ministers is collectively responsible to the Lok Sabha?",
+    "options": [
+      "A. अनुच्छेद ६१ / Article 61",
+      "B. अनुच्छेद ७२ / Article 72",
+      "C. अनुच्छेद ७५ / Article 75",
+      "D. अनुच्छेद ८० / Article 80"
+    ],
+    "answer": "C",
+    "explanation": "अनुच्छेद ७५(३) नुसार मंत्रिमंडळ सामूहिकरीत्या लोकसभेस जबाबदार असते. / Article 75(3) provides that the Council of Ministers shall be collectively responsible to the Lok Sabha.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0011",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राष्ट्रपती राजवट (President's Rule) एखाद्या राज्यात लागू करण्याची तरतूद राज्यघटनेच्या कोणत्या अनुच्छेदात आहे? / Under which Article of the Constitution can President's Rule be imposed in a state?",
+    "options": [
+      "A. अनुच्छेद ३५२ / Article 352",
+      "B. अनुच्छेद ३५६ / Article 356",
+      "C. अनुच्छेद ३६० / Article 360",
+      "D. अनुच्छेद ३६८ / Article 368"
+    ],
+    "answer": "B",
+    "explanation": "अनुच्छेद ३५६ नुसार राज्यातील घटनात्मक यंत्रणा कोलमडल्यास राष्ट्रपती राजवट लागू केली जाते. / Article 356 empowers imposition of President's Rule when constitutional machinery in a state fails.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-union-govt-0012",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "भारताचे महान्यायवादी (Attorney General) यांची नेमणूक कोण करतात? / Who appoints the Attorney General of India?",
+    "options": [
+      "A. पंतप्रधान / Prime Minister",
+      "B. सरन्यायाधीश / Chief Justice of India",
+      "C. राष्ट्रपती / President",
+      "D. लोकसभा अध्यक्ष / Speaker of Lok Sabha"
+    ],
+    "answer": "C",
+    "explanation": "अनुच्छेद ७६ नुसार महान्यायवादी यांची नेमणूक राष्ट्रपतींकडून केली जाते. / Article 76 provides that the Attorney General for India is appointed by the President.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

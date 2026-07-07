@@ -1,0 +1,218 @@
+[
+  {
+    "id": "economy-population-social-0001",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "जनगणना 2011 नुसार भारताचे लिंग गुणोत्तर (प्रति 1000 पुरुषांमागे स्त्रिया) किती आहे? / As per Census 2011, what is India's sex ratio (females per 1000 males)?",
+    "options": [
+      "A. 933",
+      "B. 940",
+      "C. 943",
+      "D. 950"
+    ],
+    "answer": "C",
+    "explanation": "Census 2011 नुसार भारताचे लिंग गुणोत्तर 943 इतके नोंदवले गेले, जे 2001 (933) पेक्षा वाढले होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0002",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जनगणना 2011 नुसार महाराष्ट्राचे लिंग गुणोत्तर किती होते? / As per Census 2011, what was Maharashtra's sex ratio?",
+    "options": [
+      "A. 919",
+      "B. 929",
+      "C. 943",
+      "D. 946"
+    ],
+    "answer": "B",
+    "explanation": "Census 2011 नुसार महाराष्ट्राचे लिंग गुणोत्तर 929 (प्रति 1000 पुरुष) होते, जे राष्ट्रीय सरासरी (943) पेक्षा कमी आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0003",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "जनगणना 2011 नुसार भारताचा साक्षरता दर अंदाजे किती टक्के होता? / As per Census 2011, India's literacy rate was approximately what percentage?",
+    "options": [
+      "A. 65.4%",
+      "B. 74.04%",
+      "C. 79.8%",
+      "D. 82.1%"
+    ],
+    "answer": "B",
+    "explanation": "Census 2011 नुसार भारताचा एकूण साक्षरता दर 74.04% होता (पुरुष 82.14%, स्त्री 65.46%).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0004",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जनगणना 2011 नुसार महाराष्ट्राचा साक्षरता दर अंदाजे किती होता? / As per Census 2011, Maharashtra's literacy rate was approximately what?",
+    "options": [
+      "A. 74.04%",
+      "B. 76.88%",
+      "C. 82.34%",
+      "D. 89.1%"
+    ],
+    "answer": "C",
+    "explanation": "Census 2011 नुसार महाराष्ट्राचा साक्षरता दर 82.34% होता, जो राष्ट्रीय सरासरीपेक्षा (74.04%) अधिक आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0005",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जनगणना 2011 नुसार भारतातील कोणत्या राज्याचे लिंग गुणोत्तर सर्वाधिक होते? / As per Census 2011, which Indian state had the highest sex ratio?",
+    "options": [
+      "A. तामिळनाडू / Tamil Nadu",
+      "B. केरळ / Kerala",
+      "C. आंध्र प्रदेश / Andhra Pradesh",
+      "D. छत्तीसगड / Chhattisgarh"
+    ],
+    "answer": "B",
+    "explanation": "केरळचे लिंग गुणोत्तर 1084 होते, जे भारतीय राज्यांमध्ये सर्वाधिक होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0006",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "जनगणना 2011 नुसार भारताचे बाल लिंग गुणोत्तर (0-6 वयोगट, प्रति 1000 मुलांमागे मुली) किती होते? / As per Census 2011, India's child sex ratio (age 0-6, girls per 1000 boys) was?",
+    "options": [
+      "A. 914",
+      "B. 919",
+      "C. 927",
+      "D. 933"
+    ],
+    "answer": "B",
+    "explanation": "Census 2011 नुसार भारताचे बाल लिंग गुणोत्तर (0-6 वयोगट) 919 होते, जे 2001 (927) पेक्षा घटले होते ही चिंताजनक बाब होती.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0007",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "जनगणना 2011 नुसार महाराष्ट्राचा नागरीकरण (urbanization) दर अंदाजे किती टक्के होता? / As per Census 2011, Maharashtra's urbanization rate was approximately what percentage?",
+    "options": [
+      "A. 31.2%",
+      "B. 45.23%",
+      "C. 52.6%",
+      "D. 60.1%"
+    ],
+    "answer": "B",
+    "explanation": "Census 2011 नुसार महाराष्ट्राचा नागरी लोकसंख्येचा दर 45.23% होता, जो देशातील सर्वाधिक नागरीकरण झालेल्या मोठ्या राज्यांपैकी एक आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0008",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारतातील दारिद्र्यरेषा निश्चित करण्यासाठी उपभोग खर्चावर आधारित नवीन कार्यपद्धती सुचवणाऱ्या समितीचे नाव काय आहे, जिने आरोग्य व शिक्षण खर्चाचाही समावेश केला? / Which committee recommended a new consumption-expenditure-based poverty line methodology for India, also incorporating health and education expenditure?",
+    "options": [
+      "A. लकडावाला समिती / Lakdawala Committee",
+      "B. तेंडुलकर समिती / Tendulkar Committee",
+      "C. रंगराजन समिती / Rangarajan Committee",
+      "D. वाय. के. अलघ समिती / Y. K. Alagh Committee"
+    ],
+    "answer": "B",
+    "explanation": "तेंडुलकर समितीने (2009) कॅलरी-आधारित पद्धत सोडून उपभोग खर्चावर (आरोग्य, शिक्षणासह) आधारित दारिद्र्यरेषा निश्चित करण्याची शिफारस केली.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0009",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "तेंडुलकर समितीच्या दारिद्र्य अंदाज पद्धतीचा आढावा घेण्यासाठी 2014 मध्ये कोणत्या समितीने अहवाल सादर केला? / Which committee submitted its report in 2014 to review the Tendulkar Committee's poverty estimation methodology?",
+    "options": [
+      "A. रंगराजन समिती / Rangarajan Committee",
+      "B. नरसिंहम समिती / Narasimham Committee",
+      "C. केळकर समिती / Kelkar Committee",
+      "D. बोरधन समिती / Bordhan Committee"
+    ],
+    "answer": "A",
+    "explanation": "सी. रंगराजन यांच्या अध्यक्षतेखालील समितीने 2014 मध्ये अहवाल सादर करून ग्रामीण व शहरी भागांसाठी स्वतंत्र दारिद्र्यरेषा सुचवली.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0010",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "ज्या प्रकारात शेतीक्षेत्रात प्रत्यक्ष गरजेपेक्षा जास्त लोक कार्यरत असतात आणि एका व्यक्तीला काढून टाकल्यासही एकूण उत्पादनावर परिणाम होत नाही (सीमांत उत्पादकता शून्य), त्या बेरोजगारीच्या प्रकाराला काय म्हणतात? / The type of unemployment where more people are engaged in agriculture than actually needed, such that removing one person does not reduce total output (marginal productivity is zero), is called?",
+    "options": [
+      "A. घर्षणात्मक बेरोजगारी / Frictional unemployment",
+      "B. संरचनात्मक बेरोजगारी / Structural unemployment",
+      "C. छुपी बेरोजगारी / Disguised unemployment",
+      "D. हंगामी बेरोजगारी / Seasonal unemployment"
+    ],
+    "answer": "C",
+    "explanation": "छुपी बेरोजगारीत श्रमशक्तीच्या सीमांत उत्पादकता शून्य किंवा नकारात्मक असते, हे भारतीय शेतीक्षेत्रात मोठ्या प्रमाणावर आढळते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0011",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पीक कापणी व पेरणीच्या हंगामांदरम्यान शेतमजुरांना काम न मिळाल्याने निर्माण होणाऱ्या बेरोजगारीला काय म्हणतात? / The unemployment that arises among agricultural labourers between harvesting and sowing seasons, when work is unavailable, is called?",
+    "options": [
+      "A. हंगामी बेरोजगारी / Seasonal unemployment",
+      "B. घर्षणात्मक बेरोजगारी / Frictional unemployment",
+      "C. चक्रीय बेरोजगारी / Cyclical unemployment",
+      "D. तांत्रिक बेरोजगारी / Technological unemployment"
+    ],
+    "answer": "A",
+    "explanation": "हंगामी बेरोजगारी ही शेतीसारख्या हंगामाधारित क्षेत्रांमध्ये विशिष्ट काळात कामाचा अभाव असल्याने निर्माण होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0012",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारतात दर वर्षी नियतकालिक कामगार बल सर्वेक्षण (Periodic Labour Force Survey - PLFS) कोणती संस्था राबवते? / In India, which organisation conducts the annual Periodic Labour Force Survey (PLFS)?",
+    "options": [
+      "A. भारतीय रिझर्व्ह बँक / Reserve Bank of India",
+      "B. राष्ट्रीय नमुना सर्वेक्षण कार्यालय (NSSO) / National Sample Survey Office (NSSO)",
+      "C. नियोजन आयोग / Planning Commission",
+      "D. श्रम व रोजगार मंत्रालय थेट / Ministry of Labour directly"
+    ],
+    "answer": "B",
+    "explanation": "NSSO (राष्ट्रीय सांख्यिकी कार्यालयांतर्गत) 2017 पासून वार्षिक PLFS राबवत आहे, ज्याने पूर्वीच्या पंचवार्षिक रोजगार-बेरोजगारी सर्वेक्षणाची जागा घेतली.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

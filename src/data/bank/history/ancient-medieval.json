@@ -1,0 +1,218 @@
+[
+  {
+    "id": "history-ancient-medieval-0001",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "'ग्रेट बाथ' (महास्नानगृह) ही वास्तू सिंधू संस्कृतीच्या कोणत्या स्थळी सापडली? / At which Indus Valley Civilization site was the 'Great Bath' discovered?",
+    "options": [
+      "A. हडप्पा / Harappa",
+      "B. मोहेंजोदडो / Mohenjo-daro",
+      "C. लोथल / Lothal",
+      "D. कालीबंगन / Kalibangan"
+    ],
+    "answer": "B",
+    "explanation": "The Great Bath, a large water tank believed to be used for ritual bathing, was excavated at Mohenjo-daro in present-day Sindh, Pakistan.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0002",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "सिंधू संस्कृतीच्या लिपीबद्दल खालीलपैकी कोणते विधान बरोबर आहे? / Which of the following statements about the Indus Valley script is correct?",
+    "options": [
+      "A. ती डावीकडून उजवीकडे लिहिली जाते / It is written left to right",
+      "B. ती अद्याप उलगडलेली नाही / It remains undeciphered",
+      "C. ती ब्राह्मी लिपीपासून विकसित झाली / It developed from the Brahmi script",
+      "D. ती संस्कृत भाषेत लिहिलेली आहे / It is written in the Sanskrit language"
+    ],
+    "answer": "B",
+    "explanation": "Despite numerous attempts, the Indus script found on seals and pottery has not yet been successfully deciphered by scholars.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0003",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "गोदीवाडा (dockyard) साठी प्रसिद्ध असलेले सिंधू संस्कृतीचे स्थळ कोणते? / Which Indus Valley Civilization site is famous for its dockyard?",
+    "options": [
+      "A. लोथल / Lothal",
+      "B. रोपड / Ropar",
+      "C. चन्हुदडो / Chanhudaro",
+      "D. सुरकोटडा / Surkotada"
+    ],
+    "answer": "A",
+    "explanation": "Lothal in Gujarat, excavated by S.R. Rao, is well known for its brick-built dockyard indicating maritime trade activity.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0004",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्रातील अहमदनगर जिल्ह्यातील ताम्रपाषाणयुगीन स्थळ कोणते, जेथे प्रसिद्ध कांस्य रथाचे अवशेष सापडले? / Which chalcolithic site in Ahmednagar district, Maharashtra, yielded the famous bronze chariot remains?",
+    "options": [
+      "A. इनामगाव / Inamgaon",
+      "B. जोर्वे / Jorve",
+      "C. दायमाबाद / Daimabad",
+      "D. नेवासा / Nevasa"
+    ],
+    "answer": "C",
+    "explanation": "Daimabad, on the banks of the Pravara river in Ahmednagar district, is known for its chalcolithic culture and the famous bronze chariot with bulls and rhinoceros figures.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0005",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "छत्रपती शिवाजी महाराजांचा राज्याभिषेक कोणत्या वर्षी व कोठे झाला? / In which year and where was Chhatrapati Shivaji Maharaj's coronation held?",
+    "options": [
+      "A. १६७४, रायगड / 1674, Raigad",
+      "B. १६८०, पुणे / 1680, Pune",
+      "C. १६६४, प्रतापगड / 1664, Pratapgad",
+      "D. १६७०, सिंहगड / 1670, Sinhagad"
+    ],
+    "answer": "A",
+    "explanation": "Shivaji Maharaj was formally crowned Chhatrapati on 6 June 1674 at the fort of Raigad.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0006",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "शिवाजी महाराजांच्या अष्टप्रधान मंडळात एकूण किती मंत्री होते? / How many ministers were there in Shivaji Maharaj's Ashtapradhan council?",
+    "options": [
+      "A. सहा / Six",
+      "B. सात / Seven",
+      "C. आठ / Eight",
+      "D. नऊ / Nine"
+    ],
+    "answer": "C",
+    "explanation": "As the name 'Ashtapradhan' (ashta = eight) indicates, Shivaji Maharaj's central council of ministers comprised eight members.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0007",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "अष्टप्रधान मंडळातील 'पेशवा' (मुख्य प्रधान) या पदाचे मुख्य कार्य काय होते? / What was the primary function of the 'Peshwa' (chief minister) post in the Ashtapradhan council?",
+    "options": [
+      "A. फक्त सैन्याचे नेतृत्व करणे / Leading the army only",
+      "B. राज्याचा सर्वसाधारण कारभार व वित्तव्यवहार पाहणे / Overseeing general administration and finance as chief minister",
+      "C. न्यायदान करणे / Administering justice",
+      "D. धार्मिक व दानधर्म विषयक कार्ये पाहणे / Overseeing religious and charitable affairs"
+    ],
+    "answer": "B",
+    "explanation": "The Peshwa was the foremost minister in Shivaji's council, responsible for overall administration and financial affairs of the state.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0008",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "अष्टप्रधान मंडळातील न्यायव्यवस्थेची प्रमुख जबाबदारी कोणत्या पदाधिकाऱ्याकडे होती? / Which Ashtapradhan official held primary responsibility for the judiciary?",
+    "options": [
+      "A. न्यायाधीश / Nyayadhish",
+      "B. पंडितराव / Panditrao",
+      "C. डबीर / Dabir",
+      "D. वाकेनवीस / Waqenavis"
+    ],
+    "answer": "A",
+    "explanation": "The Nyayadhish was the Ashtapradhan official in charge of civil justice, while Panditrao handled religious/charitable matters and Dabir handled foreign affairs.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0009",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "छत्रपती शाहू महाराजांच्या कारकिर्दीत पहिले पेशवे म्हणून नियुक्त झालेले व्यक्ती कोण होते? / Who was appointed as the first Peshwa during the reign of Chhatrapati Shahu Maharaj?",
+    "options": [
+      "A. बाळाजी विश्वनाथ / Balaji Vishwanath",
+      "B. बाजीराव पहिला / Bajirao I",
+      "C. बाळाजी बाजीराव / Balaji Baji Rao",
+      "D. नारायणराव पेशवे / Narayanrao Peshwe"
+    ],
+    "answer": "A",
+    "explanation": "Balaji Vishwanath was appointed Peshwa by Chhatrapati Shahu in 1713, marking the beginning of the hereditary Peshwa era.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0010",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "इ.स. १७६१ मध्ये झालेल्या पानिपतच्या तिसऱ्या लढाईच्या वेळी मराठा साम्राज्याचे पेशवे कोण होते? / Who was the Peshwa of the Maratha Empire at the time of the Third Battle of Panipat in 1761?",
+    "options": [
+      "A. बाजीराव पहिला / Bajirao I",
+      "B. बाळाजी बाजीराव (नानासाहेब) / Balaji Baji Rao (Nanasaheb)",
+      "C. माधवराव पहिला / Madhavrao I",
+      "D. रघुनाथराव / Raghunathrao"
+    ],
+    "answer": "B",
+    "explanation": "Balaji Baji Rao, known as Nanasaheb Peshwa, was the ruling Peshwa in 1761 when the Maratha army under Sadashivrao Bhau fought the Third Battle of Panipat.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0011",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पेशवाईच्या काळात मराठा साम्राज्याची प्रमुख राजधानी कोणते शहर बनले? / Which city became the principal capital of the Maratha empire during the Peshwa era?",
+    "options": [
+      "A. सातारा / Satara",
+      "B. रायगड / Raigad",
+      "C. पुणे / Pune",
+      "D. नाशिक / Nashik"
+    ],
+    "answer": "C",
+    "explanation": "Under the Peshwas, Pune emerged as the de facto political capital of the Maratha empire, even though Satara remained the nominal seat of the Chhatrapati.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "history-ancient-medieval-0012",
+    "subject": "history",
+    "subtopic": "ancient-medieval",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "शिवाजी महाराजांच्या बालपणी शहाजी राजांच्या पुणे जहागिरीचा कारभार पाहणारे व त्यांना प्रशासनाचे प्रशिक्षण देणारे विश्वासू सरदार कोण होते? / Who was the trusted administrator appointed by Shahaji Raje to manage the Pune jagir and train young Shivaji in administration?",
+    "options": [
+      "A. दादोजी कोंडदेव / Dadoji Kondev",
+      "B. तानाजी मालुसरे / Tanaji Malusare",
+      "C. मोरोपंत पिंगळे / Moropant Pingle",
+      "D. नेताजी पालकर / Netaji Palkar"
+    ],
+    "answer": "A",
+    "explanation": "Dadoji Kondev was appointed by Shahaji Raje as administrator of the Pune jagir and is credited with overseeing young Shivaji's early administrative training.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

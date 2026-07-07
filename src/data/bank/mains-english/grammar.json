@@ -1,0 +1,200 @@
+[
+  {
+    "id": "mains-english-grammar-0001",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "Choose the correctly punctuated/tensed sentence: The train ______ before we reached the station.",
+    "options": [
+      "A. had left",
+      "B. has left",
+      "C. left",
+      "D. was left"
+    ],
+    "answer": "A",
+    "explanation": "Past Perfect Tense ('had left') is used for an action completed before another past action ('reached').",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0002",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "Fill in the blank with the correct form of the verb: She ______ in Mumbai since 2015.",
+    "options": [
+      "A. lives",
+      "B. is living",
+      "C. has been living",
+      "D. lived"
+    ],
+    "answer": "C",
+    "explanation": "Present Perfect Continuous Tense is used with 'since/for' to show an action that started in the past and continues to the present.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0003",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Identify the correct sentence:",
+    "options": [
+      "A. He is knowing the answer.",
+      "B. He knows the answer.",
+      "C. He is know the answer.",
+      "D. He knowing the answer."
+    ],
+    "answer": "B",
+    "explanation": "'Know' is a stative verb and is not normally used in the continuous tense; simple present is correct.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0004",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "Select the sentence with the correct use of articles:",
+    "options": [
+      "A. She is an honest officer.",
+      "B. She is a honest officer.",
+      "C. She is honest an officer.",
+      "D. She is the honest officer of department."
+    ],
+    "answer": "A",
+    "explanation": "'An' is used before 'honest' because the 'h' is silent and the word begins with a vowel sound.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0005",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "Choose the correct preposition: The candidates were divided ______ four groups for the interview.",
+    "options": [
+      "A. in",
+      "B. into",
+      "C. with",
+      "D. by"
+    ],
+    "answer": "B",
+    "explanation": "'Divide into' is the correct collocation meaning to split something into separate parts.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0006",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Fill in the blank: The Mantralaya building is situated ______ the heart of Mumbai.",
+    "options": [
+      "A. at",
+      "B. on",
+      "C. in",
+      "D. by"
+    ],
+    "answer": "C",
+    "explanation": "'In the heart of' is the idiomatic preposition usage to indicate location within a central area.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0007",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Choose the sentence that correctly uses the future perfect tense:",
+    "options": [
+      "A. By next year, she will complete her training.",
+      "B. By next year, she will have completed her training.",
+      "C. By next year, she completes her training.",
+      "D. By next year, she has completed her training."
+    ],
+    "answer": "B",
+    "explanation": "Future Perfect Tense ('will have completed') is used for an action that will be finished before a specific future time.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0008",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "hard",
+    "language": "english",
+    "question": "Select the option with no article error: The Governor of Maharashtra addressed ______ gathering at ______ Raj Bhavan.",
+    "options": [
+      "A. a, the",
+      "B. the, a",
+      "C. an, the",
+      "D. the, an"
+    ],
+    "answer": "A",
+    "explanation": "'A gathering' is a general reference (indefinite, non-specific), while 'the Raj Bhavan' refers to a specific, unique building.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0009",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "medium",
+    "language": "english",
+    "question": "Identify the correctly formed sentence using the past continuous tense:",
+    "options": [
+      "A. While I was studying, the electricity went off.",
+      "B. While I studied, the electricity was going off.",
+      "C. While I was studying, the electricity was going off.",
+      "D. While I study, the electricity went off."
+    ],
+    "answer": "A",
+    "explanation": "Past Continuous ('was studying') describes an ongoing past action interrupted by a shorter completed past action ('went off') in Simple Past.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0010",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "easy",
+    "language": "english",
+    "question": "Choose the correct preposition to complete the sentence: The Zilla Parishad meeting is scheduled ______ Monday morning.",
+    "options": [
+      "A. in",
+      "B. at",
+      "C. on",
+      "D. of"
+    ],
+    "answer": "C",
+    "explanation": "'On' is used with specific days of the week, such as 'on Monday'.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-english-grammar-0011",
+    "subject": "mains-english",
+    "subtopic": "grammar",
+    "difficulty": "hard",
+    "language": "english",
+    "question": "Select the grammatically correct sentence:",
+    "options": [
+      "A. Neither of the officers were present at the meeting.",
+      "B. Neither of the officers was present at the meeting.",
+      "C. Neither of the officer was present at the meeting.",
+      "D. Neither of the officers has present at the meeting."
+    ],
+    "answer": "B",
+    "explanation": "'Neither' is a singular pronoun and therefore takes a singular verb ('was'), even though it is followed by a plural noun phrase.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "polity-state-govt-0001",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "राज्यपालांची नियुक्ती कोणत्या अनुच्छेदान्वये राष्ट्रपतींद्वारे केली जाते? / Under which Article is the Governor appointed by the President?",
+    "options": [
+      "A. अनुच्छेद १५३ / Article 153",
+      "B. अनुच्छेद १५४ / Article 154",
+      "C. अनुच्छेद १५५ / Article 155",
+      "D. अनुच्छेद १५६ / Article 156"
+    ],
+    "answer": "C",
+    "explanation": "Article 155 of the Constitution provides that the Governor of a State shall be appointed by the President by warrant under his hand and seal.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0002",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "राज्यपाल पदासाठी किमान वयोमर्यादा किती आहे? / What is the minimum age prescribed for a person to be appointed as Governor?",
+    "options": [
+      "A. २५ वर्षे / 25 years",
+      "B. ३० वर्षे / 30 years",
+      "C. ३५ वर्षे / 35 years",
+      "D. ४० वर्षे / 40 years"
+    ],
+    "answer": "C",
+    "explanation": "Article 157 requires that a Governor must have completed 35 years of age.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0003",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्र विधानसभेची एकूण सदस्य संख्या किती आहे? / What is the total strength of the Maharashtra Vidhan Sabha (Legislative Assembly)?",
+    "options": [
+      "A. २३४ / 234",
+      "B. २८८ / 288",
+      "C. २९४ / 294",
+      "D. ३०० / 300"
+    ],
+    "answer": "B",
+    "explanation": "The Maharashtra Legislative Assembly (Vidhan Sabha) has 288 elected members.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0004",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "महाराष्ट्र विधान परिषदेची एकूण सदस्य संख्या किती आहे? / What is the total strength of the Maharashtra Vidhan Parishad (Legislative Council)?",
+    "options": [
+      "A. ६० / 60",
+      "B. ७२ / 72",
+      "C. ७८ / 78",
+      "D. १०० / 100"
+    ],
+    "answer": "C",
+    "explanation": "The Maharashtra Legislative Council (Vidhan Parishad) has 78 members, making it one of India's largest state legislative councils.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0005",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राज्यपाल एखादे विधेयक राष्ट्रपतींच्या विचारार्थ राखून ठेवू शकतात, हा त्यांचा विवेकाधिकार कोणत्या अनुच्छेदात नमूद आहे? / Under which Article does the Governor have the discretionary power to reserve a bill for the President's consideration?",
+    "options": [
+      "A. अनुच्छेद १९८ / Article 198",
+      "B. अनुच्छेद १९९ / Article 199",
+      "C. अनुच्छेद २०० / Article 200",
+      "D. अनुच्छेद २०१ / Article 201"
+    ],
+    "answer": "C",
+    "explanation": "Article 200 empowers the Governor to reserve a bill passed by the State Legislature for the consideration of the President, which is one of the Governor's discretionary functions.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0006",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "अविश्वास प्रस्ताव फक्त कोणत्या सभागृहात मांडता येतो? / A no-confidence motion against the Council of Ministers can be moved only in which House?",
+    "options": [
+      "A. विधान परिषद / Vidhan Parishad",
+      "B. विधानसभा / Vidhan Sabha",
+      "C. दोन्ही सभागृहात / Both Houses",
+      "D. राज्यपालांच्या विवेकाधिकाराने / At the Governor's discretion"
+    ],
+    "answer": "B",
+    "explanation": "Since the Council of Ministers is collectively responsible only to the Legislative Assembly (Vidhan Sabha), a no-confidence motion can be moved only there, not in the Legislative Council.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0007",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राज्याचे मंत्रिमंडळ सामूहिकरित्या कोणाला जबाबदार असते? / The Council of Ministers in a State is collectively responsible to which body?",
+    "options": [
+      "A. राज्यपाल / Governor",
+      "B. विधानसभा / Vidhan Sabha",
+      "C. विधान परिषद / Vidhan Parishad",
+      "D. राष्ट्रपती / President"
+    ],
+    "answer": "B",
+    "explanation": "Article 164(2) makes the Council of Ministers collectively responsible to the Legislative Assembly of the State.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0008",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "९१ व्या घटनादुरुस्तीनुसार, मुख्यमंत्र्यांसह मंत्रिमंडळाची एकूण संख्या विधानसभेच्या एकूण सदस्यसंख्येच्या किती टक्क्यांपेक्षा अधिक असू शकत नाही? / As per the 91st Constitutional Amendment, the total strength of the Council of Ministers, including the CM, cannot exceed what percentage of the total membership of the Legislative Assembly?",
+    "options": [
+      "A. १० टक्के / 10%",
+      "B. १५ टक्के / 15%",
+      "C. २० टक्के / 20%",
+      "D. २५ टक्के / 25%"
+    ],
+    "answer": "B",
+    "explanation": "The 91st Amendment Act, 2003 inserted Article 164(1A) capping the size of the Council of Ministers (including CM) at 15% of the total strength of the State Legislative Assembly.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0009",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "महाराष्ट्र विधान परिषदेच्या सदस्यांचा कार्यकाळ किती वर्षांचा असतो आणि दर दोन वर्षांनी किती सदस्य निवृत्त होतात? / What is the term of members of the Maharashtra Vidhan Parishad, and what fraction of members retire every two years?",
+    "options": [
+      "A. ५ वर्षे, १/२ / 5 years, 1/2",
+      "B. ६ वर्षे, १/३ / 6 years, 1/3",
+      "C. ६ वर्षे, १/२ / 6 years, 1/2",
+      "D. ५ वर्षे, १/३ / 5 years, 1/3"
+    ],
+    "answer": "B",
+    "explanation": "Like the Rajya Sabha, members of the Legislative Council have a six-year term, with one-third of members retiring every two years.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0010",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणत्या राज्यात सध्या द्विसदनी विधिमंडळ (विधानसभा व विधान परिषद) अस्तित्वात नाही? / Which of the following states currently does NOT have a bicameral legislature (Vidhan Sabha and Vidhan Parishad)?",
+    "options": [
+      "A. महाराष्ट्र / Maharashtra",
+      "B. कर्नाटक / Karnataka",
+      "C. बिहार / Bihar",
+      "D. पंजाब / Punjab"
+    ],
+    "answer": "D",
+    "explanation": "Punjab has only a unicameral legislature (Vidhan Sabha); Maharashtra, Karnataka and Bihar are among the states with bicameral legislatures.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0011",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "विधिमंडळाचे अधिवेशन चालू नसताना अध्यादेश काढण्याचा राज्यपालांचा अधिकार कोणत्या अनुच्छेदात नमूद आहे? / Under which Article does the Governor have the power to promulgate ordinances when the State Legislature is not in session?",
+    "options": [
+      "A. अनुच्छेद १२३ / Article 123",
+      "B. अनुच्छेद २१३ / Article 213",
+      "C. अनुच्छेद ३५६ / Article 356",
+      "D. अनुच्छेद २०० / Article 200"
+    ],
+    "answer": "B",
+    "explanation": "Article 213 empowers the Governor to promulgate ordinances when the State Legislature (or either House) is not in session.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "polity-state-govt-0012",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "महाराष्ट्र विधान परिषदेतील किती सदस्य राज्यपालांकडून नामनिर्देशित केले जातात? / What fraction of the members of the Maharashtra Legislative Council are nominated by the Governor?",
+    "options": [
+      "A. १/३ / 1/3",
+      "B. १/६ / 1/6",
+      "C. १/१२ / 1/12",
+      "D. १/२ / 1/2"
+    ],
+    "answer": "B",
+    "explanation": "As per Article 171, one-sixth of the total members of a Legislative Council are nominated by the Governor from persons with special knowledge in literature, science, art, cooperative movement and social service.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

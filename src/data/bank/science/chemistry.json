@@ -1,0 +1,218 @@
+[
+  {
+    "id": "science-chemistry-0001",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "मूलद्रव्यांच्या आधुनिक आवर्त सारणीची मांडणी कोणत्या तत्त्वावर आधारित आहे? / The modern periodic table of elements is arranged based on which principle?",
+    "options": [
+      "A. अणुभार / Atomic weight",
+      "B. अणुक्रमांक / Atomic number",
+      "C. संयुजा / Valency",
+      "D. समस्थानिक संख्या / Isotope number"
+    ],
+    "answer": "B",
+    "explanation": "आधुनिक आवर्त सारणी हेन्री मोसले यांनी मांडलेल्या अणुक्रमांकाच्या तत्त्वावर आधारित आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0002",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "पाण्याचे रासायनिक सूत्र काय आहे? / What is the chemical formula of water?",
+    "options": [
+      "A. H2O2",
+      "B. HO2",
+      "C. H2O",
+      "D. H3O"
+    ],
+    "answer": "C",
+    "explanation": "पाण्याचे रासायनिक सूत्र H2O असून त्यात दोन हायड्रोजन व एक ऑक्सिजन अणू असतो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0003",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणता वायू 'लाफिंग गॅस' म्हणून ओळखला जातो? / Which of the following gases is known as 'laughing gas'?",
+    "options": [
+      "A. नायट्रस ऑक्साईड / Nitrous oxide",
+      "B. नायट्रोजन डायऑक्साईड / Nitrogen dioxide",
+      "C. अमोनिया / Ammonia",
+      "D. मिथेन / Methane"
+    ],
+    "answer": "A",
+    "explanation": "नायट्रस ऑक्साईड (N2O) हा भूल देण्यासाठी वापरला जाणारा वायू 'लाफिंग गॅस' म्हणून ओळखला जातो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0004",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "pH मूल्य 7 पेक्षा कमी असलेले द्रावण कसे असते? / A solution with pH value less than 7 is:",
+    "options": [
+      "A. आम्लधर्मी / Acidic",
+      "B. आम्लारीधर्मी / Basic",
+      "C. उदासीन / Neutral",
+      "D. यापैकी नाही / None of these"
+    ],
+    "answer": "A",
+    "explanation": "pH 7 पेक्षा कमी असणारे द्रावण आम्लधर्मी (acidic) असते, तर 7 पेक्षा जास्त असणारे आम्लारीधर्मी (basic) असते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0005",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "स्वयंपाकाच्या सोड्याचे (Baking Soda) रासायनिक नाव काय आहे? / What is the chemical name of baking soda?",
+    "options": [
+      "A. सोडियम कार्बोनेट / Sodium carbonate",
+      "B. सोडियम बायकार्बोनेट / Sodium bicarbonate",
+      "C. सोडियम हायड्रॉक्साईड / Sodium hydroxide",
+      "D. कॅल्शियम कार्बोनेट / Calcium carbonate"
+    ],
+    "answer": "B",
+    "explanation": "स्वयंपाकाचा सोडा म्हणजे सोडियम बायकार्बोनेट (NaHCO3) होय.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0006",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणता धातू सामान्य तापमानाला द्रव स्वरूपात असतो? / Which of the following metals is liquid at room temperature?",
+    "options": [
+      "A. सोडियम / Sodium",
+      "B. पारा / Mercury",
+      "C. जस्त / Zinc",
+      "D. लोखंड / Iron"
+    ],
+    "answer": "B",
+    "explanation": "पारा (Mercury) हा एकमेव धातू आहे जो सामान्य तापमानाला द्रव स्वरूपात असतो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0007",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "'मार्श गॅस' या नावाने कोणता वायू ओळखला जातो? / Which gas is known as 'marsh gas'?",
+    "options": [
+      "A. कार्बन डायऑक्साईड / Carbon dioxide",
+      "B. मिथेन / Methane",
+      "C. हायड्रोजन / Hydrogen",
+      "D. इथिलीन / Ethylene"
+    ],
+    "answer": "B",
+    "explanation": "दलदलीच्या प्रदेशात सेंद्रिय पदार्थांच्या विघटनाने तयार होणारा मिथेन वायू 'मार्श गॅस' म्हणून ओळखला जातो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0008",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "प्लास्टर ऑफ पॅरिस तयार करण्यासाठी कोणता पदार्थ तापवला जातो? / Which substance is heated to prepare Plaster of Paris?",
+    "options": [
+      "A. जिप्सम / Gypsum",
+      "B. चुनखडी / Limestone",
+      "C. सिलिका / Silica",
+      "D. बॉक्साईट / Bauxite"
+    ],
+    "answer": "A",
+    "explanation": "जिप्सम (CaSO4·2H2O) यास १२०-१८० अंश सेल्सिअस तापमानाला तापवून प्लास्टर ऑफ पॅरिस (CaSO4·½H2O) तयार होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0009",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "अणुक्रमांक असलेल्या मूलद्रव्यातील प्रोटॉनच्या संख्येला काय म्हणतात? / The number of protons in an atom's nucleus is called its:",
+    "options": [
+      "A. वस्तुमानांक / Mass number",
+      "B. अणुक्रमांक / Atomic number",
+      "C. समस्थानिक भार / Isotopic weight",
+      "D. संयुजा / Valency"
+    ],
+    "answer": "B",
+    "explanation": "अणुतील प्रोटॉनच्या संख्येला अणुक्रमांक (Atomic number) म्हणतात.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0010",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणता आम्ल मानवी जठरात तयार होतो? / Which acid is present in the human stomach?",
+    "options": [
+      "A. सल्फ्युरिक आम्ल / Sulphuric acid",
+      "B. हायड्रोक्लोरिक आम्ल / Hydrochloric acid",
+      "C. नायट्रिक आम्ल / Nitric acid",
+      "D. एसिटिक आम्ल / Acetic acid"
+    ],
+    "answer": "B",
+    "explanation": "मानवी जठरात हायड्रोक्लोरिक आम्ल (HCl) तयार होते जे अन्नपचनास मदत करते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0011",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "समान अणुक्रमांक परंतु भिन्न वस्तुमानांक असलेल्या मूलद्रव्याच्या प्रकारांना काय म्हणतात? / Atoms of the same element with the same atomic number but different mass numbers are called:",
+    "options": [
+      "A. समस्थानिक / Isotopes",
+      "B. समभारिक / Isobars",
+      "C. समान्यूट्रॉनिक / Isotones",
+      "D. संयुगे / Compounds"
+    ],
+    "answer": "A",
+    "explanation": "एकाच मूलद्रव्याचे अणुक्रमांक समान पण वस्तुमानांक भिन्न असणाऱ्या प्रकारांना समस्थानिक (Isotopes) म्हणतात.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "science-chemistry-0012",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "धुण्याच्या सोड्याचे (Washing Soda) रासायनिक सूत्र कोणते आहे? / What is the chemical formula of washing soda?",
+    "options": [
+      "A. Na2CO3·10H2O",
+      "B. NaHCO3",
+      "C. CaCO3",
+      "D. NaOH"
+    ],
+    "answer": "A",
+    "explanation": "धुण्याचा सोडा म्हणजे सोडियम कार्बोनेट डेकाहायड्रेट (Na2CO3·10H2O) होय.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

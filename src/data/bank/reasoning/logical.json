@@ -1,0 +1,218 @@
+[
+  {
+    "id": "reasoning-logical-0001",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "विधाने: सर्व मांजरी कुत्री आहेत. सर्व कुत्री पक्षी आहेत.\nनिष्कर्ष: I. सर्व मांजरी पक्षी आहेत. II. काही पक्षी मांजरी आहेत.\n/ Statements: All cats are dogs. All dogs are birds.\nConclusions: I. All cats are birds. II. Some birds are cats.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "C",
+    "explanation": "Since all cats are dogs and all dogs are birds, all cats are birds (I), and since cats are a subset of birds, some birds are cats (II); both follow.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0002",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "विधाने: कोणताही दगड धातू नाही. सर्व धातू खनिजे आहेत.\nनिष्कर्ष: I. कोणतेही खनिज दगड नाही. II. काही खनिजे दगड नाहीत.\n/ Statements: No stone is a metal. All metals are minerals.\nConclusions: I. No mineral is a stone. II. Some minerals are not stones.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "B",
+    "explanation": "Since metals (which are not stones) are a subset of minerals, some minerals are definitely not stones, but it cannot be concluded that no mineral at all is a stone.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0003",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "विधाने: काही पेन पुस्तके आहेत. सर्व पुस्तके कागद आहेत.\nनिष्कर्ष: I. काही पेन कागद आहेत. II. काही कागद पेन आहेत.\n/ Statements: Some pens are books. All books are papers.\nConclusions: I. Some pens are papers. II. Some papers are pens.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "C",
+    "explanation": "Some pens being books which are all papers gives some pens are papers (I), and by simple conversion of this I-type statement, some papers are pens (II); both follow.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0004",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "विधाने: सर्व डॉक्टर अभियंता आहेत. कोणताही अभियंता शेतकरी नाही.\nनिष्कर्ष: I. कोणताही डॉक्टर शेतकरी नाही. II. काही डॉक्टर शेतकरी नाहीत.\n/ Statements: All doctors are engineers. No engineer is a farmer.\nConclusions: I. No doctor is a farmer. II. Some doctors are not farmers.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "C",
+    "explanation": "Since all doctors are engineers and no engineer is a farmer, no doctor is a farmer (I), and since this universal negative holds, some doctors are not farmers (II) also follows.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0005",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "विधाने: काही शिक्षक लेखक आहेत. काही लेखक चित्रकार आहेत.\nनिष्कर्ष: I. काही शिक्षक चित्रकार आहेत. II. कोणताही शिक्षक चित्रकार नाही.\n/ Statements: Some teachers are writers. Some writers are painters.\nConclusions: I. Some teachers are painters. II. No teacher is a painter.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "D",
+    "explanation": "Two particular (some) premises with no common distributed term yield no definite conclusion about teachers and painters, so neither conclusion follows.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0006",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "विधाने: सर्व आंबे फळे आहेत. काही फळे गोड आहेत.\nनिष्कर्ष: I. काही आंबे गोड आहेत. II. काही गोड पदार्थ आंबे आहेत.\n/ Statements: All mangoes are fruits. Some fruits are sweet.\nConclusions: I. Some mangoes are sweet. II. Some sweet things are mangoes.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "D",
+    "explanation": "The 'some fruits are sweet' may refer entirely to fruits other than mangoes, so neither that some mangoes are sweet nor that some sweet things are mangoes can be validly concluded.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0007",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "विधाने: सर्व खोल्या खिडक्या आहेत. काही खिडक्या दरवाजे आहेत.\nनिष्कर्ष: I. काही दरवाजे खोल्या आहेत. II. कोणताही दरवाजा खोली नाही.\n/ Statements: All rooms are windows. Some windows are doors.\nConclusions: I. Some doors are rooms. II. No door is a room.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. एकतर निष्कर्ष I किंवा II बरोबर आहे / Either conclusion I or II follows",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "C",
+    "explanation": "Neither conclusion follows individually since the 'some windows are doors' may or may not overlap with rooms, but as the two conclusions are complementary (some vs none) and jointly exhaust all possible cases, either I or II must follow.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0008",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "विधाने: सर्व पोपट पक्षी आहेत. सर्व चिमण्या पक्षी आहेत.\nनिष्कर्ष: I. सर्व पोपट चिमण्या आहेत. II. काही पक्षी पोपट आहेत.\n/ Statements: All parrots are birds. All sparrows are birds.\nConclusions: I. All parrots are sparrows. II. Some birds are parrots.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "B",
+    "explanation": "Two universal statements sharing the same predicate (birds) do not establish any relation between parrots and sparrows, but since all parrots are birds, some birds are indeed parrots.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0009",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "विधाने: कोणतेही टेबल खुर्ची नाही. काही खुर्च्या लाकडी वस्तू आहेत.\nनिष्कर्ष: I. काही लाकडी वस्तू टेबल नाहीत. II. कोणतीही लाकडी वस्तू टेबल नाही.\n/ Statements: No table is a chair. Some chairs are wooden items.\nConclusions: I. Some wooden items are not tables. II. No wooden item is a table.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "A",
+    "explanation": "Since no table is a chair and some chairs are wooden items, those wooden items that are chairs are certainly not tables, giving 'some wooden items are not tables', but a blanket 'no wooden item is a table' cannot be guaranteed as other wooden items could be tables.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0010",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "विधाने: काही विद्यार्थी खेळाडू आहेत. कोणताही खेळाडू आळशी नाही.\nनिष्कर्ष: I. काही विद्यार्थी आळशी नाहीत. II. कोणताही विद्यार्थी आळशी नाही.\n/ Statements: Some students are athletes. No athlete is lazy.\nConclusions: I. Some students are not lazy. II. No student is lazy.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "A",
+    "explanation": "Since some students are athletes and no athlete is lazy, those students who are athletes are certainly not lazy, so 'some students are not lazy' follows, but it cannot be concluded that no student at all is lazy.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0011",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "विधाने: सर्व नद्या जलस्रोत आहेत. सर्व जलस्रोत नैसर्गिक संसाधने आहेत. सर्व नैसर्गिक संसाधने मौल्यवान आहेत.\nनिष्कर्ष: I. सर्व नद्या मौल्यवान आहेत. II. काही मौल्यवान गोष्टी नद्या आहेत.\n/ Statements: All rivers are water bodies. All water bodies are natural resources. All natural resources are valuable.\nConclusions: I. All rivers are valuable. II. Some valuable things are rivers.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "C",
+    "explanation": "Chaining the three universal statements gives all rivers are valuable (I), and since rivers are thus a subset of valuable things, some valuable things are rivers (II); both follow.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "reasoning-logical-0012",
+    "subject": "reasoning",
+    "subtopic": "logical",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "विधाने: सर्व फाईली फोल्डर आहेत. कोणताही फोल्डर दस्तऐवज नाही.\nनिष्कर्ष: I. कोणतीही फाईल दस्तऐवज नाही. II. काही फोल्डर फाईल नाहीत.\n/ Statements: All files are folders. No folder is a document.\nConclusions: I. No file is a document. II. Some folders are not files.",
+    "options": [
+      "A. फक्त निष्कर्ष I बरोबर आहे / Only conclusion I follows",
+      "B. फक्त निष्कर्ष II बरोबर आहे / Only conclusion II follows",
+      "C. दोन्ही निष्कर्ष I आणि II बरोबर आहेत / Both conclusions I and II follow",
+      "D. दोन्हीपैकी कोणताही निष्कर्ष बरोबर नाही / Neither conclusion follows"
+    ],
+    "answer": "A",
+    "explanation": "Since all files are folders and no folder is a document, no file can be a document (I), but the premises are equally consistent with every folder being a file, so 'some folders are not files' does not necessarily follow.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]
