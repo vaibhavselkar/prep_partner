@@ -68,3 +68,12 @@ export interface BankManifest {
   bySubject: Record<string, number>;
   bySubtopic: Record<string, number>;
 }
+
+export interface MockAttempt {
+  id: string;
+  date: string;
+  total: number;
+  score: number;
+  durationSec: number;
+  bySubject: Record<string, { correct: number; total: number }>;
+}
