@@ -42,3 +42,6 @@ data/pdfs/
 
 # local image folders (large files, not needed in repo)
 maharashtra/
+
+# SDD scratch
+.superpowers/
