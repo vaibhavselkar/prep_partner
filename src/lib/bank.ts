@@ -50,7 +50,7 @@ export function sampleFrom(questions: BankQuestion[], opts: SampleOpts): BankQue
 }
 
 export function getAllQuestions(): BankQuestion[] {
-  return bundle as BankQuestion[];
+  return bundle as unknown as BankQuestion[];
 }
 export function getManifest(): BankManifest {
   return manifest as BankManifest;

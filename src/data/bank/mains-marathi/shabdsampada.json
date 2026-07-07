@@ -1,0 +1,218 @@
+[
+  {
+    "id": "mains-marathi-shabdsampada-0001",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'आनंद' या शब्दाचा समानार्थी शब्द निवडा.",
+    "options": [
+      "A. हर्ष",
+      "B. दुःख",
+      "C. क्रोध",
+      "D. भीती"
+    ],
+    "answer": "A",
+    "explanation": "'हर्ष' म्हणजे आनंद, हा 'आनंद' या शब्दाचा समानार्थी शब्द आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0002",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'प्रकाश' या शब्दाचा विरुद्धार्थी शब्द कोणता?",
+    "options": [
+      "A. तेज",
+      "B. उजेड",
+      "C. अंधार",
+      "D. किरण"
+    ],
+    "answer": "C",
+    "explanation": "'प्रकाश' चा विरुद्धार्थी शब्द 'अंधार' आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0003",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'निर्दय' या शब्दाचा विरुद्धार्थी शब्द ओळखा.",
+    "options": [
+      "A. क्रूर",
+      "B. दयाळू",
+      "C. कठोर",
+      "D. निष्ठुर"
+    ],
+    "answer": "B",
+    "explanation": "'निर्दय' म्हणजे दया नसलेला, याचा विरुद्धार्थी शब्द 'दयाळू' आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0004",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'सरिता' या शब्दाचा समानार्थी शब्द कोणता?",
+    "options": [
+      "A. सागर",
+      "B. नदी",
+      "C. तलाव",
+      "D. विहीर"
+    ],
+    "answer": "B",
+    "explanation": "'सरिता' म्हणजे नदी, हा तिचा समानार्थी शब्द आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0005",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'उदार' या शब्दाचा विरुद्धार्थी शब्द निवडा.",
+    "options": [
+      "A. कंजूष",
+      "B. दानशूर",
+      "C. सढळ",
+      "D. मनमोकळा"
+    ],
+    "answer": "A",
+    "explanation": "'उदार' म्हणजे दानशूर वृत्तीचा, याच्या विरुद्ध 'कंजूष' हा शब्द आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0006",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'अभय' या शब्दाचा समानार्थी शब्द कोणता?",
+    "options": [
+      "A. भीती",
+      "B. निर्भय",
+      "C. संकट",
+      "D. साशंक"
+    ],
+    "answer": "B",
+    "explanation": "'अभय' म्हणजे भीतीरहित, म्हणजेच 'निर्भय' हा त्याचा समानार्थी शब्द आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0007",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'संचय' या शब्दाचा विरुद्धार्थी शब्द ओळखा.",
+    "options": [
+      "A. साठा",
+      "B. संग्रह",
+      "C. अपव्यय",
+      "D. जमा"
+    ],
+    "answer": "C",
+    "explanation": "'संचय' म्हणजे साठवण करणे, याचा विरुद्धार्थी शब्द 'अपव्यय' (उधळपट्टी) आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0008",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'विनम्र' या शब्दाचा समानार्थी शब्द कोणता?",
+    "options": [
+      "A. उद्धट",
+      "B. गर्विष्ठ",
+      "C. नम्र",
+      "D. उर्मट"
+    ],
+    "answer": "C",
+    "explanation": "'विनम्र' आणि 'नम्र' हे दोन्ही शब्द नम्रता या अर्थाने समानार्थी आहेत.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0009",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'तिमिर' या शब्दाचा विरुद्धार्थी शब्द कोणता?",
+    "options": [
+      "A. अंधकार",
+      "B. काळोख",
+      "C. प्रकाश",
+      "D. रात्र"
+    ],
+    "answer": "C",
+    "explanation": "'तिमिर' म्हणजे अंधार, त्याचा विरुद्धार्थी शब्द 'प्रकाश' आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0010",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'क्षणिक' या शब्दाचा विरुद्धार्थी शब्द निवडा.",
+    "options": [
+      "A. तात्पुरता",
+      "B. चिरंतन",
+      "C. अल्पकालीन",
+      "D. नश्वर"
+    ],
+    "answer": "B",
+    "explanation": "'क्षणिक' म्हणजे थोड्या काळापुरते, याच्या विरुद्ध 'चिरंतन' म्हणजे कायम टिकणारे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0011",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'धुरंधर' या शब्दाचा समानार्थी शब्द कोणता?",
+    "options": [
+      "A. मूर्ख",
+      "B. अकुशल",
+      "C. निपुण",
+      "D. आळशी"
+    ],
+    "answer": "C",
+    "explanation": "'धुरंधर' म्हणजे एखाद्या कार्यात अत्यंत कुशल/निपुण असणारी व्यक्ती.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-shabdsampada-0012",
+    "subject": "mains-marathi",
+    "subtopic": "shabdsampada",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'स्वल्प' या शब्दाचा विरुद्धार्थी शब्द ओळखा.",
+    "options": [
+      "A. अल्प",
+      "B. अधिक",
+      "C. थोडे",
+      "D. किंचित"
+    ],
+    "answer": "B",
+    "explanation": "'स्वल्प' म्हणजे फार थोडे, याचा विरुद्धार्थी शब्द 'अधिक' आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]

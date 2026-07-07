@@ -7,7 +7,7 @@ export function assembleMock(questions: BankQuestion[], size: number, seed = 1):
   const used = new Set<string>();
   // Allocate slots per subject by prelims-marks share (largest-remainder rounding).
   const raw = SYLLABUS.map((s) => ({
-    key: s.key, exact: (s.prelimsMarks / PRELIMS_TOTAL_MARKS) * size,
+    key: s.key, exact: (s.marks / PRELIMS_TOTAL_MARKS) * size,
   }));
   const alloc = raw.map((r) => ({ key: r.key, n: Math.floor(r.exact), frac: r.exact - Math.floor(r.exact) }));
   let assigned = alloc.reduce((n, a) => n + a.n, 0);

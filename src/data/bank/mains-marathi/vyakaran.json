@@ -1,0 +1,434 @@
+[
+  {
+    "id": "mains-marathi-vyakaran-0001",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "सूर्य + उदय = सूर्योदय — या शब्दात कोणती संधी आहे?",
+    "options": [
+      "A. दीर्घ संधी",
+      "B. गुण संधी",
+      "C. वृद्धी संधी",
+      "D. यण संधी"
+    ],
+    "answer": "B",
+    "explanation": "अ + उ = ओ असे स्वर मिळून जोडशब्द तयार झाल्यास ती गुण संधी असते (सूर्य+उदय=सूर्योदय).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0002",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "विद्या + आलय = विद्यालय — या शब्दात कोणती संधी आहे?",
+    "options": [
+      "A. गुण संधी",
+      "B. वृद्धी संधी",
+      "C. दीर्घ संधी",
+      "D. यण संधी"
+    ],
+    "answer": "C",
+    "explanation": "आ + आ = आ असे समान स्वर एकत्र येऊन दीर्घ स्वर तयार झाल्याने ही दीर्घ (सवर्णदीर्घ) संधी आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0003",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "मुनी + इंद्र = मुनींद्र — यामध्ये कोणत्या संधीचा प्रकार आढळतो?",
+    "options": [
+      "A. गुण संधी",
+      "B. यण संधी",
+      "C. दीर्घ संधी",
+      "D. वृद्धी संधी"
+    ],
+    "answer": "C",
+    "explanation": "ई + इ हे सजातीय स्वर एकत्र येऊन दीर्घ ई होतो, त्यामुळे ही दीर्घ (सवर्णदीर्घ) संधी आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0004",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "खालीलपैकी कोणता शब्द 'यण् संधी'चे उदाहरण आहे?",
+    "options": [
+      "A. सूर्योदय",
+      "B. इत्यादी",
+      "C. महेश",
+      "D. विद्यालय"
+    ],
+    "answer": "B",
+    "explanation": "इति + आदी मध्ये इ नंतर असमान स्वर आल्याने इ चा 'य्' होतो (इत्यादी), हे यण् संधीचे उदाहरण आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0005",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "सदा + एव = सदैव — या शब्दात कोणती संधी आहे?",
+    "options": [
+      "A. गुण संधी",
+      "B. वृद्धी संधी",
+      "C. दीर्घ संधी",
+      "D. यण संधी"
+    ],
+    "answer": "B",
+    "explanation": "अ/आ + ए/ऐ = ऐ असा परिणाम झाल्यास ती वृद्धी संधी असते (सदा+एव=सदैव).",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0006",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'यशोगाथा' या शब्दातील संधी कोणत्या प्रकारची आहे?",
+    "options": [
+      "A. स्वर संधी",
+      "B. व्यंजन संधी",
+      "C. विसर्ग संधी",
+      "D. यण संधी"
+    ],
+    "answer": "C",
+    "explanation": "यश: + गाथा मध्ये विसर्गाचे रूपांतर होऊन 'यशोगाथा' तयार होते, म्हणजेच ही विसर्ग संधी आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0007",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "सत् + जन या शब्दांची योग्य संधी व तिचा प्रकार ओळखा.",
+    "options": [
+      "A. सज्जन - व्यंजन संधी",
+      "B. सज्जन - स्वर संधी",
+      "C. संजन - विसर्ग संधी",
+      "D. सज्जन - यण संधी"
+    ],
+    "answer": "A",
+    "explanation": "व्यंजनानंतर व्यंजन आल्याने त् चा ज् होतो (सत्+जन=सज्जन), म्हणून ही व्यंजन संधी आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0008",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'पती-पत्नी' हा कोणत्या समासाचे उदाहरण आहे?",
+    "options": [
+      "A. तत्पुरुष समास",
+      "B. द्वंद्व समास",
+      "C. बहुव्रीही समास",
+      "D. अव्ययीभाव समास"
+    ],
+    "answer": "B",
+    "explanation": "दोन्ही पदे प्रधान असून 'व' किंवा 'आणि' या समुच्चयबोधक शब्दाने जोडलेली असल्याने हा द्वंद्व समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0009",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'नीलकंठ' (शंकर) या सामासिक शब्दात कोणता समास आहे?",
+    "options": [
+      "A. कर्मधारय समास",
+      "B. द्विगु समास",
+      "C. बहुव्रीही समास",
+      "D. तत्पुरुष समास"
+    ],
+    "answer": "C",
+    "explanation": "'निळा आहे कंठ ज्याचा असा (शंकर)' असा अर्थ असून दोन्ही पदांहून तिसऱ्याच पदाचा (शंकराचा) बोध होतो, त्यामुळे हा बहुव्रीही समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0010",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'पंचवटी' या सामासिक शब्दात कोणता समास आहे?",
+    "options": [
+      "A. द्विगु समास",
+      "B. द्वंद्व समास",
+      "C. तत्पुरुष समास",
+      "D. अव्ययीभाव समास"
+    ],
+    "answer": "A",
+    "explanation": "पहिले पद संख्यावाचक असून समुदायाचा बोध होत असल्याने ('पाच वडांचा समूह') हा द्विगु समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0011",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'यथाशक्ती' या सामासिक शब्दात कोणता समास आहे?",
+    "options": [
+      "A. तत्पुरुष समास",
+      "B. कर्मधारय समास",
+      "C. अव्ययीभाव समास",
+      "D. द्वंद्व समास"
+    ],
+    "answer": "C",
+    "explanation": "पहिले पद अव्यय असून संपूर्ण सामासिक शब्द क्रियाविशेषणाप्रमाणे वापरला जातो, त्यामुळे हा अव्ययीभाव समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0012",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'राजपुत्र' या सामासिक शब्दाचा समास व विग्रह ओळखा.",
+    "options": [
+      "A. तत्पुरुष समास - राजाचा पुत्र",
+      "B. कर्मधारय समास - राजा असा पुत्र",
+      "C. बहुव्रीही समास - राजा आहे पुत्र ज्याचा",
+      "D. द्वंद्व समास - राजा व पुत्र"
+    ],
+    "answer": "A",
+    "explanation": "गाळलेला विभक्ती प्रत्यय ('चा') भरून विग्रह केल्यास 'राजाचा पुत्र' असा अर्थ होतो व दुसरे पद प्रधान असल्याने हा तत्पुरुष समास आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0013",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'मुलगा शाळेत जातो.' या वाक्यातील काळ ओळखा.",
+    "options": [
+      "A. भूतकाळ",
+      "B. वर्तमानकाळ",
+      "C. भविष्यकाळ",
+      "D. रीती भूतकाळ"
+    ],
+    "answer": "B",
+    "explanation": "क्रियापदाचे रूप 'जातो' हे वर्तमानकाळ दर्शवते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0014",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'तो उद्या पुण्याला जाईल.' या वाक्यातील काळ कोणता?",
+    "options": [
+      "A. साधा भविष्यकाळ",
+      "B. साधा वर्तमानकाळ",
+      "C. साधा भूतकाळ",
+      "D. पूर्ण भूतकाळ"
+    ],
+    "answer": "A",
+    "explanation": "'जाईल' हे क्रियापद रूप भविष्यात घडणारी क्रिया दर्शवते म्हणून साधा भविष्यकाळ आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0015",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'मी पत्र लिहिले होते.' या वाक्यातील काळाचा प्रकार सांगा.",
+    "options": [
+      "A. साधा भूतकाळ",
+      "B. रीती भूतकाळ",
+      "C. पूर्ण भूतकाळ",
+      "D. अपूर्ण भूतकाळ"
+    ],
+    "answer": "C",
+    "explanation": "क्रिया भूतकाळात पूर्ण झाल्याचे 'होते' या साहाय्यक क्रियापदावरून स्पष्ट होते, त्यामुळे तो पूर्ण भूतकाळ आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0016",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'तो दररोज सकाळी फिरायला जात असे.' या वाक्यातील काळ ओळखा.",
+    "options": [
+      "A. साधा भूतकाळ",
+      "B. रीती भूतकाळ",
+      "C. अपूर्ण भूतकाळ",
+      "D. पूर्ण भूतकाळ"
+    ],
+    "answer": "B",
+    "explanation": "'जात असे' हे रूप पूर्वी सवयीने घडणारी क्रिया दर्शवते, म्हणजे रीती भूतकाळ.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0017",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'मी अभ्यास करत आहे.' या वाक्यातील काळाचा प्रकार कोणता?",
+    "options": [
+      "A. अपूर्ण वर्तमानकाळ",
+      "B. पूर्ण वर्तमानकाळ",
+      "C. साधा वर्तमानकाळ",
+      "D. रीती वर्तमानकाळ"
+    ],
+    "answer": "A",
+    "explanation": "क्रिया चालू असून अजून पूर्ण झालेली नाही, त्यामुळे तो अपूर्ण वर्तमानकाळ आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0018",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "खालीलपैकी 'वचन' म्हणजे काय?",
+    "options": [
+      "A. नामाचा लिंगबोध",
+      "B. नामावरून एक किंवा अनेक वस्तूंचा बोध होणे",
+      "C. क्रियापदाचा काळ दर्शवणे",
+      "D. वाक्यातील कर्त्याचा बोध"
+    ],
+    "answer": "B",
+    "explanation": "नामाच्या रूपावरून एक किंवा अनेक वस्तू/व्यक्तींचा बोध होणे यास वचन असे म्हणतात.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0019",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'घर' या शब्दाचे अनेकवचन कोणते?",
+    "options": [
+      "A. घरे",
+      "B. घरं",
+      "C. घरी",
+      "D. घराने"
+    ],
+    "answer": "A",
+    "explanation": "'घर' या नपुंसकलिंगी नामाचे अनेकवचन 'घरे' असे होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0020",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "'नदी' या शब्दाचे अनेकवचन कोणते?",
+    "options": [
+      "A. नद्या",
+      "B. नदीं",
+      "C. नद्यां",
+      "D. नदीयां"
+    ],
+    "answer": "A",
+    "explanation": "स्त्रीलिंगी 'ई'कारान्त नामांचे अनेकवचन सामान्यतः 'या' असे होते, त्यामुळे 'नदी'चे अनेकवचन 'नद्या' होते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0021",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "easy",
+    "language": "marathi",
+    "question": "'मुलगी हुशार आहे.' या वाक्यातील 'मुलगी' या नामाचे लिंग कोणते?",
+    "options": [
+      "A. पुल्लिंग",
+      "B. स्त्रीलिंग",
+      "C. नपुंसकलिंग",
+      "D. उभयलिंग"
+    ],
+    "answer": "B",
+    "explanation": "'मुलगी' हा शब्द स्त्रीलिंगी नाम आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0022",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "medium",
+    "language": "marathi",
+    "question": "खालीलपैकी नपुंसकलिंगी नाम कोणते?",
+    "options": [
+      "A. राजा",
+      "B. राणी",
+      "C. पुस्तक",
+      "D. शेतकरी"
+    ],
+    "answer": "C",
+    "explanation": "'पुस्तक' हे नाम नपुंसकलिंगी आहे, तर 'राजा' पुल्लिंगी, 'राणी' स्त्रीलिंगी आणि 'शेतकरी' सामान्यतः पुल्लिंगी वापरले जाते.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0023",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'शिक्षक विद्यार्थ्यांना शिकवत होते.' या वाक्यातील काळ ओळखा.",
+    "options": [
+      "A. अपूर्ण भूतकाळ",
+      "B. पूर्ण भूतकाळ",
+      "C. रीती भूतकाळ",
+      "D. साधा भूतकाळ"
+    ],
+    "answer": "A",
+    "explanation": "'शिकवत होते' हे रूप भूतकाळात क्रिया चालू असल्याचे दर्शवते, म्हणून तो अपूर्ण भूतकाळ आहे.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "mains-marathi-vyakaran-0024",
+    "subject": "mains-marathi",
+    "subtopic": "vyakaran",
+    "difficulty": "hard",
+    "language": "marathi",
+    "question": "'तो जर आला असता तर मी गेलो असतो.' या वाक्यातील काळाचा प्रकार सांगा.",
+    "options": [
+      "A. रीती भविष्यकाळ",
+      "B. संकेतार्थक भूतकाळ (करण भूत)",
+      "C. पूर्ण भविष्यकाळ",
+      "D. साधा भूतकाळ"
+    ],
+    "answer": "B",
+    "explanation": "'आला असता तर...गेलो असतो' या रचनेतून सशर्त/संकेतार्थक भूतकाळाचा बोध होतो.",
+    "tags": [],
+    "verifiedAt": "2026-07-08"
+  }
+]
