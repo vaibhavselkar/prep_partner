@@ -2,6 +2,25 @@
 
 A voice-first AI study assistant for students with scanned Marathi handwritten notebook PDFs.
 
+## 🎯 MPSC Group-C Prep (`/technical-sahayak`)
+
+A dedicated, exam-focused module for the **MPSC Group-C Combined Examination 2026**
+(Advt. 017/2026 — Industry Inspector & Technical Assistant), built to the official
+syllabus (`docs/official-syllabus-2026.md`):
+
+- **Verified question bank** — 593+ questions across all 8 prelims subjects (History,
+  Geography, Polity, Current Affairs, Science, Economy, Arithmetic, Reasoning) plus
+  Mains Paper-1 language. Each question was AI-drafted then independently fact-checked.
+  Bank lives as committed data files (`src/data/bank/`), loaded via a generated bundle.
+- **Bank-backed quiz** — practice by subject/sub-topic/difficulty (`/api/bank-quiz`).
+- **Full-length timed mock** — 100 questions, 60 min, real subject weightage, auto-scored
+  with per-subject breakdown (`/api/mock`), persisted attempts.
+- **Study notes** — concise per-sub-topic notes (`src/data/notes/`).
+- **Weak-area tracking + report** — accuracy per sub-topic, "practice this", 🚩 report
+  wrong questions. Correct exam facts (0.25 negative marking, prelims-for-shortlisting).
+
+Run tests: `npm test` (Vitest). Regenerate the bank/notes bundles: `npm run build:bank`.
+
 ## Features
 
 - 📄 **PDF Upload** — Upload scanned Marathi notes, extract text automatically
