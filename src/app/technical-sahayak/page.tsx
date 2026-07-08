@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect, useRef } from "react";
 import { useChat } from "ai/react";
 import { ALL_SUBJECTS, PRELIMS_SUBJECTS, MAINS_SUBJECTS, EXAM_PATTERN, getSubject } from "@/lib/syllabus";
 import { getNotes } from "@/lib/notes";
+import { useLangPref, pickLang, pickOption, pickLangMultiline, prefToLanguage } from "@/lib/langPref";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -93,10 +94,13 @@ function useCountdown(targetDate: string) {
 // ── Quiz Component ─────────────────────────────────────────────────────────────
 
 function QuizSection() {
-  const [selectedTopic, setSelectedTopic] = useState("gk");
+  const { pref } = useLangPref();
+  const [selectedTopic, setSelectedTopic] = useState("history");
   const [selectedSubtopic, setSelectedSubtopic] = useState<string>("");
   const [difficulty, setDifficulty] = useState("medium");
-  const [language, setLanguage] = useState("bilingual");
+  const [language, setLanguage] = useState<string>(prefToLanguage(pref));
+  // Keep the quiz language filter in sync with the global content-language toggle.
+  useEffect(() => { setLanguage(prefToLanguage(pref)); }, [pref]);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [submitted, setSubmitted] = useState(false);
@@ -237,7 +241,7 @@ function QuizSection() {
               <div key={idx} className="bg-bg-card border border-gray-700/50 rounded-xl p-5 space-y-3">
                 <p className="text-gray-200 font-medium">
                   <span className="text-primary-400 mr-2">Q{idx + 1}.</span>
-                  {q.question}
+                  {pickLang(q.question, pref)}
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                   {q.options.map((opt) => {
@@ -258,7 +262,7 @@ function QuizSection() {
                         onClick={() => !submitted && setAnswers((a) => ({ ...a, [idx]: letter }))}
                         className={cls}
                       >
-                        {opt}
+                        {pickOption(opt, pref)}
                       </button>
                     );
                   })}
@@ -266,7 +270,7 @@ function QuizSection() {
                 {submitted && (
                   <div className={`text-xs p-3 rounded-lg ${isCorrect ? "bg-green-900/20 text-green-400" : "bg-red-900/20 text-red-400"}`}>
                     {isCorrect ? "✓ बरोबर!" : `✗ चुकले — उत्तर: ${correct}`}
-                    <span className="text-gray-400 ml-2">{q.explanation}</span>
+                    <span className="text-gray-400 ml-2">{pickLang(q.explanation, pref)}</span>
                   </div>
                 )}
                 {submitted && (
@@ -350,6 +354,7 @@ function WeakAreas() {
 // ── Mock Test Component ──────────────────────────────────────────────────────
 
 function MockSection() {
+  const { pref } = useLangPref();
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [started, setStarted] = useState(false);
@@ -441,7 +446,7 @@ function MockSection() {
         const chosen = answers[idx];
         return (
           <div key={idx} className="bg-bg-card border border-gray-700/50 rounded-xl p-4 space-y-2">
-            <p className="text-gray-200 text-sm font-medium"><span className="text-primary-400 mr-2">Q{idx + 1}.</span>{q.question}</p>
+            <p className="text-gray-200 text-sm font-medium"><span className="text-primary-400 mr-2">Q{idx + 1}.</span>{pickLang(q.question, pref)}</p>
             <div className="grid sm:grid-cols-2 gap-2">
               {q.options.map((opt) => {
                 const letter = opt[0];
@@ -450,10 +455,10 @@ function MockSection() {
                 else if (letter === q.answer) cls += "border-green-500 bg-green-900/20 text-green-300";
                 else if (letter === chosen) cls += "border-red-500 bg-red-900/20 text-red-300";
                 else cls += "border-gray-700/30 bg-bg text-gray-500";
-                return <button key={letter} disabled={submitted} onClick={() => setAnswers((a) => ({ ...a, [idx]: letter }))} className={cls}>{opt}</button>;
+                return <button key={letter} disabled={submitted} onClick={() => setAnswers((a) => ({ ...a, [idx]: letter }))} className={cls}>{pickOption(opt, pref)}</button>;
               })}
             </div>
-            {submitted && <p className="text-xs text-gray-400">{q.explanation}</p>}
+            {submitted && <p className="text-xs text-gray-400">{pickLang(q.explanation, pref)}</p>}
           </div>
         );
       })}
@@ -611,6 +616,7 @@ function ChatSection() {
 // ── Notes Component ───────────────────────────────────────────────────────────
 
 function NotesSection() {
+  const { pref } = useLangPref();
   const [subject, setSubject] = useState<string>(ALL_SUBJECTS[0].key);
   const docs = getNotes().filter((n) => n.subject === subject);
   return (
@@ -627,7 +633,7 @@ function NotesSection() {
         <p className="text-center text-gray-500 py-10 font-devanagari">या विषयासाठी नोट्स लवकरच येत आहेत.</p>
       ) : docs.map((d) => (
         <div key={d.subtopic} className="bg-bg-card border border-gray-700/50 rounded-xl p-5">
-          <pre className="whitespace-pre-wrap text-sm text-gray-300 font-devanagari">{d.body}</pre>
+          <pre className="whitespace-pre-wrap text-sm text-gray-300 font-devanagari">{pickLangMultiline(d.body, pref)}</pre>
         </div>
       ))}
     </div>

@@ -2,6 +2,39 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useLangPref, type LangPref } from "@/lib/langPref";
+
+const LANG_OPTIONS: { key: LangPref; label: string }[] = [
+  { key: "mr", label: "मराठी" },
+  { key: "en", label: "ENG" },
+  { key: "both", label: "Both" },
+];
+
+function LangToggle() {
+  const { pref, setPref } = useLangPref();
+  return (
+    <div
+      className="flex items-center gap-0.5 bg-bg-hover border border-gray-700/50 rounded-lg p-0.5"
+      title="भाषा / Content language"
+    >
+      <span className="text-[11px] text-gray-500 px-1 hidden sm:inline">🌐</span>
+      {LANG_OPTIONS.map((o) => (
+        <button
+          key={o.key}
+          onClick={() => setPref(o.key)}
+          className={`px-2 py-1 rounded-md text-xs font-medium transition-colors font-devanagari ${
+            pref === o.key
+              ? "bg-primary-600 text-white"
+              : "text-gray-400 hover:text-gray-200"
+          }`}
+          aria-pressed={pref === o.key}
+        >
+          {o.label}
+        </button>
+      ))}
+    </div>
+  );
+}
 
 const NAV_ITEMS = [
   { href: "/", label: "मुख्यपृष्ठ", labelEn: "Home", icon: "🏠" },
@@ -26,6 +59,7 @@ export function NavBar() {
             <span className="text-primary-400"> AI</span>
           </span>
         </Link>
+        <div className="flex items-center gap-3">
         <ul className="flex gap-1">
           {NAV_ITEMS.map((item) => {
             const active = pathname === item.href;
@@ -48,7 +82,18 @@ export function NavBar() {
             );
           })}
         </ul>
+        <LangToggle />
+        </div>
       </nav>
+
+      {/* Mobile top bar (toggle) */}
+      <div className="md:hidden sticky top-0 z-20 flex items-center justify-between px-4 py-2 bg-bg-card border-b border-gray-700/50">
+        <Link href="/" className="flex items-center gap-1.5">
+          <span className="text-primary-400 text-lg">🎓</span>
+          <span className="font-bold text-sm text-gray-100 font-devanagari">मराठी नोट्स <span className="text-primary-400">AI</span></span>
+        </Link>
+        <LangToggle />
+      </div>
 
       {/* Mobile bottom nav */}
       <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-bg-card border-t border-gray-700/50 z-20 flex">
