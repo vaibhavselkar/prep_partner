@@ -29,40 +29,67 @@ const EXAM_DATES = [
   { date: "TBD", event: "मुख्य परीक्षा", eventEn: "Mains Exam", done: false, color: "purple" },
 ];
 
-const STRATEGY_TIPS = [
+// Countdown-driven prep phases (daysMin/daysMax = days-left window this phase is active).
+const STUDY_PHASES = [
   {
-    phase: "Phase 1 (आत्ता – ऑगस्ट)",
-    phaseEn: "Now – August",
-    icon: "🏗️",
+    icon: "🏗️", daysMin: 36, daysMax: 9999,
+    titleMr: "टप्पा 1 — पाया मजबूत करा", titleEn: "Phase 1 — Build the Foundation",
+    rangeMr: "आत्ता → परीक्षेच्या ~5 आठवडे आधी", rangeEn: "Now → ~5 weeks before exam",
     tips: [
-      "महाराष्ट्र भूगोल: जिल्हे, नद्या, पर्वत, खनिजे पाठ करा",
-      "मराठी व्याकरण पुस्तक वाचा — संधी, समास नीट समजून घ्या",
-      "दररोज 30 मिनिटे Mental Ability चा सराव करा",
-      "MPSC च्या मागील 5 वर्षांचे प्रश्नपत्रिका सोडवा",
+      { mr: "Notes टॅब वापरून प्रत्येक विषय क्रमाने संपूर्ण समजून घ्या (खालील साप्ताहिक नियोजन पाहा).", en: "Cover each subject in order using the Notes tab (see the weekly plan below)." },
+      { mr: "दररोज अंकगणित + बुद्धिमत्ता + चालू घडामोडी यांचा सराव न चुकता करा.", en: "Practice Arithmetic + Reasoning + Current Affairs every single day without fail." },
+      { mr: "प्रत्येक विषय झाल्यावर त्यावर Quiz सोडवा — संकल्पना पक्की करा.", en: "After each subject, take a Quiz on it to lock in the concepts." },
+      { mr: "मागील 5 वर्षांच्या प्रश्नपत्रिका सोडवा, स्वतःची छोटी उजळणी-नोंद तयार करा.", en: "Solve last 5 years' papers and make your own short revision notes." },
     ],
   },
   {
-    phase: "Phase 2 (सप्टेंबर)",
-    phaseEn: "September",
-    icon: "🎯",
+    icon: "🎯", daysMin: 7, daysMax: 35,
+    titleMr: "टप्पा 2 — सराव व मॉक टेस्ट", titleEn: "Phase 2 — Practice & Mock Tests",
+    rangeMr: "परीक्षेच्या ~5 आठवडे → 1 आठवडा आधी", rangeEn: "~5 weeks → 1 week before exam",
     tips: [
-      "Mock Test दररोज द्या — वेळेचे व्यवस्थापन शिका",
-      "Weak subjects वर जास्त लक्ष द्या",
-      "चालू घडामोडी: मागील 6 महिन्यांचा आढावा घ्या",
-      "Answer key analysis करा — चुका का झाल्या ते समजा",
+      { mr: "आठवड्यातून 3–4 पूर्ण मॉक टेस्ट द्या (सराव परीक्षा टॅब) — वेळेचे व्यवस्थापन शिका.", en: "Give 3–4 full mock tests a week (Mock Test tab) — master time management." },
+      { mr: "प्रत्येक मॉकनंतर चुका तपासा; कमकुवत विषयांवर (रणनीती → Weak Areas) जास्त लक्ष द्या.", en: "Analyze mistakes after every mock; focus on weak areas (Strategy → Weak Areas)." },
+      { mr: "चालू घडामोडी: मागील 6–12 महिन्यांची पक्की उजळणी करा.", en: "Current Affairs: thoroughly revise the last 6–12 months." },
+      { mr: "अचूकता व वेग दोन्ही वाढवा — negative marking (0.25) लक्षात ठेवून guessing टाळा.", en: "Build both accuracy and speed — mind the 0.25 negative marking, avoid blind guessing." },
     ],
   },
   {
-    phase: "Phase 3 (परीक्षेपूर्वी 1 आठवडा)",
-    phaseEn: "1 Week Before Exam",
-    icon: "🔥",
+    icon: "🔥", daysMin: 0, daysMax: 6,
+    titleMr: "टप्पा 3 — अंतिम उजळणी", titleEn: "Phase 3 — Final Revision",
+    rangeMr: "परीक्षेपूर्वीचा शेवटचा आठवडा", rangeEn: "Final week before exam",
     tips: [
-      "नवीन विषय सुरू करू नका — revision करा",
-      "Admit card डाउनलोड करून ठेवा",
-      "परीक्षा केंद्र आधीच पाहून ठेवा",
-      "रात्री चांगली झोप घ्या — fresh mind महत्त्वाचे",
+      { mr: "नवीन विषय सुरू करू नका — फक्त Notes व सूत्रांची उजळणी करा.", en: "Start no new topics — only revise your Notes and formulas." },
+      { mr: "रोज 1 हलका मॉक द्या, पण विश्रांतीला प्राधान्य द्या.", en: "One light mock a day, but prioritise rest." },
+      { mr: "Admit card डाउनलोड करा व परीक्षा केंद्र आधी पाहून ठेवा.", en: "Download your admit card and scout the exam centre in advance." },
+      { mr: "रात्री चांगली झोप घ्या — शांत व ताजे मन सर्वात महत्त्वाचे.", en: "Sleep well — a calm, fresh mind matters most on exam day." },
     ],
   },
+];
+
+// Ideal daily timetable — ~8 hours from 12 noon (Prelims focus). tab = app tab to jump to.
+const DAILY_SCHEDULE: { timeMr: string; timeEn: string; actMr: string; actEn: string; dur: string; tab?: Tab }[] = [
+  { timeMr: "दु. 12:00–1:30", timeEn: "12:00–1:30 PM", actMr: "आजचा मुख्य विषय (इतिहास/भूगोल/राज्यशास्त्र)", actEn: "Core subject of the day (History/Geography/Polity)", dur: "90 min", tab: "notes" },
+  { timeMr: "दु. 1:30–2:00", timeEn: "1:30–2:00 PM", actMr: "जेवण व विश्रांती", actEn: "Lunch & rest", dur: "30 min" },
+  { timeMr: "दु. 2:00–3:15", timeEn: "2:00–3:15 PM", actMr: "दुसरा विषय (विज्ञान/अर्थशास्त्र)", actEn: "Second subject (Science/Economy)", dur: "75 min", tab: "notes" },
+  { timeMr: "दु. 3:15–3:30", timeEn: "3:15–3:30 PM", actMr: "विश्रांती", actEn: "Break", dur: "15 min" },
+  { timeMr: "दु. 3:30–4:30", timeEn: "3:30–4:30 PM", actMr: "अंकगणित सराव", actEn: "Arithmetic practice", dur: "60 min", tab: "quiz" },
+  { timeMr: "सं. 4:30–5:30", timeEn: "4:30–5:30 PM", actMr: "बुद्धिमत्ता (Reasoning) सराव", actEn: "Reasoning practice", dur: "60 min", tab: "quiz" },
+  { timeMr: "सं. 5:30–6:00", timeEn: "5:30–6:00 PM", actMr: "चहा व विश्रांती", actEn: "Tea & break", dur: "30 min" },
+  { timeMr: "सं. 6:00–7:00", timeEn: "6:00–7:00 PM", actMr: "चालू घडामोडी (रोज)", actEn: "Current Affairs (daily)", dur: "60 min", tab: "notes" },
+  { timeMr: "रा. 7:00–8:00", timeEn: "7:00–8:00 PM", actMr: "आजच्या विषयांवर MCQ सराव", actEn: "MCQ practice on today's subjects", dur: "60 min", tab: "quiz" },
+  { timeMr: "रा. 8:00–8:45", timeEn: "8:00–8:45 PM", actMr: "चुका तपासा + कमकुवत विषय", actEn: "Review mistakes + weak areas", dur: "45 min", tab: "strategy" },
+  { timeMr: "रा. 8:45–9:00", timeEn: "8:45–9:00 PM", actMr: "उद्याचे नियोजन व झटपट उजळणी", actEn: "Plan tomorrow + quick revision", dur: "15 min" },
+];
+
+// Week-by-week foundation roadmap (Phase 1). Arithmetic, Reasoning & Current Affairs run DAILY throughout.
+const WEEKLY_ROADMAP = [
+  { wk: "1", mr: "इतिहास — प्राचीन/मध्ययुगीन + आधुनिक भारत", en: "History — Ancient/Medieval + Modern India" },
+  { wk: "2", mr: "इतिहास — महाराष्ट्र समाजसुधारक + स्वातंत्र्योत्तर; भूगोल — महाराष्ट्र", en: "History — MH Reformers + Post-Independence; Geography — Maharashtra" },
+  { wk: "3", mr: "भूगोल — भारत + जग; राज्यशास्त्र — राज्यघटना + हक्क", en: "Geography — India + World; Polity — Constitution + Rights" },
+  { wk: "4", mr: "राज्यशास्त्र — केंद्र, राज्य, न्यायव्यवस्था, स्थानिक स्वराज्य", en: "Polity — Union, State, Judiciary, Local Govt" },
+  { wk: "5", mr: "अर्थशास्त्र — सर्व उपविषय (राष्ट्रीय उत्पन्न, कृषी, उद्योग, बँकिंग, वित्त)", en: "Economy — all subtopics (national income, agriculture, industry, banking, finance)" },
+  { wk: "6", mr: "सामान्य विज्ञान — भौतिक, रसायन, जीव, आरोग्य, विज्ञान-तंत्रज्ञान", en: "General Science — Physics, Chemistry, Biology, Health, Sci-Tech" },
+  { wk: "7", mr: "चालू घडामोडींची उजळणी + बफर; पूर्ण मॉक टेस्ट सुरू करा", en: "Current Affairs consolidation + buffer; begin full mock tests" },
 ];
 
 // ── Countdown Hook ─────────────────────────────────────────────────────────────
@@ -1027,9 +1054,9 @@ export default function TechnicalSahayakPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
               { icon: "📅", label: "परीक्षा तारीख", labelEn: "Exam Date", value: "27 Sep 2026" },
-              { icon: "⏳", label: "उरलेला वेळ", labelEn: "Time Left", value: `${countdown.days} days` },
-              { icon: "📖", label: "विषय", labelEn: "Subjects", value: "5 Subjects" },
-              { icon: "🏆", label: "एकूण गुण", labelEn: "Total Marks", value: "500 (Pre+Main)" },
+              { icon: "⏳", label: "उरलेले दिवस", labelEn: "Days Left", value: `${countdown.days}` },
+              { icon: "⏰", label: "रोजचे लक्ष्य", labelEn: "Daily Target", value: "~8 hrs" },
+              { icon: "🏆", label: "पूर्व परीक्षा", labelEn: "Prelims", value: "100 marks" },
             ].map((s) => (
               <div key={s.label} className="bg-bg-card border border-gray-700/50 rounded-xl p-4 text-center">
                 <span className="text-2xl">{s.icon}</span>
@@ -1039,48 +1066,71 @@ export default function TechnicalSahayakPage() {
             ))}
           </div>
 
-          {/* Strategy phases */}
-          {STRATEGY_TIPS.map((phase) => (
-            <div key={phase.phase} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
-              <div className="flex items-center gap-3 px-5 py-4 bg-bg-hover border-b border-gray-700/40">
-                <span className="text-2xl">{phase.icon}</span>
-                <div>
-                  <p className="font-semibold text-gray-200 font-devanagari">{L(phase.phase, phase.phaseEn)}</p>
+          {/* Prep phases — the current one is highlighted based on days left */}
+          <h3 className="font-semibold text-gray-200 font-devanagari flex items-center gap-2">
+            <span>🗺️</span> {L("परीक्षेपर्यंतची रणनीती", "Roadmap to the Exam")}
+          </h3>
+          {STUDY_PHASES.map((p) => {
+            const active = countdown.days >= p.daysMin && countdown.days <= p.daysMax;
+            return (
+              <div key={p.titleEn} className={`rounded-xl overflow-hidden border ${active ? "border-primary-500 bg-primary-900/10" : "border-gray-700/50 bg-bg-card"}`}>
+                <div className="flex items-center gap-3 px-5 py-4 bg-bg-hover border-b border-gray-700/40">
+                  <span className="text-2xl">{p.icon}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-gray-200 font-devanagari">{L(p.titleMr, p.titleEn)}</p>
+                    <p className="text-xs text-gray-500 font-devanagari">{L(p.rangeMr, p.rangeEn)}</p>
+                  </div>
+                  {active && <span className="bg-primary-600 text-white text-xs px-3 py-1 rounded-full font-devanagari shrink-0">{L("तुम्ही येथे", "You are here")}</span>}
                 </div>
+                <ul className="px-5 py-4 space-y-2.5">
+                  {p.tips.map((tip) => (
+                    <li key={tip.en} className="flex items-start gap-2 text-sm text-gray-300 font-devanagari">
+                      <span className="text-primary-400 mt-0.5 shrink-0">✓</span>
+                      {L(tip.mr, tip.en)}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="px-5 py-4 space-y-2.5">
-                {phase.tips.map((tip) => (
-                  <li key={tip} className="flex items-start gap-2 text-sm text-gray-300 font-devanagari">
-                    <span className="text-primary-400 mt-0.5 shrink-0">✓</span>
-                    {tip}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+            );
+          })}
 
-          {/* Daily schedule */}
+          {/* Weekly foundation roadmap */}
+          <div className="bg-bg-card border border-gray-700/50 rounded-xl p-5 space-y-3">
+            <h3 className="font-semibold text-gray-200 flex items-center gap-2">
+              <span>📆</span>
+              <span className="font-devanagari">{L("साप्ताहिक विषय-नियोजन (पाया टप्पा)", "Weekly Subject Plan (Foundation)")}</span>
+            </h3>
+            <p className="text-xs text-gray-500 font-devanagari">{L("अंकगणित, बुद्धिमत्ता व चालू घडामोडी — हे रोज सुरू ठेवा.", "Arithmetic, Reasoning & Current Affairs — keep these going daily.")}</p>
+            <div className="space-y-2">
+              {WEEKLY_ROADMAP.map((w) => (
+                <div key={w.wk} className="flex items-start gap-3 py-2 border-b border-gray-700/30 last:border-0">
+                  <span className="bg-primary-600/20 text-primary-300 text-xs font-semibold rounded-lg px-2.5 py-1 shrink-0 font-devanagari">{L(`आठवडा ${w.wk}`, `Week ${w.wk}`)}</span>
+                  <span className="text-sm text-gray-300 font-devanagari">{L(w.mr, w.en)}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Daily timetable — tap a row to jump to that tool */}
           <div className="bg-bg-card border border-gray-700/50 rounded-xl p-5 space-y-3">
             <h3 className="font-semibold text-gray-200 flex items-center gap-2">
               <span>⏰</span>
-              <span className="font-devanagari">{L("आदर्श दैनंदिन वेळापत्रक", "Daily Study Plan")}</span>
+              <span className="font-devanagari">{L("रोजचे वेळापत्रक (दुपारी 12 पासून · ~8 तास)", "Daily Timetable (from 12 noon · ~8 hrs)")}</span>
             </h3>
-            <div className="space-y-2">
-              {[
-                { time: "सकाळी 6-7", activity: "मराठी व्याकरण / English", duration: "60 min" },
-                { time: "सकाळी 8-10", activity: "महाराष्ट्र GK (History/Geography)", duration: "120 min" },
-                { time: "दुपारी 2-3", activity: "Mental Ability / Reasoning", duration: "60 min" },
-                { time: "संध्याकाळी 5-6", activity: "Mathematics Practice", duration: "60 min" },
-                { time: "रात्री 7-8", activity: "Current Affairs Review", duration: "60 min" },
-                { time: "रात्री 8-9", activity: "MCQ Practice (यावर AI Quiz वापरा)", duration: "60 min" },
-              ].map((s) => (
-                <div key={s.time} className="flex items-center justify-between py-2 border-b border-gray-700/30 last:border-0">
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs text-primary-400 font-semibold w-24 shrink-0 font-devanagari">{s.time}</span>
-                    <span className="text-sm text-gray-300 font-devanagari">{pickLang(s.activity, pref)}</span>
+            <div className="space-y-1">
+              {DAILY_SCHEDULE.map((s) => (
+                <button
+                  key={s.timeEn}
+                  onClick={() => s.tab && setActiveTab(s.tab)}
+                  disabled={!s.tab}
+                  className={`w-full flex items-center justify-between gap-2 py-2 px-2 rounded-lg border-b border-gray-700/30 last:border-0 text-left transition-colors ${s.tab ? "hover:bg-bg-hover cursor-pointer" : "cursor-default"}`}
+                >
+                  <div className="flex items-center gap-3 min-w-0">
+                    <span className="text-xs text-primary-400 font-semibold w-24 shrink-0 font-devanagari">{L(s.timeMr, s.timeEn)}</span>
+                    <span className="text-sm text-gray-300 font-devanagari truncate">{L(s.actMr, s.actEn)}{s.tab ? " ↗" : ""}</span>
                   </div>
-                  <span className="text-xs text-gray-500 shrink-0">{s.duration}</span>
-                </div>
+                  <span className="text-xs text-gray-500 shrink-0">{s.dur}</span>
+                </button>
               ))}
             </div>
           </div>
