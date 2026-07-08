@@ -47,6 +47,8 @@ const NAV_ITEMS = [
 
 export function NavBar() {
   const pathname = usePathname();
+  const { pref } = useLangPref();
+  const L = (mr: string, en: string) => (pref === "mr" ? mr : pref === "en" ? en : `${mr} / ${en}`);
 
   return (
     <>
@@ -75,8 +77,16 @@ export function NavBar() {
                     }
                   `}
                 >
-                  <span className="font-devanagari">{item.label}</span>
-                  <span className="text-gray-500 ml-1">/ {item.labelEn}</span>
+                  {pref === "mr" ? (
+                    <span className="font-devanagari">{item.label}</span>
+                  ) : pref === "en" ? (
+                    <span>{item.labelEn}</span>
+                  ) : (
+                    <>
+                      <span className="font-devanagari">{item.label}</span>
+                      <span className="text-gray-500 ml-1">/ {item.labelEn}</span>
+                    </>
+                  )}
                 </Link>
               </li>
             );
@@ -109,7 +119,7 @@ export function NavBar() {
               `}
             >
               <span className="text-lg">{item.icon}</span>
-              <span className="font-devanagari text-[10px]">{item.label}</span>
+              <span className="font-devanagari text-[10px]">{L(item.label, item.labelEn)}</span>
             </Link>
           );
         })}

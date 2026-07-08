@@ -95,6 +95,7 @@ function useCountdown(targetDate: string) {
 
 function QuizSection() {
   const { pref } = useLangPref();
+  const L = (mr: string, en: string) => (pref === "mr" ? mr : pref === "en" ? en : `${mr} / ${en}`);
   const [selectedTopic, setSelectedTopic] = useState("history");
   const [selectedSubtopic, setSelectedSubtopic] = useState<string>("");
   const [difficulty, setDifficulty] = useState("medium");
@@ -127,13 +128,13 @@ function QuizSection() {
       const data = await res.json();
       if (!res.ok) throw new Error(data.error);
       if (!data.questions?.length) {
-        setError("या विषयासाठी अजून प्रश्न उपलब्ध नाहीत. दुसरा विषय निवडा. / No questions yet for this topic.");
+        setError(L("या विषयासाठी अजून प्रश्न उपलब्ध नाहीत. दुसरा विषय निवडा.", "No questions yet for this topic. Choose another subject."));
         setQuestions([]);
       } else {
         setQuestions(data.questions);
       }
     } catch {
-      setError("Quiz निर्मिती अयशस्वी. पुन्हा प्रयत्न करा.");
+      setError(L("Quiz निर्मिती अयशस्वी. पुन्हा प्रयत्न करा.", "Quiz generation failed. Please try again."));
     } finally {
       setLoading(false);
     }
@@ -148,11 +149,11 @@ function QuizSection() {
     <div className="space-y-6">
       {/* Controls */}
       <div className="bg-bg-card border border-gray-700/50 rounded-2xl p-5 space-y-4">
-        <h3 className="font-semibold text-gray-200 font-devanagari">MCQ सराव निर्माण करा</h3>
+        <h3 className="font-semibold text-gray-200 font-devanagari">{L("MCQ सराव निर्माण करा", "Generate MCQ Practice")}</h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <div className="space-y-1">
-            <label className="text-xs text-gray-500 font-devanagari">विषय निवडा</label>
+            <label className="text-xs text-gray-500 font-devanagari">{L("विषय निवडा", "Choose Subject")}</label>
             <select
               value={selectedTopic}
               onChange={(e) => {
@@ -163,22 +164,22 @@ function QuizSection() {
             >
               {ALL_SUBJECTS.map((s) => (
                 <option key={s.key} value={s.key}>
-                  {s.icon} {s.label} / {s.labelEn}
+                  {s.icon} {L(s.label, s.labelEn)}
                 </option>
               ))}
             </select>
           </div>
 
           <div className="space-y-1">
-            <label className="text-xs text-gray-500 font-devanagari">उप-विषय / Sub-topic</label>
+            <label className="text-xs text-gray-500 font-devanagari">{L("उप-विषय", "Sub-topic")}</label>
             <select
               value={selectedSubtopic}
               onChange={(e) => setSelectedSubtopic(e.target.value)}
               className="w-full bg-bg-hover border border-gray-700/50 rounded-lg px-3 py-2 text-sm text-gray-200 focus:outline-none focus:border-primary-500"
             >
-              <option value="">All / सर्व</option>
+              <option value="">{L("सर्व", "All")}</option>
               {getSubject(selectedTopic)?.subtopics.map((t) => (
-                <option key={t.key} value={t.key}>{t.label} / {t.labelEn}</option>
+                <option key={t.key} value={t.key}>{L(t.label, t.labelEn)}</option>
               ))}
             </select>
           </div>
@@ -215,7 +216,7 @@ function QuizSection() {
           disabled={loading}
           className="w-full bg-primary-600 hover:bg-primary-500 disabled:opacity-50 text-white py-3 rounded-xl font-medium transition-colors font-devanagari"
         >
-          {loading ? "⏳ प्रश्न तयार होत आहेत..." : "🎯 5 प्रश्न निर्माण करा"}
+          {loading ? L("⏳ प्रश्न तयार होत आहेत...", "⏳ Generating questions...") : L("🎯 5 प्रश्न निर्माण करा", "🎯 Generate 5 Questions")}
         </button>
         {error && <p className="text-red-400 text-sm text-center">{error}</p>}
       </div>
@@ -227,7 +228,13 @@ function QuizSection() {
             <div className={`rounded-xl p-4 text-center border ${pct >= 0.8 ? "bg-green-900/20 border-green-700/40 text-green-400" : pct >= 0.6 ? "bg-yellow-900/20 border-yellow-700/40 text-yellow-400" : "bg-red-900/20 border-red-700/40 text-red-400"}`}>
               <p className="text-2xl font-bold">{score}/{questions.length}</p>
               <p className="text-sm mt-1">
-                {pct === 1 ? "उत्कृष्ट! 🎉 Perfect Score!" : pct >= 0.8 ? "छान! 👍 Keep it up!" : pct >= 0.6 ? "ठीक आहे — थोडा सराव करा" : "अजून सराव हवा — AI Tutor कडून मदत घ्या"}
+                {pct === 1
+                  ? L("उत्कृष्ट! 🎉", "Excellent! 🎉 Perfect Score!")
+                  : pct >= 0.8
+                  ? L("छान! 👍", "Great! 👍 Keep it up!")
+                  : pct >= 0.6
+                  ? L("ठीक आहे — थोडा सराव करा", "Okay — practice a bit more")
+                  : L("अजून सराव हवा — AI Tutor कडून मदत घ्या", "Needs more practice — get help from AI Tutor")}
               </p>
             </div>
           )}
@@ -269,23 +276,23 @@ function QuizSection() {
                 </div>
                 {submitted && (
                   <div className={`text-xs p-3 rounded-lg ${isCorrect ? "bg-green-900/20 text-green-400" : "bg-red-900/20 text-red-400"}`}>
-                    {isCorrect ? "✓ बरोबर!" : `✗ चुकले — उत्तर: ${correct}`}
+                    {isCorrect ? L("✓ बरोबर!", "✓ Correct!") : L(`✗ चुकले — उत्तर: ${correct}`, `✗ Wrong — Answer: ${correct}`)}
                     <span className="text-gray-400 ml-2">{pickLang(q.explanation, pref)}</span>
                   </div>
                 )}
                 {submitted && (
                   <button
                     onClick={async () => {
-                      const reason = prompt("काय चूक आहे? (उत्तर/अस्पष्ट/जुनी माहिती) / What's wrong?") || "";
+                      const reason = prompt(pickLang("काय चूक आहे? (उत्तर/अस्पष्ट/जुनी माहिती) / What's wrong?", pref)) || "";
                       if (!reason) return;
                       await fetch("/api/report", {
                         method: "POST", headers: { "Content-Type": "application/json" },
                         body: JSON.stringify({ questionId: (q as unknown as { id: string }).id, reason }),
                       });
-                      alert("धन्यवाद! तक्रार नोंदवली. / Reported. Thanks!");
+                      alert(pickLang("धन्यवाद! तक्रार नोंदवली. / Reported. Thanks!", pref));
                     }}
                     className="text-xs text-gray-500 hover:text-red-400 mt-1"
-                  >🚩 चूक कळवा / Report</button>
+                  >🚩 {pickLang("चूक कळवा / Report", pref)}</button>
                 )}
               </div>
             );
@@ -307,7 +314,7 @@ function QuizSection() {
               }}
               className="w-full bg-green-700 hover:bg-green-600 text-white py-3 rounded-xl font-medium transition-colors font-devanagari"
             >
-              उत्तरे तपासा / Check Answers
+              {pickLang("उत्तरे तपासा / Check Answers", pref)}
             </button>
           )}
           {submitted && (
@@ -315,7 +322,7 @@ function QuizSection() {
               onClick={() => { setQuestions([]); setAnswers({}); setSubmitted(false); }}
               className="w-full bg-bg-card border border-gray-700/50 hover:border-primary-500/50 text-gray-300 py-3 rounded-xl font-medium transition-colors"
             >
-              नवीन Quiz / New Quiz
+              {pickLang("नवीन Quiz / New Quiz", pref)}
             </button>
           )}
         </div>
@@ -327,6 +334,7 @@ function QuizSection() {
 // ── Weak Areas Component ───────────────────────────────────────────────────────
 
 function WeakAreas() {
+  const { pref } = useLangPref();
   const [weak, setWeak] = useState<{ subject: string; subtopic: string; attempts: number; correct: number }[]>([]);
   useEffect(() => {
     fetch("/api/mpsc-progress").then((r) => r.json()).then((d) => setWeak(d.weakest ?? [])).catch(() => {});
@@ -334,7 +342,7 @@ function WeakAreas() {
   if (weak.length === 0) return null;
   return (
     <div className="bg-bg-card border border-red-700/40 rounded-xl p-5 space-y-3">
-      <h3 className="font-semibold text-red-300 font-devanagari">⚠️ कमकुवत विषय / Weak Areas</h3>
+      <h3 className="font-semibold text-red-300 font-devanagari">⚠️ {pickLang("कमकुवत विषय / Weak Areas", pref)}</h3>
       {weak.map((w) => {
         const pct = Math.round((w.correct / w.attempts) * 100);
         const subj = getSubject(w.subject);
@@ -355,6 +363,7 @@ function WeakAreas() {
 
 function MockSection() {
   const { pref } = useLangPref();
+  const L = (mr: string, en: string) => (pref === "mr" ? mr : pref === "en" ? en : `${mr} / ${en}`);
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [answers, setAnswers] = useState<Record<number, string>>({});
   const [started, setStarted] = useState(false);
@@ -413,11 +422,11 @@ function MockSection() {
     return (
       <div className="bg-bg-card border border-gray-700/50 rounded-2xl p-6 text-center space-y-4">
         <p className="text-4xl">📝</p>
-        <h3 className="font-semibold text-gray-200 font-devanagari">पूर्ण लांबीची सराव परीक्षा</h3>
-        <p className="text-sm text-gray-400 font-devanagari">100 प्रश्न · 60 मिनिटे · विषयनिहाय गुणभार / 100 Q · 60 min · real weightage</p>
+        <h3 className="font-semibold text-gray-200 font-devanagari">{L("पूर्ण लांबीची सराव परीक्षा", "Full-Length Mock Test")}</h3>
+        <p className="text-sm text-gray-400 font-devanagari">{pickLang("100 प्रश्न · 60 मिनिटे · विषयनिहाय गुणभार / 100 Q · 60 min · real weightage", pref)}</p>
         <button onClick={start} disabled={loading}
           className="bg-primary-600 hover:bg-primary-500 disabled:opacity-50 text-white px-6 py-3 rounded-xl font-medium font-devanagari">
-          {loading ? "तयार होत आहे..." : "सुरू करा / Start Mock"}
+          {loading ? L("तयार होत आहे...", "Preparing...") : pickLang("सुरू करा / Start Mock", pref)}
         </button>
       </div>
     );
@@ -430,9 +439,9 @@ function MockSection() {
   return (
     <div className="space-y-4">
       <div className="sticky top-16 z-10 flex items-center justify-between bg-bg-card border border-gray-700/50 rounded-xl px-4 py-3">
-        <span className="text-sm text-gray-400">{Object.keys(answers).length}/{questions.length} answered</span>
+        <span className="text-sm text-gray-400">{Object.keys(answers).length}/{questions.length} {L("उत्तरे दिली", "answered")}</span>
         {!submitted && <span className={`font-mono font-bold ${remaining < 300 ? "text-red-400" : "text-primary-300"}`}>⏱ {mm}:{ss}</span>}
-        {!submitted && <button onClick={submit} className="bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-devanagari">जमा करा</button>}
+        {!submitted && <button onClick={submit} className="bg-green-700 hover:bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-devanagari">{L("जमा करा", "Submit")}</button>}
       </div>
 
       {submitted && (
@@ -464,7 +473,7 @@ function MockSection() {
       })}
 
       {submitted && (
-        <button onClick={() => { setStarted(false); setQuestions([]); }} className="w-full bg-bg-card border border-gray-700/50 text-gray-300 py-3 rounded-xl font-devanagari">नवीन सराव परीक्षा / New Mock</button>
+        <button onClick={() => { setStarted(false); setQuestions([]); }} className="w-full bg-bg-card border border-gray-700/50 text-gray-300 py-3 rounded-xl font-devanagari">{pickLang("नवीन सराव परीक्षा / New Mock", pref)}</button>
       )}
     </div>
   );
@@ -625,12 +634,14 @@ function NotesSection() {
         {ALL_SUBJECTS.map((s) => (
           <button key={s.key} onClick={() => setSubject(s.key)}
             className={`px-3 py-1 rounded-full text-xs ${subject === s.key ? "bg-primary-600 text-white" : "bg-bg-hover text-gray-400"}`}>
-            {s.icon} {s.labelEn}
+            {s.icon} {pref === "mr" ? s.label : pref === "en" ? s.labelEn : `${s.label} / ${s.labelEn}`}
           </button>
         ))}
       </div>
       {docs.length === 0 ? (
-        <p className="text-center text-gray-500 py-10 font-devanagari">या विषयासाठी नोट्स लवकरच येत आहेत.</p>
+        <p className="text-center text-gray-500 py-10 font-devanagari">
+          {pref === "mr" ? "या विषयासाठी नोट्स लवकरच येत आहेत." : pref === "en" ? "Notes for this subject are coming soon." : "या विषयासाठी नोट्स लवकरच येत आहेत. / Notes for this subject are coming soon."}
+        </p>
       ) : docs.map((d) => (
         <div key={d.subtopic} className="bg-bg-card border border-gray-700/50 rounded-xl p-5">
           <pre className="whitespace-pre-wrap text-sm text-gray-300 font-devanagari">{pickLangMultiline(d.body, pref)}</pre>
@@ -643,6 +654,9 @@ function NotesSection() {
 // ── Main Page ──────────────────────────────────────────────────────────────────
 
 export default function TechnicalSahayakPage() {
+  const { pref } = useLangPref();
+  // Renders a Marathi/English pair according to the global toggle: mr-only, en-only, or "mr / en".
+  const L = (mr: string, en: string) => (pref === "mr" ? mr : pref === "en" ? en : `${mr} / ${en}`);
   const [activeTab, setActiveTab] = useState<Tab>("overview");
   const countdown = useCountdown("2026-09-27T09:00:00+05:30");
   const appDeadline = useCountdown("2026-07-17T23:59:00+05:30");
@@ -667,41 +681,43 @@ export default function TechnicalSahayakPage() {
             <div className="flex items-center gap-3 mb-2">
               <span className="text-3xl">⚙️</span>
               <div>
-                <h1 className="text-xl font-bold text-white font-devanagari">उद्योग निरीक्षक व तांत्रिक सहायक</h1>
-                <p className="text-primary-400 text-sm">Industry Inspector &amp; Technical Assistant — MPSC Group-C 2026</p>
+                <h1 className="text-xl font-bold text-white font-devanagari">
+                  {L("उद्योग निरीक्षक व तांत्रिक सहायक", "Industry Inspector & Technical Assistant")}
+                </h1>
+                <p className="text-primary-400 text-sm">{L("MPSC Group-C 2026", "MPSC Group-C 2026")}</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-2 mt-3">
               <span className="bg-primary-600/20 border border-primary-500/30 text-primary-300 text-xs px-3 py-1 rounded-full font-devanagari">
-                उद्योग निरीक्षक | ₹34,400–1,12,400
+                {L("उद्योग निरीक्षक", "Industry Inspector")} | ₹34,400–1,12,400
               </span>
               <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-3 py-1 rounded-full font-devanagari">
-                तांत्रिक सहायक (विमा संचालनालय) | ₹29,200–92,300
+                {L("तांत्रिक सहायक (विमा संचालनालय)", "Technical Assistant (Insurance Directorate)")} | ₹29,200–92,300
               </span>
-              <span className="bg-green-600/20 border border-green-500/30 text-green-300 text-xs px-3 py-1 rounded-full">
-                2,619 Group-C Vacancies
+              <span className="bg-green-600/20 border border-green-500/30 text-green-300 text-xs px-3 py-1 rounded-full font-devanagari">
+                {L("2,619 Group-C पदे", "2,619 Group-C Vacancies")}
               </span>
             </div>
           </div>
 
           {/* Countdown to Prelims */}
           <div className="bg-bg/60 border border-gray-700/50 rounded-xl p-4 text-center min-w-[200px]">
-            <p className="text-xs text-gray-500 mb-2 font-devanagari">पूर्व परीक्षेसाठी उरलेले दिवस</p>
+            <p className="text-xs text-gray-500 mb-2 font-devanagari">{L("पूर्व परीक्षेसाठी उरलेले दिवस", "Days left for Prelims")}</p>
             <div className="flex gap-2 justify-center">
               {[
-                { n: countdown.days, l: "Days" },
-                { n: countdown.hours, l: "Hrs" },
-                { n: countdown.minutes, l: "Min" },
-                { n: countdown.seconds, l: "Sec" },
+                { n: countdown.days, l: L("दिवस", "Days") },
+                { n: countdown.hours, l: L("तास", "Hrs") },
+                { n: countdown.minutes, l: L("मिनिटे", "Min") },
+                { n: countdown.seconds, l: L("सेकंद", "Sec") },
               ].map((c) => (
                 <div key={c.l} className="bg-primary-600/20 rounded-lg p-2 min-w-[42px]">
                   <p className="text-lg font-bold text-primary-300">{String(c.n).padStart(2, "0")}</p>
-                  <p className="text-[9px] text-gray-500">{c.l}</p>
+                  <p className="text-[9px] text-gray-500 font-devanagari">{c.l}</p>
                 </div>
               ))}
             </div>
             <p className="text-xs text-yellow-400 mt-2 font-devanagari">
-              📅 27 सप्टेंबर 2026
+              📅 {L("27 सप्टेंबर 2026", "27 September 2026")}
             </p>
           </div>
         </div>
@@ -711,7 +727,10 @@ export default function TechnicalSahayakPage() {
           <div className="mt-4 bg-yellow-900/20 border border-yellow-700/40 rounded-xl p-3 flex items-center gap-2">
             <span className="text-yellow-400">⚠️</span>
             <p className="text-yellow-300 text-sm font-devanagari">
-              अर्ज मुदत: {appDeadline.days} दिवस उरले — 17 जुलै 2026 पर्यंत अर्ज करा!
+              {L(
+                `अर्ज मुदत: ${appDeadline.days} दिवस उरले — 17 जुलै 2026 पर्यंत अर्ज करा!`,
+                `Application deadline: ${appDeadline.days} days left — apply by 17 July 2026!`
+              )}
             </p>
           </div>
         )}
@@ -730,7 +749,7 @@ export default function TechnicalSahayakPage() {
             }`}
           >
             <span className="mr-1">{t.icon}</span>
-            <span className="font-devanagari">{t.label}</span>
+            <span className="font-devanagari">{L(t.label, t.labelEn)}</span>
           </button>
         ))}
       </div>
@@ -743,19 +762,20 @@ export default function TechnicalSahayakPage() {
             <div className="bg-bg-card border border-gray-700/50 rounded-xl p-5 space-y-3">
               <h2 className="font-semibold text-gray-200 flex items-center gap-2">
                 <span>📄</span>
-                <span className="font-devanagari">पद तपशील</span>
-                <span className="text-gray-500 text-sm">/ Post Details</span>
+                <span className="font-devanagari">{L("पद तपशील", "Post Details")}</span>
               </h2>
               {[
-                { k: "पद / Post", v: "तांत्रिक सहायक (Technical Sahayak)" },
-                { k: "विभाग / Dept", v: "वित्त विभाग, विमा संचालनालय" },
-                { k: "एकूण पदे / Vacancies", v: "3 पदे" },
-                { k: "वेतन / Pay", v: "S-10: ₹29,200 – ₹92,300 + DA" },
-                { k: "परीक्षा शुल्क", v: "₹394 (General) | ₹294 (Reserved)" },
+                { k: "पद १ / Post 1", v: "उद्योग निरीक्षक / Industry Inspector" },
+                { k: "वेतन १ / Pay 1", v: "₹34,400 – ₹1,12,400" },
+                { k: "पद २ / Post 2", v: "तांत्रिक सहायक, विमा संचालनालय / Technical Assistant, Insurance Directorate" },
+                { k: "वेतन २ / Pay 2", v: "₹29,200 – ₹92,300" },
+                { k: "विभाग / Dept", v: "वित्त विभाग / Finance Department" },
+                { k: "एकूण Group-C पदे / Total Group-C Vacancies", v: "2,619" },
+                { k: "परीक्षा शुल्क / Exam Fee", v: "₹394 (General) | ₹294 (Reserved)" },
               ].map(({ k, v }) => (
                 <div key={k} className="flex justify-between items-start gap-2 py-1.5 border-b border-gray-700/30 last:border-0">
-                  <span className="text-xs text-gray-500 font-devanagari shrink-0">{k}</span>
-                  <span className="text-sm text-gray-200 text-right font-devanagari">{v}</span>
+                  <span className="text-xs text-gray-500 font-devanagari shrink-0">{pickLang(k, pref)}</span>
+                  <span className="text-sm text-gray-200 text-right font-devanagari">{pickLang(v, pref)}</span>
                 </div>
               ))}
             </div>
@@ -763,20 +783,19 @@ export default function TechnicalSahayakPage() {
             <div className="bg-bg-card border border-gray-700/50 rounded-xl p-5 space-y-3">
               <h2 className="font-semibold text-gray-200 flex items-center gap-2">
                 <span>🎓</span>
-                <span className="font-devanagari">पात्रता</span>
-                <span className="text-gray-500 text-sm">/ Eligibility</span>
+                <span className="font-devanagari">{L("पात्रता", "Eligibility")}</span>
               </h2>
               {[
-                { k: "किमान वय / Min Age", v: "19 वर्षे (01 Oct 2026)" },
-                { k: "कमाल वय (General)", v: "38 वर्षे" },
-                { k: "कमाल वय (Reserved)", v: "43 वर्षे (OBC/SC/ST)" },
-                { k: "कमाल वय (PH/दिव्यांग)", v: "45 वर्षे" },
-                { k: "शैक्षणिक अर्हता", v: "Diploma / B.E. / B.Tech (Mechanical / Electrical / Related)" },
-                { k: "मराठी भाषा", v: "माहिती असणे आवश्यक" },
+                { k: "किमान वय / Min Age", v: "19 वर्षे (01 Oct 2026) / 19 years (as of 01 Oct 2026)" },
+                { k: "कमाल वय (General) / Max Age (General)", v: "38 वर्षे / 38 years" },
+                { k: "कमाल वय (Reserved) / Max Age (Reserved)", v: "43 वर्षे (OBC/SC/ST) / 43 years (OBC/SC/ST)" },
+                { k: "कमाल वय (PH/दिव्यांग) / Max Age (PH)", v: "45 वर्षे / 45 years" },
+                { k: "शैक्षणिक अर्हता / Qualification", v: "Diploma-level (पदानुसार) / Diploma-level (per post)" },
+                { k: "मराठी भाषा / Marathi Language", v: "अनिवार्य / Mandatory" },
               ].map(({ k, v }) => (
                 <div key={k} className="flex justify-between items-start gap-2 py-1.5 border-b border-gray-700/30 last:border-0">
-                  <span className="text-xs text-gray-500 font-devanagari shrink-0">{k}</span>
-                  <span className="text-sm text-gray-200 text-right font-devanagari">{v}</span>
+                  <span className="text-xs text-gray-500 font-devanagari shrink-0">{pickLang(k, pref)}</span>
+                  <span className="text-sm text-gray-200 text-right font-devanagari">{pickLang(v, pref)}</span>
                 </div>
               ))}
             </div>
@@ -786,8 +805,7 @@ export default function TechnicalSahayakPage() {
           <div className="bg-bg-card border border-gray-700/50 rounded-xl p-5 space-y-4">
             <h2 className="font-semibold text-gray-200 flex items-center gap-2">
               <span>🏆</span>
-              <span className="font-devanagari">परीक्षेचे स्वरूप</span>
-              <span className="text-gray-500 text-sm">/ Exam Pattern</span>
+              <span className="font-devanagari">{L("परीक्षेचे स्वरूप", "Exam Pattern")}</span>
             </h2>
             <div className="grid sm:grid-cols-2 gap-4">
               {[
@@ -796,13 +814,13 @@ export default function TechnicalSahayakPage() {
                   titleEn: "Combined Prelims",
                   color: "primary",
                   details: [
-                    `${EXAM_PATTERN.prelims.mode} (Computer Based Test)`,
-                    `प्रश्न: ${EXAM_PATTERN.prelims.questions} · एकूण गुण: ${EXAM_PATTERN.prelims.marks}`,
-                    `कालावधी: ${EXAM_PATTERN.prelims.durationMin} मिनिटे`,
-                    `प्रत्येक चुकीच्या उत्तरास ${EXAM_PATTERN.prelims.negativeMarking} गुण वजा / ${EXAM_PATTERN.prelims.negativeMarking} negative marking`,
-                    "तारीख: 27 सप्टेंबर 2026",
-                    "गुण केवळ पात्रतेसाठी (शॉर्टलिस्टिंग) — अंतिम गुणवत्तेत मोजले जात नाहीत / Marks for shortlisting only",
-                    "सर्व Group-C पदांसाठी एकच परीक्षा",
+                    { mr: `${EXAM_PATTERN.prelims.mode} (संगणकाधारित चाचणी)`, en: `${EXAM_PATTERN.prelims.mode} (Computer Based Test)` },
+                    { mr: `प्रश्न: ${EXAM_PATTERN.prelims.questions} · एकूण गुण: ${EXAM_PATTERN.prelims.marks}`, en: `Questions: ${EXAM_PATTERN.prelims.questions} · Total Marks: ${EXAM_PATTERN.prelims.marks}` },
+                    { mr: `कालावधी: ${EXAM_PATTERN.prelims.durationMin} मिनिटे`, en: `Duration: ${EXAM_PATTERN.prelims.durationMin} minutes` },
+                    { mr: `प्रत्येक चुकीच्या उत्तरास ${EXAM_PATTERN.prelims.negativeMarking} गुण वजा`, en: `${EXAM_PATTERN.prelims.negativeMarking} negative marking per wrong answer` },
+                    { mr: "तारीख: 27 सप्टेंबर 2026", en: "Date: 27 September 2026" },
+                    { mr: "गुण केवळ पात्रतेसाठी (शॉर्टलिस्टिंग) — अंतिम गुणवत्तेत मोजले जात नाहीत", en: "Marks for shortlisting only — not counted in final merit" },
+                    { mr: "सर्व Group-C पदांसाठी एकच परीक्षा", en: "One common exam for all Group-C posts" },
                   ],
                 },
                 {
@@ -810,11 +828,11 @@ export default function TechnicalSahayakPage() {
                   titleEn: "Combined Mains",
                   color: "purple",
                   details: [
-                    `${EXAM_PATTERN.mains.papers} Papers × ${EXAM_PATTERN.mains.marksPerPaper} गुण (Paper 1: भाषा — common, Paper 2: पदनिहाय)`,
-                    `प्रत्येक Paper: ${EXAM_PATTERN.mains.durationMinPerPaper} मिनिटे · MCQ प्रत्येकी ${EXAM_PATTERN.mains.marksPerQuestion} गुण`,
-                    `प्रत्येक चुकीच्या उत्तरास ${EXAM_PATTERN.mains.negativeMarking} गुण वजा / ${EXAM_PATTERN.mains.negativeMarking} negative marking`,
-                    "Prelims qualify केल्यानंतरच",
-                    "तारीख: TBD (announced later)",
+                    { mr: `${EXAM_PATTERN.mains.papers} Papers × ${EXAM_PATTERN.mains.marksPerPaper} गुण (Paper 1: भाषा — सर्व पदांसाठी समान, Paper 2: पदनिहाय)`, en: `${EXAM_PATTERN.mains.papers} Papers × ${EXAM_PATTERN.mains.marksPerPaper} marks (Paper 1: Language — common, Paper 2: post-specific)` },
+                    { mr: `प्रत्येक Paper: ${EXAM_PATTERN.mains.durationMinPerPaper} मिनिटे · MCQ प्रत्येकी ${EXAM_PATTERN.mains.marksPerQuestion} गुण`, en: `Each Paper: ${EXAM_PATTERN.mains.durationMinPerPaper} minutes · ${EXAM_PATTERN.mains.marksPerQuestion} marks per MCQ` },
+                    { mr: `प्रत्येक चुकीच्या उत्तरास ${EXAM_PATTERN.mains.negativeMarking} गुण वजा`, en: `${EXAM_PATTERN.mains.negativeMarking} negative marking per wrong answer` },
+                    { mr: "Prelims qualify केल्यानंतरच", en: "Only after qualifying Prelims" },
+                    { mr: "तारीख: TBD (नंतर जाहीर होईल)", en: "Date: TBD (announced later)" },
                   ],
                 },
               ].map((exam) => (
@@ -828,15 +846,14 @@ export default function TechnicalSahayakPage() {
                 >
                   <div>
                     <p className={`font-semibold font-devanagari ${exam.color === "primary" ? "text-primary-300" : "text-purple-300"}`}>
-                      {exam.title}
+                      {L(exam.title, exam.titleEn)}
                     </p>
-                    <p className="text-xs text-gray-500">{exam.titleEn}</p>
                   </div>
                   <ul className="space-y-1.5">
                     {exam.details.map((d) => (
-                      <li key={d} className="text-sm text-gray-300 flex items-start gap-2 font-devanagari">
+                      <li key={d.mr} className="text-sm text-gray-300 flex items-start gap-2 font-devanagari">
                         <span className={`mt-0.5 shrink-0 ${exam.color === "primary" ? "text-primary-400" : "text-purple-400"}`}>•</span>
-                        {d}
+                        {L(d.mr, d.en)}
                       </li>
                     ))}
                   </ul>
@@ -849,8 +866,7 @@ export default function TechnicalSahayakPage() {
           <div className="bg-bg-card border border-gray-700/50 rounded-xl p-5 space-y-3">
             <h2 className="font-semibold text-gray-200 flex items-center gap-2">
               <span>📅</span>
-              <span className="font-devanagari">महत्त्वाच्या तारखा</span>
-              <span className="text-gray-500 text-sm">/ Important Dates</span>
+              <span className="font-devanagari">{L("महत्त्वाच्या तारखा", "Important Dates")}</span>
             </h2>
             <div className="space-y-2">
               {EXAM_DATES.map((d, i) => (
@@ -861,10 +877,10 @@ export default function TechnicalSahayakPage() {
                     d.color === "blue" ? "bg-blue-400" : "bg-purple-400"
                   }`} />
                   <div className="flex-1 flex items-center justify-between gap-2">
-                    <span className="text-sm text-gray-300 font-devanagari">{d.event}</span>
+                    <span className="text-sm text-gray-300 font-devanagari">{L(d.event, d.eventEn)}</span>
                     <span className="text-xs text-gray-500 font-devanagari shrink-0">{d.date}</span>
                   </div>
-                  {d.done && <span className="text-xs text-green-400">✓ सुरू</span>}
+                  {d.done && <span className="text-xs text-green-400 font-devanagari">{L("✓ सुरू", "✓ Started")}</span>}
                 </div>
               ))}
             </div>
@@ -876,17 +892,19 @@ export default function TechnicalSahayakPage() {
       {activeTab === "syllabus" && (
         <div className="space-y-4">
           <div className="bg-yellow-900/20 border border-yellow-700/40 rounded-xl p-4 text-sm text-yellow-300 font-devanagari">
-            ⚡ पूर्व परीक्षा: {EXAM_PATTERN.prelims.questions} प्रश्न · {EXAM_PATTERN.prelims.marks} गुण · {EXAM_PATTERN.prelims.durationMin} मिनिटे — सर्व Group-C पदांसाठी एकत्रित परीक्षा (CBT), प्रत्येक चुकीच्या उत्तरास {EXAM_PATTERN.prelims.negativeMarking} गुण वजा | Prelims: {EXAM_PATTERN.prelims.marks} Marks, {EXAM_PATTERN.prelims.durationMin} min — Combined CBT for all Group-C posts, {EXAM_PATTERN.prelims.negativeMarking} negative marking
+            ⚡ {L(
+              `पूर्व परीक्षा: ${EXAM_PATTERN.prelims.questions} प्रश्न · ${EXAM_PATTERN.prelims.marks} गुण · ${EXAM_PATTERN.prelims.durationMin} मिनिटे — सर्व Group-C पदांसाठी एकत्रित परीक्षा (CBT), प्रत्येक चुकीच्या उत्तरास ${EXAM_PATTERN.prelims.negativeMarking} गुण वजा`,
+              `Prelims: ${EXAM_PATTERN.prelims.questions} Questions, ${EXAM_PATTERN.prelims.marks} Marks, ${EXAM_PATTERN.prelims.durationMin} min — Combined CBT for all Group-C posts, ${EXAM_PATTERN.prelims.negativeMarking} negative marking`
+            )}
           </div>
 
-          <h2 className="font-semibold text-gray-200 font-devanagari">पूर्व परीक्षा अभ्यासक्रम / Prelims Syllabus (8 विषय)</h2>
+          <h2 className="font-semibold text-gray-200 font-devanagari">{L(`पूर्व परीक्षा अभ्यासक्रम (8 विषय)`, "Prelims Syllabus (8 subjects)")}</h2>
           {PRELIMS_SUBJECTS.map((sub) => (
             <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
               <div className="flex items-center gap-3 px-5 py-4 bg-bg-hover border-b border-gray-700/40">
                 <span className="text-2xl">{sub.icon}</span>
                 <div className="flex-1">
-                  <p className="font-semibold text-gray-200 font-devanagari">{sub.label}</p>
-                  <p className="text-xs text-gray-500">{sub.labelEn}</p>
+                  <p className="font-semibold text-gray-200 font-devanagari">{L(sub.label, sub.labelEn)}</p>
                 </div>
                 <span className="bg-primary-600/20 border border-primary-500/30 text-primary-300 text-xs px-3 py-1 rounded-full">
                   ~{sub.marks} marks
@@ -897,7 +915,7 @@ export default function TechnicalSahayakPage() {
                   {sub.subtopics.map((t) => (
                     <li key={t.key} className="flex items-start gap-2 text-sm text-gray-400 font-devanagari">
                       <span className="text-primary-400 mt-0.5 shrink-0">→</span>
-                      {t.label} / {t.labelEn}
+                      {L(t.label, t.labelEn)}
                     </li>
                   ))}
                 </ul>
@@ -906,21 +924,23 @@ export default function TechnicalSahayakPage() {
           ))}
 
           {/* Mains */}
-          <h2 className="font-semibold text-gray-200 font-devanagari pt-2">मुख्य परीक्षा अभ्यासक्रम / Mains Syllabus</h2>
+          <h2 className="font-semibold text-gray-200 font-devanagari pt-2">{L("मुख्य परीक्षा अभ्यासक्रम", "Mains Syllabus")}</h2>
           <div className="bg-purple-900/20 border border-purple-700/40 rounded-xl p-4 text-sm text-purple-300 font-devanagari">
-            प्रत्येक Paper: {EXAM_PATTERN.mains.marksPerPaper} गुण · {EXAM_PATTERN.mains.durationMinPerPaper} मिनिटे · MCQ प्रत्येकी {EXAM_PATTERN.mains.marksPerQuestion} गुण · {EXAM_PATTERN.mains.negativeMarking} negative marking
+            {L(
+              `प्रत्येक Paper: ${EXAM_PATTERN.mains.marksPerPaper} गुण · ${EXAM_PATTERN.mains.durationMinPerPaper} मिनिटे · MCQ प्रत्येकी ${EXAM_PATTERN.mains.marksPerQuestion} गुण · ${EXAM_PATTERN.mains.negativeMarking} negative marking`,
+              `Each Paper: ${EXAM_PATTERN.mains.marksPerPaper} marks · ${EXAM_PATTERN.mains.durationMinPerPaper} minutes · ${EXAM_PATTERN.mains.marksPerQuestion} marks per MCQ · ${EXAM_PATTERN.mains.negativeMarking} negative marking`
+            )}
           </div>
 
           <div>
-            <h3 className="font-semibold text-purple-300 font-devanagari mb-2">Paper 1 — भाषा (सर्व पदांसाठी समान) / Language (common)</h3>
+            <h3 className="font-semibold text-purple-300 font-devanagari mb-2">{L("Paper 1 — भाषा (सर्व पदांसाठी समान)", "Paper 1 — Language (common)")}</h3>
             <div className="grid sm:grid-cols-2 gap-4">
               {MAINS_SUBJECTS.filter((s) => s.paper === 1).map((sub) => (
                 <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
                   <div className="flex items-center gap-3 px-4 py-3 bg-bg-hover border-b border-gray-700/40">
                     <span className="text-xl">{sub.icon}</span>
                     <div className="flex-1">
-                      <p className="font-semibold text-sm text-gray-200 font-devanagari">{sub.label}</p>
-                      <p className="text-xs text-gray-500">{sub.labelEn}</p>
+                      <p className="font-semibold text-sm text-gray-200 font-devanagari">{L(sub.label, sub.labelEn)}</p>
                     </div>
                     <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-2 py-1 rounded-full">
                       {sub.marks} marks
@@ -930,7 +950,7 @@ export default function TechnicalSahayakPage() {
                     {sub.subtopics.map((t) => (
                       <li key={t.key} className="flex items-start gap-2 text-xs text-gray-400 font-devanagari">
                         <span className="text-purple-400 mt-0.5 shrink-0">→</span>
-                        {t.label} / {t.labelEn}
+                        {L(t.label, t.labelEn)}
                       </li>
                     ))}
                   </ul>
@@ -942,7 +962,10 @@ export default function TechnicalSahayakPage() {
           {(["industry-inspector", "technical-assistant"] as const).map((post) => (
             <div key={post}>
               <h3 className="font-semibold text-purple-300 font-devanagari mb-2 mt-3">
-                Paper 2 — {post === "industry-inspector" ? "उद्योग निरीक्षक / Industry Inspector" : "तांत्रिक सहायक / Technical Assistant"}
+                {L(
+                  `Paper 2 — ${post === "industry-inspector" ? "उद्योग निरीक्षक" : "तांत्रिक सहायक"}`,
+                  `Paper 2 — ${post === "industry-inspector" ? "Industry Inspector" : "Technical Assistant"}`
+                )}
               </h3>
               <div className="grid sm:grid-cols-2 gap-4">
                 {MAINS_SUBJECTS.filter((s) => s.paper === 2 && s.post === post).map((sub) => (
@@ -950,8 +973,7 @@ export default function TechnicalSahayakPage() {
                     <div className="flex items-center gap-3 px-4 py-3 bg-bg-hover border-b border-gray-700/40">
                       <span className="text-xl">{sub.icon}</span>
                       <div className="flex-1">
-                        <p className="font-semibold text-sm text-gray-200 font-devanagari">{sub.label}</p>
-                        <p className="text-xs text-gray-500">{sub.labelEn}</p>
+                        <p className="font-semibold text-sm text-gray-200 font-devanagari">{L(sub.label, sub.labelEn)}</p>
                       </div>
                       <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-2 py-1 rounded-full">
                         {sub.marks} marks
@@ -961,7 +983,7 @@ export default function TechnicalSahayakPage() {
                       {sub.subtopics.map((t) => (
                         <li key={t.key} className="flex items-start gap-2 text-xs text-gray-400 font-devanagari">
                           <span className="text-purple-400 mt-0.5 shrink-0">→</span>
-                          {t.label} / {t.labelEn}
+                          {L(t.label, t.labelEn)}
                         </li>
                       ))}
                     </ul>
@@ -1004,15 +1026,15 @@ export default function TechnicalSahayakPage() {
           {/* Key stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { icon: "📅", label: "परीक्षा तारीख", value: "27 Sep 2026" },
-              { icon: "⏳", label: "उरलेला वेळ", value: `${countdown.days} days` },
-              { icon: "📖", label: "विषय", value: "5 Subjects" },
-              { icon: "🏆", label: "एकूण गुण", value: "500 (Pre+Main)" },
+              { icon: "📅", label: "परीक्षा तारीख", labelEn: "Exam Date", value: "27 Sep 2026" },
+              { icon: "⏳", label: "उरलेला वेळ", labelEn: "Time Left", value: `${countdown.days} days` },
+              { icon: "📖", label: "विषय", labelEn: "Subjects", value: "5 Subjects" },
+              { icon: "🏆", label: "एकूण गुण", labelEn: "Total Marks", value: "500 (Pre+Main)" },
             ].map((s) => (
               <div key={s.label} className="bg-bg-card border border-gray-700/50 rounded-xl p-4 text-center">
                 <span className="text-2xl">{s.icon}</span>
                 <p className="text-lg font-bold text-primary-300 mt-1">{s.value}</p>
-                <p className="text-xs text-gray-500 font-devanagari">{s.label}</p>
+                <p className="text-xs text-gray-500 font-devanagari">{L(s.label, s.labelEn)}</p>
               </div>
             ))}
           </div>
@@ -1023,8 +1045,7 @@ export default function TechnicalSahayakPage() {
               <div className="flex items-center gap-3 px-5 py-4 bg-bg-hover border-b border-gray-700/40">
                 <span className="text-2xl">{phase.icon}</span>
                 <div>
-                  <p className="font-semibold text-gray-200 font-devanagari">{phase.phase}</p>
-                  <p className="text-xs text-gray-500">{phase.phaseEn}</p>
+                  <p className="font-semibold text-gray-200 font-devanagari">{L(phase.phase, phase.phaseEn)}</p>
                 </div>
               </div>
               <ul className="px-5 py-4 space-y-2.5">
@@ -1042,8 +1063,7 @@ export default function TechnicalSahayakPage() {
           <div className="bg-bg-card border border-gray-700/50 rounded-xl p-5 space-y-3">
             <h3 className="font-semibold text-gray-200 flex items-center gap-2">
               <span>⏰</span>
-              <span className="font-devanagari">आदर्श दैनंदिन वेळापत्रक</span>
-              <span className="text-gray-500 text-sm">/ Daily Study Plan</span>
+              <span className="font-devanagari">{L("आदर्श दैनंदिन वेळापत्रक", "Daily Study Plan")}</span>
             </h3>
             <div className="space-y-2">
               {[
@@ -1057,7 +1077,7 @@ export default function TechnicalSahayakPage() {
                 <div key={s.time} className="flex items-center justify-between py-2 border-b border-gray-700/30 last:border-0">
                   <div className="flex items-center gap-3">
                     <span className="text-xs text-primary-400 font-semibold w-24 shrink-0 font-devanagari">{s.time}</span>
-                    <span className="text-sm text-gray-300 font-devanagari">{s.activity}</span>
+                    <span className="text-sm text-gray-300 font-devanagari">{pickLang(s.activity, pref)}</span>
                   </div>
                   <span className="text-xs text-gray-500 shrink-0">{s.duration}</span>
                 </div>
@@ -1071,13 +1091,13 @@ export default function TechnicalSahayakPage() {
               onClick={() => setActiveTab("quiz")}
               className="flex-1 bg-primary-600 hover:bg-primary-500 text-white py-3 rounded-xl font-medium transition-colors font-devanagari"
             >
-              🎯 MCQ सराव सुरू करा
+              🎯 {L("MCQ सराव सुरू करा", "Start MCQ Practice")}
             </button>
             <button
               onClick={() => setActiveTab("chat")}
               className="flex-1 bg-bg-card border border-gray-700/50 hover:border-primary-500/50 text-gray-300 py-3 rounded-xl font-medium transition-colors font-devanagari"
             >
-              🤖 AI Tutor विचारा
+              🤖 {L("AI Tutor विचारा", "Ask AI Tutor")}
             </button>
           </div>
         </div>
