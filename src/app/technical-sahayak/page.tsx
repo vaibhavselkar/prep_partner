@@ -5,6 +5,8 @@ import { useChat } from "ai/react";
 import { ALL_SUBJECTS, PRELIMS_SUBJECTS, MAINS_SUBJECTS, EXAM_PATTERN, getSubject } from "@/lib/syllabus";
 import { getNotes } from "@/lib/notes";
 import { useLangPref, pickLang, pickOption, pickLangMultiline, prefToLanguage } from "@/lib/langPref";
+import { useMyNotes } from "@/lib/myNotes";
+import { useSpeechRecognition } from "@/hooks/useSpeechRecognition";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -15,7 +17,7 @@ interface QuizQuestion {
   explanation: string;
 }
 
-type Tab = "overview" | "syllabus" | "chat" | "quiz" | "mock" | "notes" | "strategy";
+type Tab = "overview" | "syllabus" | "chat" | "quiz" | "mock" | "notes" | "mynotes" | "strategy";
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
@@ -678,6 +680,243 @@ function NotesSection() {
   );
 }
 
+// ── My Voice Notes Component ───────────────────────────────────────────────────
+
+function MyNotesQuiz({ notes, disabled }: { notes: string; disabled: boolean }) {
+  const { pref } = useLangPref();
+  const [questions, setQuestions] = useState<QuizQuestion[]>([]);
+  const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+
+  const generateQuiz = async () => {
+    setLoading(true);
+    setError("");
+    setAnswers({});
+    setSubmitted(false);
+    setQuestions([]);
+    try {
+      const res = await fetch("/api/notes-quiz", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ notes, count: 5 }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        if (res.status === 503) {
+          setError(pickLang("AI क्विझसाठी Vercel मध्ये GROQ_API_KEY सेट करा / Set GROQ_API_KEY in Vercel to enable quiz-from-notes.", pref));
+        } else {
+          setError(data.error || pickLang("Quiz निर्मिती अयशस्वी. पुन्हा प्रयत्न करा. / Quiz generation failed. Please try again.", pref));
+        }
+        return;
+      }
+      setQuestions(data.questions ?? []);
+    } catch {
+      setError(pickLang("Quiz निर्मिती अयशस्वी. पुन्हा प्रयत्न करा. / Quiz generation failed. Please try again.", pref));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const score = submitted ? questions.filter((q, i) => answers[i] === q.answer).length : 0;
+
+  return (
+    <div className="space-y-4">
+      <button
+        onClick={generateQuiz}
+        disabled={loading || disabled}
+        className="w-full bg-primary-600 hover:bg-primary-500 disabled:opacity-50 text-white py-3 rounded-xl font-medium transition-colors font-devanagari"
+      >
+        {loading
+          ? pickLang("⏳ प्रश्न तयार होत आहेत... / Generating questions...", pref)
+          : pickLang("🎯 माझ्या नोट्सवर Quiz घ्या / Quiz me on my notes", pref)}
+      </button>
+      {error && <p className="text-red-400 text-sm text-center font-devanagari">{error}</p>}
+
+      {questions.length > 0 && (
+        <div className="space-y-4">
+          {submitted && (
+            <div className="rounded-xl p-4 text-center border border-primary-700/40 bg-primary-900/10 text-primary-300">
+              <p className="text-2xl font-bold">{score}/{questions.length}</p>
+            </div>
+          )}
+          {questions.map((q, idx) => {
+            const chosen = answers[idx];
+            const correct = q.answer;
+            const isCorrect = chosen === correct;
+            return (
+              <div key={idx} className="bg-bg-card border border-gray-700/50 rounded-xl p-5 space-y-3">
+                <p className="text-gray-200 font-medium">
+                  <span className="text-primary-400 mr-2">Q{idx + 1}.</span>
+                  {pickLang(q.question, pref)}
+                </p>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                  {q.options.map((opt) => {
+                    const letter = opt[0];
+                    let cls = "text-left px-3 py-2 rounded-lg border text-sm transition-all ";
+                    if (!submitted) {
+                      cls += chosen === letter
+                        ? "border-primary-500 bg-primary-600/20 text-primary-300"
+                        : "border-gray-700/50 bg-bg-hover text-gray-300 hover:border-primary-500/50";
+                    } else {
+                      if (letter === correct) cls += "border-green-500 bg-green-900/20 text-green-300";
+                      else if (letter === chosen && !isCorrect) cls += "border-red-500 bg-red-900/20 text-red-300";
+                      else cls += "border-gray-700/30 bg-bg text-gray-500";
+                    }
+                    return (
+                      <button
+                        key={letter}
+                        onClick={() => !submitted && setAnswers((a) => ({ ...a, [idx]: letter }))}
+                        className={cls}
+                      >
+                        {pickOption(opt, pref)}
+                      </button>
+                    );
+                  })}
+                </div>
+                {submitted && (
+                  <div className={`text-xs p-3 rounded-lg ${isCorrect ? "bg-green-900/20 text-green-400" : "bg-red-900/20 text-red-400"}`}>
+                    {isCorrect ? pickLang("✓ बरोबर! / Correct!", pref) : pickLang(`✗ चुकले — उत्तर: ${correct} / Wrong — Answer: ${correct}`, pref)}
+                    <span className="text-gray-400 ml-2">{pickLang(q.explanation, pref)}</span>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+
+          {!submitted && Object.keys(answers).length > 0 && (
+            <button
+              onClick={() => setSubmitted(true)}
+              className="w-full bg-green-700 hover:bg-green-600 text-white py-3 rounded-xl font-medium transition-colors font-devanagari"
+            >
+              {pickLang("उत्तरे तपासा / Check Answers", pref)}
+            </button>
+          )}
+          {submitted && (
+            <button
+              onClick={() => { setQuestions([]); setAnswers({}); setSubmitted(false); }}
+              className="w-full bg-bg-card border border-gray-700/50 hover:border-primary-500/50 text-gray-300 py-3 rounded-xl font-medium transition-colors"
+            >
+              {pickLang("नवीन Quiz / New Quiz", pref)}
+            </button>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function MyNotesSection() {
+  const { pref } = useLangPref();
+  const L = (mr: string, en: string) => (pref === "mr" ? mr : pref === "en" ? en : `${mr} / ${en}`);
+  const { notes, add, remove } = useMyNotes();
+  const [draft, setDraft] = useState("");
+
+  const { isListening, supported, error, start, stop, setLanguage, language } = useSpeechRecognition(
+    (final) => setDraft((d) => (d ? d + " " : "") + final)
+  );
+
+  // Default the mic to English on first mount, per the task's default language.
+  useEffect(() => {
+    setLanguage("en-IN");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const combinedNotesText = notes.map((n) => n.text).join("\n\n");
+
+  return (
+    <div className="space-y-6">
+      {/* Dictation card */}
+      <div className="bg-bg-card border border-gray-700/50 rounded-2xl p-5 space-y-4">
+        <h3 className="font-semibold text-gray-200 font-devanagari">{L("नवीन नोट बोला", "Dictate a New Note")}</h3>
+
+        <div className="flex items-center gap-2">
+          <span className="text-xs text-gray-500">{L("भाषा", "Mic language")}:</span>
+          <button
+            onClick={() => setLanguage("en-IN")}
+            className={`px-3 py-1 rounded-full text-xs transition-colors ${language === "en-IN" ? "bg-primary-600 text-white" : "bg-bg-hover text-gray-400 hover:text-gray-200"}`}
+          >
+            ENG
+          </button>
+          <button
+            onClick={() => setLanguage("mr-IN")}
+            className={`px-3 py-1 rounded-full text-xs transition-colors font-devanagari ${language === "mr-IN" ? "bg-primary-600 text-white" : "bg-bg-hover text-gray-400 hover:text-gray-200"}`}
+          >
+            मराठी
+          </button>
+        </div>
+
+        {!supported && (
+          <p className="text-xs text-yellow-400 font-devanagari">
+            {L("आवाजासाठी Chrome किंवा Edge आवश्यक; तुम्ही खाली टाइप करू शकता.", "Voice needs Chrome or Edge; you can type your note below.")}
+          </p>
+        )}
+        {error && <p className="text-xs text-red-400">{error}</p>}
+
+        <button
+          onClick={() => (isListening ? stop() : start())}
+          disabled={!supported}
+          className={`w-full py-3 rounded-xl font-medium transition-colors font-devanagari flex items-center justify-center gap-2 disabled:opacity-50 ${
+            isListening ? "bg-red-700 hover:bg-red-600 text-white" : "bg-primary-600 hover:bg-primary-500 text-white"
+          }`}
+        >
+          {isListening && <span className="w-2 h-2 rounded-full bg-white animate-pulse" />}
+          {isListening ? L("⏹ थांबा", "⏹ Stop") : L("🎤 बोला", "🎤 Speak")}
+        </button>
+
+        <textarea
+          value={draft}
+          onChange={(e) => setDraft(e.target.value)}
+          placeholder={L("तुमची नोट येथे बोला किंवा टाइप करा", "Speak or type your note here")}
+          rows={5}
+          className="w-full bg-bg-hover border border-gray-700/50 rounded-lg px-3 py-2 text-sm text-gray-200 placeholder-gray-500 focus:outline-none focus:border-primary-500 font-devanagari resize-y"
+        />
+
+        <button
+          onClick={() => { add(draft.trim()); setDraft(""); }}
+          disabled={!draft.trim()}
+          className="w-full bg-green-700 hover:bg-green-600 disabled:opacity-50 text-white py-3 rounded-xl font-medium transition-colors font-devanagari"
+        >
+          {L("💾 जतन करा", "💾 Save note")}
+        </button>
+      </div>
+
+      {/* Saved notes list */}
+      <div className="space-y-3">
+        <h3 className="font-semibold text-gray-200 font-devanagari">{L("माझ्या नोट्स", "My Notes")}</h3>
+        {notes.length === 0 ? (
+          <p className="text-center text-gray-500 py-8 font-devanagari">
+            {L("अजून कोणतीही नोट नाही — वर बोला किंवा टाइप करा!", "No notes yet — speak or type one above!")}
+          </p>
+        ) : (
+          notes.map((note) => (
+            <div key={note.id} className="bg-bg-card border border-gray-700/50 rounded-xl p-4 flex items-start justify-between gap-3">
+              <div className="flex-1 min-w-0">
+                <p className="text-sm text-gray-300 whitespace-pre-wrap font-devanagari">{note.text}</p>
+                <p className="text-[10px] text-gray-500 mt-1">{new Date(note.createdAt).toLocaleString()}</p>
+              </div>
+              <button
+                onClick={() => remove(note.id)}
+                className="text-gray-500 hover:text-red-400 transition-colors shrink-0"
+                title={L("हटवा", "Delete")}
+              >
+                🗑
+              </button>
+            </div>
+          ))
+        )}
+      </div>
+
+      {/* Quiz-from-notes */}
+      <div className="bg-bg-card border border-gray-700/50 rounded-2xl p-5 space-y-4">
+        <h3 className="font-semibold text-gray-200 font-devanagari">{L("माझ्या नोट्सवर Quiz", "Quiz on My Notes")}</h3>
+        <MyNotesQuiz notes={combinedNotesText} disabled={notes.length === 0} />
+      </div>
+    </div>
+  );
+}
+
 // ── Main Page ──────────────────────────────────────────────────────────────────
 
 export default function TechnicalSahayakPage() {
@@ -695,6 +934,7 @@ export default function TechnicalSahayakPage() {
     { id: "quiz", label: "MCQ सराव", labelEn: "Quiz", icon: "❓" },
     { id: "mock", label: "सराव परीक्षा", labelEn: "Mock Test", icon: "📝" },
     { id: "notes", label: "अभ्यास नोट्स", labelEn: "Study Notes", icon: "📚" },
+    { id: "mynotes", label: "माझ्या नोट्स", labelEn: "My Notes", icon: "🎤" },
     { id: "strategy", label: "रणनीती", labelEn: "Strategy", icon: "🎯" },
   ];
 
@@ -1044,6 +1284,9 @@ export default function TechnicalSahayakPage() {
 
       {/* ── Tab: Notes ───────────────────────────────────────────────────── */}
       {activeTab === "notes" && <NotesSection />}
+
+      {/* ── Tab: My Voice Notes ──────────────────────────────────────────── */}
+      {activeTab === "mynotes" && <MyNotesSection />}
 
       {/* ── Tab: Strategy ────────────────────────────────────────────────── */}
       {activeTab === "strategy" && (
