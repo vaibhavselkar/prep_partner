@@ -1,26 +1,230 @@
-# Synonyms/Antonyms | समानार्थी/विरुद्धार्थी शब्द
+# English Vocabulary — Synonyms, Antonyms, One-Word Substitution, Homophones & Commonly Confused Words (MPSC Group-C)
 
-- **Synonym**: Words with identical or nearly identical meanings (e.g., happy=joyful, big=large). Perfect synonyms are rare; most share partial meaning based on context.
+## Importance & Exam Pattern
+- English Vocabulary is a recurring component of the Marathi/English Language paper in MPSC Group-C Combined exam (Clerk-Typist, Tax Assistant, ASO — Preliminary & Main).
+- Typically 3-8 questions asked directly on Synonyms, Antonyms, One-Word Substitution, and Spelling/Word usage in the English language section.
+- Questions are objective (MCQ), each carrying equal marks (usually 1 or 2 marks); negative marking may apply as per current MPSC pattern (check current year notification).
+- Vocabulary knowledge also indirectly helps in Reading Comprehension, Sentence Correction, and Cloze Test sections.
+- Preparation strategy: build word lists from Wren & Martin, Word Power Made Easy (Norman Lewis), previous MPSC papers, and daily newspaper (editorial) reading.
 
-- **Antonym**: Words with opposite meanings (e.g., happy≠sad, strong≠weak). Absolute antonyms are less common than graded opposites.
+## Synonyms — Concept & High-Frequency Word List
+- A synonym is a word having the same or nearly the same meaning as another word in certain contexts (e.g., Happy = Glad, Joyful, Cheerful).
+- Context matters: many words have different synonyms depending on usage (e.g., "Fast" can mean "quick" or "to abstain from food").
+- High-frequency MPSC synonym pairs to memorize:
+  - Abandon = Forsake, Desert, Relinquish
+  - Abundant = Plentiful, Ample, Copious
+  - Adamant = Stubborn, Inflexible, Obstinate
+  - Ambiguous = Vague, Unclear, Equivocal
+  - Benevolent = Kind, Generous, Charitable
+  - Candid = Frank, Honest, Sincere
+  - Diligent = Hardworking, Industrious, Assiduous
+  - Eloquent = Fluent, Articulate, Persuasive
+  - Frugal = Thrifty, Economical, Sparing
+  - Genuine = Authentic, Real, Sincere
+  - Hostile = Antagonistic, Unfriendly, Aggressive
+  - Immense = Huge, Vast, Enormous
+  - Jubilant = Elated, Overjoyed, Exultant
+  - Keen = Eager, Sharp, Enthusiastic
+  - Lucid = Clear, Transparent, Comprehensible
+  - Meticulous = Careful, Precise, Thorough
+  - Novice = Beginner, Amateur, Learner
+  - Obstinate = Stubborn, Headstrong, Inflexible
+  - Pragmatic = Practical, Realistic, Sensible
+  - Quench = Satisfy, Extinguish, Slake
+  - Reluctant = Unwilling, Hesitant, Disinclined
+  - Scarce = Rare, Insufficient, Sparse
+  - Tedious = Boring, Monotonous, Tiresome
+  - Universal = Common, Widespread, General
+  - Vivid = Bright, Graphic, Lively
+  - Zealous = Enthusiastic, Fervent, Ardent
 
-- **Context Matters**: Same word can have different synonyms in different contexts. "Bank" (river) ≠ "bank" (financial institution).
+## Antonyms — Concept & High-Frequency Word List
+- An antonym is a word opposite in meaning to another word (e.g., Hot ≠ Cold).
+- Types: Graded antonyms (hot/cold — degrees exist between them), Complementary antonyms (dead/alive — no middle ground), Relational antonyms (teacher/student — imply relationship).
+- High-frequency MPSC antonym pairs to memorize:
+  - Abundant ≠ Scarce
+  - Ancient ≠ Modern
+  - Arrogant ≠ Humble
+  - Benevolent ≠ Malevolent
+  - Bold ≠ Timid
+  - Coarse ≠ Refined
+  - Diligent ≠ Lazy/Indolent
+  - Elated ≠ Dejected
+  - Fertile ≠ Barren
+  - Frugal ≠ Extravagant
+  - Genuine ≠ Fake/Spurious
+  - Hostile ≠ Friendly/Amicable
+  - Innocent ≠ Guilty
+  - Justice ≠ Injustice
+  - Lenient ≠ Strict/Harsh
+  - Meticulous ≠ Careless
+  - Optimist ≠ Pessimist
+  - Praise ≠ Criticize/Condemn
+  - Rigid ≠ Flexible
+  - Superficial ≠ Profound
+  - Transparent ≠ Opaque
+  - Vague ≠ Clear/Precise
+  - Voluntary ≠ Compulsory
+  - Wax ≠ Wane
+  - Zenith ≠ Nadir
+- Prefix-based antonym formation: un- (happy/unhappy), in- (visible/invisible), im- (possible/impossible), il- (legal/illegal), ir- (regular/irregular), dis- (agree/disagree), non- (violent/nonviolent), mis- (understand/misunderstand), anti- (social/antisocial).
 
-- **Levels of Similarity**: Distinguish between exact synonyms (rare) vs. near-synonyms. "Occur" and "happen" are near-synonyms; perfect substitution isn't always possible.
+## One-Word Substitution — Rules & High-Frequency List
+- One-Word Substitution means replacing a phrase/sentence with a single precise word (e.g., "A person who studies birds" = Ornithologist).
+- Key categories tested frequently by MPSC: persons/professions, places, fears/phobias, killers (-cide words), collections, government/legal terms, and habitual behavior.
+- Persons/Professions:
+  - Ornithologist = One who studies birds
+  - Numismatist = One who collects/studies coins
+  - Philatelist = One who collects postage stamps
+  - Bibliophile = One who loves/collects books
+  - Misanthrope = One who hates mankind
+  - Philanthropist = One who loves mankind/donates for welfare
+  - Cynic = One who believes people act only from selfish motives
+  - Sycophant = One who flatters for self-interest
+  - Vagabond = One who has no fixed home; wanders
+  - Autocrat = A ruler with absolute/unlimited power
+  - Ambidextrous = One who can use both hands equally well
+  - Epicure = One who is devoted to sensual/luxurious pleasure, especially food
+  - Iconoclast = One who attacks established beliefs/institutions
+  - Polyglot = One who knows/speaks many languages
+  - Recluse = One who lives in seclusion/isolation from society
+- Places:
+  - Sanatorium = A place for treatment of chronic diseases
+  - Asylum = A place of shelter/refuge (also for mentally ill)
+  - Aviary = A place where birds are kept
+  - Apiary = A place where bees are kept
+  - Orphanage = A home for orphans
+- Killers (-cide words):
+  - Homicide = Killing of a human being
+  - Regicide = Killing of a king
+  - Suicide = Killing of oneself
+  - Fratricide = Killing of one's brother
+  - Genocide = Killing of an entire racial/ethnic group
+  - Matricide = Killing of one's mother
+  - Patricide = Killing of one's father
+  - Infanticide = Killing of an infant
+- Fears/Phobias:
+  - Claustrophobia = Fear of closed/confined spaces
+  - Acrophobia = Fear of heights
+  - Xenophobia = Fear/hatred of foreigners or strangers
+  - Hydrophobia = Fear of water
+  - Nyctophobia = Fear of darkness/night
+- Collections/Groups:
+  - Anthology = A collection of poems/literary pieces
+  - Bouquet = A bunch of flowers
+  - Herd = A group of cattle/animals
+  - Flock = A group of birds/sheep
+- Government/Legal terms:
+  - Amnesty = A general pardon granted by the government
+  - Coup d'état = A sudden overthrow of a government by force
+  - Referendum = A general vote by electorate on a single political question
+  - Plebiscite = A direct vote by all members of electorate on an important public question
+  - Veto = The right to reject a decision/proposal made by a lawmaking body
+- Miscellaneous common ones:
+  - Amateur = A person who engages in a pursuit without professional skill
+  - Ambiguous (used as adj.) — sentence: "A statement with more than one meaning" = Ambiguous
+  - Verbatim = Word for word (repeated exactly)
+  - Posthumous = Occurring/awarded after death
+  - Nomad = A person with no fixed residence, who moves from place to place
 
-- **Common Synonym Patterns**:
-  - Latin/Greek roots often share synonyms (e.g., aqua=water, hydro=water)
-  - Prefix/suffix changes: happy→happiness, legal→illegal
+## Homophones — Concept & Frequently Confused Pairs
+- Homophones are words that sound the same (identical pronunciation) but differ in spelling and meaning (e.g., "Sea" and "See").
+- Common homophone pairs important for MPSC:
+  - Accept (to receive/agree) vs Except (excluding)
+  - Affect (verb: to influence) vs Effect (noun: result)
+  - Ate (past tense of eat) vs Eight (number 8)
+  - Bare (uncovered/naked) vs Bear (animal / to endure)
+  - Berry (fruit) vs Bury (to put in ground)
+  - Board (plank/committee) vs Bored (uninterested)
+  - Break (to shatter) vs Brake (device to stop a vehicle)
+  - Cell (small room/biological unit) vs Sell (to trade for money)
+  - Cite (to quote) vs Sight (vision) vs Site (location)
+  - Complement (something that completes) vs Compliment (praise)
+  - Council (a group that governs/advises) vs Counsel (advice)
+  - Fair (just/light-colored/an event) vs Fare (transport cost)
+  - Flour (used in baking) vs Flower (blossom)
+  - Hear (to listen) vs Here (this place)
+  - Hole (a gap/opening) vs Whole (complete/entire)
+  - Its (possessive of it) vs It's (contraction of "it is")
+  - Knight (a titled man/chess piece) vs Night (dark part of day)
+  - Know (to be aware) vs No (negative response)
+  - Mail (post) vs Male (masculine gender)
+  - Meat (flesh food) vs Meet (to encounter)
+  - Pair (two of a kind) vs Pear (fruit) vs Pare (to peel)
+  - Peace (absence of conflict) vs Piece (a part/portion)
+  - Plain (simple/flat land) vs Plane (aircraft/flat surface)
+  - Principal (head of institution/main) vs Principle (a fundamental rule)
+  - Rain (precipitation) vs Reign (rule of a monarch) vs Rein (strap to control horse)
+  - Right (correct/direction) vs Rite (ceremony) vs Write (to inscribe)
+  - Sole (only/fish/foot bottom) vs Soul (spirit)
+  - Stationary (not moving) vs Stationery (writing materials)
+  - Their (possessive) vs There (place) vs They're (contraction of "they are")
+  - Threw (past tense of throw) vs Through (movement in/across)
+  - To (preposition) vs Too (also/excessive) vs Two (number 2)
+  - Weak (not strong) vs Week (7 days)
+  - Weather (climate condition) vs Whether (conjunction expressing doubt/choice)
+  - Which (question word/relative pronoun) vs Witch (sorceress)
+  - Your (possessive) vs You're (contraction of "you are")
 
-- **Antonym Categories**:
-  - Gradable: cold→hot (spectrum exists between)
-  - Binary/Complementary: alive→dead (no middle ground)
-  - Relational: buy→sell (opposite actions)
+## Commonly Confused Words (Not Homophones, but Similar Spelling/Sound)
+- Adopt (to take up/take a child legally) vs Adapt (to adjust) vs Adept (skilled)
+- Advice (noun: guidance given) vs Advise (verb: to give guidance)
+- Alternate (every other one/by turns) vs Alternative (a choice between options)
+- Amend (to correct/improve) vs Emend (to correct a text, esp. scholarly)
+- Beside (next to) vs Besides (in addition to)
+- Continual (repeated frequently, with breaks) vs Continuous (unbroken, without stopping)
+- Deprecate (to disapprove/criticize) vs Depreciate (to reduce in value)
+- Discreet (careful/tactful) vs Discrete (separate/distinct)
+- Disinterested (impartial/no personal stake) vs Uninterested (not interested/bored)
+- Elicit (to draw out a response) vs Illicit (illegal)
+- Emigrate (to leave one's country) vs Immigrate (to move into another country)
+- Envelop (verb: to wrap/surround) vs Envelope (noun: a paper covering for a letter)
+- Farther (physical distance) vs Further (figurative extent/degree)
+- Historic (important in history) vs Historical (relating to history in general)
+- Later (comparative of late, time) vs Latter (the second of two things mentioned)
+- Loose (not tight) vs Lose (to misplace/fail to win)
+- Moral (lesson/ethical) vs Morale (confidence/spirit of a group)
+- Personal (private/individual) vs Personnel (staff of an organization)
+- Practical (sensible/realistic) vs Practicable (feasible/capable of being done)
+- Prescribe (to recommend, esp. medically) vs Proscribe (to forbid/prohibit)
+- Quiet (silent) vs Quite (completely/rather)
+- Respectfully (with respect) vs Respectively (in the order mentioned)
+- Sensible (reasonable/practical) vs Sensitive (easily affected/emotionally responsive)
+- Stimulant (a substance that increases activity) vs Stimulus (something that provokes a response)
+- Than (used in comparisons) vs Then (at that time/next)
+- Alright (informal, avoid in formal writing) vs All right (correct formal usage)
 
-- **Exam Traps**: Words may seem synonymous but differ in tone/register (formal vs. informal, positive vs. negative connotation).
+## Prefixes & Suffixes Useful for Vocabulary Building
+- Common prefixes: pre- (before), post- (after), sub- (under), super- (above), inter- (between), intra- (within), auto- (self), poly- (many), mono- (one), omni- (all), pseudo- (false), semi- (half), hyper- (excessive), hypo- (under/below).
+- Common suffixes: -ology (study of, e.g., biology), -phobia (fear of), -cide (killing of), -logist (one who studies, e.g., biologist), -ism (belief/practice), -ist (one who practices), -ship (state/quality, e.g., friendship), -hood (condition, e.g., childhood), -less (without), -ful (full of).
+- Recognizing root words (e.g., "bene" = good, "mal" = bad, "phil" = love, "phobia" = fear, "graph" = write, "chron" = time) helps decode unfamiliar vocabulary quickly during the exam.
 
-- **Strategy**: Identify word type (noun/verb/adjective) → Note connotation → Check word families/roots → Consider typical context.
+## Idioms & Phrases Often Tested Alongside Vocabulary
+- A blessing in disguise = Something good that appeared bad at first
+- Bite the bullet = To endure a painful/difficult situation with courage
+- Break the ice = To initiate conversation in a social setting
+- Cut corners = To do something in the cheapest/easiest way, often sacrificing quality
+- Hit the nail on the head = To describe exactly what is causing a situation
+- Once in a blue moon = Rarely
+- Piece of cake = A very easy task
+- Spill the beans = To reveal a secret
+- Take with a grain of salt = To not take something too seriously
+- Under the weather = Feeling slightly unwell
 
-- **High-Yield Word Pairs**: Memorize frequently tested sets (abundant↔scarce, courage↔cowardice, diligent↔lazy, benevolent↔cruel).
+## Tips for Answering Vocabulary Questions in the Exam
+- Read the given word/sentence carefully and identify its part of speech (noun, verb, adjective) before matching options — many wrong answers are correct-meaning but wrong part of speech.
+- Eliminate options that are clearly antonyms when asked for synonyms and vice versa (a common distractor trick).
+- For One-Word Substitution, match the exact scope of meaning; do not pick a near-fit word (e.g., "Sanatorium" vs "Hospital" — sanatorium implies long-term/chronic treatment specifically).
+- For homophones and confused words, form a mental example sentence to test correct usage before selecting.
+- Maintain a personal vocabulary notebook; revise 15-20 new words daily using flashcards or spaced repetition.
+- Practice previous MPSC Group-C question papers (Clerk-Typist, Tax Assistant, ASO) to identify repeated/favorite words of the examiner.
 
-- **Related Words**: Synonyms often share common root words; understanding roots aids quick identification.
+## लक्षात ठेवा / Key Points to Remember
+- Always check the part of speech (noun/verb/adjective) of the given word before selecting a synonym or antonym option.
+- "-cide" suffix words all relate to killing (homicide, suicide, regicide, genocide, fratricide, patricide, matricide, infanticide) — a favorite MPSC one-word-substitution category.
+- "-phobia" suffix words relate to fear (claustrophobia, xenophobia, acrophobia, hydrophobia, nyctophobia).
+- Homophones like Its/It's, Their/There/They're, Your/You're, Stationary/Stationery, and Complement/Compliment are repeatedly tested — memorize them with example sentences.
+- Commonly confused pairs (Affect/Effect, Adopt/Adapt/Adept, Continual/Continuous, Emigrate/Immigrate, Farther/Further) are high-yield for MPSC — revise these thoroughly.
+- Build vocabulary contextually through daily newspaper editorials (The Hindu, Indian Express, Loksatta English columns) rather than rote memorization alone.
+- Cross-check antonyms via prefix logic (un-, in-, im-, il-, ir-, dis-, non-, mis-, anti-) to quickly deduce opposite meanings during the exam.
+- Practice at least 3-4 previous years' MPSC Group-C question papers focusing specifically on the English Vocabulary section to identify the examiner's repeated word patterns.

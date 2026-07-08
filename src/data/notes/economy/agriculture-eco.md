@@ -1,17 +1,102 @@
-# कृषी अर्थव्यवस्था / Agriculture Economy
+# कृषी अर्थव्यवस्था — पीक हंगाम, सिंचन, हमीभाव, PM-FBY, कृषी पतपुरवठा, जमीन सुधारणा / Agriculture Economy — Cropping Seasons, Irrigation, MSP, PM-FBY, Agricultural Credit, Land Reforms
 
-- खरीप हंगाम: जून-जुलै पेरणी, ऑक्टोबर-नोव्हेंबर काढणी (मान्सूनवर आधारित); पिके- भात, ज्वारी, बाजरी, कापूस, सोयाबीन, तूर / Kharif: sown Jun-Jul, harvested Oct-Nov (monsoon-dependent); crops - rice, jowar, bajra, cotton, soybean, tur
-- रब्बी हंगाम: ऑक्टोबर-नोव्हेंबर पेरणी, मार्च-एप्रिल काढणी (हिवाळी, सिंचनावर अवलंबून); पिके- गहू, हरभरा, मोहरी / Rabi: sown Oct-Nov, harvested Mar-Apr (winter, irrigation-dependent); crops - wheat, gram, mustard
-- झायद हंगाम: मार्च-जून, उन्हाळी हंगाम, कमी कालावधीची पिके (काकडी, टरबूज, भाजीपाला) / Zaid: Mar-Jun, summer season, short-duration crops (cucumber, watermelon, vegetables)
-- महाराष्ट्रात सर्वाधिक सिंचन विहिरी व कालव्यांद्वारे; कृष्णा-गोदावरी खोरे सिंचनासाठी महत्त्वाचे / In Maharashtra irrigation mainly via wells & canals; Krishna-Godavari basins key for irrigation
-- सूक्ष्म सिंचन: ठिबक व तुषार सिंचन योजना - जलसंधारण व उत्पादकता वाढीसाठी / Micro-irrigation: drip & sprinkler schemes for water conservation & productivity
-- किमान आधारभूत किंमत (MSP): केंद्र सरकार CACP (कृषी मूल्य आयोग) च्या शिफारशीने 23 पिकांसाठी जाहीर करते / MSP fixed by Centre on CACP recommendations for 23 crops
-- MSP उद्देश: शेतकऱ्यांना किमान हमी भाव, बाजारभाव कोसळल्यास संरक्षण / MSP aims to guarantee minimum price, protect farmers from price crash
-- स्वामिनाथन सूत्र: MSP = उत्पादन खर्च (C2) + 50% / Swaminathan formula: MSP = Cost of production (C2) + 50%
-- PMFBY (प्रधानमंत्री पीक विमा योजना) 2016 पासून लागू; शेतकरी हप्ता - खरीप 2%, रब्बी 1.5%, नगदी/बागायती पिके 5% / PMFBY launched 2016; farmer premium - Kharif 2%, Rabi 1.5%, commercial/horticulture crops 5%
-- उर्वरित हप्ता केंद्र व राज्य सरकार समान वाटून भरतात / Remaining premium subsidized equally by Centre & State
-- महाराष्ट्रात "एक रुपयात पीक विमा" योजना (2023) - शेतकऱ्याचा हप्ता राज्य सरकार भरते / Maharashtra's "One Rupee Crop Insurance" scheme (2023) - state pays farmer's share
-- जमीन सुधारणा: कुळकायदा (Tenancy Act), कमाल जमीनधारणा कायदा (Ceiling Act), चकबंदी (Consolidation of holdings) / Land reforms: Tenancy Acts, Land Ceiling Act, Consolidation of Holdings
-- महाराष्ट्र कमाल जमीन धारणा कायदा 1961 - जमीन मालकीवर कमाल मर्यादा / Maharashtra Land Ceiling Act 1961 sets maximum landholding limits
-- हरित क्रांती (1960s) - गहू, भात उत्पादनवाढ; उच्च उत्पन्न बियाणे (HYV) वापर / Green Revolution (1960s) boosted wheat, rice via HYV seeds
-- e-NAM (राष्ट्रीय कृषी बाजार) - ऑनलाइन कृषी उत्पन्न बाजार समिती व्यासपीठ / e-NAM - online agricultural market platform linking APMCs
+## पीक हंगाम — खरीप, रब्बी, झायद / Cropping Seasons — Kharif, Rabi, Zaid
+
+- खरीप हंगाम जून-जुलैमध्ये मान्सूनच्या आगमनासोबत सुरू होतो व ऑक्टोबर-नोव्हेंबरमध्ये काढणी होते / Kharif season begins with monsoon onset in June-July and harvesting occurs in October-November
+- खरीप पिकांची उदाहरणे: भात, ज्वारी, बाजरी, मका, कापूस, ऊस, सोयाबीन, तूर, मूग, उडीद, भुईमूग / Kharif crop examples: rice, jowar, bajra, maize, cotton, sugarcane, soyabean, tur (pigeon pea), moong, urad, groundnut
+- रब्बी हंगाम ऑक्टोबर-नोव्हेंबरमध्ये सुरू होतो व मार्च-एप्रिलमध्ये काढणी होते, हिवाळी पाऊस/साठवलेल्या ओलाव्यावर अवलंबून / Rabi season starts in October-November and is harvested in March-April, relies on winter rain/stored soil moisture
+- रब्बी पिकांची उदाहरणे: गहू, हरभरा, मोहरी, जवस (अळशी), बार्ली, वाटाणा / Rabi crop examples: wheat, gram (chana), mustard, linseed, barley, pea
+- झायद (उन्हाळी) हंगाम मार्च ते जून दरम्यान असतो, रब्बी काढणी व खरीप पेरणी यामधील अल्पकालीन हंगाम, सिंचनावर पूर्णतः अवलंबून / Zaid (summer) season runs March to June, a short season between rabi harvest and kharif sowing, fully irrigation-dependent
+- झायद पिकांची उदाहरणे: उन्हाळी भुईमूग, टरबूज, खरबूज, काकडी, उन्हाळी भाजीपाला / Zaid crop examples: summer groundnut, watermelon, muskmelon, cucumber, summer vegetables
+- महाराष्ट्रात कृषी हंगाम मान्सूनच्या वितरणावर व प्रादेशिक हवामानावर (विदर्भ, मराठवाडा, पश्चिम महाराष्ट्र, कोकण) अवलंबून असतो / In Maharashtra, agricultural seasons depend on monsoon distribution and regional climate (Vidarbha, Marathwada, Western Maharashtra, Konkan)
+- कृषी हवामान क्षेत्रे (Agro-Climatic Zones) भारतात १५ असून महाराष्ट्रात प्रामुख्याने ९ उप-विभाग आढळतात / India has 15 agro-climatic zones; Maharashtra is broadly divided into 9 sub-zones
+- नीती आयोगाच्या वर्गीकरणानुसार भारतात एकूण १२० कृषी हवामान क्षेत्रे विचारात घेतली जातात (जिल्हा स्तरावर) / As per finer classification (district-level), India has around 120 agro-climatic sub-zones considered for planning
+
+## सिंचन / Irrigation
+
+- भारतातील प्रमुख सिंचन स्रोत: कालवे, विहिरी/कूपनलिका (Tube wells), तलाव, इतर स्रोत — भूजल सिंचन (कूपनलिका) याचा वाटा सर्वाधिक आहे / Major irrigation sources in India: canals, wells/tube wells, tanks, others — groundwater irrigation (tube wells) has the largest share
+- प्रधानमंत्री कृषी सिंचन योजना (PMKSY) २०१५-१६ मध्ये सुरू, घोषवाक्य "हर खेत को पानी" — "प्रत्येक शेताला पाणी" / Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) launched 2015-16, slogan "Har Khet Ko Pani"
+- PMKSY चे प्रमुख घटक: AIBP (Accelerated Irrigation Benefit Programme), Har Khet Ko Pani, Per Drop More Crop (सूक्ष्म सिंचन), Watershed Development / PMKSY key components: AIBP, Har Khet Ko Pani, Per Drop More Crop (micro-irrigation), Watershed Development
+- ठिबक सिंचन (Drip Irrigation) व तुषार सिंचन (Sprinkler Irrigation) यांना 'सूक्ष्म सिंचन' म्हणतात, पाण्याची बचत व उत्पादकता वाढ यासाठी प्रोत्साहन / Drip and Sprinkler irrigation are termed 'Micro Irrigation', promoted for water saving and productivity increase
+- महाराष्ट्रातील जलसंधारण योजना 'जलयुक्त शिवार अभियान' २०१५ मध्ये सुरू, पहिला टप्पा २०१९ पर्यंत, पुनरुज्जीवन (Jalyukt Shivar 2.0) २०२२ पासून / Maharashtra's water conservation scheme 'Jalyukt Shivar Abhiyan' launched 2015, phase 1 till 2019, revived as Jalyukt Shivar 2.0 from 2022
+- महाराष्ट्रातील प्रमुख सिंचन प्रकल्प: कोयना (सातारा), जायकवाडी (औरंगाबाद/छत्रपती संभाजीनगर - नाथसागर), उजनी (सोलापूर - भीमा नदी), गोसीखुर्द (भंडारा - वैनगंगा) / Major irrigation projects in Maharashtra: Koyna (Satara), Jayakwadi (Aurangabad/Chh. Sambhajinagar - Nathsagar), Ujani (Solapur - Bhima river), Gosikhurd (Bhandara - Wainganga river)
+- महाराष्ट्र कृष्णा खोरे विकास महामंडळ (Maharashtra Krishna Valley Development Corporation) व विदर्भ पाटबंधारे विकास महामंडळ जलसंपदा प्रकल्प राबवतात / Maharashtra Krishna Valley Development Corporation and Vidarbha Irrigation Development Corporation implement water resources projects
+- भारतातील एकूण लागवडीयोग्य क्षेत्रापैकी सुमारे ५०% पेक्षा कमी क्षेत्र निव्वळ सिंचित आहे, उर्वरित क्षेत्र पावसावर अवलंबून (Rainfed) / Less than about 50% of India's net sown area is irrigated; the rest remains rainfed
+- राष्ट्रीय जल नीती (National Water Policy) प्रथम १९८७, नंतर सुधारित १९९८ आणि २००२, व २०१२ मध्ये अद्ययावत / National Water Policy first framed in 1987, revised in 1998, 2002, and updated in 2012
+- कमांड एरिया डेव्हलपमेंट प्रोग्राम (CAD) सिंचन क्षमता व प्रत्यक्ष वापर यामधील दरी (Gap) कमी करण्यासाठी राबवला जातो / Command Area Development Programme (CAD) aims to reduce the gap between irrigation potential created and utilized
+
+## हमीभाव — किमान आधारभूत किंमत (MSP) / Minimum Support Price (MSP)
+
+- MSP म्हणजे सरकारने शेतकऱ्यांकडून ठरावीक पिकांसाठी जाहीर केलेली किमान हमी किंमत, बाजारभाव घसरल्यास शेतकऱ्यांचे संरक्षण करण्यासाठी / MSP is the minimum guaranteed price announced by the government for specified crops, to protect farmers when market prices fall
+- कृषी मूल्य आयोग (Commission for Agricultural Costs and Prices - CACP) MSP शिफारशी करतो, हा आयोग कृषी मंत्रालयाच्या अंतर्गत काम करतो, स्थापना १९६५ (मूळ नाव Agricultural Prices Commission) / Commission for Agricultural Costs and Prices (CACP) recommends MSP, functions under Ministry of Agriculture, established in 1965 (originally Agricultural Prices Commission)
+- MSP साठी एकूण २३ पिके अधिसूचित आहेत: ७ धान्ये (भात, गहू, ज्वारी, बाजरी, मका, रागी, बार्ली), ५ डाळी (हरभरा, तूर, मूग, उडीद, मसूर), ७ तेलबिया (भुईमूग, मोहरी, सोयाबीन, सूर्यफूल, तीळ, कारळे, नायजरसीड), ४ नगदी पिके (कापूस, ऊस-FRP, ताग, नारळ) / 23 crops are notified for MSP: 7 cereals (paddy, wheat, jowar, bajra, maize, ragi, barley), 5 pulses (gram, tur, moong, urad, masur), 7 oilseeds (groundnut, mustard, soyabean, sunflower, sesamum, safflower, nigerseed), 4 commercial crops (cotton, sugarcane-FRP, jute, copra)
+- स्वामीनाथन आयोगाने (राष्ट्रीय शेतकरी आयोग, २००४-२००६) MSP उत्पादन खर्चाच्या (C2) किमान १.५ पट असावी अशी शिफारस केली / Swaminathan Commission (National Commission on Farmers, 2004-2006) recommended MSP should be at least 1.5 times the C2 cost of production
+- सरकारने खरीप हंगाम २०१८-१९ पासून A2+FL खर्चाच्या १.५ पट MSP निश्चित करण्याचे धोरण स्वीकारले / Government adopted policy from Kharif 2018-19 season to fix MSP at 1.5 times the A2+FL cost
+- खर्चाचे प्रकार: A2 (प्रत्यक्ष रोख खर्च), A2+FL (A2 + कुटुंबाच्या श्रमाचे अंदाजित मूल्य), C2 (सर्वंकष खर्च - जमिनीचे भाडे व भांडवलावरील व्याज यासह) / Cost concepts: A2 (actual paid-out cost), A2+FL (A2 + imputed value of family labour), C2 (comprehensive cost including rent on land and interest on capital)
+- ऊसासाठी MSP ऐवजी 'रास्त व किफायतशीर किंमत' (Fair and Remunerative Price - FRP) निश्चित केली जाते, ही केंद्र सरकार जाहीर करते; याशिवाय राज्य सरकार 'राज्य सल्लागार किंमत' (SAP) जाहीर करू शकते / For sugarcane, 'Fair and Remunerative Price' (FRP) is fixed instead of MSP by the Centre; states can additionally declare 'State Advised Price' (SAP)
+- MSP अंतर्गत खरेदी प्रामुख्याने भारतीय अन्न महामंडळ (FCI), NAFED, कापूस महामंडळ (CCI) यांच्यामार्फत केली जाते / Procurement under MSP is mainly done through Food Corporation of India (FCI), NAFED, and Cotton Corporation of India (CCI)
+- PM-AASHA (Pradhan Mantri Annadata Aay SanraksHan Abhiyan) योजना २०१८ मध्ये सुरू, MSP अंमलबजावणीसाठी तीन उप-योजना: PSS (Price Support Scheme), PDPS (Price Deficiency Payment Scheme), PPSS (Private Procurement and Stockist Scheme) / PM-AASHA scheme launched 2018 to ensure MSP implementation via three sub-schemes: PSS, PDPS, PPSS
+- महाराष्ट्रात हमीभाव खरेदी केंद्रे प्रामुख्याने कापूस (CCI मार्फत), तूर, हरभरा, धान यासाठी चालवली जातात; पणन महासंघ (Maharashtra State Cooperative Marketing Federation) राज्यस्तरीय खरेदीत सहभागी / In Maharashtra, MSP procurement centres mainly operate for cotton (via CCI), tur, gram, paddy; Maharashtra State Cooperative Marketing Federation participates in state-level procurement
+
+## प्रधानमंत्री फसल बीमा योजना (PM-FBY) / Pradhan Mantri Fasal Bima Yojana (PM-FBY)
+
+- PM-FBY १३ जानेवारी २०१६ रोजी सुरू करण्यात आली, कृषी व शेतकरी कल्याण मंत्रालयामार्फत राबवली जाते / PM-FBY was launched on 13 January 2016, implemented by the Ministry of Agriculture and Farmers Welfare
+- उद्दिष्ट: नैसर्गिक आपत्ती, कीड व रोगांमुळे पिकांचे नुकसान झाल्यास शेतकऱ्यांना आर्थिक सहाय्य व उत्पन्न स्थिरीकरण / Objective: financial support and income stabilization for farmers in case of crop loss due to natural calamities, pests, and diseases
+- शेतकऱ्यांचा हप्ता (प्रीमियम) दर: खरीप पिकांसाठी २%, रब्बी पिकांसाठी १.५%, नगदी/बागायती पिकांसाठी ५% — उर्वरित हप्ता केंद्र व राज्य सरकार समान वाटून भरतात / Farmer premium rates: 2% for kharif crops, 1.5% for rabi crops, 5% for commercial/horticultural crops — remaining premium is shared equally by Centre and State
+- २०२० मध्ये योजना ऐच्छिक (Voluntary) करण्यात आली, पूर्वी कर्जदार शेतकऱ्यांना ती सक्तीची होती / In 2020, the scheme was made voluntary; earlier it was compulsory for loanee farmers
+- जोखीम समाविष्ट: पेरणीपूर्व नुकसान, हंगामातील प्रतिकूल परिस्थिती, काढणीनंतरचे नुकसान (१४ दिवसांपर्यंत), स्थानिक आपत्ती (गारपीट, भूस्खलन, पूर) / Risks covered: prevented sowing, mid-season adversity, post-harvest losses (up to 14 days), localized calamities (hailstorm, landslide, inundation)
+- उत्पन्न अंदाजासाठी 'पीक कापणी प्रयोग' (Crop Cutting Experiments - CCE) व स्मार्टफोन/रिमोट सेन्सिंग तंत्रज्ञानाचा वापर / Crop Cutting Experiments (CCE) and smartphone/remote sensing technology used for yield estimation
+- अंमलबजावणी सामायिक सेवा केंद्रे (CSC), बँका व विमा कंपन्यांमार्फत, राष्ट्रीय पीक विमा पोर्टल (NCIP) द्वारे नोंदणी / Implementation through Common Service Centres (CSC), banks, insurance companies; registration via National Crop Insurance Portal (NCIP)
+- हवामान आधारित पीक विमा योजना (Weather Based Crop Insurance Scheme - WBCIS) ही PM-FBY सोबत पर्यायी योजना म्हणून सुरू आहे / Weather Based Crop Insurance Scheme (WBCIS) runs as an alternative option alongside PM-FBY
+- महाराष्ट्रात 'एक रुपयात पीक विमा' योजना २०२३ पासून राबवली, शेतकऱ्याचा हप्ता राज्य सरकार भरते, शेतकऱ्याला फक्त १ रुपया भरावा लागतो / Maharashtra implemented 'Crop Insurance for Re. 1' scheme from 2023, where state government pays the farmer's share of premium and farmer pays only Re. 1
+- पूर्वीच्या योजना: राष्ट्रीय कृषी विमा योजना (NAIS - १९९९), सुधारित राष्ट्रीय कृषी विमा योजना (MNAIS - २०१०) — या PM-FBY ने बदलल्या / Earlier schemes: National Agricultural Insurance Scheme (NAIS-1999), Modified NAIS (MNAIS-2010) — replaced by PM-FBY
+
+## कृषी पतपुरवठा (Agricultural Credit) / Agricultural Credit
+
+- कृषी पतपुरवठ्याचे स्रोत: संस्थात्मक (Institutional) - सहकारी संस्था, वाणिज्य बँका, प्रादेशिक ग्रामीण बँका (RRBs), नाबार्ड; असंस्थात्मक (Non-institutional) - सावकार, नातेवाईक, व्यापारी / Sources of agricultural credit: Institutional - cooperatives, commercial banks, Regional Rural Banks (RRBs), NABARD; Non-institutional - moneylenders, relatives, traders
+- नाबार्ड (NABARD - National Bank for Agriculture and Rural Development) १२ जुलै १९८२ रोजी स्थापन, शिवरामन समितीच्या शिफारशीनुसार, मुख्यालय मुंबई / NABARD established on 12 July 1982, based on the Shivaraman Committee recommendation, headquartered in Mumbai
+- त्रिस्तरीय सहकारी पतपुरवठा रचना: राज्य सहकारी बँक (State Co-operative Bank - राज्यस्तर) → जिल्हा मध्यवर्ती सहकारी बँक (DCCB - जिल्हा स्तर) → प्राथमिक कृषी पतपुरवठा संस्था (PACS - गाव स्तर) / Three-tier cooperative credit structure: State Co-operative Bank (state level) → District Central Co-operative Bank/DCCB (district level) → Primary Agricultural Credit Society/PACS (village level)
+- किसान क्रेडिट कार्ड (KCC) योजना १९९८ मध्ये सुरू, शेतकऱ्यांना वेळेवर व पुरेसा अल्पमुदतीचा पतपुरवठा देण्यासाठी / Kisan Credit Card (KCC) scheme launched in 1998 to provide timely and adequate short-term credit to farmers
+- व्याज सवलत योजना (Interest Subvention Scheme): ३ लाखांपर्यंतच्या अल्पमुदत पीक कर्जावर २% व्याज सवलत व वेळेवर परतफेड केल्यास अतिरिक्त ३% प्रोत्साहन सवलत (एकूण प्रभावी दर ४%) / Interest Subvention Scheme: 2% subvention on short-term crop loans up to ₹3 lakh, plus additional 3% Prompt Repayment Incentive (effective rate as low as 4%)
+- कृषी पतपुरवठ्याचे वर्गीकरण मुदतीनुसार: अल्पमुदत (Short-term, १५ महिन्यांपर्यंत), मध्यम मुदत (Medium-term, १५ महिने ते ५ वर्षे), दीर्घ मुदत (Long-term, ५ वर्षांपेक्षा जास्त) / Agricultural credit classified by duration: Short-term (up to 15 months), Medium-term (15 months to 5 years), Long-term (more than 5 years)
+- प्राधान्य क्षेत्र कर्ज (Priority Sector Lending - PSL) अंतर्गत बँकांना एकूण निव्वळ बँक कर्जाच्या (ANBC) १८% कृषी क्षेत्राला देणे बंधनकारक / Under Priority Sector Lending (PSL), banks are mandated to lend 18% of Adjusted Net Bank Credit (ANBC) to agriculture
+- कृषी कर्ज माफी योजना: महाराष्ट्रात 'छत्रपती शिवाजी महाराज शेतकरी सन्मान योजना' २०१७ मध्ये कर्जमाफीसाठी सुरू; तसेच 'महात्मा जोतिराव फुले शेतकरी कर्जमुक्ती योजना' २०१९-२० मध्ये सुरू / Loan waiver schemes: Maharashtra launched 'Chhatrapati Shivaji Maharaj Shetkari Sanman Yojana' in 2017; 'Mahatma Jyotirao Phule Shetkari Karjmukti Yojana' launched in 2019-20
+- ग्रामीण पायाभूत सुविधा विकास निधी (Rural Infrastructure Development Fund - RIDF) नाबार्डद्वारे व्यवस्थापित, १९९५-९६ मध्ये स्थापन / Rural Infrastructure Development Fund (RIDF) managed by NABARD, established in 1995-96
+- सूक्ष्म वित्त (Microfinance) संस्था व बचत गट (Self-Help Groups - SHGs) यांच्या माध्यमातूनही ग्रामीण पतपुरवठा होतो, SHG-Bank Linkage Programme NABARD द्वारे १९९२ पासून सुरू / Rural credit also flows via microfinance institutions and Self-Help Groups (SHGs); SHG-Bank Linkage Programme run by NABARD since 1992
+
+## जमीन सुधारणा (Land Reforms) / Land Reforms
+
+- जमीन सुधारणांची प्रमुख उद्दिष्टे: मध्यस्थांचे (जमीनदार) उच्चाटन, कुळ कायद्याद्वारे कुळांना संरक्षण, जमीन धारणेची कमाल मर्यादा (Land Ceiling), जमिनीचे एकत्रीकरण (Consolidation) / Main objectives of land reforms: abolition of intermediaries (zamindars), tenancy protection, land ceiling, consolidation of holdings
+- जमीनदारी/मध्यस्थ उच्चाटन कायदा स्वातंत्र्यानंतर सर्वप्रथम राबवला, उत्तर प्रदेशात १९५१ मध्ये Zamindari Abolition Act लागू / Zamindari/intermediary abolition acts were among the first post-independence reforms; Uttar Pradesh's Zamindari Abolition Act enacted in 1951
+- महाराष्ट्रात 'मुंबई कुळ वहिवाट व शेतजमीन कायदा' (Bombay Tenancy and Agricultural Lands Act) १९४८ साली लागू, 'कसेल त्याची जमीन' (Land to the Tiller) हे तत्त्व अंगीकारले / Maharashtra's Bombay Tenancy and Agricultural Lands Act enacted in 1948, adopted the principle 'Land to the Tiller'
+- कमाल जमीन धारणा कायदा (Land Ceiling Act) - महाराष्ट्र कमाल जमीन धारणा कायदा (Maharashtra Agricultural Lands Ceiling on Holdings Act) १९६१ साली लागू, १९७५ मध्ये सुधारित करून मर्यादा कमी करण्यात आली / Land Ceiling Act - Maharashtra Agricultural Lands Ceiling on Holdings Act enacted in 1961, amended in 1975 to reduce ceiling limits
+- जमीन धारणेची कमाल मर्यादा जमिनीच्या सिंचन प्रकारावर अवलंबून असते (बागायती/जिरायती/हंगामी बागायती) - बागायतीसाठी सर्वात कमी मर्यादा / Ceiling limits depend on type of land (irrigated/unirrigated/seasonally irrigated) - lowest ceiling for perennially irrigated land
+- जमिनीचे एकत्रीकरण (Consolidation of Holdings) कायदा विखुरलेल्या लहान तुकड्यांचे एकत्रीकरण करून शेती कार्यक्षम करण्यासाठी; महाराष्ट्रात 'महाराष्ट्र धारण जमिनीचे तुकडे पाडण्यास प्रतिबंध व त्यांचे एकत्रीकरण करण्याबाबत अधिनियम' १९४७ / Consolidation of Holdings laws aimed at merging fragmented small plots for efficient farming; Maharashtra Prevention of Fragmentation and Consolidation of Holdings Act, 1947
+- कुळ कायद्यांतर्गत 'कब्जेदार कुळ' (Protected Tenant) यांना जमीन मालकी हक्क मिळवण्याची तरतूद, ठराविक रक्कम भरून जमीन खरेदी करण्याचा हक्क (Right to Purchase) / Under tenancy laws, 'Protected Tenants' were given the right to acquire ownership by paying a prescribed price (Right to Purchase)
+- जमीन अभिलेख संगणकीकरण - 'डिजिटल इंडिया लँड रेकॉर्ड्स मॉडर्नायझेशन प्रोग्राम' (DILRMP) २००८ मध्ये सुरू, महाराष्ट्रात 'भूमी अभिलेख' व 'ई-फेरफार' प्रणालीद्वारे राबवले जाते / Land records computerization - Digital India Land Records Modernization Programme (DILRMP) launched in 2008; implemented in Maharashtra via Bhumi Abhilekh and e-Ferfar system
+- सातबारा उतारा (7/12 Extract) व फेरफार नोंदवही ही महाराष्ट्रातील जमीन मालकी व पीक नोंदीची मूलभूत कागदपत्रे / 7/12 Extract (Satbara) and Mutation Register are the fundamental land ownership and crop record documents in Maharashtra
+- हिरालाल जे. कानिया समिती/धनंजयराव गाडगीळ, तसेच जे.सी. कुमारप्पा समिती (Congress Agrarian Reforms Committee, १९४९) यांनी जमीन सुधारणांबाबत महत्त्वाच्या शिफारशी केल्या / J.C. Kumarappa Committee (Congress Agrarian Reforms Committee, 1949) made important land reform recommendations
+- भूदान चळवळ (Bhoodan Movement) विनोबा भावे यांनी १९५१ मध्ये सुरू केली, तेलंगणातील पोचमपल्ली गावापासून सुरुवात, स्वेच्छेने जमीन दान करण्याची चळवळ / Bhoodan Movement started by Vinoba Bhave in 1951, beginning from Pochampally village in Telangana, a movement for voluntary land donation
+- ग्रामदान चळवळ (Gramdan) भूदानाचा पुढील टप्पा, संपूर्ण गावाची जमीन सामूहिक मालकीखाली आणण्याचा प्रयत्न / Gramdan was the next stage of Bhoodan, aiming to bring an entire village's land under collective ownership
+
+## शासकीय संस्था व संबंधित संकल्पना / Related Institutions and Concepts
+
+- कृषी उत्पन्न बाजार समिती (Agricultural Produce Market Committee - APMC) कायदा राज्यांनी केला, शेतमालाच्या नियंत्रित बाजारपेठेसाठी; महाराष्ट्रात APMC कायदा १९६३ / Agricultural Produce Market Committee (APMC) Act enacted by states for regulated marketing; Maharashtra APMC Act, 1963
+- eNAM (राष्ट्रीय कृषी बाजार - National Agriculture Market) १४ एप्रिल २०१६ रोजी सुरू, APMC मंडयांना ऑनलाईन जोडणारे व्यासपीठ / eNAM (National Agriculture Market) launched on 14 April 2016, an online platform linking APMC markets
+- शेतकरी उत्पादक कंपनी (Farmer Producer Organisation/Company - FPO/FPC) संकल्पना शेतकऱ्यांना सामूहिक सौदाशक्ती व बाजारपेठ उपलब्ध करण्यासाठी, "१०,००० FPO" योजना २०२० मध्ये सुरू / Farmer Producer Organisation/Company (FPO/FPC) concept aimed at giving farmers collective bargaining power and market access; "10,000 FPOs" scheme launched in 2020
+- हरित क्रांती (Green Revolution) भारतात १९६० च्या दशकात एम.एस. स्वामीनाथन यांच्या नेतृत्वाखाली सुरू, उच्च उत्पादन देणाऱ्या वाणांचा (HYV) वापर, प्रामुख्याने गहू व भात उत्पादनात वाढ / Green Revolution in India started in the 1960s under M.S. Swaminathan's leadership, use of High Yielding Varieties (HYV), mainly boosted wheat and rice output
+- पंतप्रधान किसान सन्मान निधी (PM-KISAN) १ डिसेंबर २०१८ पासून लागू, पात्र शेतकरी कुटुंबांना वार्षिक ₹६,००० (३ हप्त्यांत ₹२,००० प्रत्येकी) थेट लाभ हस्तांतरण / PM-KISAN scheme effective from 1 December 2018, provides ₹6,000 per year (in 3 installments of ₹2,000) as direct benefit transfer to eligible farmer families
+- कृषी क्षेत्राचा भारताच्या एकूण सकल देशांतर्गत उत्पादनात (GDP) वाटा साधारण १५-१८% च्या दरम्यान (अलिकडील वर्षांत), परंतु रोजगारात ४०% पेक्षा जास्त वाटा / Agriculture contributes roughly 15-18% to India's GDP (in recent years) but employs over 40% of the workforce
+
+## लक्षात ठेवा / Key Points to Remember
+
+- खरीप = मान्सून पीक (जून-ऑक्टोबर), रब्बी = हिवाळी पीक (ऑक्टोबर-मार्च), झायद = उन्हाळी पीक (मार्च-जून) / Kharif = monsoon crop (June-Oct), Rabi = winter crop (Oct-March), Zaid = summer crop (March-June)
+- MSP साठी शिफारस करणारी संस्था = CACP (१९६५ स्थापना); MSP निश्चिती अंतिमतः केंद्रीय मंत्रिमंडळ करते (CCEA) / MSP recommending body = CACP (est. 1965); final MSP fixed by Union Cabinet (CCEA)
+- स्वामीनाथन आयोगाची शिफारस: MSP = C2 खर्चाच्या १.५ पट / Swaminathan Commission recommendation: MSP = 1.5 times C2 cost
+- PM-FBY सुरुवात: १३ जानेवारी २०१६, हप्ता दर: खरीप २%, रब्बी १.५%, फळबाग/नगदी पिके ५% / PM-FBY launch: 13 January 2016; premium rates: Kharif 2%, Rabi 1.5%, horticulture/commercial 5%
+- नाबार्ड स्थापना: १२ जुलै १९८२, शिवरामन समितीच्या शिफारशीवरून / NABARD established: 12 July 1982, based on Shivaraman Committee
+- त्रिस्तरीय सहकारी रचना क्रम: राज्य सहकारी बँक → DCCB → PACS / Three-tier cooperative order: State Co-op Bank → DCCB → PACS
+- महाराष्ट्र कुळ कायदा: १९४८ (मुंबई कुळ वहिवाट व शेतजमीन कायदा); कमाल धारणा कायदा: १९६१ (सुधारणा १९७५) / Maharashtra Tenancy Act: 1948; Ceiling Act: 1961 (amended 1975)
+- भूदान चळवळ: विनोबा भावे, १९५१, पोचमपल्ली (तेलंगणा) पासून सुरुवात / Bhoodan Movement: Vinoba Bhave, 1951, started from Pochampally (Telangana)
+- eNAM सुरुवात: १४ एप्रिल २०१६; PM-KISAN सुरुवात: १ डिसेंबर २०१८ / eNAM launch: 14 April 2016; PM-KISAN launch: 1 December 2018
+- महाराष्ट्रातील "१ रुपयात पीक विमा" योजना २०२३ पासून लागू / Maharashtra's "Crop Insurance for Re. 1" scheme effective from 2023

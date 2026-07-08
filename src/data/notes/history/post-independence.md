@@ -1,23 +1,109 @@
-# Post-Independence भारत: Princely States Integration & Maharashtra Formation
+# स्वातंत्र्योत्तर भारत — संस्थानांचे विलीनीकरण, राज्य पुनर्रचना कायदा १९५६ आणि संयुक्त महाराष्ट्र निर्मिती १९६० / Post-Independence India — Integration of Princely States, States Reorganisation Act 1956 and Formation of Maharashtra 1960
 
-- **Sardar Patel's Integration (1947-1950)**: Sardar Vallabhbhai Patel ("Iron Man of India") integrated 565 princely states through diplomacy, persuasion, and pressure. | सरदार पटेल यांनी ५६५ रियासती राज्यांचा एकीकरण केला
+## पार्श्वभूमी / Background
 
-- **Instrument of Accession**: Princely rulers signed treaties joining the Indian Union; key states: Hyderabad, Kashmir, Junagarh. | रियासती शासकांनी Union मध्ये प्रवेशाचे दस्तऐवज स्वाक्षरित केले
+- १९४७ मध्ये भारताला स्वातंत्र्य मिळाले तेव्हा भारतात ५६२ संस्थाने (Princely States) होती, जी ब्रिटिश भारताच्या सुमारे ४५% भूभागावर पसरलेली होती / When India got independence in 1947, there were 562 princely states covering nearly 45% of British India's territory.
+- भारतीय स्वातंत्र्य कायदा १९४७ (Indian Independence Act, 1947) नुसार संस्थानांना भारत किंवा पाकिस्तानमध्ये सामील होण्याचा किंवा स्वतंत्र राहण्याचा पर्याय देण्यात आला होता / Under the Indian Independence Act, 1947, princely states were given the option to join India, Pakistan, or remain independent.
+- या संस्थानांच्या विलीनीकरणाचे काम पार पाडण्यासाठी भारत सरकारने ५ जुलै १९४७ रोजी संस्थान खाते (States Department) स्थापन केले / To handle integration, the Government of India set up the States Department on 5 July 1947.
+- सरदार वल्लभभाई पटेल हे संस्थान खात्याचे मंत्री (गृहमंत्री) होते आणि व्ही. पी. मेनन (V.P. Menon) हे या खात्याचे सचिव होते / Sardar Vallabhbhai Patel was the Minister for the States Department (Home Minister) and V.P. Menon was its Secretary.
+- सरदार पटेल यांना त्यांच्या या कार्यामुळे "लोहपुरुष" (Iron Man of India) आणि "भारताचे बिस्मार्क" असे संबोधले जाते / For this achievement, Sardar Patel is called the "Iron Man of India" and "Bismarck of India".
 
-- **Hyderabad Integration (1948)**: Operation Polo—Indian Army military action against Nizam of Hyderabad who refused accession. | Nizam ला हिंदुस्तानी सेना ने ताब्यात घेतले
+## संस्थानांचे विलीनीकरण — प्रक्रिया / Integration of Princely States — Process
 
-- **States Reorganisation Act (1956)**: Parliament restructured states based on **linguistic lines** (language-based reorganization). | भाषिक आधारावर राज्यांचं पुनर्गठन
+- पटेल आणि मेनन यांनी संस्थानिकांना भारतीय संघराज्यात सामील होण्यासाठी दोन महत्त्वाची कागदपत्रे तयार केली : विलीनीकरण करार (Instrument of Accession) आणि जैसे थे करार (Standstill Agreement) / Patel and Menon prepared two key documents for accession: the Instrument of Accession and the Standstill Agreement.
+- विलीनीकरण करारानुसार संस्थान केवळ संरक्षण, परराष्ट्र व्यवहार आणि दळणवळण (Defence, External Affairs, Communications) हे तीन विषय केंद्र सरकारकडे सोपवत असे / Under the Instrument of Accession, a state ceded only three subjects to the Centre — Defence, External Affairs, and Communications.
+- बहुसंख्य संस्थाने १५ ऑगस्ट १९४७ पूर्वीच भारतीय संघराज्यात सामील झाली; काही संस्थानांनी अडचणी निर्माण केल्या, विशेषतः जुनागढ, हैदराबाद आणि काश्मीर / Most states acceded before 15 August 1947; a few created problems — notably Junagadh, Hyderabad, and Kashmir.
+- व्ही. पी. मेनन यांच्या "प्रिव्ही पर्स" (Privy Purse) योजनेनुसार संस्थानिकांना त्यांच्या राजस्व नुकसानीच्या बदल्यात वार्षिक तनखा (भत्ता) देण्याचे मान्य करण्यात आले / V.P. Menon's Privy Purse scheme guaranteed former rulers an annual allowance in exchange for surrendering their states.
+- प्रिव्ही पर्स पुढे २६ व्या घटनादुरुस्ती कायद्याने (26th Constitutional Amendment Act, 1971) इंदिरा गांधी सरकारने रद्द केली / The Privy Purse was later abolished by the 26th Constitutional Amendment Act, 1971, under Indira Gandhi's government.
 
-- **Part A, B, C States Abolished (1956)**: New administrative classification implemented; removed British-era divisions. | नवीन प्रशासकीय व्यवस्थापन सुरू झाली
+## जुनागढ, हैदराबाद, काश्मीर — विशेष प्रकरणे / Junagadh, Hyderabad, Kashmir — Special Cases
 
-- **Maharashtra Formation (1 May 1960)**: Bombay State divided into Maharashtra and Gujarat after Samyukta Maharashtra agitation. | बॉम्बे राज्याचं विभाजन; महाराष्ट्र व गुजरात अलग राज्य
+- जुनागढ (गुजरात) : नवाब महाबतखानजी यांनी पाकिस्तानात विलीन होण्याचा प्रयत्न केला, पण जनतेने विरोध केला; फेब्रुवारी १९४८ मध्ये सार्वमत (Plebiscite) घेतले गेले आणि जनतेने भारतात सामील होण्याचा कौल दिला / Junagadh (Gujarat): Nawab Mahabat Khanji tried to accede to Pakistan, but people opposed it; a plebiscite in February 1948 resulted in the people voting to join India.
+- हैदराबाद : निजाम मीर उस्मान अली खान यांनी स्वतंत्र राहण्याचा प्रयत्न केला; भारत सरकारने १३ सप्टेंबर १९४८ रोजी "ऑपरेशन पोलो" (Operation Polo) ही लष्करी कारवाई केली आणि १७ सप्टेंबर १९४८ रोजी निजामाने शरणागती पत्करून हैदराबाद भारतात विलीन झाले / Hyderabad: Nizam Mir Osman Ali Khan wanted to remain independent; India launched "Operation Polo" (military action) on 13 September 1948, and the Nizam surrendered on 17 September 1948, merging Hyderabad into India.
+- काश्मीर : राजा हरिसिंग यांनी सुरुवातीला स्वतंत्र राहण्याचे ठरवले; पाकिस्तान पुरस्कृत टोळीवाल्यांच्या (कबायली) आक्रमणानंतर त्यांनी २६ ऑक्टोबर १९४७ रोजी विलीनीकरण करारावर सही केली आणि भारतीय लष्कर पाठवण्यात आले / Kashmir: Raja Hari Singh initially wanted independence; after a tribal invasion backed by Pakistan, he signed the Instrument of Accession on 26 October 1947, and Indian troops were sent in.
+- कलम ३७० (Article 370) हे जम्मू-काश्मीरला विशेष दर्जा देणारे तात्पुरते कलम राज्यघटनेत समाविष्ट करण्यात आले (नंतर ५ ऑगस्ट २०१९ रोजी रद्द) / Article 370, a temporary provision granting special status to Jammu & Kashmir, was included in the Constitution (later abrogated on 5 August 2019).
+- गोवा : पोर्तुगीज वसाहत असलेल्या गोव्याचे विलीनीकरण "ऑपरेशन विजय" (Operation Vijay) द्वारे १९ डिसेंबर १९६१ रोजी झाले / Goa, a Portuguese colony, was integrated through "Operation Vijay" on 19 December 1961.
+- पाँडिचेरी (फ्रेंच वसाहत) १९५४ मध्ये भारतात विलीन झाले (कायदेशीर हस्तांतरण १९६२) / Pondicherry (French colony) merged with India in 1954 (de jure transfer in 1962).
+- सिक्कीम हे ३६वे राज्य म्हणून १९७५ मध्ये भारतात विलीन झाले (या टप्प्यानंतरची घटना, संदर्भासाठी) / Sikkim became India's 36th state, merging in 1975 (later event, for reference).
 
-- **Samyukta Maharashtra Movement**: Marathi speakers' demand for unified state under one administration. | मराठी भाषेभाषकांचं आंदोलन
+## भारतीय संस्थानांचे भारतीय संघराज्यात विलीनीकरणाचे टप्पे / Stages of Merger of States into Indian Union
 
-- **Capital: Mumbai (Bombay)**: Became Maharashtra's capital; significant cultural & commercial hub. | मुंबई राजधानी नियुक्त
+- पहिला टप्पा : वैयक्तिक विलीनीकरण करार (Instrument of Accession) करून संस्थाने भारतीय संघराज्यात सामील झाली (१९४७-४८) / First stage: States joined the Union individually via the Instrument of Accession (1947-48).
+- दुसरा टप्पा : लहान संस्थानांचे एकत्रीकरण करून "संघ" (Unions) तयार करण्यात आले, उदा. पेप्सू (PEPSU - Patiala and East Punjab States Union), सौराष्ट्र संघ, विंध्य प्रदेश, मध्य भारत, राजस्थान संघ / Second stage: Small states were merged into "Unions" e.g. PEPSU (Patiala and East Punjab States Union), Saurashtra Union, Vindhya Pradesh, Madhya Bharat, Rajasthan Union.
+- तिसरा टप्पा : काही संस्थाने शेजारील प्रांतांमध्ये विलीन करण्यात आली (Merger), उदा. उडिसा व छत्तीसगढ भागातील संस्थाने ओरिसा व मध्य प्रांतात विलीन झाली / Third stage: Some states were merged into adjoining provinces, e.g. Odisha/Chhattisgarh states merged into Orissa and Central Provinces.
+- चौथा टप्पा : हैदराबाद, म्हैसूर, जम्मू-काश्मीर यांसारखी मोठी संस्थाने स्वतंत्र घटक राज्य (Part B राज्ये) म्हणून कायम राहिली / Fourth stage: Large states like Hyderabad, Mysore, Jammu & Kashmir remained as separate constituent (Part B) states.
+- भारतीय संविधानाच्या पहिल्या अनुसूचीत (First Schedule) या विलीनीकरणानंतर राज्यांचे वर्गीकरण भाग अ, भाग ब, भाग क आणि भाग ड अशा चार गटांत करण्यात आले होते / The First Schedule of the Constitution initially classified states into Part A, Part B, Part C, and Part D states.
+- भाग अ (Part A) : पूर्वीचे ब्रिटिश गव्हर्नरचे प्रांत (उदा. मुंबई, मद्रास, उत्तर प्रदेश) / Part A: Former British Governor's provinces (e.g., Bombay, Madras, Uttar Pradesh).
+- भाग ब (Part B) : पूर्वीची मोठी संस्थाने किंवा संस्थानांचे संघ (उदा. हैदराबाद, म्हैसूर, राजस्थान, पेप्सू) / Part B: Former large princely states or unions of states (e.g., Hyderabad, Mysore, Rajasthan, PEPSU).
+- भाग क (Part C) : पूर्वीचे मुख्य आयुक्तांचे प्रांत व काही लहान संस्थाने (उदा. दिल्ली, कूर्ग, अजमेर) / Part C: Former Chief Commissioner's provinces and small states (e.g., Delhi, Coorg, Ajmer).
+- भाग ड (Part D) : अंदमान आणि निकोबार बेटे हे एकमेव भाग ड राज्य होते / Part D: Andaman and Nicobar Islands was the only Part D territory.
 
-- **Pan-Indian Principle**: Reorganization applied nationwide—creation of linguistic states (Hindi-speaking, Tamil-speaking, etc.). | संपूर्ण भारतात भाषिक आधारावर राज्यं निर्मित
+## भाषावार प्रांतरचनेची मागणी आणि आयोग / Demand for Linguistic Reorganisation and Commissions
 
-- **Daman & Diu Integration (1961)**: Portuguese enclaves merged into India. | दमन व दीव भारतात विलीन
+- स्वातंत्र्यपूर्व काळापासूनच भाषेच्या आधारे प्रांतरचना करण्याची मागणी होती; भारतीय राष्ट्रीय काँग्रेसने १९२० च्या नागपूर अधिवेशनात भाषिक तत्त्वावर प्रांतिक काँग्रेस समित्या स्थापन केल्या होत्या / Even before independence, there was a demand for linguistic reorganisation; the Indian National Congress at its 1920 Nagpur session had organized provincial Congress committees on a linguistic basis.
+- धर आयोग (Dar Commission) : डिसेंबर १९४७ मध्ये नेमलेल्या एस. के. धर आयोगाने भाषेऐवजी प्रशासकीय सोयीच्या आधारे राज्यांची पुनर्रचना करावी असे सुचवले (अहवाल १९४८) / Dar Commission: Appointed in December 1947, the S.K. Dar Commission recommended reorganisation on administrative convenience rather than language (report in 1948).
+- जेव्हीपी समिती (JVP Committee, १९४८-४९) : जवाहरलाल नेहरू, वल्लभभाई पटेल आणि पट्टाभी सीतारामय्या यांची समिती; या समितीनेही तत्काळ भाषिक पुनर्रचनेला विरोध दर्शवला, मात्र जनतेच्या तीव्र मागणीस भविष्यात विचारात घेण्याचे मान्य केले / JVP Committee (1948-49): Comprising Jawaharlal Nehru, Vallabhbhai Patel, and Pattabhi Sitaramayya; also opposed immediate linguistic reorganisation but agreed to consider it in future if public demand was strong.
+- पोट्टी श्रीरामुलू यांच्या आमरण उपोषणाने (मृत्यू १५ डिसेंबर १९५२) आंध्र राज्याच्या निर्मितीला चालना मिळाली; परिणामी १ ऑक्टोबर १९५३ रोजी मद्रास राज्यातून तेलुगू भाषिक आंध्र राज्याची निर्मिती झाले (भारतातील पहिले भाषावार राज्य) / Potti Sriramulu's fast unto death (died 15 December 1952) led to the creation of Andhra State; consequently, on 1 October 1953, the Telugu-speaking Andhra State was carved out of Madras State (India's first linguistic state).
+- फाजल अली आयोग (Fazal Ali Commission) उर्फ राज्य पुनर्रचना आयोग (States Reorganisation Commission - SRC) डिसेंबर १९५३ मध्ये स्थापन झाला / The Fazal Ali Commission, also called the States Reorganisation Commission (SRC), was set up in December 1953.
+- SRC चे तीन सदस्य होते : न्या. फाजल अली (अध्यक्ष), हृदयनाथ कुंझरू आणि के. एम. पण्णीकर / SRC had three members: Justice Fazal Ali (Chairman), Hridayanath Kunzru, and K.M. Panikkar.
+- SRC ने आपला अहवाल ३० सप्टेंबर १९५५ रोजी सादर केला; या आयोगाने भाषा हा राज्य पुनर्रचनेचा एकमेव निकष न मानता प्रशासकीय व आर्थिक सोय, राष्ट्रीय एकात्मता यांचाही विचार केला / SRC submitted its report on 30 September 1955; it did not treat language as the sole criterion, also considering administrative & financial viability and national unity.
+- SRC ने भारताची १६ राज्ये आणि ३ केंद्रशासित प्रदेशांमध्ये पुनर्रचना करण्याची शिफारस केली होती / SRC recommended reorganising India into 16 states and 3 union territories.
+- SRC ने मुंबई (बॉम्बे) राज्याबाबत द्विभाषिक (Bilingual) राज्य कायम ठेवण्याची शिफारस केली होती, म्हणजे मराठी व गुजराती भाषिक भाग एकत्र ठेवावेत असे सुचवले — यामुळे महाराष्ट्र व गुजरातच्या स्वतंत्र निर्मितीस विलंब झाला / SRC recommended keeping Bombay State bilingual (combining Marathi and Gujarati speaking areas) — this delayed separate formation of Maharashtra and Gujarat.
 
-- **Impact**: Strengthened democratic participation; reduced princely state privileges; unified language-based regional identity. | लोकशाही दृढ केली; क्षेत्रीय ओळख मजबूत केली
+## राज्य पुनर्रचना कायदा, १९५६ / States Reorganisation Act, 1956
+
+- राज्य पुनर्रचना कायदा भारतीय संसदेने संमत केला आणि तो १ नोव्हेंबर १९५६ रोजी अंमलात आला / The States Reorganisation Act was passed by Parliament and came into force on 1 November 1956.
+- या कायद्यामुळे राज्यघटनेत ७वी घटनादुरुस्ती (7th Constitutional Amendment Act, 1956) करण्यात आली, ज्याद्वारे भाग अ, ब, क, ड ही वर्गवारी रद्द करून केवळ "राज्ये" (States) आणि "केंद्रशासित प्रदेश" (Union Territories) असे दोन वर्ग करण्यात आले / This led to the 7th Constitutional Amendment Act, 1956, abolishing the Part A/B/C/D classification and creating only two categories: States and Union Territories.
+- १ नोव्हेंबर १९५६ रोजी भारतात एकूण १४ राज्ये आणि ६ केंद्रशासित प्रदेश अस्तित्वात आले / On 1 November 1956, India was reorganised into 14 states and 6 union territories.
+- या कायद्यानुसार आंध्र प्रदेश (आंध्र राज्य + हैदराबादचा तेलुगू भाग तेलंगणा) या राज्याची निर्मिती झाली / Under this Act, Andhra Pradesh was formed by merging Andhra State with the Telugu-speaking Telangana region of Hyderabad State.
+- केरळ राज्याची निर्मिती त्रावणकोर-कोचीन आणि मलबार (मद्रास राज्यातील) भाग एकत्र करून झाली / Kerala was formed by merging Travancore-Cochin with the Malabar region (from Madras State).
+- कर्नाटक (तेव्हाचे म्हैसूर राज्य) राज्याची निर्मिती म्हैसूर संस्थान अधिक कन्नड भाषिक भाग (मुंबई, मद्रास, हैदराबाद, कूर्ग येथील) एकत्र करून झाली / Karnataka (then Mysore State) was formed by merging the Mysore princely state with Kannada-speaking areas from Bombay, Madras, Hyderabad, and Coorg.
+- मध्य प्रदेश राज्याची निर्मिती मध्य प्रदेश, मध्य भारत, विंध्य प्रदेश आणि भोपाळ ही राज्ये एकत्र करून झाली / Madhya Pradesh was formed by merging Madhya Pradesh, Madhya Bharat, Vindhya Pradesh, and Bhopal.
+- पंजाब राज्याची निर्मिती पंजाब आणि पेप्सू (PEPSU) एकत्र करून झाली / Punjab was formed by merging Punjab and PEPSU.
+- राजस्थान राज्याची निर्मिती राजस्थान संघ आणि अजमेर राज्य एकत्र करून झाली / Rajasthan was formed by merging the Rajasthan Union with Ajmer State.
+- मुंबई (बॉम्बे) राज्य हे द्विभाषिक राज्य म्हणून कायम राहिले — यात मराठी भाषिक (मुंबई प्रांत, मराठवाडा - हैदराबादमधून, विदर्भ - मध्य प्रांतातून) आणि गुजराती भाषिक (सौराष्ट्र, कच्छ) प्रदेश एकत्र आले / Bombay State remained a bilingual state — combining Marathi-speaking (Bombay Province, Marathwada from Hyderabad, Vidarbha from Madhya Pradesh) and Gujarati-speaking (Saurashtra, Kutch) areas.
+- केंद्रशासित प्रदेश (१९५६ नुसार) : दिल्ली, हिमाचल प्रदेश, मणिपूर, त्रिपुरा, अंदमान-निकोबार बेटे आणि लक्षद्वीप (मिनी-कॉय व अमिनदिवी बेटे) / Union Territories (as per 1956 Act): Delhi, Himachal Pradesh, Manipur, Tripura, Andaman & Nicobar Islands, and Lakshadweep (Minicoy and Amindivi Islands).
+
+## संयुक्त महाराष्ट्र चळवळ / Samyukta Maharashtra Movement
+
+- मुंबईसह मराठी भाषिकांचे एकच राज्य निर्माण व्हावे यासाठी "संयुक्त महाराष्ट्र चळवळ" उभी राहिली; ही चळवळ प्रामुख्याने मुंबई शहर महाराष्ट्रात समाविष्ट करण्यासाठी लढली गेली / The "Samyukta Maharashtra Movement" demanded a unified state of Marathi speakers including Mumbai; it was primarily fought to include Mumbai city within Maharashtra.
+- SRC ने मुंबई शहराला केंद्रशासित प्रदेश किंवा स्वतंत्र द्विभाषिक द्वि-राजधानी राज्याचा दर्जा देण्याची शिफारस केली होती, जी मराठी भाषिकांना अमान्य होती / The SRC recommended making Mumbai a Union Territory / separate city-state, which was unacceptable to Marathi speakers.
+- ६ फेब्रुवारी १९५६ रोजी मुंबईतील फ्लोरा फाउंटन (आताचे हुतात्मा चौक) येथे झालेल्या आंदोलनात पोलिसांच्या गोळीबारात अनेक आंदोलक शहीद झाले; या हुतात्म्यांच्या स्मरणार्थ तेथे "हुतात्मा स्मारक" उभारण्यात आले / On 6 January 1956 (agitation continued into 1956) at Flora Fountain (now Hutatma Chowk) in Mumbai, police firing on agitators martyred several protestors; the "Hutatma Smarak" (Martyrs' Memorial) was erected there in their memory.
+- संयुक्त महाराष्ट्र चळवळीत एकूण १०५ हुतात्मे शहीद झाले असे मानले जाते / A total of 105 martyrs are said to have died in the Samyukta Maharashtra Movement.
+- संयुक्त महाराष्ट्र समिती (Samyukta Maharashtra Samiti) ही चळवळीचे नेतृत्व करणारी संघटना होती, जिची स्थापना ६ फेब्रुवारी १९५६ रोजी झाली / The Samyukta Maharashtra Samiti was the organisation leading the movement, formed on 6 February 1956.
+- या चळवळीतील प्रमुख नेते : सेनापती बापट (पांडुरंग महादेव बापट), एस. एम. जोशी, प्रबोधनकार ठाकरे, आचार्य अत्रे (प्र. के. अत्रे — "मराठा" वृत्तपत्राचे संपादक), डांगे (श्रीपाद अमृत डांगे), उद्धवराव पाटील इत्यादी / Key leaders: Senapati Bapat (Pandurang Mahadev Bapat), S.M. Joshi, Prabodhankar Thackeray, Acharya Atre (P.K. Atre — editor of "Maratha" newspaper), S.A. Dange, Uddhavrao Patil, and others.
+- आचार्य अत्रे यांनी त्यांच्या "मराठा" या दैनिकातून संयुक्त महाराष्ट्राच्या मागणीला जोरदार पाठिंबा दिला व आंदोलन तीव्र केले / Acharya Atre strongly supported the demand for Samyukta Maharashtra through his daily "Maratha" and intensified the agitation.
+- गुजरातमध्येही स्वतंत्र गुजरात राज्याच्या मागणीसाठी "महागुजरात आंदोलन" चालले होते, ज्याचे नेतृत्व इंदुलाल याज्ञिक यांनी केले / In Gujarat, a parallel "Maha Gujarat Movement" demanded a separate Gujarat state, led by Indulal Yagnik.
+- स. का. पाटील (S.K. Patil) आणि मोरारजी देसाई हे मुंबई महाराष्ट्रात समाविष्ट करण्याच्या विरोधात होते; मोरारजी देसाई त्यावेळी मुंबई (द्विभाषिक) राज्याचे मुख्यमंत्री होते / S.K. Patil and Morarji Desai opposed including Mumbai in Maharashtra; Morarji Desai was then Chief Minister of the bilingual Bombay State.
+- यशवंतराव चव्हाण यांनी संयुक्त महाराष्ट्राच्या निर्मितीत महत्त्वाची भूमिका बजावली आणि ते महाराष्ट्राचे पहिले मुख्यमंत्री झाले / Yashwantrao Chavan played a crucial role in the formation of Samyukta Maharashtra and became Maharashtra's first Chief Minister.
+
+## महाराष्ट्र राज्याची निर्मिती, १९६० / Formation of Maharashtra State, 1960
+
+- मुंबई पुनर्रचना कायदा, १९६० (Bombay Reorganisation Act, 1960) संसदेने संमत केला, ज्याद्वारे द्विभाषिक मुंबई राज्याचे विभाजन करून महाराष्ट्र आणि गुजरात ही दोन स्वतंत्र राज्ये निर्माण करण्यात आली / The Bombay Reorganisation Act, 1960 was passed by Parliament, dividing the bilingual Bombay State into two separate states — Maharashtra and Gujarat.
+- महाराष्ट्र राज्याची स्थापना १ मे १९६० रोजी झाली (महाराष्ट्र दिन / कामगार दिन) / Maharashtra State was established on 1 May 1960 (celebrated as Maharashtra Din, coinciding with Labour Day).
+- त्याच दिवशी, १ मे १९६० रोजी गुजरात राज्याचीही स्थापना झाली / On the same day, 1 May 1960, Gujarat State was also formed.
+- महाराष्ट्र राज्यात मुंबई शहर (बृहन्मुंबई), पश्चिम महाराष्ट्र, मराठवाडा (हैदराबाद राज्यातून, १९५६ मध्ये आधीच जोडलेला) आणि विदर्भ (मध्य प्रांतातून, नागपूर करार १९५३ नुसार) या प्रदेशांचा समावेश झाला / Maharashtra comprised Mumbai city (Greater Mumbai), Western Maharashtra, Marathwada (from Hyderabad State, already merged in 1956), and Vidarbha (from Madhya Pradesh, as per the Nagpur Pact of 1953).
+- नागपूर करार (Nagpur Pact), २८ सप्टेंबर १९५३ : विदर्भाला संयुक्त महाराष्ट्रात सामील करून घेताना विदर्भाच्या हिताचे रक्षण करण्यासाठी झालेला करार, ज्यात नागपूरला उपराजधानीचा दर्जा देण्याचे मान्य झाले / Nagpur Pact, 28 September 1953: An agreement to protect Vidarbha's interests while merging it into Samyukta Maharashtra, under which Nagpur was granted the status of the state's second/winter capital.
+- यशवंतराव चव्हाण हे महाराष्ट्राचे पहिले मुख्यमंत्री (Chief Minister) बनले (कार्यकाळ १ मे १९६० पासून) / Yashwantrao Chavan became the first Chief Minister of Maharashtra (from 1 May 1960).
+- महाराष्ट्राची राजधानी मुंबई आणि उपराजधानी (हिवाळी अधिवेशनाचे ठिकाण) नागपूर निश्चित करण्यात आली / Mumbai was made the capital of Maharashtra, and Nagpur the second/winter capital (site of the winter session).
+- गुजरातची राजधानी सुरुवातीला अहमदाबाद होती, नंतर गांधीनगर करण्यात आली / Gujarat's capital was initially Ahmedabad, later shifted to Gandhinagar.
+- महाराष्ट्र राज्याची निर्मिती ही भारतातील भाषावार प्रांतरचनेचे एक महत्त्वाचे व अंतिम टप्प्यातील उदाहरण मानली जाते / The formation of Maharashtra is considered a key and late-stage example of linguistic reorganisation of states in India.
+- बेळगाव, कारवार, निपाणी, बिदर आणि भालकी हे मराठी भाषिक भाग सीमा प्रश्नामुळे कर्नाटकात राहिले — हा महाराष्ट्र-कर्नाटक सीमावाद आजही प्रलंबित आहे / Belgaum, Karwar, Nipani, Bidar, and Bhalki (Marathi-speaking areas) remained in Karnataka due to the border dispute — the Maharashtra-Karnataka border dispute remains unresolved even today.
+- महाजन आयोग (Mahajan Commission, १९६६) : सर्वोच्च न्यायालयाचे माजी सरन्यायाधीश मेहरचंद महाजन यांच्या अध्यक्षतेखाली महाराष्ट्र-कर्नाटक सीमाप्रश्न सोडवण्यासाठी नेमलेला आयोग, ज्याचा अहवाल महाराष्ट्राला अमान्य आहे / Mahajan Commission (1966): Chaired by former Chief Justice Mehr Chand Mahajan to resolve the Maharashtra-Karnataka border dispute; its report is unacceptable to Maharashtra.
+
+## नंतरचे संबंधित बदल (संक्षिप्त संदर्भ) / Later Related Changes (Brief Reference)
+
+- १९६० नंतरही भाषिक/प्रादेशिक आधारावर राज्य पुनर्रचना सुरूच राहिली, उदा. नागालँड (१९६३), पंजाब पुनर्रचना (१९६६ - हरियाणा व हिमाचल प्रदेश वेगळे), मेघालय-मणिपूर-त्रिपुरा राज्ये (१९७२) / State reorganisation continued after 1960, e.g. Nagaland (1963), Punjab Reorganisation (1966 - separating Haryana and Himachal Pradesh), Meghalaya-Manipur-Tripura as states (1972).
+- सध्या भारतात २८ राज्ये आणि ८ केंद्रशासित प्रदेश आहेत (जम्मू-काश्मीर पुनर्रचना कायदा २०१९ नंतरची स्थिती) / Currently India has 28 states and 8 Union Territories (post the J&K Reorganisation Act, 2019).
+
+## लक्षात ठेवा / Key Points to Remember
+
+- सरदार पटेल — गृहमंत्री व संस्थान खात्याचे प्रमुख; व्ही. पी. मेनन — सचिव; दोघांनी मिळून ५६२ पैकी जवळजवळ सर्व संस्थाने भारतात विलीन केली / Sardar Patel — Home Minister & head of States Department; V.P. Menon — Secretary; together they merged nearly all 562 states into India.
+- हैदराबाद = ऑपरेशन पोलो (१९४८); गोवा = ऑपरेशन विजय (१९६१); जुनागढ = सार्वमत (१९४८); काश्मीर = विलीनीकरण करार २६ ऑक्टोबर १९४७ / Hyderabad = Operation Polo (1948); Goa = Operation Vijay (1961); Junagadh = Plebiscite (1948); Kashmir = Instrument of Accession, 26 October 1947.
+- राज्य पुनर्रचना आयोग (SRC) — स्थापना १९५३, अध्यक्ष फाजल अली, अहवाल ३० सप्टेंबर १९५५, राज्य पुनर्रचना कायदा १ नोव्हेंबर १९५६ पासून लागू / SRC — set up 1953, Chairman Fazal Ali, report on 30 September 1955, States Reorganisation Act effective from 1 November 1956.
+- ७वी घटनादुरुस्ती (१९५६) — भाग अ/ब/क/ड वर्गीकरण रद्द; फक्त राज्ये व केंद्रशासित प्रदेश / 7th Constitutional Amendment (1956) — abolished Part A/B/C/D classification; only States and UTs remain.
+- महाराष्ट्र व गुजरात यांची निर्मिती — १ मे १९६०, मुंबई पुनर्रचना कायदा १९६० द्वारे / Formation of Maharashtra & Gujarat — 1 May 1960, via the Bombay Reorganisation Act, 1960.
+- यशवंतराव चव्हाण — महाराष्ट्राचे पहिले मुख्यमंत्री; मुंबई — राजधानी; नागपूर — उपराजधानी (नागपूर करार १९५३) / Yashwantrao Chavan — first CM of Maharashtra; Mumbai — capital; Nagpur — second capital (Nagpur Pact 1953).
+- संयुक्त महाराष्ट्र चळवळीतील १०५ हुतात्मे — हुतात्मा चौक (फ्लोरा फाउंटन), मुंबई येथे स्मारक / 105 martyrs of the Samyukta Maharashtra Movement — memorial at Hutatma Chowk (Flora Fountain), Mumbai.
+- आंध्र राज्य (१९५३) हे भारतातील पहिले भाषिक तत्त्वावर स्थापन झालेले राज्य — पोट्टी श्रीरामुलू यांच्या बलिदानामुळे / Andhra State (1953) was India's first linguistic state — formed due to Potti Sriramulu's sacrifice.
+- बेळगाव-कारवार सीमावाद अद्याप न्यायप्रविष्ट/प्रलंबित — महाजन आयोग अहवाल महाराष्ट्राला अमान्य / Belgaum-Karwar border dispute still pending/sub judice — Mahajan Commission report rejected by Maharashtra.

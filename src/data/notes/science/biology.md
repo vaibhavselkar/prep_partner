@@ -1,25 +1,96 @@
-# जीवशास्त्र / Biology
+# जीवशास्त्र: पेशी रचना, वर्गीकरण, मानवी शरीरसंस्था, प्रकाशसंश्लेषण व पोषण / Biology: Cell Structure, Classification, Human Body Systems, Photosynthesis & Nutrition
 
-- **कोशिका संरचना** - सजीव जीवाची मूलभूत एकक; केंद्रक (nucleus) व साइटोप्लाज्म (cytoplasm) असते / Basic unit of life; nucleus & cytoplasm present
+## पेशी: पायाभूत माहिती / Cell: Basic Information
+- पेशी ही सजीवांची रचनात्मक व कार्यात्मक मूलभूत एकक आहे / The cell is the basic structural and functional unit of all living organisms.
+- रॉबर्ट हूक यांनी १६६५ मध्ये कॉर्कच्या तुकड्यात पेशी शोधल्या व "Cell" हा शब्द वापरला / Robert Hooke discovered cells in cork in 1665 and coined the term "Cell".
+- अँटोनी व्हॅन ल्यूवेनहॉक यांनी सूक्ष्मदर्शकाद्वारे प्रथम सजीव पेशी (जीवाणू, शुक्राणू) पाहिली / Antonie van Leeuwenhoek was the first to observe living cells (bacteria, sperm) under a microscope.
+- श्लायडेन (१८३८) व श्वान (१८३९) यांनी पेशी सिद्धांत मांडला - सर्व सजीव पेशींपासून बनलेले असतात / Schleiden (1838) and Schwann (1839) proposed the Cell Theory - all living organisms are made of cells.
+- रुडॉल्फ फिरखो (१८५५) यांनी सांगितले की सर्व पेशी आधीच अस्तित्वात असलेल्या पेशींपासून तयार होतात (Omnis cellula e cellula) / Rudolf Virchow (1855) stated that all cells arise from pre-existing cells.
+- पेशींचे दोन प्रकार: प्रोकॅरिओटिक (केंद्रकाशिवाय - उदा. जीवाणू, नील-हरित शैवाल) आणि युकॅरिओटिक (केंद्रकयुक्त - उदा. वनस्पती, प्राणी) / Two types of cells: Prokaryotic (without nucleus - e.g. bacteria, blue-green algae) and Eukaryotic (with nucleus - e.g. plants, animals).
 
-- **प्रकाश संश्लेषण** - हिरवी रंग (chlorophyll) सूर्यप्रकाश + पाणी + CO₂ → ग्लूकोज + O₂ / Green plants use light energy to convert water & CO₂ into glucose
+## पेशी रचना: घटक व कार्ये / Cell Structure: Components & Functions
+- पेशी आवरण (Cell Membrane) - निवडक पारगम्य पडदा, फॉस्फोलिपिड द्विस्तर व प्रथिनांनी बनलेला, पदार्थांच्या ने-आणीचे नियंत्रण करतो / Cell Membrane - selectively permeable, made of phospholipid bilayer and proteins, controls movement of substances.
+- केंद्रक (Nucleus) - पेशीचा मेंदू, DNA व गुणसूत्रे (Chromosomes) असतात, आनुवंशिक माहिती साठवते, केंद्रकपटल व केंद्रिका (Nucleolus) असते / Nucleus - the brain of the cell, contains DNA and chromosomes, stores genetic information, has nuclear membrane and nucleolus.
+- कोशद्रव्य (Cytoplasm) - पेशीतील अर्धघन द्रव पदार्थ, त्यात सर्व पेशीअंगके असतात / Cytoplasm - semi-fluid matrix inside the cell containing all organelles.
+- मायटोकाँड्रिया (Mitochondria) - "पेशीचे शक्तीगृह" (Power House of the Cell), श्वसनाद्वारे ATP ऊर्जा निर्माण करते, स्वतःचे DNA असते / Mitochondria - "Power House of the Cell", produces ATP energy through respiration, has its own DNA.
+- राइबोसोम (Ribosomes) - प्रथिन संश्लेषणाचे केंद्र, RNA व प्रथिनांनी बनलेले, याला "प्रथिन कारखाना" म्हणतात / Ribosomes - site of protein synthesis, made of RNA and protein, called the "protein factory".
+- अंतर्द्रव्य जालिका (Endoplasmic Reticulum - ER) - खरखरीत (Rough ER - राइबोसोमयुक्त, प्रथिन संश्लेषण) व गुळगुळीत (Smooth ER - लिपिड संश्लेषण) असे दोन प्रकार / Endoplasmic Reticulum - Rough ER (with ribosomes, protein synthesis) and Smooth ER (lipid synthesis).
+- गॉल्जी संकुल (Golgi Apparatus/Body) - कॅमिलो गॉल्जी यांनी शोधले, पदार्थांचे पॅकेजिंग, बदल व स्रवण करते, "पेशीचे टपाल कार्यालय" / Golgi Apparatus - discovered by Camillo Golgi, packages, modifies and secretes substances, the "post office of the cell".
+- लयकारिका/लायसोसोम (Lysosomes) - पचन विकरे (Enzymes) असतात, टाकाऊ पदार्थ व जीवाणू पचवतात, याला "आत्मघाती पिशवी" (Suicidal bag) म्हणतात / Lysosomes - contain digestive enzymes, digest waste and bacteria, called the "suicidal bag" of the cell.
+- रिक्तिका (Vacuoles) - वनस्पती पेशीत मोठी व मध्यवर्ती रिक्तिका (सेल सॅप, पाणी साठवते), प्राणी पेशीत लहान व अनेक असतात / Vacuoles - large central vacuole in plant cells (stores cell sap, water); small and numerous in animal cells.
+- लवके (Plastids) - फक्त वनस्पती पेशीत आढळतात; हरितलवक (Chloroplast - हरितद्रव्य/क्लोरोफिल असते, प्रकाशसंश्लेषण करते), वर्णीलवक (Chromoplast - रंगद्रव्य), अवर्णीलवक (Leucoplast - अन्नसाठा) / Plastids - found only in plant cells; Chloroplast (contains chlorophyll, performs photosynthesis), Chromoplast (pigments), Leucoplast (food storage).
+- तारकाकेंद्र (Centrosome/Centriole) - प्राणी पेशीत आढळते, पेशी विभाजनात तर्कु तंतू (Spindle fibers) तयार करण्यास मदत करते / Centrosome/Centriole - found in animal cells, helps form spindle fibers during cell division.
+- पेशी भित्तिका (Cell Wall) - फक्त वनस्पती पेशीत, सेल्युलोजची बनलेली, पेशीला आकार व संरक्षण देते / Cell Wall - only in plant cells, made of cellulose, gives shape and protection to the cell.
 
-- **श्वसन क्रिया** - अनुक्रमे बाह्य श्वसन (breathing), अंतर्गत श्वसन (cellular respiration) / Oxygen intake & CO₂ release; aerobic/anaerobic processes
+## वनस्पती पेशी विरुद्ध प्राणी पेशी / Plant Cell vs Animal Cell
+- वनस्पती पेशीला पेशी भित्तिका (सेल्युलोजची) असते; प्राणी पेशीला पेशी भित्तिका नसते, फक्त पेशी आवरण असते / Plant cell has a cellulose cell wall; animal cell lacks a cell wall, has only a cell membrane.
+- वनस्पती पेशीत हरितलवकांसह लवके असतात; प्राणी पेशीत लवके नसतात / Plant cells have plastids including chloroplasts; animal cells have no plastids.
+- वनस्पती पेशीत एकच मोठी मध्यवर्ती रिक्तिका असते; प्राणी पेशीत अनेक लहान रिक्तिका असतात / Plant cells have one large central vacuole; animal cells have many small vacuoles.
+- वनस्पती पेशींचा आकार साधारणपणे चौकोनी/आयताकृती व स्थिर असतो; प्राणी पेशींचा आकार गोलाकार/अनियमित व लवचिक असतो / Plant cells are typically rectangular/fixed in shape; animal cells are round/irregular and flexible.
+- प्राणी पेशीत तारकाकेंद्र (Centriole) असते; बहुतांश वनस्पती पेशींमध्ये ते नसते / Animal cells have centrioles; most plant cells lack them.
+- वनस्पती पेशी स्वयंपोषी (Autotrophic) असतात - स्वतःचे अन्न तयार करतात; प्राणी पेशी परपोषी (Heterotrophic) असतात / Plant cells are autotrophic - make their own food; animal cells are heterotrophic.
+- लयकारिका वनस्पती पेशीत क्वचित आढळतात, प्राणी पेशीत मुबलक असतात / Lysosomes are rare in plant cells but abundant in animal cells.
 
-- **अनुवंशिकता** - डीएनए (DNA) मध्ये जीन्स असतात; पित्रापासून संतानात वर्णविशेषता संक्रमित होतात / Genes in DNA pass traits to offspring; heredity principle
+## सजीवांचे वर्गीकरण / Classification of Living Organisms
+- ॲरिस्टॉटल यांना "वर्गीकरणशास्त्राचे जनक" म्हणतात, त्यांनी सजीवांचे वनस्पती व प्राणी असे दोन गटात वर्गीकरण केले / Aristotle is called the "Father of Taxonomy/Classification"; he classified organisms into plants and animals.
+- कॅरोलस लिनियस (Carolus Linnaeus) यांना "आधुनिक वर्गीकरणशास्त्राचे जनक" म्हणतात, त्यांनी द्विनाम पद्धती (Binomial Nomenclature) दिली / Carolus Linnaeus is called the "Father of Modern Taxonomy"; he gave the Binomial Nomenclature system.
+- द्विनाम पद्धतीत प्रत्येक सजीवाचे नाव दोन भागांचे असते - प्रजाती (Genus) व जाती (Species), उदा. मानव - Homo sapiens / In binomial nomenclature, each organism has a two-part name - Genus and Species, e.g. Human - Homo sapiens.
+- आर. एच. व्हिटाकर (R.H. Whittaker, १९६९) यांनी पाच सृष्टी वर्गीकरण प्रणाली (Five Kingdom Classification) मांडली / R.H. Whittaker (1969) proposed the Five Kingdom Classification system.
+- पाच सृष्टी: मोनेरा (Monera - जीवाणू, केंद्रकविरहित), प्रोटिस्टा (Protista - एकपेशीय, उदा. अमिबा), बुरशी (Fungi - परपोषी, उदा. यीस्ट, मशरूम), प्लांटी (Plantae - वनस्पती), ॲनिमेलिया (Animalia - प्राणी) / Five Kingdoms: Monera (bacteria, no nucleus), Protista (unicellular, e.g. Amoeba), Fungi (heterotrophic, e.g. yeast, mushroom), Plantae (plants), Animalia (animals).
+- वर्गीकरणाची श्रेणी क्रम (Taxonomic Hierarchy): सृष्टी (Kingdom) → संघ (Phylum/Division) → वर्ग (Class) → गण (Order) → कुल (Family) → प्रजाती (Genus) → जाती (Species) / Taxonomic Hierarchy: Kingdom → Phylum/Division → Class → Order → Family → Genus → Species.
+- प्राणीसृष्टीचे प्रमुख संघ: पोरिफेरा (स्पंज), सिलेंटरेटा (हायड्रा, जेलीफिश), प्लॅटिहेल्मिंथिस (चपटे कृमी), निमॅटोडा (गोल कृमी), ॲनेलिडा (गांडूळ), आर्थ्रोपोडा (कीटक, कोळी - सर्वात मोठा संघ), मोलस्का (गोगलगाय), एकायनोडर्माटा (स्टारफिश), कॉर्डेटा (पाठीचा कणा असलेले प्राणी) / Major animal phyla: Porifera (sponges), Coelenterata (Hydra, jellyfish), Platyhelminthes (flatworms), Nematoda (roundworms), Annelida (earthworm), Arthropoda (insects, spiders - largest phylum), Mollusca (snails), Echinodermata (starfish), Chordata (animals with backbone).
+- संघ कॉर्डेटाचे उपसंघ व्हर्टिब्राटा (पृष्ठवंशी) मध्ये पाच वर्ग: मत्स्य (Pisces), उभयचर (Amphibia), सरीसृप (Reptilia), पक्षी (Aves), सस्तन प्राणी (Mammalia) / Subphylum Vertebrata under Chordata has five classes: Pisces, Amphibia, Reptilia, Aves, Mammalia.
+- विषाणू (Virus) सजीव व निर्जीव यांच्या सीमारेषेवर असतात - यजमान पेशीबाहेर निर्जीव व आत सजीव वर्तन करतात, DNA/RNA व प्रथिन आवरण (Capsid) असते / Viruses are on the borderline of living and non-living - inert outside a host cell, alive inside; consist of DNA/RNA and a protein coat (Capsid).
 
-- **जीवन प्रक्रियाः पोषण** - स्वपोषी (autotrophic) vs विषमपोषी (heterotrophic); भक्ष्य शृंखला (food chain) / Autotrophs make food; heterotrophs consume it
+## मानवी शरीरसंस्था / Human Body Systems
+- पचनसंस्था (Digestive System): तोंड → अन्ननलिका (Oesophagus) → जठर (Stomach) → लहान आतडे (Small Intestine - पचन व शोषण) → मोठे आतडे (Large Intestine - पाणी शोषण) → गुदद्वार; यकृत (सर्वात मोठी ग्रंथी, पित्तरस तयार करते) व स्वादुपिंड (Pancreas - इन्सुलिन व पाचक विकरे) यांचा सहभाग / Digestive System: Mouth → Oesophagus → Stomach → Small Intestine (digestion & absorption) → Large Intestine (water absorption) → Anus; Liver (largest gland, produces bile) and Pancreas (insulin & digestive enzymes) are involved.
+- श्वसनसंस्था (Respiratory System): नाक → स्वरयंत्र (Larynx) → श्वासनलिका (Trachea) → श्वासनलिका शाखा (Bronchi) → फुफ्फुसे (Lungs - वायुकोश/Alveoli मध्ये वायू विनिमय) / Respiratory System: Nose → Larynx → Trachea → Bronchi → Lungs (gas exchange occurs in Alveoli).
+- रक्ताभिसरण संस्था (Circulatory System): हृदय (Heart - चार कप्पे: दोन कर्णिका/Atria व दोन जवनिका/Ventricles), विल्यम हार्वे यांनी रक्ताभिसरणाचा शोध लावला (१६२८) / Circulatory System: Heart (four chambers: two Atria, two Ventricles); William Harvey discovered blood circulation (1628).
+- रक्त घटक: प्लाझ्मा (५५%), तांबड्या पेशी (RBC - हिमोग्लोबिनमुळे ऑक्सिजन वहन, अस्थिमज्जेत निर्मिती, आयुष्य १२० दिवस), पांढऱ्या पेशी (WBC - रोगप्रतिकारशक्ती), रक्तपट्टिका (Platelets - रक्त गोठण्यास मदत) / Blood components: Plasma (55%), RBC (carries oxygen via haemoglobin, made in bone marrow, lifespan 120 days), WBC (immunity), Platelets (blood clotting).
+- रक्तगट: कार्ल लँडस्टायनर यांनी १९०० मध्ये A, B, AB, O रक्तगटांचा शोध लावला; O हा सर्वस्वीकारक (Universal donor), AB हा सर्वग्राही (Universal recipient) / Blood groups: Karl Landsteiner discovered A, B, AB, O blood groups in 1900; O is universal donor, AB is universal recipient.
+- उत्सर्जन संस्था (Excretory System): वृक्क/मूत्रपिंड (Kidneys - रक्त गाळून मूत्र तयार करतात, नेफ्रॉन ही कार्यात्मक एकक), मूत्रवाहिनी, मूत्राशय, मूत्रमार्ग / Excretory System: Kidneys (filter blood to form urine, Nephron is the functional unit), Ureter, Urinary Bladder, Urethra.
+- चेतासंस्था (Nervous System): मेंदू (Brain - प्रमस्तिष्क/Cerebrum, अनुमस्तिष्क/Cerebellum, मेंदूस्तंभ/Brain stem), पाठीचा कणा (Spinal Cord), चेतापेशी (Neuron - चेतासंस्थेचे कार्यात्मक एकक) / Nervous System: Brain (Cerebrum, Cerebellum, Brain stem), Spinal Cord, Neuron (functional unit of the nervous system).
+- अंतःस्रावी संस्था (Endocrine System): पिट्युटरी ग्रंथी ("मास्टर ग्रंथी"), थायरॉईड (थायरॉक्सिन - चयापचय नियंत्रण), स्वादुपिंड (इन्सुलिन - रक्तशर्करा नियंत्रण), अधिवृक्क ग्रंथी (Adrenal - ॲड्रेनलिन) / Endocrine System: Pituitary gland ("Master gland"), Thyroid (Thyroxine - controls metabolism), Pancreas (Insulin - controls blood sugar), Adrenal gland (Adrenaline).
+- सांगाडा संस्था (Skeletal System): प्रौढ मानवी शरीरात २०६ हाडे असतात, नवजात बालकात सुमारे ३०० हाडे असतात, सर्वात मोठे हाड - फिमर (मांडीचे हाड), सर्वात लहान हाड - स्टेपस (कानातील) / Skeletal System: Adult human body has 206 bones, a newborn has about 300 bones; largest bone - Femur (thigh bone), smallest bone - Stapes (in the ear).
+- स्नायू संस्था (Muscular System): तीन प्रकार - ऐच्छिक स्नायू (Skeletal), अनैच्छिक स्नायू (Smooth), हृदय स्नायू (Cardiac) / Muscular System: Three types - Voluntary/Skeletal muscles, Involuntary/Smooth muscles, Cardiac muscles.
+- प्रजनन संस्था (Reproductive System): स्त्रीमध्ये अंडाशय (Ovary - बीजांड निर्मिती), गर्भाशय (Uterus); पुरुषामध्ये वृषण (Testes - शुक्राणू निर्मिती) / Reproductive System: In females - Ovary (produces ova), Uterus; in males - Testes (produce sperm).
+- मानवी हृदयाचे ठोके साधारण ७२ प्रति मिनिट असतात, सामान्य शरीर तापमान ३७°C (९८.६°F) असते / Normal human heartbeat is about 72 beats per minute; normal body temperature is 37°C (98.6°F).
 
-- **होमिओस्टेसिस** - आंतरिक परिस्थिती स्थिर ठेवणे; तापमान, pH नियंत्रण / Body maintains stable internal conditions despite external changes
+## प्रकाशसंश्लेषण / Photosynthesis
+- प्रकाशसंश्लेषण म्हणजे हरित वनस्पती सूर्यप्रकाश, पाणी व कार्बन डायऑक्साइड वापरून अन्न (ग्लुकोज) व ऑक्सिजन तयार करतात ही प्रक्रिया / Photosynthesis is the process by which green plants use sunlight, water and carbon dioxide to produce food (glucose) and oxygen.
+- रासायनिक समीकरण: 6CO₂ + 6H₂O + सूर्यप्रकाश (क्लोरोफिलच्या साहाय्याने) → C₆H₁₂O₆ + 6O₂ / Chemical equation: 6CO₂ + 6H₂O + Sunlight (in presence of chlorophyll) → C₆H₁₂O₆ + 6O₂.
+- प्रकाशसंश्लेषण पानांतील हरितलवकांमध्ये (Chloroplasts) होते, त्यात हरितद्रव्य/क्लोरोफिल (Chlorophyll) हे रंगद्रव्य असते जे सूर्यप्रकाश शोषून घेते / Photosynthesis occurs in chloroplasts of leaves, containing the pigment chlorophyll which absorbs sunlight.
+- प्रकाशसंश्लेषणाच्या दोन अवस्था: प्रकाशीय अभिक्रिया (Light Reaction - थायलॅकॉइडमध्ये, पाण्याचे विघटन व ATP/NADPH निर्मिती) व अप्रकाशीय अभिक्रिया (Dark Reaction/Calvin Cycle - स्ट्रोमामध्ये, CO₂ स्थिरीकरण) / Two stages: Light Reaction (in thylakoid, splits water, produces ATP/NADPH) and Dark Reaction/Calvin Cycle (in stroma, CO₂ fixation).
+- पानांवरील पर्णरंध्रे (Stomata) वायूंची देवाणघेवाण करतात (CO₂ आत, O₂ बाहेर), रक्षक पेशी (Guard cells) पर्णरंध्रे उघडझाप करतात / Stomata on leaves exchange gases (CO₂ in, O₂ out); guard cells control the opening and closing of stomata.
+- प्रकाशसंश्लेषणासाठी आवश्यक घटक: सूर्यप्रकाश, कार्बन डायऑक्साइड, पाणी, हरितद्रव्य (क्लोरोफिल) व योग्य तापमान / Requirements for photosynthesis: sunlight, carbon dioxide, water, chlorophyll and suitable temperature.
+- जोसेफ प्रिस्टली (१७७२) यांनी दाखवले की वनस्पती हवा शुद्ध करतात (ऑक्सिजन सोडतात); जॉन इंगेनहौस यांनी सांगितले की हे केवळ प्रकाशात व हरित भागांतच घडते / Joseph Priestley (1772) showed plants purify air (release oxygen); Jan Ingenhousz showed this occurs only in light and in green parts.
+- प्रकाशसंश्लेषणाची उत्पादित ऊर्जा ग्लुकोजच्या रूपात साठवली जाते व नंतर श्वसनाद्वारे (Respiration) वापरली जाते / Energy produced by photosynthesis is stored as glucose and later used through respiration.
+- C3 व C4 वनस्पती - CO₂ स्थिरीकरणाच्या मार्गानुसार वर्गीकरण, C4 वनस्पती (उदा. मका, ऊस) उष्ण व कोरड्या हवामानात अधिक कार्यक्षम असतात / C3 and C4 plants - classified by CO₂ fixation pathway; C4 plants (e.g. maize, sugarcane) are more efficient in hot, dry climates.
 
-- **व्याप (Diffusion)** - उच्च सांद्रतेतून निम्न सांद्रतेकडे पदार्थ हलणे; शक्तीरहित प्रक्रिया / Molecules move from high to low concentration; passive process
+## पोषण / Nutrition
+- पोषण म्हणजे सजीवांनी अन्न ग्रहण करून त्याचे पचन, शोषण व उपयोग करण्याची प्रक्रिया / Nutrition is the process of intake, digestion, absorption and utilization of food by living organisms.
+- पोषणाचे दोन प्रकार: स्वयंपोषण (Autotrophic - वनस्पती स्वतःचे अन्न तयार करतात) व परपोषण (Heterotrophic - प्राणी इतरांवर अवलंबून असतात) / Two types of nutrition: Autotrophic (plants make their own food) and Heterotrophic (animals depend on others).
+- परपोषणाचे प्रकार: शाकाहारी (Herbivore), मांसाहारी (Carnivore), सर्वभक्षी (Omnivore), परजीवी (Parasitic), मृतोपजीवी (Saprophytic) / Types of heterotrophic nutrition: Herbivore, Carnivore, Omnivore, Parasitic, Saprophytic.
+- कर्बोदके (Carbohydrates) - मुख्य ऊर्जास्रोत, स्रोत: तांदूळ, गहू, बटाटा; १ ग्रॅम कर्बोदके ~ ४ किलोकॅलरी ऊर्जा देते / Carbohydrates - main energy source, sources: rice, wheat, potato; 1 gram carbohydrate ~ 4 kcal energy.
+- प्रथिने (Proteins) - शरीर वाढ व झीज भरून काढण्यासाठी आवश्यक, स्रोत: डाळी, अंडी, मांस, दूध, सोयाबीन; अमिनो आम्लांपासून बनलेली, "शरीर बांधणी अन्नघटक" म्हणतात / Proteins - needed for growth and repair, sources: pulses, eggs, meat, milk, soybean; made of amino acids, called "body-building food".
+- स्निग्ध पदार्थ/मेद (Fats/Lipids) - ऊर्जेचा संचित स्रोत, स्रोत: तूप, तेल, लोणी; १ ग्रॅम स्निग्ध पदार्थ ~ ९ किलोकॅलरी ऊर्जा देते (सर्वाधिक) / Fats/Lipids - concentrated energy source, sources: ghee, oil, butter; 1 gram fat ~ 9 kcal energy (highest).
+- जीवनसत्त्वे (Vitamins) - फंक फ्रेडरिक यांनी "Vitamin" संज्ञा दिली; पाण्यात विरघळणारी (B, C) व स्निग्धात विरघळणारी (A, D, E, K) असे दोन प्रकार / Vitamins - Funk Casimir coined the term "Vitamin"; two types - water-soluble (B, C) and fat-soluble (A, D, E, K).
+- जीवनसत्त्व A (रेटिनॉल) - दृष्टीसाठी आवश्यक, कमतरतेमुळे रातांधळेपणा (Night blindness), स्रोत: गाजर, पपई, अंडी / Vitamin A (Retinol) - needed for vision, deficiency causes night blindness, sources: carrot, papaya, egg.
+- जीवनसत्त्व B1 (थायमिन) - कमतरतेमुळे बेरीबेरी (Beri-beri) रोग; जीवनसत्त्व B12 - कमतरतेमुळे ॲनिमिया (पंडुरोग) / Vitamin B1 (Thiamine) - deficiency causes Beri-beri; Vitamin B12 deficiency causes Anaemia.
+- जीवनसत्त्व C (ॲस्कॉर्बिक आम्ल) - कमतरतेमुळे स्कर्व्ही (Scurvy) रोग, स्रोत: लिंबूवर्गीय फळे, आवळा / Vitamin C (Ascorbic acid) - deficiency causes Scurvy, sources: citrus fruits, gooseberry (Amla).
+- जीवनसत्त्व D (कॅल्सिफेरॉल) - सूर्यप्रकाशापासून त्वचेत तयार होते, कमतरतेमुळे मुडदूस/रिकेट्स (Rickets) रोग / Vitamin D (Calciferol) - produced in skin from sunlight, deficiency causes Rickets.
+- जीवनसत्त्व K - रक्त गोठण्यासाठी आवश्यक; जीवनसत्त्व E - प्रजननक्षमतेसाठी आवश्यक, अँटिऑक्सिडंट / Vitamin K - needed for blood clotting; Vitamin E - needed for fertility, acts as antioxidant.
+- खनिजे (Minerals): कॅल्शियम (हाडे व दात मजबुतीसाठी), लोह/आयर्न (हिमोग्लोबिन निर्मितीसाठी, कमतरतेमुळे ॲनिमिया), आयोडीन (थायरॉक्सिन निर्मितीसाठी, कमतरतेमुळे गॉयटर/गलगंड रोग) / Minerals: Calcium (for strong bones & teeth), Iron (for haemoglobin formation, deficiency causes Anaemia), Iodine (for thyroxine formation, deficiency causes Goitre).
+- तंतुमय पदार्थ (Dietary Fibre/Roughage) - पचनास मदत करते, स्रोत: भाज्या, फळांची साले, कोंडा; पाणी - सर्व शारीरिक प्रक्रियांसाठी आवश्यक "जीवनावश्यक" घटक / Dietary Fibre - aids digestion, sources: vegetables, fruit peels, bran; Water - essential for all bodily processes.
+- संतुलित आहार (Balanced Diet) - ज्यामध्ये सर्व पोषणघटक (कर्बोदके, प्रथिने, स्निग्ध पदार्थ, जीवनसत्त्वे, खनिजे, पाणी, तंतुमय पदार्थ) योग्य प्रमाणात असतात / Balanced Diet - contains all nutrients (carbohydrates, proteins, fats, vitamins, minerals, water, fibre) in proper proportion.
+- कुपोषण (Malnutrition) - प्रथिनांच्या कमतरतेमुळे क्वाशिओरकॉर (Kwashiorkor) व मॅरास्मस (Marasmus) हे बालरोग होतात / Malnutrition - protein deficiency causes Kwashiorkor and Marasmus in children.
 
-- **मायटोसिस विभाजन** - पितृ कोशिका → 2 सर्वसम कन्या कोशिका (2n→2n); वृद्धि व मेरामत हेतु / Parent cell divides into 2 identical daughter cells; growth & repair
-
-- **मेयोसिस विभाजन** - 2 टप्प्यांत (n→n); लैंगिक जनन (sexual reproduction) / Two divisions; produces haploid gametes for sexual reproduction
-
-- **विकास सिद्धांत** - डार्विनचा प्राकृतिक निवड (Natural Selection); योग्यतमचे टिकणे (Survival of Fittest) / Evolution through Natural Selection; adaptation over generations
-
-- **परिस्थिती तंत्र (Ecosystem)** - सजीव + निर्जीव → ऊर्जा प्रवाह; पोषक चक्र (nutrient cycles) / Biotic & abiotic components; energy & matter cycling
-
-- **जैव विविधता (Biodiversity)** - प्रजाती विविधता; वनस्पती, प्राणी, सूक्ष्मजीव / Species variety essential for ecosystem stability & resilience
+## लक्षात ठेवा / Key Points to Remember
+- पेशी सिद्धांत: श्लायडेन व श्वान (१८३८-३९); पेशी शोध: रॉबर्ट हूक (१६६५) / Cell Theory: Schleiden & Schwann (1838-39); Cell discovery: Robert Hooke (1665).
+- मायटोकाँड्रिया = "पेशीचे शक्तीगृह"; राइबोसोम = "प्रथिन कारखाना"; लायसोसोम = "आत्मघाती पिशवी" / Mitochondria = "Power House"; Ribosome = "Protein Factory"; Lysosome = "Suicidal Bag".
+- लिनियस = आधुनिक वर्गीकरणशास्त्राचे जनक, द्विनाम पद्धती; व्हिटाकर = पाच सृष्टी वर्गीकरण (१९६९) / Linnaeus = Father of Modern Taxonomy, Binomial Nomenclature; Whittaker = Five Kingdom Classification (1969).
+- प्रौढ मानवी सांगाड्यात २०६ हाडे; सर्वात मोठे हाड फिमर, सर्वात लहान स्टेपस / Adult human skeleton has 206 bones; largest bone Femur, smallest bone Stapes.
+- रक्तगट शोध - कार्ल लँडस्टायनर (१९००); रक्ताभिसरण शोध - विल्यम हार्वे (१६२८) / Blood group discovery - Karl Landsteiner (1900); Blood circulation discovery - William Harvey (1628).
+- प्रकाशसंश्लेषण समीकरण: 6CO₂ + 6H₂O + सूर्यप्रकाश → C₆H₁₂O₆ + 6O₂ / Photosynthesis equation: 6CO₂ + 6H₂O + Sunlight → C₆H₁₂O₆ + 6O₂.
+- जीवनसत्त्व कमतरता रोग: A-रातांधळेपणा, B1-बेरीबेरी, C-स्कर्व्ही, D-मुडदूस, B12-ॲनिमिया, आयोडीन-गलगंड / Vitamin deficiency diseases: A-Night blindness, B1-Beriberi, C-Scurvy, D-Rickets, B12-Anaemia, Iodine-Goitre.
+- वनस्पती पेशी - पेशी भित्तिका + हरितलवक + मोठी रिक्तिका; प्राणी पेशी - पेशी भित्तिका नाही + तारकाकेंद्र + लहान रिक्तिका / Plant cell - cell wall + chloroplast + large vacuole; Animal cell - no cell wall + centriole + small vacuoles.
