@@ -2718,28 +2718,88 @@
   "science/biology": [
     {
       "id": "science-biology-1",
-      "mr": "पेशी - वनस्पती पेशी विरुद्ध प्राणी पेशी",
-      "en": "Cell — plant cell vs animal cell"
+      "mr": "पेशी — रचना, वनस्पती वि. प्राणी पेशी",
+      "en": "Cell — structure, plant vs animal cell"
     },
     {
       "id": "science-biology-2",
-      "mr": "सजीवांचे वर्गीकरण (Taxonomy)",
-      "en": "Classification of living organisms (taxonomy)"
+      "mr": "पेशीअंगके व त्यांची कार्ये",
+      "en": "Cell organelles & their functions"
     },
     {
       "id": "science-biology-3",
-      "mr": "मानवी पचनसंस्था व श्वसनसंस्था",
-      "en": "Human digestive and respiratory systems"
+      "mr": "पेशीविभाजन — सूत्री व अर्धसूत्री विभाजन",
+      "en": "Cell division — mitosis & meiosis"
     },
     {
       "id": "science-biology-4",
-      "mr": "मानवी रक्ताभिसरण संस्था व चेतासंस्था",
-      "en": "Human circulatory and nervous systems"
+      "mr": "सजीवांचे वर्गीकरण — पंचसृष्टी पद्धत",
+      "en": "Classification of organisms — five-kingdom system"
     },
     {
       "id": "science-biology-5",
-      "mr": "प्रकाशसंश्लेषण (Photosynthesis)",
-      "en": "Photosynthesis — process and factors"
+      "mr": "मानवी पचनसंस्था — अवयव व प्रक्रिया",
+      "en": "Human digestive system — organs & process"
+    },
+    {
+      "id": "science-biology-6",
+      "mr": "मानवी श्वसनसंस्था — अवयव व प्रक्रिया",
+      "en": "Human respiratory system — organs & process"
+    },
+    {
+      "id": "science-biology-7",
+      "mr": "मानवी रक्ताभिसरण संस्था — हृदय व रक्तवाहिन्या",
+      "en": "Human circulatory system — heart & blood vessels"
+    },
+    {
+      "id": "science-biology-8",
+      "mr": "रक्त — घटक, रक्तगट व कार्ये",
+      "en": "Blood — components, groups & functions"
+    },
+    {
+      "id": "science-biology-9",
+      "mr": "मानवी चेतासंस्था — मेंदू, चेतापेशी, प्रतिक्षिप्त क्रिया",
+      "en": "Human nervous system — brain, neurons, reflex action"
+    },
+    {
+      "id": "science-biology-10",
+      "mr": "मानवी उत्सर्जन संस्था — मूत्रपिंड व प्रक्रिया",
+      "en": "Human excretory system — kidneys & process"
+    },
+    {
+      "id": "science-biology-11",
+      "mr": "मानवी अस्थिसंस्था व स्नायुसंस्था",
+      "en": "Human skeletal & muscular system"
+    },
+    {
+      "id": "science-biology-12",
+      "mr": "अंतःस्रावी ग्रंथी व संप्रेरके (hormones)",
+      "en": "Endocrine glands & hormones"
+    },
+    {
+      "id": "science-biology-13",
+      "mr": "मानवी प्रजनन संस्था (मूलभूत)",
+      "en": "Human reproductive system (basic)"
+    },
+    {
+      "id": "science-biology-14",
+      "mr": "ज्ञानेंद्रिये — डोळा, कान, त्वचा",
+      "en": "Sense organs — eye, ear, skin"
+    },
+    {
+      "id": "science-biology-15",
+      "mr": "प्रकाशसंश्लेषण — प्रक्रिया व घटक",
+      "en": "Photosynthesis — process & factors"
+    },
+    {
+      "id": "science-biology-16",
+      "mr": "वनस्पती पोषण व वहन",
+      "en": "Plant nutrition & transport"
+    },
+    {
+      "id": "science-biology-17",
+      "mr": "आनुवंशिकता — DNA, जनुके, मूलभूत संकल्पना",
+      "en": "Genetics — DNA, genes, basic concepts"
     }
   ],
   "science/health-hygiene": [
