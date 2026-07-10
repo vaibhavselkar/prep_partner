@@ -1247,9 +1247,15 @@ export default function TechnicalSahayakPage() {
               `Each Paper: ${EXAM_PATTERN.mains.marksPerPaper} marks · ${EXAM_PATTERN.mains.durationMinPerPaper} minutes · ${EXAM_PATTERN.mains.marksPerQuestion} marks per MCQ · ${EXAM_PATTERN.mains.negativeMarking} negative marking`
             )}
           </div>
+          <p className="text-xs text-gray-500 font-devanagari -mt-2">
+            {L(
+              "टीप: Paper 2 पदनिहाय आहे — तुम्ही फक्त तुमच्या पदाचाच Paper 2 द्याल (दोन्ही नाही). Paper 1 चे 100 गुण = मराठी 50 + इंग्रजी 50.",
+              "Note: Paper 2 is post-specific — you attempt only your chosen post's Paper 2 (not both). Paper 1's 100 marks = Marathi 50 + English 50."
+            )}
+          </p>
 
           <div>
-            <h3 className="font-semibold text-purple-300 font-devanagari mb-2">{L("Paper 1 — भाषा (सर्व पदांसाठी समान)", "Paper 1 — Language (common)")}</h3>
+            <h3 className="font-semibold text-purple-300 font-devanagari mb-2">{L(`Paper 1 — भाषा (सर्व पदांसाठी समान) · ${EXAM_PATTERN.mains.marksPerPaper} गुण`, `Paper 1 — Language (common) · ${EXAM_PATTERN.mains.marksPerPaper} marks`)}</h3>
             <div className="grid sm:grid-cols-2 gap-4">
               {MAINS_SUBJECTS.filter((s) => s.paper === 1).map((sub) => (
                 <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
@@ -1279,8 +1285,8 @@ export default function TechnicalSahayakPage() {
             <div key={post}>
               <h3 className="font-semibold text-purple-300 font-devanagari mb-2 mt-3">
                 {L(
-                  `Paper 2 — ${post === "industry-inspector" ? "उद्योग निरीक्षक" : "तांत्रिक सहायक"}`,
-                  `Paper 2 — ${post === "industry-inspector" ? "Industry Inspector" : "Technical Assistant"}`
+                  `Paper 2 — ${post === "industry-inspector" ? "उद्योग निरीक्षक" : "तांत्रिक सहायक"} · ${EXAM_PATTERN.mains.marksPerPaper} गुण`,
+                  `Paper 2 — ${post === "industry-inspector" ? "Industry Inspector" : "Technical Assistant"} · ${EXAM_PATTERN.mains.marksPerPaper} marks`
                 )}
               </h3>
               <div className="grid sm:grid-cols-2 gap-4">
@@ -1291,9 +1297,6 @@ export default function TechnicalSahayakPage() {
                       <div className="flex-1">
                         <p className="font-semibold text-sm text-gray-200 font-devanagari">{L(sub.label, sub.labelEn)}</p>
                       </div>
-                      <span className="bg-purple-600/20 border border-purple-500/30 text-purple-300 text-xs px-2 py-1 rounded-full">
-                        {sub.marks} marks
-                      </span>
                     </div>
                     <ul className="px-4 py-3 space-y-1.5">
                       {sub.subtopics.map((t) => (
