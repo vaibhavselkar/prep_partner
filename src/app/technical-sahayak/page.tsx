@@ -7,6 +7,10 @@ import { getNotes } from "@/lib/notes";
 import { useLangPref, pickLang, pickOption, pickLangMultiline, prefToLanguage } from "@/lib/langPref";
 import { topicsFor, subjectTopicIds, allTopicIds } from "@/lib/syllabusTopics";
 import { useSyllabusProgress } from "@/lib/syllabusProgress";
+import { buildDailyPlan, type PlanItem } from "@/lib/dailyPlan";
+import { useDailyPlanDay } from "@/lib/useDailyPlanDay";
+
+const DAILY_PLAN = buildDailyPlan();
 import { useMyNotes } from "@/lib/myNotes";
 import { useSpeechRecognition } from "@/hooks/useSpeechRecognition";
 
@@ -929,6 +933,7 @@ export default function TechnicalSahayakPage() {
   const countdown = useCountdown("2026-09-27T09:00:00+05:30");
   const appDeadline = useCountdown("2026-07-17T23:59:00+05:30");
   const { toggle, isDone, countDone } = useSyllabusProgress();
+  const { day, totalDays, resetToToday } = useDailyPlanDay();
 
   const TABS: { id: Tab; label: string; labelEn: string; icon: string }[] = [
     { id: "overview", label: "विहंगावलोकन", labelEn: "Overview", icon: "📋" },
@@ -1335,6 +1340,57 @@ export default function TechnicalSahayakPage() {
       {/* ── Tab: Strategy ────────────────────────────────────────────────── */}
       {activeTab === "strategy" && (
         <div className="space-y-4">
+          {/* Today's Focus — the day-by-day one-month Prelims plan */}
+          {(() => {
+            const items = DAILY_PLAN[day - 1] ?? [];
+            const ids = items.map((i) => i.topic.id);
+            const doneN = countDone(ids);
+            const pct = ids.length ? Math.round((doneN / ids.length) * 100) : 0;
+            const groups: { subject: string; items: PlanItem[] }[] = [];
+            for (const it of items) {
+              const g = groups.find((x) => x.subject === it.subject);
+              if (g) g.items.push(it);
+              else groups.push({ subject: it.subject, items: [it] });
+            }
+            return (
+              <div className="bg-gradient-to-br from-primary-900/30 to-bg-card border border-primary-600/40 rounded-2xl p-5 space-y-3">
+                <div className="flex items-center justify-between gap-2">
+                  <h3 className="font-semibold text-gray-100 font-devanagari flex items-center gap-2"><span>🎯</span>{L("आजचे लक्ष्य", "Today's Focus")}</h3>
+                  <span className="bg-primary-600 text-white text-xs px-3 py-1 rounded-full font-devanagari shrink-0">{L(`दिवस ${day} / ${totalDays}`, `Day ${day} / ${totalDays}`)}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="flex-1 h-2 bg-bg rounded-full overflow-hidden"><div className="h-full bg-primary-500 rounded-full transition-all" style={{ width: `${pct}%` }} /></div>
+                  <span className="text-xs text-primary-300 font-semibold shrink-0">{doneN}/{ids.length}</span>
+                </div>
+                {groups.map((g) => {
+                  const subj = getSubject(g.subject);
+                  return (
+                    <div key={g.subject} className="space-y-1">
+                      <p className="text-sm font-semibold text-primary-300 font-devanagari">{subj?.icon} {L(subj?.label ?? g.subject, subj?.labelEn ?? g.subject)}</p>
+                      <ul className="space-y-0.5">
+                        {g.items.map((it) => {
+                          const dn = isDone(it.topic.id);
+                          return (
+                            <li key={it.topic.id}>
+                              <button onClick={() => toggle(it.topic.id)} className="w-full flex items-start gap-2.5 text-left py-1.5 group">
+                                <span className={`mt-0.5 w-4 h-4 rounded border shrink-0 flex items-center justify-center text-[10px] transition-colors ${dn ? "bg-primary-600 border-primary-500 text-white" : "border-gray-600 text-transparent group-hover:border-primary-500"}`}>✓</span>
+                                <span className={`text-sm font-devanagari ${dn ? "text-gray-500 line-through" : "text-gray-200"}`}>{L(it.topic.mr, it.topic.en)}</span>
+                              </button>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  );
+                })}
+                <div className="flex items-center justify-between pt-1 gap-2">
+                  <p className="text-xs text-gray-500 font-devanagari">{L("हे टॉपिक Notes मध्ये वाचा → Quiz सोडवा → इथे ✓ करा.", "Read these in Notes → take a Quiz → tick them here.")}</p>
+                  <button onClick={resetToToday} className="text-xs text-gray-500 hover:text-primary-400 shrink-0 font-devanagari">{L("आजपासून सुरू", "Restart today")}</button>
+                </div>
+              </div>
+            );
+          })()}
+
           <WeakAreas />
 
           {/* Key stats */}
