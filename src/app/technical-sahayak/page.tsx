@@ -5,6 +5,8 @@ import { useChat } from "ai/react";
 import { ALL_SUBJECTS, PRELIMS_SUBJECTS, MAINS_SUBJECTS, EXAM_PATTERN, getSubject } from "@/lib/syllabus";
 import { getNotes } from "@/lib/notes";
 import { useLangPref, pickLang, pickOption, pickLangMultiline, prefToLanguage } from "@/lib/langPref";
+import { topicsFor, subjectTopicIds, allTopicIds } from "@/lib/syllabusTopics";
+import { useSyllabusProgress } from "@/lib/syllabusProgress";
 import { useMyNotes } from "@/lib/myNotes";
 import { useSpeechRecognition } from "@/hooks/useSpeechRecognition";
 
@@ -926,6 +928,7 @@ export default function TechnicalSahayakPage() {
   const [activeTab, setActiveTab] = useState<Tab>("overview");
   const countdown = useCountdown("2026-09-27T09:00:00+05:30");
   const appDeadline = useCountdown("2026-07-17T23:59:00+05:30");
+  const { toggle, isDone, countDone } = useSyllabusProgress();
 
   const TABS: { id: Tab; label: string; labelEn: string; icon: string }[] = [
     { id: "overview", label: "विहंगावलोकन", labelEn: "Overview", icon: "📋" },
@@ -1165,30 +1168,71 @@ export default function TechnicalSahayakPage() {
             )}
           </div>
 
-          <h2 className="font-semibold text-gray-200 font-devanagari">{L(`पूर्व परीक्षा अभ्यासक्रम (8 विषय)`, "Prelims Syllabus (8 subjects)")}</h2>
-          {PRELIMS_SUBJECTS.map((sub) => (
-            <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
-              <div className="flex items-center gap-3 px-5 py-4 bg-bg-hover border-b border-gray-700/40">
-                <span className="text-2xl">{sub.icon}</span>
-                <div className="flex-1">
-                  <p className="font-semibold text-gray-200 font-devanagari">{L(sub.label, sub.labelEn)}</p>
+          {/* Overall progress across all syllabus topics */}
+          {(() => {
+            const all = allTopicIds();
+            const doneN = countDone(all);
+            const pct = all.length ? Math.round((doneN / all.length) * 100) : 0;
+            return (
+              <div className="bg-bg-card border border-primary-700/40 rounded-xl p-4 space-y-2">
+                <div className="flex items-center justify-between">
+                  <h2 className="font-semibold text-gray-200 font-devanagari">{L("एकूण प्रगती", "Overall Progress")}</h2>
+                  <span className="text-primary-300 font-bold text-sm">{doneN}/{all.length} · {pct}%</span>
                 </div>
-                <span className="bg-primary-600/20 border border-primary-500/30 text-primary-300 text-xs px-3 py-1 rounded-full">
-                  ~{sub.marks} marks
-                </span>
+                <div className="h-2 bg-bg rounded-full overflow-hidden">
+                  <div className="h-full bg-primary-500 rounded-full transition-all" style={{ width: `${pct}%` }} />
+                </div>
+                <p className="text-xs text-gray-500 font-devanagari">{L("प्रत्येक टॉपिक शिकल्यावर त्यावर ✓ करा — तुमची प्रगती आपोआप जतन होते.", "Tick each topic as you finish it — your progress is saved automatically.")}</p>
               </div>
-              <div className="px-5 py-4">
-                <ul className="grid sm:grid-cols-2 gap-2">
-                  {sub.subtopics.map((t) => (
-                    <li key={t.key} className="flex items-start gap-2 text-sm text-gray-400 font-devanagari">
-                      <span className="text-primary-400 mt-0.5 shrink-0">→</span>
-                      {L(t.label, t.labelEn)}
-                    </li>
-                  ))}
-                </ul>
+            );
+          })()}
+
+          <h2 className="font-semibold text-gray-200 font-devanagari">{L(`पूर्व परीक्षा अभ्यासक्रम (8 विषय)`, "Prelims Syllabus (8 subjects)")}</h2>
+          {PRELIMS_SUBJECTS.map((sub) => {
+            const subjIds = subjectTopicIds(sub.key);
+            const subjDone = countDone(subjIds);
+            const subjPct = subjIds.length ? Math.round((subjDone / subjIds.length) * 100) : 0;
+            return (
+              <div key={sub.key} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
+                <div className="flex items-center gap-3 px-5 py-4 bg-bg-hover border-b border-gray-700/40">
+                  <span className="text-2xl">{sub.icon}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-gray-200 font-devanagari">{L(sub.label, sub.labelEn)}</p>
+                    <div className="mt-1.5 h-1.5 bg-bg rounded-full overflow-hidden">
+                      <div className="h-full bg-primary-500 rounded-full transition-all" style={{ width: `${subjPct}%` }} />
+                    </div>
+                  </div>
+                  <span className="bg-primary-600/20 border border-primary-500/30 text-primary-300 text-xs px-3 py-1 rounded-full shrink-0">
+                    {subjDone}/{subjIds.length}
+                  </span>
+                </div>
+                <div className="px-5 py-4 space-y-4">
+                  {sub.subtopics.map((t) => {
+                    const topics = topicsFor(sub.key, t.key);
+                    if (topics.length === 0) return null;
+                    return (
+                      <div key={t.key}>
+                        <p className="text-sm font-semibold text-primary-300 font-devanagari mb-2">{L(t.label, t.labelEn)}</p>
+                        <ul className="space-y-0.5">
+                          {topics.map((tp) => {
+                            const dn = isDone(tp.id);
+                            return (
+                              <li key={tp.id}>
+                                <button onClick={() => toggle(tp.id)} className="w-full flex items-start gap-2.5 text-left py-1.5 group">
+                                  <span className={`mt-0.5 w-4 h-4 rounded border shrink-0 flex items-center justify-center text-[10px] transition-colors ${dn ? "bg-primary-600 border-primary-500 text-white" : "border-gray-600 text-transparent group-hover:border-primary-500"}`}>✓</span>
+                                  <span className={`text-sm font-devanagari ${dn ? "text-gray-500 line-through" : "text-gray-300"}`}>{L(tp.mr, tp.en)}</span>
+                                </button>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
 
           {/* Mains */}
           <h2 className="font-semibold text-gray-200 font-devanagari pt-2">{L("मुख्य परीक्षा अभ्यासक्रम", "Mains Syllabus")}</h2>

@@ -1,0 +1,351 @@
+{
+  "history/ancient-medieval": [
+    { "id": "history-ancient-medieval-1", "mr": "सिंधू संस्कृती - मूलभूत माहिती, नगररचना, संस्कृती", "en": "Indus Valley Civilization — basics, town planning, culture" },
+    { "id": "history-ancient-medieval-2", "mr": "शिवाजी महाराजांचे प्रारंभिक जीवन व स्वराज्य स्थापना", "en": "Shivaji Maharaj — early life and founding of Swarajya" },
+    { "id": "history-ancient-medieval-3", "mr": "अष्टप्रधान मंडळ - रचना व कार्ये", "en": "Ashtapradhan Mandal — structure and functions" },
+    { "id": "history-ancient-medieval-4", "mr": "शिवाजी महाराजांचा राज्याभिषेक व प्रशासन", "en": "Shivaji Maharaj's coronation and administration" },
+    { "id": "history-ancient-medieval-5", "mr": "शिवाजी महाराजांच्या प्रमुख मोहिमा (अफझलखान, शाइस्तेखान, आग्रा भेट)", "en": "Shivaji's major campaigns (Afzal Khan, Shaista Khan, Agra visit)" },
+    { "id": "history-ancient-medieval-6", "mr": "पेशवाई कालखंड - सुरुवात व बाळाजी विश्वनाथ", "en": "Peshwa era — beginning and Balaji Vishwanath" },
+    { "id": "history-ancient-medieval-7", "mr": "पहिला बाजीराव व मराठा साम्राज्याचा विस्तार", "en": "Bajirao I and expansion of the Maratha Empire" },
+    { "id": "history-ancient-medieval-8", "mr": "पानिपतची तिसरी लढाई - कारणे व परिणाम", "en": "Third Battle of Panipat — causes and consequences" },
+    { "id": "history-ancient-medieval-9", "mr": "पेशवाईचा अस्त व मराठा संघराज्य", "en": "Decline of Peshwa rule and the Maratha confederacy" }
+  ],
+  "history/modern-india": [
+    { "id": "history-modern-india-1", "mr": "युरोपियनांचे आगमन व वसाहतीकरणाची सुरुवात", "en": "Arrival of Europeans and start of colonization" },
+    { "id": "history-modern-india-2", "mr": "ब्रिटिश धोरणे - तैनाती फौज व खालसा धोरण", "en": "British policies — Subsidiary Alliance and Doctrine of Lapse" },
+    { "id": "history-modern-india-3", "mr": "जमीन महसूल पद्धती - रयतवारी व महालवारी", "en": "Land revenue systems — Ryotwari and Mahalwari" },
+    { "id": "history-modern-india-4", "mr": "1857 चा उठाव - कारणे, नेते, परिणाम", "en": "Revolt of 1857 — causes, leaders, consequences" },
+    { "id": "history-modern-india-5", "mr": "भारतीय राष्ट्रीय काँग्रेसची स्थापना 1885", "en": "Founding of the Indian National Congress, 1885" },
+    { "id": "history-modern-india-6", "mr": "जहाल व मवाळ नेत्यांतील फरक व भूमिका", "en": "Moderates vs Extremists — approach and leaders" },
+    { "id": "history-modern-india-7", "mr": "बंगालची फाळणी 1905 व स्वदेशी चळवळ", "en": "Partition of Bengal 1905 and the Swadeshi Movement" },
+    { "id": "history-modern-india-8", "mr": "गांधीजींच्या चळवळी - चंपारण्य, खेडा सत्याग्रह", "en": "Gandhian movements — Champaran and Kheda Satyagraha" },
+    { "id": "history-modern-india-9", "mr": "असहकार चळवळ व सविनय कायदेभंग चळवळ", "en": "Non-Cooperation Movement and Civil Disobedience Movement" },
+    { "id": "history-modern-india-10", "mr": "छोडो भारत आंदोलन 1942", "en": "Quit India Movement, 1942" },
+    { "id": "history-modern-india-11", "mr": "क्रांतिकारक चळवळ - चाफेकर बंधू, सावरकर, भगतसिंग, चंद्रशेखर आझाद", "en": "Revolutionaries — Chapekar brothers, Savarkar, Bhagat Singh, Azad" },
+    { "id": "history-modern-india-12", "mr": "सुभाषचंद्र बोस व आझाद हिंद सेना", "en": "Subhas Chandra Bose and the Indian National Army (INA)" },
+    { "id": "history-modern-india-13", "mr": "गोलमेज परिषदा", "en": "Round Table Conferences" },
+    { "id": "history-modern-india-14", "mr": "भारत सरकार कायदे - 1909, 1919, 1935", "en": "Government of India Acts — 1909, 1919, 1935" }
+  ],
+  "history/maharashtra-reformers": [
+    { "id": "history-maharashtra-reformers-1", "mr": "महात्मा जोतिबा फुले व सावित्रीबाई फुले - सत्यशोधक समाज", "en": "Jyotiba Phule and Savitribai Phule — Satyashodhak Samaj" },
+    { "id": "history-maharashtra-reformers-2", "mr": "न्यायमूर्ती रानडे - प्रार्थना समाज", "en": "Justice Ranade — Prarthana Samaj" },
+    { "id": "history-maharashtra-reformers-3", "mr": "गोपाळ गणेश आगरकर - सुधारक विचारधारा", "en": "Gopal Ganesh Agarkar — Sudharak ideology" },
+    { "id": "history-maharashtra-reformers-4", "mr": "लोकमान्य टिळक - केसरी/मराठा वृत्तपत्रे व गणेशोत्सव", "en": "Lokmanya Tilak — Kesari/Mahratta newspapers and Ganeshotsav" },
+    { "id": "history-maharashtra-reformers-5", "mr": "डॉ. बाबासाहेब आंबेडकर - महाड सत्याग्रह, काळाराम मंदिर आंदोलन", "en": "Dr. Babasaheb Ambedkar — Mahad Satyagraha, Kalaram Temple movement" },
+    { "id": "history-maharashtra-reformers-6", "mr": "डॉ. आंबेडकर व भारतीय राज्यघटनेची निर्मिती", "en": "Dr. Ambedkar and the drafting of the Constitution" },
+    { "id": "history-maharashtra-reformers-7", "mr": "विठ्ठल रामजी शिंदे यांचे कार्य", "en": "V. R. Shinde's social work" },
+    { "id": "history-maharashtra-reformers-8", "mr": "कर्मवीर भाऊराव पाटील - रयत शिक्षण संस्था", "en": "Karmaveer Bhaurao Patil — Rayat Shikshan Sanstha" },
+    { "id": "history-maharashtra-reformers-9", "mr": "महर्षी धोंडो केशव कर्वे यांचे स्त्रीशिक्षण कार्य", "en": "D. K. Karve — pioneering work in women's education" },
+    { "id": "history-maharashtra-reformers-10", "mr": "विनोबा भावे - भूदान चळवळ", "en": "Vinoba Bhave — Bhoodan Movement" },
+    { "id": "history-maharashtra-reformers-11", "mr": "सुधारकांची वृत्तपत्रे - जोड्या जुळवा प्रकार", "en": "Reformers' newspapers — match-the-following facts" },
+    { "id": "history-maharashtra-reformers-12", "mr": "संयुक्त महाराष्ट्र चळवळ - सेनापती बापट, आचार्य अत्रे, 1 मे 1960", "en": "Samyukta Maharashtra Movement — Senapati Bapat, Acharya Atre, 1 May 1960" }
+  ],
+  "history/post-independence": [
+    { "id": "history-post-independence-1", "mr": "संस्थानांचे विलीनीकरण - सरदार वल्लभभाई पटेल यांची भूमिका", "en": "Integration of princely states — Sardar Patel's role" },
+    { "id": "history-post-independence-2", "mr": "जुनागढ, हैदराबाद, काश्मीर विलीनीकरण प्रकरणे", "en": "Junagadh, Hyderabad, Kashmir accession cases" },
+    { "id": "history-post-independence-3", "mr": "राज्य पुनर्रचना कायदा 1956", "en": "States Reorganisation Act, 1956" },
+    { "id": "history-post-independence-4", "mr": "भाषावार प्रांतरचनेची मागणी व फझल अली आयोग", "en": "Demand for linguistic states and the Fazl Ali Commission" },
+    { "id": "history-post-independence-5", "mr": "महाराष्ट्र व गुजरात राज्यांची निर्मिती 1960", "en": "Formation of Maharashtra and Gujarat states, 1960" },
+    { "id": "history-post-independence-6", "mr": "गोवा मुक्ती संग्राम व विलीनीकरण", "en": "Goa liberation and its merger with India" }
+  ],
+  "geography/maharashtra-geo": [
+    { "id": "geography-maharashtra-geo-1", "mr": "महाराष्ट्राचे प्राकृतिक विभाग - कोकण, सह्याद्री, देश, विदर्भ", "en": "Physical divisions of Maharashtra — Konkan, Sahyadri, Desh, Vidarbha" },
+    { "id": "geography-maharashtra-geo-2", "mr": "सह्याद्री पर्वतरांगेतील शिखरे व घाट", "en": "Peaks and mountain passes (ghats) of the Sahyadri range" },
+    { "id": "geography-maharashtra-geo-3", "mr": "महाराष्ट्रातील नद्या - गोदावरी, कृष्णा, तापी उगम व उपनद्या", "en": "Rivers of Maharashtra — Godavari, Krishna, Tapi origin and tributaries" },
+    { "id": "geography-maharashtra-geo-4", "mr": "नर्मदा नदी व महाराष्ट्रातील धरणे", "en": "Narmada river and major dams of Maharashtra" },
+    { "id": "geography-maharashtra-geo-5", "mr": "महाराष्ट्राचे हवामान व पर्जन्यमान", "en": "Climate and rainfall pattern of Maharashtra" },
+    { "id": "geography-maharashtra-geo-6", "mr": "मृदा प्रकार - काळी (रेगूर), जांभी, गाळाची माती", "en": "Soil types — regur (black), laterite, alluvial" },
+    { "id": "geography-maharashtra-geo-7", "mr": "जंगले, अभयारण्ये व राष्ट्रीय उद्याने", "en": "Forests, sanctuaries and national parks" },
+    { "id": "geography-maharashtra-geo-8", "mr": "महाराष्ट्रातील खनिज संपत्ती", "en": "Mineral resources of Maharashtra" },
+    { "id": "geography-maharashtra-geo-9", "mr": "पिके - खरीप/रब्बी हंगाम, कापूस व ऊस उत्पादन", "en": "Crops — Kharif/Rabi seasons, cotton and sugarcane production" },
+    { "id": "geography-maharashtra-geo-10", "mr": "MIDC व औद्योगिक विकास", "en": "MIDC and industrial development" },
+    { "id": "geography-maharashtra-geo-11", "mr": "प्रशासकीय विभाग व जिल्हे", "en": "Administrative divisions and districts of Maharashtra" }
+  ],
+  "geography/india-geo": [
+    { "id": "geography-india-geo-1", "mr": "भारताची प्राकृतिक रचना - पर्वत, पठारे, मैदाने", "en": "Physical structure of India — mountains, plateaus, plains" },
+    { "id": "geography-india-geo-2", "mr": "भारतीय मान्सून व हवामान", "en": "Indian monsoon and climate" },
+    { "id": "geography-india-geo-3", "mr": "भारतातील नैसर्गिक वनस्पती प्रकार", "en": "Natural vegetation types of India" },
+    { "id": "geography-india-geo-4", "mr": "हिमालयीन व द्वीपकल्पीय नद्या", "en": "Himalayan and Peninsular river systems" },
+    { "id": "geography-india-geo-5", "mr": "भारताची लोकसंख्या - वितरण व घनता", "en": "Population of India — distribution and density" },
+    { "id": "geography-india-geo-6", "mr": "कृषी पट्टे व हरितक्रांती", "en": "Agricultural belts and the Green Revolution" },
+    { "id": "geography-india-geo-7", "mr": "भारतातील औद्योगिक प्रदेश", "en": "Industrial regions of India" }
+  ],
+  "geography/world-geo": [
+    { "id": "geography-world-geo-1", "mr": "खंड व महासागर - सर्वसाधारण माहिती", "en": "Continents and oceans — general facts" },
+    { "id": "geography-world-geo-2", "mr": "अक्षांश-रेखांश व प्रमाणवेळ", "en": "Latitude-longitude and time zones" },
+    { "id": "geography-world-geo-3", "mr": "भूकंप - कारणे व परिणाम", "en": "Earthquakes — causes and effects" },
+    { "id": "geography-world-geo-4", "mr": "ज्वालामुखी - प्रकार व जागतिक वितरण", "en": "Volcanoes — types and global distribution" },
+    { "id": "geography-world-geo-5", "mr": "चक्रीवादळे व नैसर्गिक आपत्ती", "en": "Cyclones and natural disasters" },
+    { "id": "geography-world-geo-6", "mr": "चालू घडामोडींतील भौगोलिक स्थाने व वैशिष्ट्ये", "en": "Geographical features in current affairs" }
+  ],
+  "polity/constitution-framework": [
+    { "id": "polity-constitution-framework-1", "mr": "घटना समिती - स्थापना व सदस्य", "en": "Constituent Assembly — formation and members" },
+    { "id": "polity-constitution-framework-2", "mr": "राज्यघटनेचे शिल्पकार - डॉ. आंबेडकर व मसुदा समिती", "en": "Architects of the Constitution — Dr. Ambedkar and Drafting Committee" },
+    { "id": "polity-constitution-framework-3", "mr": "राज्यघटनेचे स्त्रोत (borrowed features)", "en": "Sources of the Constitution (borrowed features)" },
+    { "id": "polity-constitution-framework-4", "mr": "उद्देशिका (Preamble) मधील संज्ञा", "en": "Preamble — key terms explained" },
+    { "id": "polity-constitution-framework-5", "mr": "संघराज्यीय वैशिष्ट्ये", "en": "Federal features of the Constitution" },
+    { "id": "polity-constitution-framework-6", "mr": "संसदीय शासनपद्धतीची वैशिष्ट्ये", "en": "Parliamentary system features" },
+    { "id": "polity-constitution-framework-7", "mr": "घटना दुरुस्ती प्रक्रिया - कलम 368", "en": "Constitutional amendment procedure — Article 368" }
+  ],
+  "polity/rights-duties": [
+    { "id": "polity-rights-duties-1", "mr": "मूलभूत हक्क - समानतेचा हक्क (कलम 14-18)", "en": "Fundamental Rights — Right to Equality (Art 14-18)" },
+    { "id": "polity-rights-duties-2", "mr": "मूलभूत हक्क - स्वातंत्र्याचा हक्क (कलम 19-22)", "en": "Fundamental Rights — Right to Freedom (Art 19-22)" },
+    { "id": "polity-rights-duties-3", "mr": "शोषणाविरुद्धचा हक्क व धार्मिक स्वातंत्र्याचा हक्क", "en": "Right against Exploitation and Right to Freedom of Religion" },
+    { "id": "polity-rights-duties-4", "mr": "सांस्कृतिक व शैक्षणिक हक्क, घटनात्मक उपाययोजनांचा हक्क (कलम 32)", "en": "Cultural/Educational Rights and Right to Constitutional Remedies (Art 32)" },
+    { "id": "polity-rights-duties-5", "mr": "मूलभूत कर्तव्ये - कलम 51A", "en": "Fundamental Duties — Article 51A" },
+    { "id": "polity-rights-duties-6", "mr": "राज्य धोरणाची मार्गदर्शक तत्त्वे (भाग IV)", "en": "Directive Principles of State Policy (Part IV)" },
+    { "id": "polity-rights-duties-7", "mr": "मूलभूत हक्क व मार्गदर्शक तत्त्वे यांतील फरक", "en": "Difference between Fundamental Rights and DPSP" }
+  ],
+  "polity/union-govt": [
+    { "id": "polity-union-govt-1", "mr": "राष्ट्रपती - निवडणूक पद्धत व अधिकार", "en": "President — election method and powers" },
+    { "id": "polity-union-govt-2", "mr": "उपराष्ट्रपती - निवडणूक व कार्ये", "en": "Vice President — election and functions" },
+    { "id": "polity-union-govt-3", "mr": "लोकसभा - रचना व कार्यपद्धती", "en": "Lok Sabha — composition and functioning" },
+    { "id": "polity-union-govt-4", "mr": "राज्यसभा - रचना व कार्यपद्धती", "en": "Rajya Sabha — composition and functioning" },
+    { "id": "polity-union-govt-5", "mr": "पंतप्रधान व मंत्रिमंडळ - नियुक्ती व अधिकार", "en": "Prime Minister and Council of Ministers — appointment and powers" },
+    { "id": "polity-union-govt-6", "mr": "संसदीय समित्या", "en": "Parliamentary committees" }
+  ],
+  "polity/state-govt": [
+    { "id": "polity-state-govt-1", "mr": "राज्यपाल - नियुक्ती व विवेकाधिकार", "en": "Governor — appointment and discretionary powers" },
+    { "id": "polity-state-govt-2", "mr": "मुख्यमंत्री व राज्य मंत्रिमंडळ", "en": "Chief Minister and State Council of Ministers" },
+    { "id": "polity-state-govt-3", "mr": "विधानसभा - रचना व कार्यपद्धती", "en": "Vidhan Sabha — composition and functioning" },
+    { "id": "polity-state-govt-4", "mr": "विधानपरिषद - द्विसदनी पद्धत", "en": "Vidhan Parishad — bicameral legislature" },
+    { "id": "polity-state-govt-5", "mr": "राज्य विधानमंडळाचे अधिकार व कामकाज", "en": "Powers and functioning of the State Legislature" }
+  ],
+  "polity/judiciary": [
+    { "id": "polity-judiciary-1", "mr": "सर्वोच्च न्यायालय - रचना व अधिकारक्षेत्र", "en": "Supreme Court — composition and jurisdiction" },
+    { "id": "polity-judiciary-2", "mr": "उच्च न्यायालय - मुंबई उच्च न्यायालय व त्याची खंडपीठे", "en": "High Court — Bombay High Court and its benches" },
+    { "id": "polity-judiciary-3", "mr": "दुय्यम न्यायालय व्यवस्था", "en": "Subordinate judiciary system" },
+    { "id": "polity-judiciary-4", "mr": "न्यायिक पुनरावलोकन (Judicial Review)", "en": "Judicial review — concept and scope" },
+    { "id": "polity-judiciary-5", "mr": "न्यायाधीशांची नियुक्ती व कॉलेजियम पद्धत", "en": "Appointment of judges and the collegium system" }
+  ],
+  "polity/local-govt": [
+    { "id": "polity-local-govt-1", "mr": "73 वी घटनादुरुस्ती - पंचायती राज व्यवस्था", "en": "73rd Amendment — Panchayati Raj system" },
+    { "id": "polity-local-govt-2", "mr": "जिल्हा परिषद - रचना व कार्ये", "en": "Zilla Parishad — structure and functions" },
+    { "id": "polity-local-govt-3", "mr": "पंचायत समिती व ग्रामपंचायत", "en": "Panchayat Samiti and Gram Panchayat" },
+    { "id": "polity-local-govt-4", "mr": "74 वी घटनादुरुस्ती - नागरी स्थानिक स्वराज्य संस्था", "en": "74th Amendment — urban local self-government" },
+    { "id": "polity-local-govt-5", "mr": "महानगरपालिका, नगरपालिका व नगरपंचायत", "en": "Municipal Corporations, Councils and Nagar Panchayats" },
+    { "id": "polity-local-govt-6", "mr": "राज्य निवडणूक आयोग", "en": "State Election Commission" }
+  ],
+  "current_affairs/national-intl": [
+    { "id": "current_affairs-national-intl-1", "mr": "केंद्र सरकारची अलीकडील धोरणे व योजना", "en": "Recent Union government policies and schemes" },
+    { "id": "current_affairs-national-intl-2", "mr": "आंतरराष्ट्रीय संबंध व शिखर परिषदा", "en": "International relations and summits" },
+    { "id": "current_affairs-national-intl-3", "mr": "महत्त्वाच्या नियुक्त्या (राष्ट्रीय/आंतरराष्ट्रीय)", "en": "Important appointments (national/international)" },
+    { "id": "current_affairs-national-intl-4", "mr": "पुरस्कार - पद्म पुरस्कार व नोबेल पुरस्कार", "en": "Awards — Padma Awards and Nobel Prizes" },
+    { "id": "current_affairs-national-intl-5", "mr": "आर्थिक व सामाजिक चालू घडामोडी", "en": "Economic and social current affairs" }
+  ],
+  "current_affairs/maharashtra-ca": [
+    { "id": "current_affairs-maharashtra-ca-1", "mr": "महाराष्ट्र शासनाचे शासन निर्णय (GRs) व योजना", "en": "Maharashtra government resolutions (GRs) and schemes" },
+    { "id": "current_affairs-maharashtra-ca-2", "mr": "महाराष्ट्र राज्याचा अर्थसंकल्प", "en": "Maharashtra state budget" },
+    { "id": "current_affairs-maharashtra-ca-3", "mr": "समृद्धी महामार्ग - वैशिष्ट्ये व प्रगती", "en": "Samruddhi Mahamarg — features and progress" },
+    { "id": "current_affairs-maharashtra-ca-4", "mr": "मुंबई मेट्रो व कोस्टल रोड प्रकल्प", "en": "Mumbai Metro and Coastal Road project" },
+    { "id": "current_affairs-maharashtra-ca-5", "mr": "महाराष्ट्रातील पायाभूत सुविधा प्रकल्प", "en": "Infrastructure projects in Maharashtra" }
+  ],
+  "current_affairs/sports-misc": [
+    { "id": "current_affairs-sports-misc-1", "mr": "ऑलिम्पिक स्पर्धा - विजेते व विक्रम", "en": "Olympics — winners and records" },
+    { "id": "current_affairs-sports-misc-2", "mr": "आशियाई क्रीडा स्पर्धा (Asian Games)", "en": "Asian Games — highlights and winners" },
+    { "id": "current_affairs-sports-misc-3", "mr": "खेलो इंडिया व राष्ट्रीय क्रीडा उपक्रम", "en": "Khelo India and national sports initiatives" },
+    { "id": "current_affairs-sports-misc-4", "mr": "प्रसिद्ध पुस्तके व लेखक", "en": "Notable books and authors" },
+    { "id": "current_affairs-sports-misc-5", "mr": "अलीकडील निधन झालेल्या प्रमुख व्यक्ती (obituaries)", "en": "Recent obituaries of notable personalities" },
+    { "id": "current_affairs-sports-misc-6", "mr": "विज्ञान-तंत्रज्ञान घडामोडी - इस्रो व संरक्षण", "en": "Science-tech developments — ISRO and defence" }
+  ],
+  "science/physics": [
+    { "id": "science-physics-1", "mr": "गती व न्यूटनचे गतीविषयक नियम", "en": "Motion and Newton's laws of motion" },
+    { "id": "science-physics-2", "mr": "कार्य, ऊर्जा व शक्ती", "en": "Work, energy and power" },
+    { "id": "science-physics-3", "mr": "दाब (Pressure) - संकल्पना व उपयोग", "en": "Pressure — concepts and applications" },
+    { "id": "science-physics-4", "mr": "प्रकाश - परावर्तन व अपवर्तन", "en": "Light — reflection and refraction" },
+    { "id": "science-physics-5", "mr": "ध्वनी - गुणधर्म व निनाद", "en": "Sound — properties and echo" },
+    { "id": "science-physics-6", "mr": "उष्णता - संक्रमण पद्धती", "en": "Heat — modes of transfer" },
+    { "id": "science-physics-7", "mr": "विद्युत - ओहमचा नियम व मंडले", "en": "Electricity — Ohm's law and circuits" },
+    { "id": "science-physics-8", "mr": "चुंबकत्व - मूलभूत तत्त्वे", "en": "Magnetism — basic principles" }
+  ],
+  "science/chemistry": [
+    { "id": "science-chemistry-1", "mr": "अणुरचना - इलेक्ट्रॉन, प्रोटॉन, न्यूट्रॉन", "en": "Atomic structure — electrons, protons, neutrons" },
+    { "id": "science-chemistry-2", "mr": "आवर्त सारणी (Periodic Table)", "en": "Periodic table — organization and trends" },
+    { "id": "science-chemistry-3", "mr": "रासायनिक बंध - आयनिक व सहसंयोजक", "en": "Chemical bonding — ionic and covalent" },
+    { "id": "science-chemistry-4", "mr": "आम्ल, आम्लारी व क्षार (Acids, bases, salts)", "en": "Acids, bases and salts" },
+    { "id": "science-chemistry-5", "mr": "रासायनिक अभिक्रियांचे प्रकार", "en": "Types of chemical reactions" },
+    { "id": "science-chemistry-6", "mr": "धातू व अधातू - गुणधर्म व उपयोग", "en": "Metals and non-metals — properties and uses" }
+  ],
+  "science/biology": [
+    { "id": "science-biology-1", "mr": "पेशी - वनस्पती पेशी विरुद्ध प्राणी पेशी", "en": "Cell — plant cell vs animal cell" },
+    { "id": "science-biology-2", "mr": "सजीवांचे वर्गीकरण (Taxonomy)", "en": "Classification of living organisms (taxonomy)" },
+    { "id": "science-biology-3", "mr": "मानवी पचनसंस्था व श्वसनसंस्था", "en": "Human digestive and respiratory systems" },
+    { "id": "science-biology-4", "mr": "मानवी रक्ताभिसरण संस्था व चेतासंस्था", "en": "Human circulatory and nervous systems" },
+    { "id": "science-biology-5", "mr": "प्रकाशसंश्लेषण (Photosynthesis)", "en": "Photosynthesis — process and factors" }
+  ],
+  "science/health-hygiene": [
+    { "id": "science-health-hygiene-1", "mr": "पोषण व जीवनसत्त्वे", "en": "Nutrition and vitamins" },
+    { "id": "science-health-hygiene-2", "mr": "जीवनसत्त्वांच्या कमतरतेमुळे होणारे आजार", "en": "Deficiency diseases due to lack of vitamins/minerals" },
+    { "id": "science-health-hygiene-3", "mr": "संसर्गजन्य व असंसर्गजन्य आजार", "en": "Communicable and non-communicable diseases" },
+    { "id": "science-health-hygiene-4", "mr": "लसीकरण कार्यक्रम (Immunization)", "en": "Immunization programs" },
+    { "id": "science-health-hygiene-5", "mr": "सार्वजनिक आरोग्य योजना", "en": "Public health schemes" }
+  ],
+  "science/sci-tech-dev": [
+    { "id": "science-sci-tech-dev-1", "mr": "इस्रोच्या प्रमुख मोहिमा (चांद्रयान, गगनयान)", "en": "Major ISRO missions (Chandrayaan, Gaganyaan)" },
+    { "id": "science-sci-tech-dev-2", "mr": "जैवतंत्रज्ञान (Biotechnology) मधील प्रगती", "en": "Advances in biotechnology" },
+    { "id": "science-sci-tech-dev-3", "mr": "माहिती तंत्रज्ञान (IT) मधील प्रगती", "en": "Advances in information technology (IT)" },
+    { "id": "science-sci-tech-dev-4", "mr": "पर्यावरण प्रदूषण - प्रकार व परिणाम", "en": "Environmental pollution — types and effects" },
+    { "id": "science-sci-tech-dev-5", "mr": "हवामान बदल (Climate change)", "en": "Climate change" }
+  ],
+  "economy/national-income": [
+    { "id": "economy-national-income-1", "mr": "GDP, GNP, NNP संकल्पना", "en": "GDP, GNP, NNP — concepts" },
+    { "id": "economy-national-income-2", "mr": "दरडोई उत्पन्न (Per Capita Income)", "en": "Per Capita Income" },
+    { "id": "economy-national-income-3", "mr": "राष्ट्रीय उत्पन्न मोजण्याच्या पद्धती", "en": "Methods of measuring national income" },
+    { "id": "economy-national-income-4", "mr": "वास्तविक व नाममात्र GDP", "en": "Real vs nominal GDP" }
+  ],
+  "economy/agriculture-eco": [
+    { "id": "economy-agriculture-eco-1", "mr": "पीक हंगाम - खरीप व रब्बी", "en": "Cropping seasons — Kharif and Rabi" },
+    { "id": "economy-agriculture-eco-2", "mr": "सिंचन पद्धती व प्रकल्प", "en": "Irrigation methods and projects" },
+    { "id": "economy-agriculture-eco-3", "mr": "किमान आधारभूत किंमत (MSP)", "en": "Minimum Support Price (MSP)" },
+    { "id": "economy-agriculture-eco-4", "mr": "शेती कर्ज व पीक विमा योजना (PMFBY)", "en": "Agricultural credit and crop insurance scheme (PMFBY)" },
+    { "id": "economy-agriculture-eco-5", "mr": "जमीन सुधारणा (Land reforms)", "en": "Land reforms" }
+  ],
+  "economy/industry-eco": [
+    { "id": "economy-industry-eco-1", "mr": "औद्योगिक धोरण 1948 व 1956", "en": "Industrial Policy of 1948 and 1956" },
+    { "id": "economy-industry-eco-2", "mr": "औद्योगिक धोरण 1991 - उदारीकरण", "en": "Industrial Policy of 1991 — liberalization" },
+    { "id": "economy-industry-eco-3", "mr": "सार्वजनिक क्षेत्र (PSU) विरुद्ध खाजगी क्षेत्र", "en": "Public sector undertakings (PSU) vs private sector" },
+    { "id": "economy-industry-eco-4", "mr": "महाराष्ट्रातील उद्योग - उद्योग निरीक्षक संबंधित", "en": "Industries of Maharashtra — relevance to Industry Inspector" }
+  ],
+  "economy/trade-banking": [
+    { "id": "economy-trade-banking-1", "mr": "व्यापार तूट (BoP) व आयात-निर्यात", "en": "Balance of Payments (BoP) and export-import" },
+    { "id": "economy-trade-banking-2", "mr": "भारतीय रिझर्व्ह बँक - रेपो दर, CRR, SLR", "en": "RBI — repo rate, CRR, SLR" },
+    { "id": "economy-trade-banking-3", "mr": "राष्ट्रीयीकृत बँकिंग व्यवस्था", "en": "Nationalized banking system" },
+    { "id": "economy-trade-banking-4", "mr": "सहकारी बँकिंग - महाराष्ट्रातील स्थिती", "en": "Cooperative banking — Maharashtra scenario" },
+    { "id": "economy-trade-banking-5", "mr": "जनधन योजना व वित्तीय समावेशन", "en": "Jan Dhan Yojana and financial inclusion" }
+  ],
+  "economy/population-social": [
+    { "id": "economy-population-social-1", "mr": "जनगणना - साक्षरता दर", "en": "Census — literacy rate" },
+    { "id": "economy-population-social-2", "mr": "जनगणना - लिंग गुणोत्तर (Sex ratio)", "en": "Census — sex ratio" },
+    { "id": "economy-population-social-3", "mr": "नागरीकरण (Urbanization) चे स्वरूप", "en": "Urbanization — patterns and trends" },
+    { "id": "economy-population-social-4", "mr": "दारिद्र्य - मोजमाप व कारणे", "en": "Poverty — measurement and causes" },
+    { "id": "economy-population-social-5", "mr": "बेरोजगारीचे प्रकार", "en": "Types of unemployment" }
+  ],
+  "economy/govt-finance": [
+    { "id": "economy-govt-finance-1", "mr": "केंद्र व राज्य अर्थसंकल्प प्रक्रिया", "en": "Union and State budget process" },
+    { "id": "economy-govt-finance-2", "mr": "वित्तीय तूट व महसुली तूट", "en": "Fiscal deficit and revenue deficit" },
+    { "id": "economy-govt-finance-3", "mr": "नियंत्रक व महालेखापरीक्षक (CAG)", "en": "Comptroller and Auditor General (CAG)" },
+    { "id": "economy-govt-finance-4", "mr": "वस्तू व सेवा कर (GST)", "en": "Goods and Services Tax (GST)" }
+  ],
+  "arithmetic/number-system": [
+    { "id": "arithmetic-number-system-1", "mr": "संख्यांचे प्रकार (नैसर्गिक, पूर्णांक, अपरिमेय इ.)", "en": "Types of numbers (natural, integers, irrational, etc.)" },
+    { "id": "arithmetic-number-system-2", "mr": "विभाज्यतेचे नियम (Divisibility rules)", "en": "Divisibility rules" },
+    { "id": "arithmetic-number-system-3", "mr": "म.सा.वि. व ल.सा.वि. (HCF-LCM)", "en": "HCF and LCM" },
+    { "id": "arithmetic-number-system-4", "mr": "सरळीकरण (Simplification)", "en": "Simplification of expressions" }
+  ],
+  "arithmetic/commercial-maths": [
+    { "id": "arithmetic-commercial-maths-1", "mr": "टक्केवारी (Percentage)", "en": "Percentage" },
+    { "id": "arithmetic-commercial-maths-2", "mr": "नफा-तोटा व सूट (Profit, loss, discount)", "en": "Profit, loss and discount" },
+    { "id": "arithmetic-commercial-maths-3", "mr": "सरळ व्याज (Simple Interest)", "en": "Simple Interest" },
+    { "id": "arithmetic-commercial-maths-4", "mr": "चक्रवाढ व्याज (Compound Interest)", "en": "Compound Interest" },
+    { "id": "arithmetic-commercial-maths-5", "mr": "गुणोत्तर व प्रमाण (Ratio and proportion)", "en": "Ratio and proportion" },
+    { "id": "arithmetic-commercial-maths-6", "mr": "भागीदारी (Partnership)", "en": "Partnership problems" }
+  ],
+  "arithmetic/time-work-speed": [
+    { "id": "arithmetic-time-work-speed-1", "mr": "सरासरी (Averages)", "en": "Averages" },
+    { "id": "arithmetic-time-work-speed-2", "mr": "वेळ, वेग व अंतर - रेल्वे संबंधित प्रश्न", "en": "Time, speed and distance — train-based problems" },
+    { "id": "arithmetic-time-work-speed-3", "mr": "वेळ, वेग व अंतर - नाव व प्रवाह संबंधित प्रश्न", "en": "Time, speed and distance — boats and streams" },
+    { "id": "arithmetic-time-work-speed-4", "mr": "काम व वेळ (Time and work)", "en": "Time and work" },
+    { "id": "arithmetic-time-work-speed-5", "mr": "पाईप व टाकी (Pipes and cisterns)", "en": "Pipes and cisterns" }
+  ],
+  "arithmetic/data-interpretation": [
+    { "id": "arithmetic-data-interpretation-1", "mr": "स्तंभालेख (Bar graph) वाचन व विश्लेषण", "en": "Bar graph reading and analysis" },
+    { "id": "arithmetic-data-interpretation-2", "mr": "वर्तुळालेख (Pie chart) वाचन व विश्लेषण", "en": "Pie chart reading and analysis" },
+    { "id": "arithmetic-data-interpretation-3", "mr": "तक्ता आधारित प्रश्न (Table-based questions)", "en": "Table-based data interpretation" },
+    { "id": "arithmetic-data-interpretation-4", "mr": "रेषालेख (Line graph) वाचन व विश्लेषण", "en": "Line graph reading and analysis" }
+  ],
+  "reasoning/series-coding": [
+    { "id": "reasoning-series-coding-1", "mr": "संख्या मालिका (Number series)", "en": "Number series" },
+    { "id": "reasoning-series-coding-2", "mr": "अक्षर मालिका (Alphabet series)", "en": "Alphabet series" },
+    { "id": "reasoning-series-coding-3", "mr": "सांकेतिक भाषा (Coding-decoding)", "en": "Coding-decoding" },
+    { "id": "reasoning-series-coding-4", "mr": "मिश्र मालिका (Mixed series)", "en": "Mixed number-letter series" }
+  ],
+  "reasoning/relations-direction": [
+    { "id": "reasoning-relations-direction-1", "mr": "रक्त नाते संबंध (Blood relations)", "en": "Blood relations" },
+    { "id": "reasoning-relations-direction-2", "mr": "दिशा ज्ञान (Direction sense test)", "en": "Direction sense test" },
+    { "id": "reasoning-relations-direction-3", "mr": "अंतर व दिशा आधारित संमिश्र प्रश्न", "en": "Combined distance and direction problems" }
+  ],
+  "reasoning/clock-calendar": [
+    { "id": "reasoning-clock-calendar-1", "mr": "घड्याळाचे कोन (Clock angles)", "en": "Clock angle problems" },
+    { "id": "reasoning-clock-calendar-2", "mr": "घड्याळातील वेळ व आरसा प्रतिमा", "en": "Clock time and mirror image problems" },
+    { "id": "reasoning-clock-calendar-3", "mr": "दिनदर्शिका - दिवस-तारीख शोधणे (Calendar)", "en": "Calendar — finding day-date" }
+  ],
+  "reasoning/analogy-classification": [
+    { "id": "reasoning-analogy-classification-1", "mr": "साधर्म्य (Analogy) - शब्द व संख्या", "en": "Analogy — word and number based" },
+    { "id": "reasoning-analogy-classification-2", "mr": "विजोड घटक शोधणे (Odd-one-out)", "en": "Odd-one-out / classification" }
+  ],
+  "reasoning/logical": [
+    { "id": "reasoning-logical-1", "mr": "व्यावर्तक तर्कशास्त्र (Syllogisms)", "en": "Syllogisms" },
+    { "id": "reasoning-logical-2", "mr": "विधान-निष्कर्ष (Statement-conclusion)", "en": "Statement-conclusion reasoning" },
+    { "id": "reasoning-logical-3", "mr": "विधान-गृहीतक (Statement-assumption)", "en": "Statement-assumption reasoning" },
+    { "id": "reasoning-logical-4", "mr": "बैठक व्यवस्था कोडी (Seating arrangement puzzles)", "en": "Seating arrangement puzzles" },
+    { "id": "reasoning-logical-5", "mr": "अशाब्दिक तर्क - आरसा प्रतिमा व नमुना (Non-verbal reasoning)", "en": "Non-verbal reasoning — mirror image and pattern completion" }
+  ],
+  "mains-marathi/vyakaran": [
+    { "id": "mains-marathi-vyakaran-1", "mr": "संधी - स्वरसंधी, व्यंजनसंधी, विसर्गसंधी", "en": "Sandhi — vowel, consonant, visarga sandhi" },
+    { "id": "mains-marathi-vyakaran-2", "mr": "समास - प्रकार व ओळख", "en": "Samas (compound words) — types and identification" },
+    { "id": "mains-marathi-vyakaran-3", "mr": "अलंकार - शब्दालंकार व अर्थालंकार", "en": "Alankar (figures of speech) — shabdalankar and arthalankar" },
+    { "id": "mains-marathi-vyakaran-4", "mr": "प्रयोग - कर्तरी, कर्मणी, भावे प्रयोग", "en": "Prayog (voice) — kartari, karmani, bhave prayog" },
+    { "id": "mains-marathi-vyakaran-5", "mr": "विभक्ती व विभक्ती प्रत्यय", "en": "Vibhakti (case) and case suffixes" },
+    { "id": "mains-marathi-vyakaran-6", "mr": "काळ - वर्तमान, भूत, भविष्य काळ", "en": "Kaal (tense) — present, past, future" },
+    { "id": "mains-marathi-vyakaran-7", "mr": "शब्दांच्या जाती (Parts of speech)", "en": "Shabdanchya jati — parts of speech in Marathi" },
+    { "id": "mains-marathi-vyakaran-8", "mr": "अव्यय - क्रियाविशेषण, शब्दयोगी, उभयान्वयी, केवलप्रयोगी", "en": "Avyaya (indeclinables) — kriyavisheshan, shabdayogi, ubhayanvayi, kevalprayogi" }
+  ],
+  "mains-marathi/shabdsampada": [
+    { "id": "mains-marathi-shabdsampada-1", "mr": "समानार्थी शब्द (Synonyms)", "en": "Synonyms in Marathi" },
+    { "id": "mains-marathi-shabdsampada-2", "mr": "विरुद्धार्थी शब्द (Antonyms)", "en": "Antonyms in Marathi" },
+    { "id": "mains-marathi-shabdsampada-3", "mr": "शब्दसमूहाला एक शब्द", "en": "One word for a group of words" },
+    { "id": "mains-marathi-shabdsampada-4", "mr": "शब्दांचे लिंग व वचन", "en": "Gender and number of Marathi words" },
+    { "id": "mains-marathi-shabdsampada-5", "mr": "तत्सम व तद्भव शब्द", "en": "Tatsam and Tadbhav words" }
+  ],
+  "mains-marathi/mhani-vakprachar": [
+    { "id": "mains-marathi-mhani-vakprachar-1", "mr": "प्रचलित म्हणी व त्यांचे अर्थ", "en": "Common proverbs (mhani) and their meanings" },
+    { "id": "mains-marathi-mhani-vakprachar-2", "mr": "वाक्प्रचार व त्यांचे वाक्यात उपयोग", "en": "Idiomatic phrases (vakprachar) and usage in sentences" },
+    { "id": "mains-marathi-mhani-vakprachar-3", "mr": "म्हणी पूर्ण करणे (fill-in-the-blank म्हणी)", "en": "Completing proverbs (fill-in-the-blank type)" },
+    { "id": "mains-marathi-mhani-vakprachar-4", "mr": "समान अर्थाच्या म्हणी ओळखणे", "en": "Identifying proverbs with similar meanings" }
+  ],
+  "mains-marathi/vakyarachana": [
+    { "id": "mains-marathi-vakyarachana-1", "mr": "वाक्यरचना - वाक्याचे प्रकार", "en": "Sentence structure — types of sentences" },
+    { "id": "mains-marathi-vakyarachana-2", "mr": "वाक्यशुद्धी - चुका शोधणे व दुरुस्त करणे", "en": "Vakyashuddhi — spotting and correcting errors" },
+    { "id": "mains-marathi-vakyarachana-3", "mr": "शब्दक्रम व वाक्य पुनर्रचना", "en": "Word order and sentence rearrangement" },
+    { "id": "mains-marathi-vakyarachana-4", "mr": "प्रत्यक्ष व अप्रत्यक्ष कथन", "en": "Direct and indirect narration" }
+  ],
+  "mains-marathi/aakalan": [
+    { "id": "mains-marathi-aakalan-1", "mr": "उतारा वाचून प्रश्नोत्तरे (Comprehension passage)", "en": "Comprehension passage — reading and answering" },
+    { "id": "mains-marathi-aakalan-2", "mr": "उताऱ्याचा सारांश लेखन", "en": "Summary writing of a passage" },
+    { "id": "mains-marathi-aakalan-3", "mr": "इंग्रजी ते मराठी भाषांतर", "en": "Translation from English to Marathi" },
+    { "id": "mains-marathi-aakalan-4", "mr": "मराठी ते इंग्रजी भाषांतर", "en": "Translation from Marathi to English" }
+  ],
+  "mains-english/grammar": [
+    { "id": "mains-english-grammar-1", "mr": "बारा काळ (12 Tenses)", "en": "The 12 tenses" },
+    { "id": "mains-english-grammar-2", "mr": "कर्तरी व कर्मणी प्रयोग (Active-Passive voice)", "en": "Active-Passive voice conversion" },
+    { "id": "mains-english-grammar-3", "mr": "प्रत्यक्ष व अप्रत्यक्ष कथन (Direct-Indirect speech)", "en": "Direct-Indirect speech" },
+    { "id": "mains-english-grammar-4", "mr": "Articles (a, an, the) चा वापर", "en": "Use of articles (a, an, the)" },
+    { "id": "mains-english-grammar-5", "mr": "Prepositions चा वापर", "en": "Use of prepositions" },
+    { "id": "mains-english-grammar-6", "mr": "कर्ता-क्रियापद सुसंगती (Subject-verb agreement)", "en": "Subject-verb agreement" },
+    { "id": "mains-english-grammar-7", "mr": "Conjunctions चा वापर", "en": "Use of conjunctions" }
+  ],
+  "mains-english/vocabulary": [
+    { "id": "mains-english-vocabulary-1", "mr": "समानार्थी शब्द (Synonyms)", "en": "Synonyms" },
+    { "id": "mains-english-vocabulary-2", "mr": "विरुद्धार्थी शब्द (Antonyms)", "en": "Antonyms" },
+    { "id": "mains-english-vocabulary-3", "mr": "एका शब्दाचा वापर (One-word substitution)", "en": "One-word substitution" },
+    { "id": "mains-english-vocabulary-4", "mr": "समध्वनी शब्द (Homophones)", "en": "Homophones" },
+    { "id": "mains-english-vocabulary-5", "mr": "शब्दसंग्रह वृद्धीसाठी सामान्य शब्द", "en": "Common vocabulary-building word lists" }
+  ],
+  "mains-english/sentence": [
+    { "id": "mains-english-sentence-1", "mr": "वाक्य दुरुस्ती (Sentence correction)", "en": "Sentence correction" },
+    { "id": "mains-english-sentence-2", "mr": "वाक्य पुनर्रचना (Sentence rearrangement)", "en": "Sentence rearrangement (jumbled sentences)" },
+    { "id": "mains-english-sentence-3", "mr": "रिकाम्या जागा भरणे (Fill-in-the-blanks)", "en": "Fill-in-the-blanks" },
+    { "id": "mains-english-sentence-4", "mr": "सामान्य चुका (Common errors)", "en": "Spotting common errors" }
+  ],
+  "mains-english/idioms": [
+    { "id": "mains-english-idioms-1", "mr": "वाक्प्रचार (Idioms) व त्यांचे अर्थ", "en": "Idioms and their meanings" },
+    { "id": "mains-english-idioms-2", "mr": "Phrasal verbs चा वापर", "en": "Usage of phrasal verbs" },
+    { "id": "mains-english-idioms-3", "mr": "सामान्य वाक्प्रचार वाक्यात वापरणे", "en": "Using common idioms in sentences" }
+  ],
+  "mains-english/comprehension": [
+    { "id": "mains-english-comprehension-1", "mr": "उतारा वाचून प्रश्नोत्तरे (Reading comprehension)", "en": "Reading comprehension passage" },
+    { "id": "mains-english-comprehension-2", "mr": "उताऱ्याचा मध्यवर्ती विचार शोधणे", "en": "Identifying the central idea of a passage" },
+    { "id": "mains-english-comprehension-3", "mr": "संदर्भानुसार शब्दांचा अर्थ", "en": "Inferring word meaning from context" },
+    { "id": "mains-english-comprehension-4", "mr": "अनुमान व निष्कर्ष काढणे", "en": "Drawing inferences and conclusions" }
+  ]
+}
