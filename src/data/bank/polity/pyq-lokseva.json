@@ -1,0 +1,326 @@
+[
+  {
+    "id": "polity-pyq-0001",
+    "subject": "polity",
+    "subtopic": "local-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारतीय संविधानातील कलम 243-G कशाशी संबंधित आहे? / What does Article 243-G of the Indian Constitution deal with?",
+    "options": [
+      "A. सभासदांची अपात्रता / Disqualification of members",
+      "B. पंचायतींचे अधिकार, प्राधिकार व जबाबदाऱ्या / Powers, authority and responsibilities of Panchayats",
+      "C. पंचायतीची रचना / Composition of Panchayats",
+      "D. पंचायतीचा कालावधी / Duration of Panchayats"
+    ],
+    "answer": "B",
+    "explanation": "कलम 243-G राज्य विधानमंडळाला स्वराज्यसंस्थांना (पंचायतींना) आर्थिक विकास व सामाजिक न्यायाच्या योजना तयार करण्यासह अनुसूची 11 मधील 29 विषयांशी संबंधित अधिकार, प्राधिकार व जबाबदाऱ्या देण्याचा अधिकार देते. / Article 243-G empowers the State Legislature to endow Panchayats with powers, authority and responsibilities — including preparing plans for economic development and social justice for the 29 subjects in the Eleventh Schedule.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0002",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "राज्याच्या महाधिवक्त्याची (Advocate General) नियुक्ती कोणत्या कलमानुसार केली जाते? / Under which Article is the Advocate General of a State appointed?",
+    "options": [
+      "A. कलम 76 / Article 76",
+      "B. कलम 148 / Article 148",
+      "C. कलम 165 / Article 165",
+      "D. कलम 315 / Article 315"
+    ],
+    "answer": "C",
+    "explanation": "कलम 165 अन्वये राज्यपाल राज्याच्या महाधिवक्त्याची नियुक्ती करतात; तो उच्च न्यायालयाचा न्यायाधीश होण्यास पात्र असावा लागतो. (कलम 76 = भारताचा महान्यायवादी) / Article 165 provides that the Governor appoints the Advocate General of the State, who must be qualified to be a High Court judge. (Article 76 = Attorney General of India.)",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0003",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "संविधानाच्या कलम 349 मध्ये काय नमूद केले आहे? / What is provided in Article 349 of the Constitution?",
+    "options": [
+      "A. प्राथमिक स्तरावर मातृभाषेत शिक्षणाच्या सुविधा / Facilities for instruction in mother tongue at primary stage",
+      "B. भाषेशी संबंधित काही कायदे लागू करण्यासाठीची विशेष प्रक्रिया / Special procedure for enactment of certain laws relating to language",
+      "C. सर्वोच्च व उच्च न्यायालयातील भाषा / Language of the Supreme Court and High Courts",
+      "D. हिंदी भाषेच्या विकासासाठी निर्देश / Directive for development of the Hindi language"
+    ],
+    "answer": "B",
+    "explanation": "कलम 349 = भाषेसंबंधी विशिष्ट कायदे करण्याची विशेष कार्यपद्धती. (कलम 348 = न्यायालये/कायद्यांची भाषा इंग्रजी; कलम 350A = प्राथमिक स्तरावर मातृभाषेतून शिक्षण; कलम 351 = हिंदी विकास निर्देश.) / Article 349 lays down the special procedure for enacting certain laws relating to language. (Article 348 = language of courts/laws is English; 350A = mother-tongue instruction at primary stage; 351 = directive for Hindi development.)",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0004",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "कलम 348 नुसार सर्वोच्च न्यायालय, उच्च न्यायालये आणि कायदे-विधेयकांची भाषा कोणती असेल? / Under Article 348, which shall be the language of the Supreme Court, High Courts and of Acts and Bills?",
+    "options": [
+      "A. हिंदी / Hindi",
+      "B. इंग्रजी / English",
+      "C. संबंधित राज्याची राज्यभाषा / The official language of the concerned State",
+      "D. संस्कृत / Sanskrit"
+    ],
+    "answer": "B",
+    "explanation": "कलम 348 नुसार सर्वोच्च न्यायालय व उच्च न्यायालयांतील कामकाज आणि सर्व कायदे, विधेयके, वटहुकूम, नियम इत्यादींची भाषा इंग्रजी असेल. / Article 348 provides that the language of the Supreme Court and High Courts, and of all Acts, Bills, ordinances, rules, etc., shall be English.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0005",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "easy",
+    "language": "bilingual",
+    "question": "हिंदी भाषेच्या विकासासाठी निर्देश देणारे कलम कोणते? / Which Article contains the directive for the development of the Hindi language?",
+    "options": [
+      "A. कलम 343 / Article 343",
+      "B. कलम 348 / Article 348",
+      "C. कलम 350 / Article 350",
+      "D. कलम 351 / Article 351"
+    ],
+    "answer": "D",
+    "explanation": "कलम 351 केंद्र सरकारला हिंदी भाषेचा प्रसार व विकास करण्याचा निर्देश देते. (कलम 343 = संघराज्याची राजभाषा हिंदी.) / Article 351 directs the Union to promote the spread and development of the Hindi language. (Article 343 = Hindi as the official language of the Union.)",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0006",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "सप्टेंबर 2025 पर्यंत महाराष्ट्राच्या मुख्यमंत्री पदावर सर्वाधिक काळ राहिलेले मुख्यमंत्री कोण? / Who has served as Chief Minister of Maharashtra for the longest continuous span (as of September 2025)?",
+    "options": [
+      "A. शरद पवार / Sharad Pawar",
+      "B. देवेंद्र फडणवीस / Devendra Fadnavis",
+      "C. वसंतराव नाईक / Vasantrao Naik",
+      "D. यशवंतराव चव्हाण / Yashwantrao Chavan"
+    ],
+    "answer": "C",
+    "explanation": "वसंतराव नाईक हे महाराष्ट्राचे सर्वाधिक काळ (11 वर्षे, 2 महिने, 15 दिवस) पदावर राहिलेले मुख्यमंत्री आहेत. शरद पवार चार वेगवेगळ्या काळांत मुख्यमंत्री झाले. / Vasantrao Naik held the office of Maharashtra CM for the longest single tenure (11 years, 2 months, 15 days). Sharad Pawar was CM across four separate spells.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0007",
+    "subject": "polity",
+    "subtopic": "constitution-framework",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "भारतीय संविधानाच्या कलम 8 मध्ये कशाचा उल्लेख आहे? / What does Article 8 of the Indian Constitution refer to?",
+    "options": [
+      "A. पाकिस्तानातून भारतात स्थलांतरित झालेल्यांचे नागरिकत्व / Citizenship of persons migrated from Pakistan to India",
+      "B. भारताबाहेर राहणाऱ्या भारतीय वंशाच्या व्यक्तींचे नागरिकत्वाचे अधिकार / Rights of citizenship of persons of Indian origin residing outside India",
+      "C. पाकिस्तानात स्थलांतरित झालेल्यांचे नागरिकत्व / Citizenship of persons migrated to Pakistan",
+      "D. संसद कायद्याद्वारे नागरिकत्वाचे नियमन करेल / Parliament to regulate citizenship by law"
+    ],
+    "answer": "B",
+    "explanation": "कलम 8 नुसार परदेशात राहणाऱ्या मूळ भारतीय वंशाच्या व्यक्तींना दूतावासाकडे नोंदणी करून नागरिकत्व मिळू शकते (PIO चे नागरिकत्व). (कलम 5 = प्रारंभीचे नागरिकत्व, कलम 11 = संसदेचा अधिकार.) / Article 8 allows persons of Indian origin residing abroad to acquire citizenship by registration with a diplomatic mission. (Article 5 = citizenship at commencement; Article 11 = Parliament's power over citizenship.)",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0008",
+    "subject": "polity",
+    "subtopic": "rights-duties",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "'दुहेरी शिक्षा नाही' (No Double Jeopardy) आणि 'स्वतःविरुद्ध साक्षीदार होण्याची सक्ती नाही' या तरतुदी कोणत्या कलमांतर्गत येतात? / The protections against 'Double Jeopardy' and 'self-incrimination' fall under which Article?",
+    "options": [
+      "A. कलम 19 / Article 19",
+      "B. कलम 20 / Article 20",
+      "C. कलम 21 / Article 21",
+      "D. कलम 22 / Article 22"
+    ],
+    "answer": "B",
+    "explanation": "कलम 20 अपराधांच्या दोषसिद्धीबाबत संरक्षण देते — यात तीन हक्क आहेत: (i) एक्स-पोस्ट-फॅक्टो कायदा नाही, (ii) दुहेरी शिक्षा नाही (No Double Jeopardy), (iii) स्वतःविरुद्ध साक्षीदार होण्याची सक्ती नाही. / Article 20 provides protection in respect of conviction for offences, covering three rights: (i) no ex-post-facto law, (ii) no double jeopardy, (iii) no self-incrimination.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0009",
+    "subject": "polity",
+    "subtopic": "rights-duties",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "कलम 20(3) अंतर्गत स्वतःविरुद्ध साक्षीदार होण्याविरुद्धचे संरक्षण कोणत्या पुराव्यांना लागू होते? / The protection against self-incrimination under Article 20(3) applies to which kind of evidence?",
+    "options": [
+      "A. फक्त मौखिक साक्ष / Only oral evidence",
+      "B. फक्त कागदपत्रांवर आधारित साक्ष / Only documentary evidence",
+      "C. मौखिक व कागदपत्रांवर आधारित दोन्ही साक्ष / Both oral and documentary evidence",
+      "D. यापैकी एकही नाही / Neither of these"
+    ],
+    "answer": "C",
+    "explanation": "कलम 20(3) चे संरक्षण मौखिक साक्ष (Oral) तसेच कागदपत्रांवर आधारित साक्ष (Documentary evidence) या दोन्ही बाबतीत लागू होते. / The protection under Article 20(3) applies to both oral evidence and documentary evidence.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0010",
+    "subject": "polity",
+    "subtopic": "rights-duties",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "खालीलपैकी कोणते मूलभूत कर्तव्य नाही? / Which of the following is NOT a Fundamental Duty?",
+    "options": [
+      "A. देशाचे संरक्षण करणे व आवाहन केले असता राष्ट्रीय सेवा बजावणे / To defend the country and render national service when called upon",
+      "B. गरीबांना समान न्याय व मोफत कायदेशीर मदतीचा प्रचार करणे / To promote equal justice and free legal aid to the poor",
+      "C. सार्वजनिक मालमत्तेचे रक्षण करणे व हिंसाचाराचा त्याग करणे / To safeguard public property and abjure violence",
+      "D. संमिश्र संस्कृतीच्या समृद्ध वारशाचे मोल जाणून जतन करणे / To value and preserve the rich heritage of composite culture"
+    ],
+    "answer": "B",
+    "explanation": "गरीबांना समान न्याय व मोफत कायदेशीर मदत ही कलम 39A अंतर्गत राज्य धोरणाची मार्गदर्शक तत्त्वे (DPSP) मधील तरतूद आहे, मूलभूत कर्तव्य (कलम 51A) नाही. उर्वरित तिन्ही कलम 51A मधील मूलभूत कर्तव्ये आहेत. / Equal justice and free legal aid to the poor is a Directive Principle under Article 39A, not a Fundamental Duty. The other three are Fundamental Duties under Article 51A.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0011",
+    "subject": "polity",
+    "subtopic": "rights-duties",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "मूलभूत कर्तव्ये संविधानाच्या कोणत्या भागात व कलमात समाविष्ट आहेत? / In which Part and Article of the Constitution are the Fundamental Duties contained?",
+    "options": [
+      "A. भाग III, कलम 32 / Part III, Article 32",
+      "B. भाग IV-A, कलम 51A / Part IV-A, Article 51A",
+      "C. भाग IV, कलम 40 / Part IV, Article 40",
+      "D. भाग II, कलम 5 / Part II, Article 5"
+    ],
+    "answer": "B",
+    "explanation": "मूलभूत कर्तव्ये मूळ घटनेत नव्हती; स्वर्णसिंह समितीच्या शिफारशीनुसार 42 व्या घटनादुरुस्तीने (1976) भाग IV-A व कलम 51A जोडून 10 मूलभूत कर्तव्ये समाविष्ट केली; 86 व्या घटनादुरुस्तीने (2002) 11 वे कर्तव्य जोडले. / Fundamental Duties were not in the original Constitution; on the Swaran Singh Committee's recommendation, the 42nd Amendment (1976) added Part IV-A and Article 51A with 10 duties; the 86th Amendment (2002) added the 11th duty.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0012",
+    "subject": "polity",
+    "subtopic": "constitution-framework",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "समवर्ती सूची, संसदेची संयुक्त बैठक आणि व्यापार व वाणिज्याचे स्वातंत्र्य या तरतुदी भारतीय संविधानाने कोणत्या देशाकडून घेतल्या आहेत? / The Concurrent List, joint sitting of Parliament and freedom of trade & commerce were borrowed into the Indian Constitution from which country?",
+    "options": [
+      "A. अमेरिका / USA",
+      "B. ब्रिटन / Britain",
+      "C. ऑस्ट्रेलिया / Australia",
+      "D. कॅनडा / Canada"
+    ],
+    "answer": "C",
+    "explanation": "समवर्ती सूची, दोन्ही सभागृहांची संयुक्त बैठक आणि व्यापार-वाणिज्याचे स्वातंत्र्य या तरतुदी ऑस्ट्रेलियाच्या राज्यघटनेवरून घेतल्या आहेत. / The Concurrent List, joint sitting of the two Houses and freedom of trade and commerce were borrowed from the Constitution of Australia.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0013",
+    "subject": "polity",
+    "subtopic": "constitution-framework",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राज्य धोरणाची मार्गदर्शक तत्त्वे (DPSP) भारतीय संविधानाने कोणत्या देशाच्या राज्यघटनेवरून घेतली आहेत? / The Directive Principles of State Policy (DPSP) were borrowed into the Indian Constitution from which country?",
+    "options": [
+      "A. आयर्लंड / Ireland",
+      "B. कॅनडा / Canada",
+      "C. अमेरिका / USA",
+      "D. जपान / Japan"
+    ],
+    "answer": "A",
+    "explanation": "राज्य धोरणाची मार्गदर्शक तत्त्वे आयर्लंडच्या राज्यघटनेवरून घेतली आहेत. (मूलभूत हक्क = अमेरिका, मूलभूत कर्तव्ये = रशिया, प्रक्रियेने प्रस्थापित पद्धत = जपान.) / The DPSP were borrowed from the Constitution of Ireland. (Fundamental Rights = USA; Fundamental Duties = USSR; 'procedure established by law' = Japan.)",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0014",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "कलम 168 नुसार सध्या भारतात किती राज्यांमध्ये द्विगृही (विधानपरिषदेसह) कायदेमंडळ आहे? / As per Article 168, how many States in India currently have a bicameral legislature (with a Legislative Council)?",
+    "options": [
+      "A. 4 राज्ये / 4 States",
+      "B. 6 राज्ये / 6 States",
+      "C. 22 राज्ये / 22 States",
+      "D. 28 राज्ये / 28 States"
+    ],
+    "answer": "B",
+    "explanation": "कलम 168 राज्य विधानमंडळाची रचना सांगते. सध्या 6 राज्यांमध्ये द्विगृही कायदेमंडळ (विधानसभा + विधानपरिषद) आहे — यात आंध्रप्रदेश, बिहार, महाराष्ट्र, कर्नाटक, उत्तरप्रदेश व तेलंगणा यांचा समावेश आहे; इतर राज्यांत एकगृही सभागृह आहे. / Article 168 deals with the composition of State Legislatures. Currently 6 States have a bicameral legislature (Assembly + Council) — Andhra Pradesh, Bihar, Maharashtra, Karnataka, Uttar Pradesh and Telangana; the rest are unicameral.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0015",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "उपराष्ट्रपती पदाच्या निवडणुकीस पात्र ठरण्यासाठी उमेदवाराचे किमान वय किती व तो कोणत्या सभागृहाचा सदस्य होण्यास पात्र असावा? (कलम 66) / To be eligible for election as Vice-President, what is the minimum age required and for membership of which House must the candidate be qualified? (Article 66)",
+    "options": [
+      "A. 30 वर्षे; लोकसभा / 30 years; Lok Sabha",
+      "B. 35 वर्षे; राज्यसभा / 35 years; Rajya Sabha",
+      "C. 35 वर्षे; लोकसभा / 35 years; Lok Sabha",
+      "D. 25 वर्षे; राज्यसभा / 25 years; Rajya Sabha"
+    ],
+    "answer": "B",
+    "explanation": "कलम 66(3) व 66(4) नुसार उपराष्ट्रपती पदासाठी उमेदवाराने 35 वर्षे पूर्ण केलेली असावी, तो भारताचा नागरिक असावा व राज्यसभेचा सदस्य म्हणून निवडून येण्यास पात्र असावा (लोकसभेचा नव्हे). / Under Article 66(3) and 66(4), a Vice-Presidential candidate must have completed 35 years, be a citizen of India, and be qualified for election as a member of the Rajya Sabha (not the Lok Sabha).",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0016",
+    "subject": "polity",
+    "subtopic": "constitution-framework",
+    "difficulty": "hard",
+    "language": "bilingual",
+    "question": "1950 च्या मूळ घटनेत भारतीय राज्यांचे चार-स्तरीय वर्गीकरण करण्यात आले होते. यातील 'भाग-क' (Part C) मध्ये किती राज्ये होती? / In 1950 the States were classified into a four-fold division. How many States were in 'Part C'?",
+    "options": [
+      "A. 9 राज्ये / 9 States",
+      "B. 10 राज्ये / 10 States",
+      "C. 1 राज्य / 1 State",
+      "D. 14 राज्ये / 14 States"
+    ],
+    "answer": "B",
+    "explanation": "1950 मध्ये: भाग-अ (9 राज्ये — पूर्वीची ब्रिटिश प्रांतांची, गव्हर्नरांची राज्ये), भाग-ब (9 राज्ये — राज्यप्रमुखांची/संस्थानांची), भाग-क (10 राज्ये — मुख्य आयुक्तांची/कमिशनरांची राज्ये) व भाग-ड (1 — अंदमान-निकोबार). / In 1950: Part A (9 governor's provinces), Part B (9 princely/rajpramukh States), Part C (10 chief-commissioner's States) and Part D (1 — Andaman & Nicobar).",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0017",
+    "subject": "polity",
+    "subtopic": "state-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "राज्यपालास सहाय्य व सल्ला देण्यासाठी मुख्यमंत्र्यांच्या नेतृत्वाखाली मंत्रिमंडळ असेल — ही तरतूद कोणत्या कलमात आहे? / Which Article provides that there shall be a Council of Ministers headed by the Chief Minister to aid and advise the Governor?",
+    "options": [
+      "A. कलम 153 / Article 153",
+      "B. कलम 155 / Article 155",
+      "C. कलम 163 / Article 163",
+      "D. कलम 356 / Article 356"
+    ],
+    "answer": "C",
+    "explanation": "कलम 163 नुसार राज्यपालाच्या स्वेच्छाधीन कार्ये वगळता, त्यांना सहाय्य व सल्ला देण्यासाठी मुख्यमंत्र्याच्या नेतृत्वाखाली एक मंत्रिमंडळ असेल. (कलम 153 = प्रत्येक राज्यास एक राज्यपाल; कलम 155 = राष्ट्रपतीकडून नियुक्ती.) / Article 163 provides for a Council of Ministers headed by the Chief Minister to aid and advise the Governor, except in matters requiring the Governor's discretion. (Article 153 = a Governor for each State; 155 = appointment by the President.)",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  },
+  {
+    "id": "polity-pyq-0018",
+    "subject": "polity",
+    "subtopic": "union-govt",
+    "difficulty": "medium",
+    "language": "bilingual",
+    "question": "पंतप्रधानाचे वर्णन 'समानांमधील पहिला' (first among equals / primus inter pares) असे कोणी केले? / Who described the Prime Minister as 'first among equals' (primus inter pares)?",
+    "options": [
+      "A. लॉर्ड मोर्ले / Lord Morley",
+      "B. रॅम्से म्यूर / Ramsay Muir",
+      "C. मन्रो / Munro",
+      "D. डॉ. आंबेडकर / Dr. Ambedkar"
+    ],
+    "answer": "A",
+    "explanation": "लॉर्ड मोर्ले यांनी पंतप्रधानाचे वर्णन 'समानांमधील पहिला' असे केले. रॅम्से म्यूर — 'राज्यरूपी जहाजाचा सुकाणू चालक'; मन्रो — 'ताऱ्यांमधील चंद्र'; डॉ. आंबेडकर यांनी पंतप्रधानाची तुलना अमेरिकन राष्ट्रपतीशी केली. / Lord Morley described the PM as 'first among equals'. Ramsay Muir — 'the steersman of the ship of state'; Munro — 'the moon among the stars'; Dr. Ambedkar compared the PM to the US President.",
+    "tags": ["pyq", "lokseva"],
+    "verifiedAt": "2026-07-12"
+  }
+]

@@ -20,11 +20,17 @@ describe("assembleMock", () => {
     const ids = assembleMock(pool, 100, 7).map((q) => q.id);
     expect(new Set(ids).size).toBe(ids.length);
   });
-  it("weights history (15 marks) more than economy (10 marks)", () => {
+  it("weights economy (15 marks) more than history (10 marks)", () => {
     const m = assembleMock(pool, 100, 7);
     const history = m.filter((q) => q.subject === "history").length;
     const economy = m.filter((q) => q.subject === "economy").length;
-    expect(history).toBeGreaterThan(economy);
+    expect(economy).toBeGreaterThan(history);
+  });
+  it("gives Maths (arithmetic 11 + reasoning 9 = 20) the largest share", () => {
+    const m = assembleMock(pool, 100, 7);
+    const maths = m.filter((q) => q.subject === "arithmetic" || q.subject === "reasoning").length;
+    const polity = m.filter((q) => q.subject === "polity").length;
+    expect(maths).toBeGreaterThan(polity); // 20 vs 15
   });
 });
 

@@ -1,6 +1,12 @@
 // Official MPSC Group-C Combined 2026 syllabus (Advt. 017/2026).
 // Source of truth: docs/official-syllabus-2026.md.
 // Prelims = 8 subjects (100 marks). Mains = Paper 1 Language (common) + Paper 2 (post-specific).
+//
+// Per-subject prelims `marks` = real question weightage, derived from Lokseva Academy's
+// "Combine 60+ Marks Strategy" PYQ analysis of the 3 most recent papers (1 Jun 2025,
+// 2 Feb 2025, 30 Apr 2023): Maths 20 (Arithmetic 11 + Reasoning 9), Polity 15,
+// Economy 15, Science 15, Current Affairs 15, History 10, Geography 10 = 100.
+// This weightage drives the mock assembler (src/lib/mock.ts).
 
 export type Stage = "prelims" | "mains";
 export type Post = "common" | "industry-inspector" | "technical-assistant";
@@ -27,7 +33,7 @@ export interface Subject {
 
 export const PRELIMS_SUBJECTS: Subject[] = [
   {
-    key: "history", label: "इतिहास", labelEn: "History", icon: "🏛️", marks: 15, stage: "prelims",
+    key: "history", label: "इतिहास", labelEn: "History", icon: "🏛️", marks: 10, stage: "prelims",
     subtopics: [
       { key: "ancient-medieval", label: "प्राचीन व मध्ययुगीन भारत", labelEn: "Ancient & Medieval India" },
       { key: "modern-india", label: "आधुनिक भारत", labelEn: "Modern India" },
@@ -36,7 +42,7 @@ export const PRELIMS_SUBJECTS: Subject[] = [
     ],
   },
   {
-    key: "geography", label: "भूगोल", labelEn: "Geography", icon: "🗺️", marks: 15, stage: "prelims",
+    key: "geography", label: "भूगोल", labelEn: "Geography", icon: "🗺️", marks: 10, stage: "prelims",
     subtopics: [
       { key: "maharashtra-geo", label: "महाराष्ट्र भूगोल", labelEn: "Maharashtra Geography" },
       { key: "india-geo", label: "भारत भूगोल", labelEn: "India Geography" },
@@ -55,7 +61,7 @@ export const PRELIMS_SUBJECTS: Subject[] = [
     ],
   },
   {
-    key: "current_affairs", label: "चालू घडामोडी", labelEn: "Current Affairs", icon: "📰", marks: 13, stage: "prelims",
+    key: "current_affairs", label: "चालू घडामोडी", labelEn: "Current Affairs", icon: "📰", marks: 15, stage: "prelims",
     subtopics: [
       { key: "national-intl", label: "राष्ट्रीय व आंतरराष्ट्रीय", labelEn: "National & International" },
       { key: "maharashtra-ca", label: "महाराष्ट्र घडामोडी", labelEn: "Maharashtra Affairs" },
@@ -63,7 +69,7 @@ export const PRELIMS_SUBJECTS: Subject[] = [
     ],
   },
   {
-    key: "science", label: "सामान्य विज्ञान", labelEn: "General Science", icon: "🔬", marks: 12, stage: "prelims",
+    key: "science", label: "सामान्य विज्ञान", labelEn: "General Science", icon: "🔬", marks: 15, stage: "prelims",
     subtopics: [
       { key: "physics", label: "भौतिकशास्त्र", labelEn: "Physics" },
       { key: "chemistry", label: "रसायनशास्त्र", labelEn: "Chemistry" },
@@ -73,7 +79,7 @@ export const PRELIMS_SUBJECTS: Subject[] = [
     ],
   },
   {
-    key: "economy", label: "अर्थशास्त्र", labelEn: "Economy", icon: "💰", marks: 10, stage: "prelims",
+    key: "economy", label: "अर्थशास्त्र", labelEn: "Economy", icon: "💰", marks: 15, stage: "prelims",
     subtopics: [
       { key: "national-income", label: "राष्ट्रीय उत्पन्न", labelEn: "National Income" },
       { key: "agriculture-eco", label: "कृषी अर्थव्यवस्था", labelEn: "Agriculture" },
@@ -84,7 +90,7 @@ export const PRELIMS_SUBJECTS: Subject[] = [
     ],
   },
   {
-    key: "arithmetic", label: "अंकगणित", labelEn: "Arithmetic", icon: "🔢", marks: 10, stage: "prelims",
+    key: "arithmetic", label: "अंकगणित", labelEn: "Arithmetic", icon: "🔢", marks: 11, stage: "prelims",
     subtopics: [
       { key: "number-system", label: "संख्या पद्धती", labelEn: "Number System" },
       { key: "commercial-maths", label: "वाणिज्य गणित", labelEn: "Commercial Maths" },
@@ -93,7 +99,7 @@ export const PRELIMS_SUBJECTS: Subject[] = [
     ],
   },
   {
-    key: "reasoning", label: "बुद्धिमत्ता चाचणी", labelEn: "Reasoning", icon: "🧠", marks: 10, stage: "prelims",
+    key: "reasoning", label: "बुद्धिमत्ता चाचणी", labelEn: "Reasoning", icon: "🧠", marks: 9, stage: "prelims",
     subtopics: [
       { key: "series-coding", label: "मालिका व कोडिंग", labelEn: "Series & Coding-Decoding" },
       { key: "relations-direction", label: "नातेसंबंध व दिशा", labelEn: "Relations & Direction" },

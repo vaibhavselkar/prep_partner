@@ -8,6 +8,7 @@ import { useLangPref, pickLang, pickOption, pickLangMultiline, prefToLanguage } 
 import { topicsFor, subjectTopicIds, allTopicIds } from "@/lib/syllabusTopics";
 import { useSyllabusProgress } from "@/lib/syllabusProgress";
 import { buildDailyPlan, type PlanItem } from "@/lib/dailyPlan";
+import { PDF_PLAN, PDF_PLAN_TASK_IDS } from "@/lib/pdfPlan";
 import { useDailyPlanDay } from "@/lib/useDailyPlanDay";
 
 const DAILY_PLAN = buildDailyPlan();
@@ -23,7 +24,7 @@ interface QuizQuestion {
   explanation: string;
 }
 
-type Tab = "overview" | "syllabus" | "chat" | "quiz" | "mock" | "notes" | "mynotes" | "strategy";
+type Tab = "overview" | "syllabus" | "chat" | "quiz" | "mock" | "notes" | "mynotes" | "strategy" | "plan";
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
@@ -944,6 +945,7 @@ export default function TechnicalSahayakPage() {
     { id: "notes", label: "अभ्यास नोट्स", labelEn: "Study Notes", icon: "📚" },
     { id: "mynotes", label: "माझ्या नोट्स", labelEn: "My Notes", icon: "🎤" },
     { id: "strategy", label: "रणनीती", labelEn: "Strategy", icon: "🎯" },
+    { id: "plan", label: "30-दिवस योजना", labelEn: "30-Day Plan", icon: "📅" },
   ];
 
   return (
@@ -1202,7 +1204,12 @@ export default function TechnicalSahayakPage() {
                 <div className="flex items-center gap-3 px-5 py-4 bg-bg-hover border-b border-gray-700/40">
                   <span className="text-2xl">{sub.icon}</span>
                   <div className="flex-1 min-w-0">
-                    <p className="font-semibold text-gray-200 font-devanagari">{L(sub.label, sub.labelEn)}</p>
+                    <div className="flex items-center gap-2">
+                      <p className="font-semibold text-gray-200 font-devanagari">{L(sub.label, sub.labelEn)}</p>
+                      <span className="bg-yellow-600/20 border border-yellow-500/30 text-yellow-300 text-[10px] px-2 py-0.5 rounded-full shrink-0 font-semibold">
+                        ~{sub.marks} {L("गुण", "marks")}
+                      </span>
+                    </div>
                     <div className="mt-1.5 h-1.5 bg-bg rounded-full overflow-hidden">
                       <div className="h-full bg-primary-500 rounded-full transition-all" style={{ width: `${subjPct}%` }} />
                     </div>
@@ -1339,6 +1346,69 @@ export default function TechnicalSahayakPage() {
 
       {/* ── Tab: My Voice Notes ──────────────────────────────────────────── */}
       {activeTab === "mynotes" && <MyNotesSection />}
+
+      {/* ── Tab: 30-Day Plan (from the 60+ Marks Strategy PDF) ───────────── */}
+      {activeTab === "plan" && (
+        <div className="space-y-4">
+          <div className="bg-yellow-900/20 border border-yellow-700/40 rounded-xl p-4 text-sm text-yellow-300 font-devanagari">
+            📅 {L(
+              "30 दिवसांत संपूर्ण पूर्व अभ्यासक्रम — लोकसेवा '60+ Marks Strategy' PDF नुसार. दररोज गणित (~2 तास) व चालू घडामोडी चालू ठेवा. प्रत्येक मुद्दा: Notes वाचा → Quiz सोडवा → इथे ✓ करा.",
+              "Full Prelims syllabus in 30 days — based on the Lokseva '60+ Marks Strategy' PDF. Keep Maths (~2 hr) & Current Affairs going daily. For each item: read Notes → take a Quiz → tick ✓ here."
+            )}
+          </div>
+
+          {/* Overall plan progress */}
+          {(() => {
+            const doneN = countDone(PDF_PLAN_TASK_IDS);
+            const pct = PDF_PLAN_TASK_IDS.length ? Math.round((doneN / PDF_PLAN_TASK_IDS.length) * 100) : 0;
+            return (
+              <div className="bg-bg-card border border-primary-700/40 rounded-xl p-4 space-y-2">
+                <div className="flex items-center justify-between">
+                  <h2 className="font-semibold text-gray-200 font-devanagari">{L("योजना प्रगती", "Plan Progress")}</h2>
+                  <span className="text-primary-300 font-bold text-sm">{doneN}/{PDF_PLAN_TASK_IDS.length} · {pct}%</span>
+                </div>
+                <div className="h-2 bg-bg rounded-full overflow-hidden">
+                  <div className="h-full bg-primary-500 rounded-full transition-all" style={{ width: `${pct}%` }} />
+                </div>
+              </div>
+            );
+          })()}
+
+          {PDF_PLAN.map((d) => {
+            const rows = [
+              ...d.main.map((it) => ({ it, band: false })),
+              { it: d.maths, band: true },
+              { it: d.ca, band: true },
+            ];
+            const ids = rows.map((r) => r.it.id);
+            const dn = countDone(ids);
+            return (
+              <div key={d.day} className="bg-bg-card border border-gray-700/50 rounded-xl overflow-hidden">
+                <div className="flex items-center gap-3 px-5 py-3 bg-bg-hover border-b border-gray-700/40">
+                  <span className="text-xl">{d.icon}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="font-semibold text-gray-200 font-devanagari">{L(`दिवस ${d.day}`, `Day ${d.day}`)} · {L(d.phaseMr, d.phaseEn)}</p>
+                  </div>
+                  <span className="bg-primary-600/20 border border-primary-500/30 text-primary-300 text-xs px-3 py-1 rounded-full shrink-0">{dn}/{ids.length}</span>
+                </div>
+                <ul className="px-5 py-3 space-y-0.5">
+                  {rows.map(({ it, band }) => {
+                    const done = isDone(it.id);
+                    return (
+                      <li key={it.id}>
+                        <button onClick={() => toggle(it.id)} className="w-full flex items-start gap-2.5 text-left py-1.5 group">
+                          <span className={`mt-0.5 w-4 h-4 rounded border shrink-0 flex items-center justify-center text-[10px] transition-colors ${done ? "bg-primary-600 border-primary-500 text-white" : "border-gray-600 text-transparent group-hover:border-primary-500"}`}>✓</span>
+                          <span className={`text-sm font-devanagari ${done ? "text-gray-500 line-through" : band ? "text-yellow-300/90" : "text-gray-200"}`}>{L(it.mr, it.en)}</span>
+                        </button>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            );
+          })}
+        </div>
+      )}
 
       {/* ── Tab: Strategy ────────────────────────────────────────────────── */}
       {activeTab === "strategy" && (
