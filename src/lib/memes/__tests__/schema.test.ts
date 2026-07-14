@@ -37,6 +37,11 @@ describe("validateSpec", () => {
     expect(r.ok).toBe(false);
     expect(r.errors.join(" ")).toMatch(/sourceRef|digest/);
   });
+  it("rejects factLine without sourceRef", () => {
+    const r = validateSpec({ ...base, factLine: "F" }, { digest, templates });
+    expect(r.ok).toBe(false);
+    expect(r.errors.join(" ")).toMatch(/sourceRef/);
+  });
   it("accepts a factual spec with a valid sourceRef", () => {
     expect(validateSpec({ ...base, factLine: "F", sourceRef: "history-x-0001" }, { digest, templates }).ok).toBe(true);
   });
