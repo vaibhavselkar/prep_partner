@@ -4,6 +4,8 @@
 
 **Goal:** Build a local, repeatable engine that turns the verified MPSC study material into real meme-template images (Claude writes captions, overlaid on template art → PNG), plus a local Accept/Deny review page — with facts drawn only from the verified bank/notes.
 
+**Operating model (decided 2026-07-14):** the engine generates a **daily pool of ~20 memes**; the user reviews the pool, marks the best **5–8** as approved, copies each approved meme's caption from the review page, and **posts manually** to Instagram. Auto-posting (Instagram Graph API + scheduler) is **shelved** — not built. The review page therefore doubles as the "pick + copy caption" tool. A daily scheduler to run the generator is a follow-up once quality at volume is proven.
+
 **Architecture:** Pure, testable logic lives in `src/lib/memes/*.ts` (Vitest picks up `src/**/*.test.ts`). The imperative shell — Claude CLI invocation, Playwright rendering, the review HTTP server, and CLI entry points — lives in `scripts/memes/*.ts`, run directly by Node 24's native TypeScript execution (no build step). A batch run does: gather material digest → Claude authors `MemeSpec[]` → validate (structure + facts-only rule) → compose HTML (template image + text zones) → Playwright screenshot → write PNGs + `manifest.json` (status `pending`). `npm run review` serves an Accept/Deny gallery that flips manifest status.
 
 **Tech Stack:** TypeScript, Node 24 (native `.ts` execution), Vitest, Playwright (chromium), Claude CLI (`claude -p`), Node `http`/`fs` for the review server. No new runtime deps for the Next app.
@@ -1077,7 +1079,7 @@ git commit -m "feat(memes): Playwright render + manifest merge/status ops"
 - Consumes: `gatherDigest`, `loadTemplates`, `authorSpecs`, `getTemplate`, `renderMeme`, `mergeManifest`, types.
 - Produces: `assembleBatch(specs: MemeSpec[], date: string): MemeRecord[]`; `main()` (CLI).
 
-CLI flags: `--count` (default 8), `--subject`, `--lang` (default balanced), `--date` (default: read from `process.env` or arg — **no `Date.now()` in lib**; the CLI computes the date string via `new Date().toISOString().slice(0,10)` which is allowed in a script entry, not in `src/lib`).
+CLI flags: `--count` (default 20 — the daily pool size), `--subject`, `--lang` (default balanced), `--date` (default: read from `process.env` or arg — **no `Date.now()` in lib**; the CLI computes the date string via `new Date().toISOString().slice(0,10)` which is allowed in a script entry, not in `src/lib`).
 
 - [ ] **Step 1: Write the failing test**
 
@@ -1130,7 +1132,7 @@ function arg(name: string, def?: string): string | undefined {
 }
 
 async function main() {
-  const count = Number(arg("count", "8"));
+  const count = Number(arg("count", "20"));
   const subject = arg("subject");
   const langMix = arg("lang", "balanced")!;
   const date = arg("date") ?? new Date().toISOString().slice(0, 10);
