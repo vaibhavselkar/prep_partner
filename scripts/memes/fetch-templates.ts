@@ -42,11 +42,11 @@ const TEMPLATES: Template[] = [
   { id: "change-my-mind", file: "change-my-mind.jpg", width: 482, height: 361, zones: [
     { id: "sign", x: 150, y: 210, w: 300, h: 90, align: "center", valign: "center", color: "#111", style: "plain", fontSize: 22 },
   ]},
-  { id: "gru-plan", file: "gru-plan.jpg", width: 700, height: 707, zones: [
-    { id: "s1", x: 20,  y: 10,  w: 320, h: 160, align: "center", valign: "center", color: "#111", style: "plain", fontSize: 24 },
-    { id: "s2", x: 360, y: 10,  w: 320, h: 160, align: "center", valign: "center", color: "#111", style: "plain", fontSize: 24 },
-    { id: "s3", x: 20,  y: 360, w: 320, h: 160, align: "center", valign: "center", color: "#111", style: "plain", fontSize: 24 },
-    { id: "s4", x: 360, y: 360, w: 320, h: 160, align: "center", valign: "center", color: "#111", style: "plain", fontSize: 24 },
+  { id: "gru-plan", file: "gru-plan.jpg", width: 700, height: 449, zones: [
+    { id: "s1", x: 20,  y: 120, w: 320, h: 90, align: "center", valign: "center", color: "#111", style: "plain", fontSize: 22 },
+    { id: "s2", x: 360, y: 120, w: 320, h: 90, align: "center", valign: "center", color: "#111", style: "plain", fontSize: 22 },
+    { id: "s3", x: 20,  y: 345, w: 320, h: 90, align: "center", valign: "center", color: "#111", style: "plain", fontSize: 22 },
+    { id: "s4", x: 360, y: 345, w: 320, h: 90, align: "center", valign: "center", color: "#111", style: "plain", fontSize: 22 },
   ]},
 ];
 
