@@ -1,114 +1,112 @@
-# Instagram Auto-Posting — One-Time Setup Checklist
+# Instagram Auto-Posting — One-Time Setup (Instagram-only, no Facebook Page)
 
-Goal: end up with **three values** the local poster needs — `IG_USER_ID`, a long-lived `IG_ACCESS_TOKEN`, and your App ID/Secret (for auto-refresh). Total time ~20–30 min. Everything here is the official, ToS-safe Instagram Graph API path.
+Goal: end up with **three values** the local poster needs — `IG_USER_ID`, a long-lived `IG_ACCESS_TOKEN`, and your App ID/Secret (for auto-refresh). Total time ~15–20 min.
 
-> Keep the app in **Development mode** the whole time. For posting to *your own* account you do **not** need Meta App Review.
+This uses **"Instagram API with Instagram Login"** — the modern path that authenticates directly against the Instagram account. **No Facebook Page and no Facebook login required.** All API calls use `graph.instagram.com`.
+
+> You still need a Meta developer *app* (the API is Meta's) — but nothing on the Facebook side. Keep the app in **Development mode**; posting to your own account needs no App Review.
 
 ---
 
-## Part A — Instagram account → Creator (3 min)
+## Part A — Instagram account → Professional (Creator/Business) (3 min)
 
 - [ ] A1. Create (or open) the Instagram account you'll post from.
-- [ ] A2. In the Instagram app: **Settings and privacy → Account type and tools → Switch to professional account**.
-- [ ] A3. Pick a category (e.g. "Education") → choose **Creator** (or Business; both work) → finish.
+- [ ] A2. Instagram app → **Settings and privacy → Account type and tools → Switch to professional account**.
+- [ ] A3. Pick a category (e.g. "Education") → choose **Creator** (or Business) → finish.
 
-*Result:* the account is now API-eligible. It stays public and looks normal to followers.
-
----
-
-## Part B — Facebook Page + link it (5 min)
-
-The API requires the Instagram account to be linked to a Facebook Page.
-
-- [ ] B1. Go to **https://www.facebook.com/pages/create** → create a Page (any name, e.g. "Marathi Notes AI"; any category). A throwaway Page is fine.
-- [ ] B2. Go to **https://business.facebook.com** (Meta Business Suite). Top-left, select your new Page.
-- [ ] B3. **Settings → Linked accounts → Instagram → Connect account** → log in to the Instagram account → confirm.
-
-*Result:* Page ↔ Instagram are linked. Verify in Business Suite that the IG account shows as connected.
+*Result:* the account is API-eligible. Stays public, looks normal to followers.
 
 ---
 
-## Part C — Meta developer app (5 min)
+## Part B — Meta developer app with the Instagram product (5 min)
 
-- [ ] C1. Go to **https://developers.facebook.com** → log in with the **same Facebook account** that owns the Page → accept the developer terms if prompted.
-- [ ] C2. **My Apps → Create App**.
-- [ ] C3. Use case: choose **Other** → **Next** → app type **Business** → **Next**.
-- [ ] C4. Name the app (e.g. "mpsc-meme-poster") → create. You may be asked to re-enter your password.
-- [ ] C5. On the app dashboard, find **Add products** → add **Instagram** (the "Instagram Graph API" / "Instagram" product) → **Set up**.
-- [ ] C6. Copy from **App settings → Basic**:
-  - **App ID** → save as `META_APP_ID`
-  - **App Secret** (click *Show*) → save as `META_APP_SECRET`
-
-*Result:* you have an app with the Instagram product and your App ID + Secret.
+- [ ] B1. Go to **https://developers.facebook.com** → log in → accept developer terms if prompted.
+- [ ] B2. **My Apps → Create App**.
+- [ ] B3. App name (e.g. "mpsc-meme-poster") → for use case, pick the one offering **Instagram** (or choose **Other → Business**) → create.
+- [ ] B4. On the dashboard: **Add product → Instagram → Set up**, and choose **"API setup with Instagram login"** (NOT "with Facebook login").
+- [ ] B5. From **App settings → Basic**, copy:
+  - **App ID** → `META_APP_ID`  *(value #3a)*
+  - **App Secret** (click *Show*) → `META_APP_SECRET`  *(value #3b)*
 
 ---
 
-## Part D — Permissions + tokens (10 min)
+## Part C — Connect the Instagram account + get a token (7 min)
 
-### D1. Generate a short-lived user token
-- [ ] Open **https://developers.facebook.com/tools/explorer** (Graph API Explorer).
-- [ ] Top-right **Meta App** dropdown → select your app.
-- [ ] **Add permissions** (Permissions dropdown) — tick all of:
-  - `instagram_basic`
-  - `instagram_content_publish`
-  - `pages_show_list`
-  - `pages_read_engagement`
-  - `business_management`
-- [ ] Click **Generate Access Token** → a Facebook dialog opens → **select your Page and Instagram account** → approve.
-- [ ] Copy the token shown — this is your **short-lived** user token (valid ~1 hour). Call it `SHORT_TOKEN`.
+All of this is inside **Instagram → API setup with Instagram login** on your app dashboard.
 
-### D2. Find your Page ID
-- [ ] In the Explorer's query box, run: `me/accounts` → **Submit**.
-- [ ] In the response, find your Page and copy its `id` → call it `PAGE_ID`.
+- [ ] C1. Under **"1. Generate access tokens"** (or "Add account"), click **Add account** → an Instagram login opens → log into your professional account → **Authorize**.
+- [ ] C2. When authorizing, make sure these scopes are granted:
+  - `instagram_business_basic`
+  - `instagram_business_content_publish`
+- [ ] C3. Click **Generate token** for that account → copy it. This is a **short-lived** Instagram user token (~1 hour). Call it `SHORT_TOKEN`.
 
-### D3. Find your Instagram Business Account ID
-- [ ] Run this query in the Explorer:
-  `PAGE_ID?fields=instagram_business_account`
-  (replace `PAGE_ID` with the real id)
-- [ ] The response contains `"instagram_business_account": { "id": "17841400000000000" }`.
-- [ ] Copy that inner `id` → this is your **`IG_USER_ID`**. ✅ (value #1)
-
-### D4. Exchange for a long-lived token (60 days)
-- [ ] Open this URL in your browser, filling in the three placeholders:
+### C4. Get your Instagram user ID
+- [ ] Open this URL in a browser (paste your `SHORT_TOKEN`):
 
 ```
-https://graph.facebook.com/v21.0/oauth/access_token?grant_type=fb_exchange_token&client_id=META_APP_ID&client_secret=META_APP_SECRET&fb_exchange_token=SHORT_TOKEN
+https://graph.instagram.com/me?fields=user_id,username&access_token=SHORT_TOKEN
 ```
 
-- [ ] The JSON response has `"access_token": "EAAG..."` → this is your **long-lived `IG_ACCESS_TOKEN`**. ✅ (value #2)
+- [ ] The response has `"user_id": "17841400000000000"` → that's your **`IG_USER_ID`**. ✅ (value #1)
 
-*(The poster will auto-refresh this before day 60 using your App ID/Secret — value #3.)*
+### C5. Exchange for a long-lived token (60 days)
+- [ ] Open this URL (fill `META_APP_SECRET` and `SHORT_TOKEN`):
+
+```
+https://graph.instagram.com/access_token?grant_type=ig_exchange_token&client_secret=META_APP_SECRET&access_token=SHORT_TOKEN
+```
+
+- [ ] The response has `"access_token": "IGAA..."` → that's your long-lived **`IG_ACCESS_TOKEN`**. ✅ (value #2)
+
+*(Refreshing later is one call: `https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=IG_ACCESS_TOKEN`. The poster does this automatically before day 60.)*
 
 ---
 
-## Part E — Hand off the values (safely)
+## Part D — Hand off the values (safely)
 
-Put the three values into a **local, gitignored** file rather than pasting the token in chat if you can:
-
-- [ ] Create `prep_partner/.env.local` (already gitignored) with:
+- [ ] Put them in `prep_partner/.env.local` (gitignored — never commit):
 
 ```
 IG_USER_ID=17841400000000000
-IG_ACCESS_TOKEN=EAAG...your-long-lived-token...
+IG_ACCESS_TOKEN=IGAA...your-long-lived-token...
 META_APP_ID=1234567890
 META_APP_SECRET=abcd...
 ```
 
-- [ ] Tell me it's ready, and I'll wire the local poster to read from it and do a single real test post.
+- [ ] Tell me it's ready — I'll wire the local poster and do one real test post.
 
-> Security note: the access token is like a password to post as you. Don't commit it, don't share it publicly. If it ever leaks, regenerate it in the Graph API Explorer (which invalidates the old one).
+> Security: the token can post as you. Keep it in `.env.local`, don't share publicly. If it leaks, regenerate (invalidates the old one).
 
 ---
 
-## Quick reference — the 3 values the poster needs
+## How the poster will publish (for reference)
+
+Instagram content publishing is always **2 calls**, and the image must be at a **public URL** (Instagram fetches it — a local file path won't work):
+
+```
+1) POST https://graph.instagram.com/v21.0/{IG_USER_ID}/media
+      ?image_url=<public-png-url>&caption=<text>&access_token=<token>
+   -> returns { "id": "<creation_id>" }
+
+2) POST https://graph.instagram.com/v21.0/{IG_USER_ID}/media_publish
+      ?creation_id=<creation_id>&access_token=<token>
+   -> returns the published media id
+```
+
+For the public URL in a local setup: push the approved PNG to a public GitHub repo (use its `raw.githubusercontent.com` link), or a free image host, or a quick tunnel. We'll pick one when wiring the poster.
+
+---
+
+## Quick reference — the 3 values
 
 | Value | Source | Example |
 |---|---|---|
-| `IG_USER_ID` | Part D3 | `17841400000000000` |
-| `IG_ACCESS_TOKEN` | Part D4 (long-lived) | `EAAG...` |
-| `META_APP_ID` + `META_APP_SECRET` | Part C6 (for auto-refresh) | `1234567890` / `abcd...` |
+| `IG_USER_ID` | Part C4 (`/me?fields=user_id`) | `17841400000000000` |
+| `IG_ACCESS_TOKEN` | Part C5 (long-lived) | `IGAA...` |
+| `META_APP_ID` + `META_APP_SECRET` | Part B5 | `1234567890` / `abcd...` |
 
 ## Common gotchas
-- **"instagram_business_account" is null** → the Page isn't linked to Instagram yet (redo Part B), or the IG account isn't Creator/Business (redo Part A).
-- **Token expired after an hour** → you copied the short-lived token; do the Part D4 exchange to get the 60-day one.
-- **Permission error on publish** → make sure `instagram_content_publish` was ticked in D1 and you're the account admin (dev mode is fine for your own account).
+- **Can't find "API setup with Instagram login"** → make sure you added the **Instagram** product (not "Facebook Login"); pick the Instagram-login option, not the Facebook-login one.
+- **Token expired in an hour** → you kept the short-lived token; do the Part C5 exchange for the 60-day one.
+- **Publish fails with a permission error** → `instagram_business_content_publish` wasn't granted in C2; remove and re-add the account, re-authorizing that scope.
+- **Account not eligible** → it must be **Creator/Business** (Part A), not a plain personal account.
