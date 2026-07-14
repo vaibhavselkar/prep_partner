@@ -15,7 +15,7 @@ Turn the existing MPSC Group-C study material (`prep_partner/src/data/bank/*.jso
 **Non-negotiable trust rule:** MPSC aspirants will treat these as factual. Any meme that makes a factual claim may use **only** facts present in the material digest handed to Claude (the verified bank + notes). No free-recall general knowledge. Relatable "study struggle" memes with no factual claim are allowed and encouraged.
 
 ### Locked decisions (from brainstorming)
-- **Format:** Claude-designed HTML → PNG. No external image-generation API.
+- **Format:** **Real meme-template images** (Drake, Two Buttons, Gru's Plan, etc.) with Claude-written captions overlaid, rendered to PNG. No external image-generation API. (Revised 2026-07-14 after a hand-built Drake sample: designed "poster cards" were rejected in favor of authentic meme templates — see `memes/out/2026-07-14/mpsc-drake-meme.png`.)
 - **Language/tone:** bilingual balanced — a mix of pure-Marathi, pure-English, and Marathi-English-mix memes; humor-forward with some motivational.
 - **Delivery:** repeatable batch generator script (`npm run make:memes`).
 - **Review:** simple local web page with Approve/Reject, writing status to the manifest.
@@ -33,10 +33,13 @@ prep_partner/
     gather.mjs          # sample verified bank + notes -> compact "material digest"
     author.mjs          # build prompt, invoke `claude -p`, parse + validate MemeSpec[]
     schema.mjs          # MemeSpec definition + validate()
-    templates.mjs       # 4 HTML/CSS meme layouts (bilingual-aware, branded)
-    render.mjs          # Playwright chromium: HTML -> 1080x1080 PNG
+    compose.mjs         # build overlay HTML: template image + text zones -> HTML string
+    render.mjs          # Playwright chromium: HTML -> PNG (template's native size)
     review-server.mjs   # standalone local http server: gallery + approve/reject
   scripts/make-memes.mjs        # orchestrator CLI (gather -> author -> render -> manifest)
+  scripts/fetch-templates.mjs   # one-time: download template images into assets/memes/templates/
+  assets/memes/templates/*.jpg  # real meme template images (Drake, Two Buttons, ...)
+  assets/memes/templates.json   # per-template text-zone geometry + metadata (see below)
   assets/fonts/NotoSansDevanagari-Regular.ttf
   assets/fonts/NotoSansDevanagari-Bold.ttf
   memes/out/<YYYY-MM-DD>/
@@ -85,17 +88,19 @@ YOU approve/reject in browser -> manifest status updated ("approved"/"rejected")
 - **Used as:** `validate(spec, digest) -> { ok, errors }`.
 - **Depends on:** nothing (hand-written validator; no zod needed, keeps deps minimal).
 
-### 3.4 `templates.mjs`
-- **What:** pure functions `spec -> HTML string` for 4 layouts. Bilingual-aware (renders Devanagari + Latin), branded (consistent palette, app wordmark, bundled Noto Sans Devanagari via `@font-face` data/`file://`). 1080×1080 canvas.
-  - `drake` — two panels: ❌ wrong method / ✅ right method.
-  - `brain` — expanding-brain escalating study levels.
-  - `relatable` — single struggle line, big type (no factual claim).
-  - `factflex` — one punchy verified fact, source-tagged footer.
-- **Used as:** `renderHtml(spec) -> string`.
-- **Depends on:** bundled font files.
+### 3.4 `compose.mjs` (template + text overlay)
+- **What:** pure function `spec -> HTML string` that lays the chosen **real meme-template image** as a full-bleed background and positions each caption in the template's declared **text zones** (from `templates.json`). Bilingual-aware: Marathi/mix zones use bundled bold Noto Sans Devanagari; English-only memes may opt into the classic Impact "meme font" look per zone. Renders at the template's native pixel size.
+- **Text-zone model (`templates.json`):** each template entry declares its image file, native `width`/`height`, and an array of `zones`, each `{ id, x, y, w, h, align, valign, defaultColor, style }` (style = `plain` bold Devanagari, or `impact` upper-cased white-with-black-outline for English). Claude fills zones by `id`.
+  - Starter templates (6–8): `drake` (2 zones: reject/approve), `two-buttons` (2 button labels + optional sweat caption), `gru-plan` (4 panels), `distracted-boyfriend` (3 labels), `expanding-brain` (N escalating panels), `change-my-mind` (1 sign line), plus 1–2 more.
+- **Used as:** `composeHtml(spec, template) -> string`.
+- **Depends on:** `assets/memes/templates/*.jpg`, `templates.json`, bundled font files.
+
+### 3.4a `fetch-templates.mjs` (one-time setup)
+- **What:** downloads the starter template images into `assets/memes/templates/` from a public template source and writes/validates `templates.json`. Run once; images are then committed and used offline. Documented, idempotent, not part of the per-batch run.
+- **Used as:** `node scripts/fetch-templates.mjs`.
 
 ### 3.5 `render.mjs`
-- **What:** launches Playwright chromium, sets viewport 1080×1080 dpr 2, sets content to the template HTML, waits for fonts, screenshots to PNG.
+- **What:** launches Playwright chromium, sets the viewport to the template's native size, sets content to the composed HTML, waits for the template image + fonts to load, screenshots to PNG.
 - **Used as:** `renderPng(html, outPath) -> Promise<void>`. Per-meme failure is caught and skipped; batch continues.
 - **Depends on:** `playwright` (new devDependency; chromium installed via `npx playwright install chromium`).
 
@@ -119,12 +124,14 @@ YOU approve/reject in browser -> manifest status updated ("approved"/"rejected")
   "id": "history-ancient-medieval-0001-drake",  // subject-subtopic-source-template or generated
   "subject": "history",
   "subtopic": "ancient-medieval",
-  "template": "drake",                 // drake | brain | relatable | factflex
+  "template": "drake",                 // id from templates.json
   "lang": "mix",                       // mr | en | mix
-  "topText": "...",                    // template-dependent fields
-  "bottomText": "...",
-  "panels": [{ "label": "...", "text": "..." }],  // for brain
-  "factLine": "The Great Bath was found at Mohenjo-daro",  // factflex only
+  "zones": {                           // keyed by the template's zone ids
+    "reject": "संपूर्ण syllabus एका रात्रीत उरकायचा प्लॅन",
+    "approve": "रोज ३० PYQ, ६ महिने सलग 🔥"
+  },
+  "caption": "Exam mode activated 😤 #MPSC",   // the Instagram post caption (Phase 2)
+  "factLine": "The Great Bath was found at Mohenjo-daro",  // present only for factual memes
   "tag": "#MPSC #इतिहास",
   "altText": "accessible description of the meme",
   "sourceRef": "history-ancient-medieval-0001"   // bank/note id; required if factual
@@ -159,7 +166,8 @@ YOU approve/reject in browser -> manifest status updated ("approved"/"rejected")
 ## 6. Testing (Vitest, matches existing `npm test`)
 
 - **schema.test:** valid spec passes; missing required field fails; factual spec with a `sourceRef` absent from digest fails (trust rule); relatable spec with no fact passes without sourceRef.
-- **templates.test:** each of the 4 templates returns HTML containing the spec's text and the expected structural markers; Devanagari string survives into the HTML unescaped-broken.
+- **compose.test:** for each template, `composeHtml` returns HTML referencing the correct template image and placing each zone's text at the declared geometry; a spec with an unknown `template` or a zone id not in `templates.json` is rejected; Devanagari strings survive into the HTML intact.
+- **templates.json validity:** every template file referenced exists on disk and every zone has complete geometry.
 - **render smoke test:** a fixture spec → real PNG on disk that is non-empty and PNG-magic-bytes valid. (Guarded to skip if chromium not installed, so CI without browsers still green.)
 - **manifest merge:** re-running author over an existing manifest preserves `approved`/`rejected` statuses.
 
@@ -181,5 +189,6 @@ Not tested (manual): the review-server UI interactions and actual Claude authori
 
 - `playwright` (devDependency) + `npx playwright install chromium` (one-time).
 - Two bundled font files (Noto Sans Devanagari Regular + Bold), committed under `assets/fonts/`.
+- 6–8 real meme **template images**, downloaded once via `fetch-templates.mjs` and committed under `assets/memes/templates/`. These are third-party meme templates reused broadly across the internet; acceptable at pilot scale. Fully-original imagery (image-model) is out of scope.
 - No new runtime deps for the Next app itself.
 ```
