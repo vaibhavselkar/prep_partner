@@ -21,11 +21,27 @@ export interface MemeReviewRecord {
 const MANIFEST_PATH = join(process.cwd(), "data", "memes-manifest.json");
 
 export async function readMemes(): Promise<MemeReviewRecord[]> {
+  let raw: string;
   try {
-    return JSON.parse(await readFile(MANIFEST_PATH, "utf8")) as MemeReviewRecord[];
-  } catch {
-    return [];
+    raw = await readFile(MANIFEST_PATH, "utf8");
+  } catch (e) {
+    if ((e as NodeJS.ErrnoException).code === "ENOENT") return [];
+    throw e;
   }
+  try {
+    return JSON.parse(raw) as MemeReviewRecord[];
+  } catch (e) {
+    throw new Error(
+      `Failed to parse meme manifest at ${MANIFEST_PATH}: ${(e as Error).message}`,
+    );
+  }
+}
+
+let writeLock: Promise<unknown> = Promise.resolve();
+function serialize<T>(fn: () => Promise<T>): Promise<T> {
+  const run = writeLock.then(fn, fn);
+  writeLock = run.catch(() => {});
+  return run;
 }
 
 export async function setMemeStatus(
@@ -33,10 +49,12 @@ export async function setMemeStatus(
   status: MemeReviewStatus,
   reviewedAt: string,
 ): Promise<MemeReviewRecord[]> {
-  const memes = await readMemes();
-  const next = memes.map((m) => (m.id === id ? { ...m, status, reviewedAt } : m));
-  await writeFile(MANIFEST_PATH, JSON.stringify(next, null, 2));
-  return next;
+  return serialize(async () => {
+    const memes = await readMemes();
+    const next = memes.map((m) => (m.id === id ? { ...m, status, reviewedAt } : m));
+    await writeFile(MANIFEST_PATH, JSON.stringify(next, null, 2));
+    return next;
+  });
 }
 
 /** Shape of a generated meme record (subset of the engine's MemeRecord). */
@@ -73,10 +91,12 @@ export function toReviewRecord(m: GeneratedMeme): MemeReviewRecord {
 
 /** Add new review records by id, preserving existing records' status/reviewedAt. */
 export async function mergeReviewRecords(incoming: MemeReviewRecord[]): Promise<MemeReviewRecord[]> {
-  const existing = await readMemes();
-  const byId = new Map(existing.map((m) => [m.id, m]));
-  for (const r of incoming) if (!byId.has(r.id)) byId.set(r.id, r);
-  const next = [...byId.values()];
-  await writeFile(MANIFEST_PATH, JSON.stringify(next, null, 2));
-  return next;
+  return serialize(async () => {
+    const existing = await readMemes();
+    const byId = new Map(existing.map((m) => [m.id, m]));
+    for (const r of incoming) if (!byId.has(r.id)) byId.set(r.id, r);
+    const next = [...byId.values()];
+    await writeFile(MANIFEST_PATH, JSON.stringify(next, null, 2));
+    return next;
+  });
 }

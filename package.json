@@ -12,8 +12,7 @@
     "build:bank": "node scripts/build-bank.mjs && node scripts/build-notes.mjs",
     "prebuild": "node scripts/build-bank.mjs && node scripts/build-notes.mjs",
     "memes:setup": "node scripts/memes/fetch-templates.ts",
-    "make:memes": "node scripts/memes/make-memes.ts",
-    "review": "node scripts/memes/review-server.ts"
+    "make:memes": "node scripts/memes/make-memes.ts"
   },
   "dependencies": {
     "@ai-sdk/groq": "^1.2.9",
