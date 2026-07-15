@@ -105,5 +105,46 @@
     "status": "pending",
     "createdAt": "2026-07-15",
     "reviewedAt": null
+  },
+  {
+    "id": "mercury-only-liquid-metal-drake",
+    "file": "mercury-only-liquid-metal-drake.png",
+    "subject": "science",
+    "subtopic": "chemistry",
+    "template": "drake",
+    "lang": "mr",
+    "kind": "factual",
+    "sourceRef": "science-chemistry-0006",
+    "caption": "पारा म्हणजे केमिस्ट्रीचा 'हटके' विद्यार्थी — सगळे घन, हा एकटाच द्रव! 🧪😎 #MPSC ला हा प्रश्न ठरलेला.",
+    "status": "pending",
+    "createdAt": "2026-07-15",
+    "reviewedAt": null
+  },
+  {
+    "id": "new-maharashtra-governor-distracted",
+    "file": "new-maharashtra-governor-distracted.png",
+    "subject": "current_affairs",
+    "subtopic": "maharashtra-ca",
+    "template": "distracted-boyfriend",
+    "lang": "mix",
+    "kind": "factual",
+    "sourceRef": "current_affairs-maharashtra-ca-0001",
+    "caption": "Current affairs update नाही केलं तर मार्क तिकडेच जातात! 😅 राज्यपाल बदलले, तुमचं GK अपडेट झालं का? 📰",
+    "status": "pending",
+    "createdAt": "2026-07-15",
+    "reviewedAt": null
+  },
+  {
+    "id": "number-system-struggle-gru",
+    "file": "number-system-struggle-gru.png",
+    "subject": "arithmetic",
+    "subtopic": "number-system",
+    "template": "gru-plan",
+    "lang": "mix",
+    "kind": "relatable",
+    "caption": "Number system: सुरुवात confidence ने, शेवट calculator शोधण्यात! 😭 कोणाचं असंच होतं? 🙋 #StudyStruggle",
+    "status": "pending",
+    "createdAt": "2026-07-15",
+    "reviewedAt": null
   }
 ]
