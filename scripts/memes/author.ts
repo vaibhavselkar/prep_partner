@@ -8,7 +8,7 @@ export type ModelRunner = (prompt: string) => Promise<string>;
 
 export function claudeRunner(prompt: string): Promise<string> {
   return new Promise((resolve, reject) => {
-    const child = spawn("claude", ["-p", "--output-format", "text"], { stdio: ["pipe", "pipe", "inherit"] });
+    const child = spawn("claude", ["-p", "--output-format", "text"], { stdio: ["pipe", "pipe", "inherit"], shell: true });
     let out = "";
     child.stdout.on("data", (d) => (out += d.toString()));
     child.on("error", reject);
