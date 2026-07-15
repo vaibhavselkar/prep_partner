@@ -21,6 +21,41 @@ syllabus (`docs/official-syllabus-2026.md`):
 
 Run tests: `npm test` (Vitest). Regenerate the bank/notes bundles: `npm run build:bank`.
 
+## 🖼️ Meme engine (`/memes`)
+
+Turns the verified study material into shareable **image memes** (real meme
+templates + AI-written bilingual captions), with an in-app review gate. You post
+the ones you approve to Instagram manually.
+
+**One-time setup** (downloads template images + a Devanagari font, ~once):
+```bash
+npm run memes:setup        # writes assets/memes/templates.json + template jpgs + font
+npx playwright install chromium
+```
+
+**Generate a batch** (Claude CLI authors captions from the verified bank/notes,
+Playwright renders PNGs, and the batch auto-publishes into the review page):
+```bash
+npm run make:memes -- --count 20                 # daily pool of ~20
+npm run make:memes -- --count 10 --subject history
+```
+Output PNGs + `manifest.json` land in `memes/out/<date>/`; approved-for-review
+copies land in `public/memes/` and `data/memes-manifest.json`.
+
+**Review + post** — run the app (`npm run dev`) and open **`/memes`**:
+- Each meme shows its image, a **✅ Verified** badge (with source-question id) for
+  factual memes or **😄 Relatable** for the rest, and the full caption.
+- **Accept** the ones to post / **Deny** the rest; **Copy caption** and **Download**,
+  then upload to Instagram yourself. Decisions persist to `data/memes-manifest.json`.
+
+**Trust rule:** any meme making a factual claim uses only facts present in the
+verified bank/notes handed to Claude, and carries a `sourceRef` to that fact
+(enforced in `src/lib/memes/schema.ts`). Relatable/struggle memes carry no fact.
+
+Instagram auto-posting (Graph API + scheduler) is intentionally **not** built —
+posting is manual. See `docs/superpowers/instagram-setup-checklist.md` if you
+ever want the official API route.
+
 ## Features
 
 - 📄 **PDF Upload** — Upload scanned Marathi notes, extract text automatically

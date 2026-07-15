@@ -45,3 +45,8 @@ maharashtra/
 
 # SDD scratch
 .superpowers/
+
+# meme engine build output (source of truth is public/memes + data/memes-manifest.json)
+memes/out/
+dev-memes.log
+tsc-out.txt
