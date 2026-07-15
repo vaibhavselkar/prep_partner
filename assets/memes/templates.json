@@ -203,51 +203,51 @@
     "zones": [
       {
         "id": "s1",
-        "x": 20,
-        "y": 120,
-        "w": 320,
-        "h": 90,
+        "x": 185,
+        "y": 45,
+        "w": 150,
+        "h": 130,
         "align": "center",
         "valign": "center",
         "color": "#111",
         "style": "plain",
-        "fontSize": 22
+        "fontSize": 17
       },
       {
         "id": "s2",
-        "x": 360,
-        "y": 120,
-        "w": 320,
-        "h": 90,
+        "x": 530,
+        "y": 45,
+        "w": 150,
+        "h": 130,
         "align": "center",
         "valign": "center",
         "color": "#111",
         "style": "plain",
-        "fontSize": 22
+        "fontSize": 17
       },
       {
         "id": "s3",
-        "x": 20,
-        "y": 345,
-        "w": 320,
-        "h": 90,
+        "x": 185,
+        "y": 262,
+        "w": 150,
+        "h": 130,
         "align": "center",
         "valign": "center",
         "color": "#111",
         "style": "plain",
-        "fontSize": 22
+        "fontSize": 17
       },
       {
         "id": "s4",
-        "x": 360,
-        "y": 345,
-        "w": 320,
-        "h": 90,
+        "x": 530,
+        "y": 262,
+        "w": 150,
+        "h": 130,
         "align": "center",
         "valign": "center",
         "color": "#111",
         "style": "plain",
-        "fontSize": 22
+        "fontSize": 17
       }
     ]
   }
