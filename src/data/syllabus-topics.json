@@ -3460,5 +3460,27 @@
       "mr": "अनुमान व निष्कर्ष काढणे",
       "en": "Drawing inferences and conclusions"
     }
+  ],
+  "economy/employment": [
+    {
+      "id": "economy-employment-1",
+      "en": "Early rural employment programmes — NREP (1980) & RLEGP (1983)",
+      "mr": "सुरुवातीच्या ग्रामीण रोजगार योजना — NREP (1980) व RLEGP (1983)"
+    },
+    {
+      "id": "economy-employment-2",
+      "en": "Jawahar Rozgar Yojana (JRY, 1989) — NREP + RLEGP merged",
+      "mr": "जवाहर रोजगार योजना (JRY, 1989) — NREP + RLEGP विलीन"
+    },
+    {
+      "id": "economy-employment-3",
+      "en": "EAS (1993), JGSY (1999) & SGRY (2001)",
+      "mr": "EAS (1993), JGSY (1999) व SGRY (2001)"
+    },
+    {
+      "id": "economy-employment-4",
+      "en": "Food for Work (2004) to NREGA / MGNREGA (2005)",
+      "mr": "कामासाठी अन्न (2004) ते NREGA / MGNREGA (2005)"
+    }
   ]
 }

@@ -86,6 +86,7 @@ export const PRELIMS_SUBJECTS: Subject[] = [
       { key: "industry-eco", label: "उद्योग", labelEn: "Industry" },
       { key: "trade-banking", label: "व्यापार व बँकिंग", labelEn: "Trade & Banking" },
       { key: "population-social", label: "लोकसंख्या व सामाजिक निर्देशक", labelEn: "Population & Social" },
+      { key: "employment", label: "रोजगार व रोजगार योजना", labelEn: "Employment & Schemes" },
       { key: "govt-finance", label: "सरकारी वित्त", labelEn: "Government Finance" },
     ],
   },
