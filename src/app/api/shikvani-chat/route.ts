@@ -29,5 +29,5 @@ export async function POST(req: NextRequest) {
     system,
     messages: last12.map((m) => ({ role: m.role as "user" | "assistant", content: m.content })),
   });
-  return result.toDataStreamResponse();
+  return result.toTextStreamResponse();
 }

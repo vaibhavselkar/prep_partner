@@ -56,6 +56,26 @@ Instagram auto-posting (Graph API + scheduler) is intentionally **not** built �
 posting is manual. See `docs/superpowers/instagram-setup-checklist.md` if you
 ever want the official API route.
 
+## 🎓 शिकवणी / Shikvani — voice study teacher (`/shikvani`)
+
+A voice-first teacher that walks you through the **whole syllabus**, one topic at a
+time, as a spoken two-way conversation:
+
+- **Guided, resumable march** — goes topic-by-topic in syllabus order and remembers
+  where you left off (reuses the existing `mpsc-syllabus-progress` store), so the next
+  session continues from there. A side panel shows ✅ done / ▶ current per subject.
+- **Story-style, bilingual** — teaches each topic as a short story in a Marathi+English
+  mix, in short passages, then checks "हे समजलं का?"; if you're confused it re-explains
+  differently, and asks a recap question before marking the topic done.
+- **Free browser voice** — uses the browser's built-in speech (Marathi where the device
+  has a Marathi voice, English fallback otherwise). No API/voice cost.
+- **Facts grounded in verified notes** — the teacher teaches only from the verified
+  `src/data/notes/` for the current topic; it won't invent dates/names.
+
+The AI runs the teaching; the app runs the sequencing, progress, and speak/listen loop,
+coordinated by a small `CONTROL:` tag the model emits each turn (parsed + stripped, never
+spoken). API: `/api/shikvani-chat` (streams the teacher reply). Needs `GROQ_API_KEY`.
+
 ## Features
 
 - 📄 **PDF Upload** — Upload scanned Marathi notes, extract text automatically
