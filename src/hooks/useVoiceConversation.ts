@@ -101,8 +101,10 @@ export function useVoiceConversation(opts: {
       const mr = voices.find((v) => v.lang === "mr-IN" || v.lang.startsWith("mr"));
       const hi = voices.find((v) => v.lang.startsWith("hi"));
       const en = voices.find((v) => v.lang.startsWith("en"));
-      u.voice = (englishVoiceOnlyRef.current ? en : mr || hi || en) ?? voices[0] ?? null;
-      u.lang = u.voice?.lang ?? (englishVoiceOnlyRef.current ? "en-US" : "mr-IN");
+      // English if the chosen language is English, or the device has no Marathi voice.
+      const wantEnglish = lang.startsWith("en") || englishVoiceOnlyRef.current;
+      u.voice = (wantEnglish ? en : mr || hi || en) ?? voices[0] ?? null;
+      u.lang = u.voice?.lang ?? (wantEnglish ? "en-US" : "mr-IN");
     };
     const speakNext = () => {
       if (idx >= chunks.length) { if (conversationOnRef.current) startListening(); return; }

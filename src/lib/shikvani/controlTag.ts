@@ -4,7 +4,8 @@ export function parseControlTag(text: string): {
   spoken: string;
   control: { state: TeacherState; topicDone: boolean } | null;
 } {
-  const m = text.match(/\n?\s*CONTROL:\s*(\{.*\})\s*$/s);
+  // `[\s\S]` matches across newlines without the ES2018-only `s` (dotAll) flag.
+  const m = text.match(/\n?\s*CONTROL:\s*(\{[\s\S]*\})\s*$/);
   if (!m) return { spoken: text.trim(), control: null };
   const spoken = text.slice(0, m.index).trim();
   try {

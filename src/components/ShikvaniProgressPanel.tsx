@@ -1,8 +1,18 @@
 "use client";
 import { SYLLABUS } from "@/lib/syllabus";
 import { topicsFor } from "@/lib/syllabusTopics";
+import type { LangPref } from "@/lib/langPref";
 
-export function ShikvaniProgressPanel({ currentId, done }: { currentId: string | null; done: Set<string> }) {
+export function ShikvaniProgressPanel({
+  currentId,
+  done,
+  lang = "en",
+}: {
+  currentId: string | null;
+  done: Set<string>;
+  lang?: LangPref;
+}) {
+  const useMr = lang === "mr";
   return (
     <div className="text-sm space-y-4">
       {SYLLABUS.map((subject) => {
@@ -12,7 +22,7 @@ export function ShikvaniProgressPanel({ currentId, done }: { currentId: string |
         return (
           <div key={subject.key}>
             <div className="flex items-center justify-between font-medium text-gray-200">
-              <span>{subject.icon} <span className="font-devanagari">{subject.label}</span></span>
+              <span>{subject.icon} {useMr ? <span className="font-devanagari">{subject.label}</span> : subject.labelEn}</span>
               <span className="text-xs text-gray-500">{doneCount}/{topics.length}</span>
             </div>
             <ul className="mt-1 space-y-0.5">
@@ -21,11 +31,11 @@ export function ShikvaniProgressPanel({ currentId, done }: { currentId: string |
                 const isCurrent = t.id === currentId;
                 return (
                   <li key={t.id}
-                    className={`flex gap-2 px-2 py-1 rounded font-devanagari ${
+                    className={`flex gap-2 px-2 py-1 rounded ${useMr ? "font-devanagari" : ""} ${
                       isCurrent ? "bg-primary-600/20 text-primary-300" : isDone ? "text-gray-500" : "text-gray-400"
                     }`}>
                     <span>{isDone ? "✅" : isCurrent ? "▶" : "•"}</span>
-                    <span className="truncate">{t.mr}</span>
+                    <span className="truncate">{useMr ? t.mr : t.en}</span>
                   </li>
                 );
               })}
