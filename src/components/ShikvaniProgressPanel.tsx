@@ -1,18 +1,17 @@
 "use client";
 import { SYLLABUS } from "@/lib/syllabus";
 import { topicsFor } from "@/lib/syllabusTopics";
-import type { LangPref } from "@/lib/langPref";
 
 export function ShikvaniProgressPanel({
   currentId,
   done,
-  lang = "en",
+  marathi = false,
 }: {
   currentId: string | null;
   done: Set<string>;
-  lang?: LangPref;
+  marathi?: boolean;
 }) {
-  const useMr = lang === "mr";
+  const useMr = marathi;
   return (
     <div className="text-sm space-y-4">
       {SYLLABUS.map((subject) => {

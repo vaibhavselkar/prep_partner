@@ -101,10 +101,12 @@ export function useVoiceConversation(opts: {
       const mr = voices.find((v) => v.lang === "mr-IN" || v.lang.startsWith("mr"));
       const hi = voices.find((v) => v.lang.startsWith("hi"));
       const en = voices.find((v) => v.lang.startsWith("en"));
-      // English if the chosen language is English, or the device has no Marathi voice.
-      const wantEnglish = lang.startsWith("en") || englishVoiceOnlyRef.current;
-      u.voice = (wantEnglish ? en : mr || hi || en) ?? voices[0] ?? null;
-      u.lang = u.voice?.lang ?? (wantEnglish ? "en-US" : "mr-IN");
+      let chosen: SpeechSynthesisVoice | undefined;
+      if (lang.startsWith("en")) chosen = en;
+      else if (lang.startsWith("hi")) chosen = hi ?? en;           // Hindi text → Hindi voice
+      else chosen = mr ?? hi ?? en;                                // Marathi text → Marathi, else a Hindi voice reads Devanagari far better than English
+      u.voice = chosen ?? voices[0] ?? null;
+      u.lang = u.voice?.lang ?? (lang.startsWith("en") ? "en-US" : lang);
     };
     const speakNext = () => {
       if (idx >= chunks.length) { if (conversationOnRef.current) startListening(); return; }

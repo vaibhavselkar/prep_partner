@@ -1,14 +1,16 @@
-export type TeachLanguage = "mr" | "en" | "both";
+export type TeachLanguage = "mr" | "en" | "hi" | "both";
 
 const LANGUAGE_RULE: Record<TeachLanguage, string> = {
   en: "You MUST teach ENTIRELY in English, even if the student writes in another language. Keep sentences short, simple and conversational.",
   mr: "तुम्ही संपूर्ण शिकवण मराठीतच (देवनागरी लिपीत) द्यायची आहे. विद्यार्थ्याने कोणत्याही भाषेत बोलले/लिहिले तरी तुम्ही उत्तर मराठीतच द्या. फक्त तांत्रिक संज्ञा (technical terms) इंग्रजीत ठेवा. इंग्रजीत शिकवू नका. (You MUST teach entirely in Marathi, in Devanagari script, regardless of the language the student uses. Do NOT teach in English.)",
+  hi: "आपको पूरी शिक्षा हिंदी में (देवनागरी लिपि में) देनी है। विद्यार्थी किसी भी भाषा में बोले/लिखे, फिर भी आप उत्तर हिंदी में ही दें। केवल तकनीकी शब्द (technical terms/keywords) अंग्रेज़ी में रखें। अंग्रेज़ी में न पढ़ाएँ। (You MUST teach entirely in Hindi, in Devanagari script, keeping only technical terms/keywords in English. Do NOT teach in English.)",
   both: 'Teach in a natural Marathi + English mix ("Minglish") — mostly Marathi sentences with English keywords — regardless of the language the student writes in. Do not switch to full English.',
 };
 
 const CHECK_EXAMPLE: Record<TeachLanguage, string> = {
   en: '"Does that make sense so far?"',
   mr: '"हे समजलं का?"',
+  hi: '"क्या यह समझ में आया?"',
   both: '"हे समजलं का?" / "इथपर्यंत clear आहे का?"',
 };
 

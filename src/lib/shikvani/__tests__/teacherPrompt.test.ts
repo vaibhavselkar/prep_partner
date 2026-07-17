@@ -33,4 +33,14 @@ describe("buildTeacherPrompt", () => {
     });
     expect(mr).toMatch(/मराठीतच|teach entirely in Marathi/i);
   });
+
+  it("teaches in Hindi (with English terms) when language is 'hi'", () => {
+    const hi = buildTeacherPrompt({
+      topic: { mr: "सिंधू संस्कृती", en: "Indus Valley", subject: "history" },
+      notes: "x",
+      language: "hi",
+    });
+    expect(hi).toMatch(/हिंदी में|teach entirely in Hindi/i);
+    expect(hi).toMatch(/technical terms/i);
+  });
 });
