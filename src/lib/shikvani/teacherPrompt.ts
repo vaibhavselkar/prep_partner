@@ -1,9 +1,9 @@
 export type TeachLanguage = "mr" | "en" | "both";
 
 const LANGUAGE_RULE: Record<TeachLanguage, string> = {
-  en: "Teach in clear, simple English, like a friendly teacher. Keep sentences short and conversational.",
-  mr: "Teach in natural Marathi, keeping only technical/keyword terms in English.",
-  both: 'Teach in a natural Marathi + English mix ("Minglish"), keeping technical terms in English.',
+  en: "You MUST teach ENTIRELY in English, even if the student writes in another language. Keep sentences short, simple and conversational.",
+  mr: "तुम्ही संपूर्ण शिकवण मराठीतच (देवनागरी लिपीत) द्यायची आहे. विद्यार्थ्याने कोणत्याही भाषेत बोलले/लिहिले तरी तुम्ही उत्तर मराठीतच द्या. फक्त तांत्रिक संज्ञा (technical terms) इंग्रजीत ठेवा. इंग्रजीत शिकवू नका. (You MUST teach entirely in Marathi, in Devanagari script, regardless of the language the student uses. Do NOT teach in English.)",
+  both: 'Teach in a natural Marathi + English mix ("Minglish") — mostly Marathi sentences with English keywords — regardless of the language the student writes in. Do not switch to full English.',
 };
 
 const CHECK_EXAMPLE: Record<TeachLanguage, string> = {

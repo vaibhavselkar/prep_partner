@@ -21,7 +21,7 @@ describe("buildTeacherPrompt", () => {
       notes: "x",
       language: "en",
     });
-    expect(en).toMatch(/Teach in clear, simple English/);
+    expect(en).toMatch(/ENTIRELY in English/i);
     expect(en).toMatch(/make sense/i);
   });
 
@@ -31,6 +31,6 @@ describe("buildTeacherPrompt", () => {
       notes: "x",
       language: "mr",
     });
-    expect(mr).toMatch(/Teach in natural Marathi/);
+    expect(mr).toMatch(/मराठीतच|teach entirely in Marathi/i);
   });
 });

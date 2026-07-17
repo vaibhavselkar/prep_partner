@@ -54,7 +54,7 @@ export default function ChaptersPage() {
   const begin = () => {
     setStarted(true);
     startConversation();
-    sendTurn("Let's begin.");
+    sendTurn(pref === "en" ? "Let's begin." : "चला, सुरू करूया.");
   };
   const stop = () => { setStarted(false); stopConversation(); };
 
