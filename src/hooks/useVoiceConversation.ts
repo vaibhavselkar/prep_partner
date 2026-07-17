@@ -38,6 +38,7 @@ export function useVoiceConversation(opts: {
     const SR = (window as unknown as Record<string, unknown>).SpeechRecognition as (new () => SpeechRecognition) | undefined
       || (window as unknown as Record<string, unknown>).webkitSpeechRecognition as (new () => SpeechRecognition) | undefined;
     if (!SR) { setMicError("Speech recognition not supported in this browser."); return; }
+    try { recognitionRef.current?.abort(); } catch { /* nothing live */ }
     const rec = new SR();
     rec.lang = lang;
     rec.continuous = true;
@@ -58,7 +59,18 @@ export function useVoiceConversation(opts: {
         else if (conversationOnRef.current) startListening();
       }, 1400);
     };
-    rec.onerror = () => { /* keep silent; conversation loop recovers on next speak */ };
+    rec.onerror = (ev: Event) => {
+      const err = (ev as unknown as { error?: string }).error;
+      if (err === "not-allowed" || err === "service-not-allowed") {
+        setMicError("Mic access blocked — कृपया परवानगी द्या.");
+        conversationOnRef.current = false;
+        setConversationOn(false);
+        setOrbState("idle");
+      } else if (err === "no-speech" && conversationOnRef.current) {
+        startListening();
+      }
+      /* other errors: ignore; the conversation loop recovers on the next speak */
+    };
     rec.onend = () => { if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current); };
     recognitionRef.current = rec;
     setOrbState("listening");
