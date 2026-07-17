@@ -15,6 +15,7 @@ export function useVoiceConversation(opts: {
 
   const conversationOnRef = useRef(false);
   const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const intentionalStopRef = useRef(false); // true right before we deliberately stop/abort recognition
   const silenceTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const accumulatedRef = useRef("");
   const englishVoiceOnlyRef = useRef(false);
@@ -23,6 +24,7 @@ export function useVoiceConversation(opts: {
 
   // Detect Marathi voice availability (English fallback if absent).
   useEffect(() => {
+    if (typeof window === "undefined" || !window.speechSynthesis) return;
     const check = () => {
       const voices = window.speechSynthesis.getVoices();
       if (!voices.length) return;
@@ -38,6 +40,7 @@ export function useVoiceConversation(opts: {
     const SR = (window as unknown as Record<string, unknown>).SpeechRecognition as (new () => SpeechRecognition) | undefined
       || (window as unknown as Record<string, unknown>).webkitSpeechRecognition as (new () => SpeechRecognition) | undefined;
     if (!SR) { setMicError("Speech recognition not supported in this browser."); return; }
+    intentionalStopRef.current = true;
     try { recognitionRef.current?.abort(); } catch { /* nothing live */ }
     const rec = new SR();
     rec.lang = lang;
@@ -54,6 +57,7 @@ export function useVoiceConversation(opts: {
       if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current);
       silenceTimerRef.current = setTimeout(() => {
         const text = (accumulatedRef.current + interim).trim();
+        intentionalStopRef.current = true;
         rec.stop();
         if (text) { setOrbState("thinking"); onUserRef.current(text); }
         else if (conversationOnRef.current) startListening();
@@ -71,13 +75,23 @@ export function useVoiceConversation(opts: {
       }
       /* other errors: ignore; the conversation loop recovers on the next speak */
     };
-    rec.onend = () => { if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current); };
+    rec.onend = () => {
+      if (silenceTimerRef.current) clearTimeout(silenceTimerRef.current);
+      // If the browser ended recognition on its own (not our deliberate stop/abort)
+      // while a conversation is active, restart so the orb never deadlocks on "listening".
+      if (intentionalStopRef.current) { intentionalStopRef.current = false; return; }
+      if (conversationOnRef.current) startListening();
+    };
     recognitionRef.current = rec;
     setOrbState("listening");
     try { rec.start(); } catch { /* already started */ }
   }, [lang]);
 
   const speak = useCallback((text: string) => {
+    if (typeof window === "undefined" || !window.speechSynthesis) {
+      if (conversationOnRef.current) startListening();
+      return;
+    }
     window.speechSynthesis.cancel();
     if (!text.trim()) { if (conversationOnRef.current) startListening(); return; }
     const chunks = text.match(/[^.!?।]+[.!?।]?/g) ?? [text];
@@ -109,12 +123,16 @@ export function useVoiceConversation(opts: {
   }, []);
   const stopConversation = useCallback(() => {
     conversationOnRef.current = false; setConversationOn(false);
-    window.speechSynthesis.cancel();
+    intentionalStopRef.current = true;
+    if (typeof window !== "undefined") window.speechSynthesis?.cancel();
     try { recognitionRef.current?.stop(); } catch { /* ignore */ }
     setOrbState("idle");
   }, []);
 
-  useEffect(() => () => { window.speechSynthesis.cancel(); try { recognitionRef.current?.stop(); } catch {} }, []);
+  useEffect(() => () => {
+    if (typeof window !== "undefined") window.speechSynthesis?.cancel();
+    try { recognitionRef.current?.abort(); } catch { /* ignore */ }
+  }, []);
 
   return { orbState, conversationOn, startConversation, stopConversation, speak, micError, englishVoiceOnly };
 }
