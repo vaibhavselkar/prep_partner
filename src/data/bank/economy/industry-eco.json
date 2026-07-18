@@ -214,5 +214,185 @@
     "explanation": "DIPAM, under the Ministry of Finance, formulates and implements the government's disinvestment policy for central public sector enterprises.",
     "tags": [],
     "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-industry-eco-0013",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "easy",
+    "question": "टाटा आयर्न अँड स्टील कंपनी (TISCO) ची स्थापना कोणत्या वर्षी झाली? / In which year was the Tata Iron and Steel Company (TISCO) incorporated?",
+    "options": [
+      "A. 1897 / 1897",
+      "B. 1907 / 1907",
+      "C. 1917 / 1917",
+      "D. 1927 / 1927"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "TISCO was incorporated in 1907, marking the beginning of the iron and steel industry in India, which came up only in the early 20th century.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-industry-eco-0014",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "question": "स्वातंत्र्यप्राप्तीच्या वेळी भारताच्या व्यावसायिक रचनेत (Occupational Structure) कृषी क्षेत्रात अंदाजे किती टक्के कामगार होते? / At the time of independence, roughly what percentage of India's workforce was employed in agriculture?",
+    "options": [
+      "A. 30-40 टक्के / 30-40 per cent",
+      "B. 50-60 टक्के / 50-60 per cent",
+      "C. 70-75 टक्के / 70-75 per cent",
+      "D. 90-95 टक्के / 90-95 per cent"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "At independence, agriculture accounted for 70-75 per cent of the workforce, while manufacturing employed only about 10 per cent and services 15-20 per cent, reflecting an underdeveloped, agrarian occupational structure.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-industry-eco-0015",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "question": "1955 सालच्या कर्वे समितीने (Karve Committee) कोणत्या क्षेत्राच्या उपयुक्ततेवर भर दिला? / What did the 1955 Karve Committee (Village and Small-Scale Industries Committee) emphasize?",
+    "options": [
+      "A. मोठ्या भांडवली उद्योगांचा विस्तार / Expansion of large capital-intensive industries",
+      "B. ग्रामीण विकासासाठी लघु उद्योगांची उपयुक्तता / The usefulness of small-scale industries for promoting rural development",
+      "C. परकीय गुंतवणुकीस मुक्त प्रवेश / Free entry of foreign investment",
+      "D. सार्वजनिक क्षेत्राचे खाजगीकरण / Privatization of the public sector"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "The Village and Small-Scale Industries Committee (Karve Committee), 1955, highlighted the potential of small-scale industries for promoting rural development.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-industry-eco-0016",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "easy",
+    "question": "1991 च्या आर्थिक सुधारणांमधील LPG या त्रिसूत्रीचा अर्थ काय आहे? / What does the LPG triad of the 1991 economic reforms stand for?",
+    "options": [
+      "A. उदारीकरण, खाजगीकरण, जागतिकीकरण / Liberalisation, Privatisation, Globalisation",
+      "B. कर्ज, नफा, वाढ / Loans, Profit, Growth",
+      "C. उत्पादन, किंमत, हमी / Production, Price, Guarantee",
+      "D. योजना, धोरण, राज्यशासन / Plan, Policy, Governance"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "The structural reforms introduced after the 1991 crisis were grouped under three heads: Liberalisation, Privatisation and Globalisation (LPG).",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-industry-eco-0017",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "question": "1991 च्या पैसे तूट (Balance of Payments) संकटावर मात करण्यासाठी भारताने कोणत्या दोन आंतरराष्ट्रीय संस्थांकडून सुमारे $7 अब्जांचे कर्ज घेतले? / To resolve the 1991 Balance of Payments crisis, India secured a loan of about $7 billion from which two international institutions?",
+    "options": [
+      "A. WTO आणि ADB / WTO and ADB",
+      "B. जागतिक बँक (World Bank) आणि आंतरराष्ट्रीय नाणेनिधी (IMF) / World Bank and the International Monetary Fund (IMF)",
+      "C. संयुक्त राष्ट्रे आणि UNCTAD / United Nations and UNCTAD",
+      "D. G7 आणि OECD / G7 and OECD"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "India approached the World Bank (IBRD) and the IMF and received about $7 billion as a loan to manage the 1991 crisis, agreeing to their conditionalities on liberalising the economy.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-industry-eco-0018",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "hard",
+    "question": "1991 च्या नवीन आर्थिक धोरणांतर्गत (NEP) उपाययोजनांचे मुख्यतः किती व कोणत्या प्रकारांत वर्गीकरण करण्यात आले? / Under the New Economic Policy (NEP) of 1991, into how many and which broad types were the reform measures classified?",
+    "options": [
+      "A. दोन - स्थिरीकरण उपाय व संरचनात्मक सुधारणा / Two — stabilisation measures and structural reform measures",
+      "B. तीन - अल्पकालीन, मध्यमकालीन व दीर्घकालीन / Three — short-term, medium-term and long-term",
+      "C. चार - कृषी, उद्योग, सेवा व व्यापार / Four — agriculture, industry, services and trade",
+      "D. एकच प्रकार - खाजगीकरण / Only one type — privatisation"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "The NEP measures were broadly classified into short-term stabilisation measures (to correct BoP weaknesses and control inflation) and long-term structural reform measures (to improve efficiency and competitiveness), implemented via liberalisation, privatisation and globalisation.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-industry-eco-0019",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "question": "जागतिक व्यापार संघटना (WTO) ची स्थापना 1995 मध्ये कोणत्या पूर्वीच्या संघटनेच्या उत्तराधिकारी म्हणून झाली? / The WTO was established in 1995 as the successor to which earlier organization?",
+    "options": [
+      "A. UNCTAD",
+      "B. GATT (General Agreement on Tariffs and Trade) / GATT (General Agreement on Tariffs and Trade)",
+      "C. IBRD (World Bank) / IBRD (World Bank)",
+      "D. OECD"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "The WTO was founded in 1995 as the successor organisation to GATT, which had been established in 1948 with 23 countries as the global trade organization administering multilateral trade agreements.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-industry-eco-0020",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "hard",
+    "question": "1991 च्या सुधारणांनंतर भारताच्या GDP वाढीत कोणत्या क्षेत्राचे योगदान सर्वाधिक ठरले, कृषी व उद्योग क्षेत्रांच्या तुलनेत? / Post-1991, which sector's contribution to India's GDP growth has been the highest compared to agriculture and industry?",
+    "options": [
+      "A. कृषी क्षेत्र / Agriculture sector",
+      "B. उद्योग क्षेत्र / Industry sector",
+      "C. सेवा क्षेत्र (दूरसंचार, IT, वित्त, पर्यटन इ.) / Service sector (telecom, IT, finance, tourism etc.)",
+      "D. खाण उद्योग / Mining sector"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "During the reform period, the service sector recorded consistently higher growth than the overall GDP growth rate, becoming the main driver of GDP growth, while agriculture and industry growth showed deceleration or fluctuation.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-industry-eco-0021",
+    "subject": "economy",
+    "subtopic": "industry-eco",
+    "difficulty": "medium",
+    "question": "1991-92 मध्ये निर्गुंतवणुकीद्वारे (Disinvestment) निधी उभारण्याचे उद्दिष्ट सुमारे किती होते आणि प्रत्यक्षात काय झाले? / What was the disinvestment target for 1991-92, and what actually happened?",
+    "options": [
+      "A. उद्दिष्ट ₹2,500 कोटी होते, प्रत्यक्षात त्याहून ₹3,040 कोटी अधिक निधी उभा राहिला / The target was ₹2,500 crore, and the government actually mobilised ₹3,040 crore more than that",
+      "B. उद्दिष्ट ₹10,000 कोटी होते, पण फक्त ₹500 कोटी उभे राहिले / The target was ₹10,000 crore, but only ₹500 crore was mobilised",
+      "C. कोणतेही उद्दिष्ट निश्चित नव्हते / No target was fixed at all",
+      "D. उद्दिष्ट पूर्णपणे अपयशी ठरले आणि निर्गुंतवणूक रद्द करण्यात आली / The target completely failed and disinvestment was cancelled"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "In 1991-92, the government targeted to mobilise about Rs 2,500 crore through disinvestment of PSEs, and was able to mobilise Rs 3,040 crore more than this target.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
   }
 ]

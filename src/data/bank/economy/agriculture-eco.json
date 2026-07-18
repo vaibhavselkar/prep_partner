@@ -214,5 +214,185 @@
     "explanation": "PMKSY (2015) अंतर्गत 'प्रति थेंब अधिक पीक' (Per Drop More Crop) हा घटक सूक्ष्म सिंचन (ठिबक व तुषार) पद्धतींच्या माध्यमातून पाण्याचा कार्यक्षम वापर वाढवण्यावर भर देतो. / Under PMKSY (2015), the 'Per Drop More Crop' component focuses on improving water use efficiency through micro-irrigation methods like drip and sprinkler irrigation.",
     "tags": [],
     "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-agriculture-eco-0013",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "easy",
+    "question": "स्वातंत्र्यसमयी भारताच्या एकूण लोकसंख्येपैकी किती टक्के लोक थेट किंवा अप्रत्यक्षपणे शेतीवर अवलंबून होते? / At the time of independence, approximately what percentage of India's population depended directly or indirectly on agriculture?",
+    "options": [
+      "A. सुमारे ५०% / About 50%",
+      "B. सुमारे ८५% / About 85%",
+      "C. सुमारे ३०% / About 30%",
+      "D. सुमारे ६०% / About 60%"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "ब्रिटिश राजवटीत भारतीय अर्थव्यवस्था मूलतः कृषिप्रधान होती, जवळपास ८५% लोकसंख्या शेतीवर अवलंबून होती, तरीही उत्पादकता अत्यंत कमी होती. / Under British rule the Indian economy remained fundamentally agrarian, with nearly 85% of the population depending on agriculture, yet productivity remained very low.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-agriculture-eco-0014",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "question": "वसाहतकालीन कृषी स्तब्धतेचे (Agricultural Stagnation) मुख्य कारण कोणते होते? / What was the main cause of agricultural stagnation during the colonial period?",
+    "options": [
+      "A. जास्त पाऊस / Excess rainfall",
+      "B. बंगालसारख्या भागांत लागू झालेली जमीनदारी भू-महसूल पद्धत / Land revenue systems like Zamindari implemented in areas such as Bengal",
+      "C. जास्त सिंचन सुविधा / Excessive irrigation facilities",
+      "D. जास्त लोकसंख्या वाढीचा दर / High population growth rate"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "जमीनदारी पद्धतीत नफा प्रत्यक्ष कसणाऱ्याऐवजी मध्यस्थ जमीनदाराकडे जात असे; जमीनदारांना फक्त खंड वसुलीत रस असल्याने शेतीत गुंतवणूक झाली नाही आणि उत्पादकता स्तब्ध राहिली. / Under the Zamindari system, profit went to intermediary landlords rather than the actual cultivator; since zamindars were interested only in rent collection, farm investment stalled and productivity stagnated.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-agriculture-eco-0015",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "question": "१९४७ च्या फाळणीचा भारतीय कृषी क्षेत्रावर कोणता परिणाम झाला? / What was an effect of the 1947 Partition on Indian agriculture?",
+    "options": [
+      "A. कापूस व ताग पिकवणारे बरेच प्रदेश पाकिस्तानात गेले, तर कापड व ताग गिरण्या भारतात राहिल्या / Much of the cotton and jute-growing tracts went to Pakistan while the cotton and jute mills remained in India",
+      "B. सर्व सिंचन प्रकल्प भारतात राहिले / All irrigation projects remained in India",
+      "C. गहू उत्पादक प्रदेश पाकिस्तानात गेले / Wheat-growing regions went to Pakistan",
+      "D. फाळणीचा शेतीवर काहीच परिणाम झाला नाही / Partition had no effect on agriculture"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "फाळणीमुळे कापूस पिकवणारा भाग पश्चिम पाकिस्तानात व ताग पिकवणारा भाग पूर्व पाकिस्तानात गेला, पण संबंधित कापड व ताग गिरण्या भारतात राहिल्याने कच्च्या मालाचा तुटवडा निर्माण झाला. / Partition sent cotton-growing tracts to West Pakistan and jute-growing tracts to East Pakistan, while the corresponding textile and jute mills stayed in India, creating a raw-material shortage.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-agriculture-eco-0016",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "question": "हरित क्रांतीच्या पहिल्या टप्प्याचा (मध्य १९६० ते मध्य १९७०) लाभ प्रामुख्याने कोणत्या भागांना मिळाला? / The first phase of the Green Revolution (mid-1960s to mid-1970s) mainly benefited which areas?",
+    "options": [
+      "A. सर्व राज्यांतील सर्व पिके सारख्याच प्रमाणात / All crops in all states equally",
+      "B. पंजाब, आंध्र प्रदेश व तमिळनाडूसारखी सधन राज्ये आणि प्रामुख्याने गहू पिकवणारे प्रदेश / Relatively prosperous states like Punjab, Andhra Pradesh and Tamil Nadu, and mainly wheat-growing regions",
+      "C. फक्त ईशान्येकडील राज्ये / Only the north-eastern states",
+      "D. फक्त डाळींचे उत्पादन करणारी राज्ये / Only pulse-producing states"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "HYV बियाण्यांसाठी नियमित सिंचन व निविष्ठा आवश्यक असल्याने पहिल्या टप्प्यात लाभ प्रामुख्याने पंजाब, आंध्र प्रदेश व तमिळनाडूसारख्या सधन राज्यांना आणि गहू पिकवणाऱ्या भागांना मिळाला. / Since HYV seeds required assured irrigation and inputs, the first phase mainly benefited relatively prosperous states like Punjab, Andhra Pradesh and Tamil Nadu, and predominantly wheat-growing regions.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-agriculture-eco-0017",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "hard",
+    "question": "शेतकऱ्यांनी बाजारात प्रत्यक्ष विकलेल्या शेतमालाच्या हिश्श्याला काय म्हणतात? / What is the term for the portion of agricultural produce that farmers actually sell in the market?",
+    "options": [
+      "A. निव्वळ उत्पादन (Net Output)",
+      "B. विक्रीयोग्य अधिशेष (Marketed Surplus)",
+      "C. सकल मूल्यवर्धन (Gross Value Added)",
+      "D. अनुदानित उत्पादन (Subsidised Output)"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "शेतकऱ्यांनी स्वतः वापर न करता बाजारात विकलेल्या पिकाच्या हिश्श्याला 'विक्रीयोग्य अधिशेष' म्हणतात; हरित क्रांतीच्या काळात हा अधिशेष वाढल्याने अन्नधान्याच्या किमती सापेक्षतः घसरल्या. / The portion of a crop that farmers sell in the market rather than consuming themselves is called 'marketed surplus'; its rise during the Green Revolution lowered relative foodgrain prices.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-agriculture-eco-0018",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "question": "१९६९ नंतर ग्रामीण पतपुरवठ्याची गरज भागवण्यासाठी भारताने कोणता दृष्टिकोन स्वीकारला? / After 1969, what approach did India adopt to meet the need for rural credit?",
+    "options": [
+      "A. फक्त खासगी सावकारांवर अवलंबून राहणे / Relying only on private moneylenders",
+      "B. सामाजिक बँकिंग व बहु-अभिकरण दृष्टिकोन (बँकांचे राष्ट्रीयीकरण) / Social banking and a multi-agency approach (bank nationalisation)",
+      "C. सर्व कर्ज माफ करणे / Waiving all agricultural loans",
+      "D. फक्त सहकारी संस्था बंद करणे / Shutting down all cooperative societies"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "१९६९ नंतर भारताने सामाजिक बँकिंग व बहु-अभिकरण दृष्टिकोन स्वीकारला — बँकांच्या राष्ट्रीयीकरणाद्वारे ग्रामीण पतपुरवठ्याची गरज भागवण्याचा प्रयत्न झाला. / After 1969, India adopted social banking and a multi-agency approach — bank nationalisation aimed at meeting rural credit needs.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-agriculture-eco-0019",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "easy",
+    "question": "औपचारिक (संस्थात्मक) पतपुरवठा यंत्रणेतील तारण (Collateral) संबंधी अटींमुळे वगळल्या जाणाऱ्या गरीब कुटुंबांना कर्ज मिळावे यासाठी कोणती व्यवस्था उदयाला आली? / Which mechanism emerged to provide credit to poor households excluded from formal credit due to collateral requirements?",
+    "options": [
+      "A. बचत गट (Self-Help Groups - SHGs)",
+      "B. भारतीय अन्न महामंडळ (FCI)",
+      "C. कृषी मूल्य आयोग (CACP)",
+      "D. कापूस महामंडळ (CCI)"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "औपचारिक पतपुरवठा यंत्रणेतील त्रुटी भरून काढण्यासाठी बचत गट (SHGs) उदयाला आले, जे सदस्यांच्या बचतीतून जमा झालेल्या निधीतून गरजू सदस्यांना सूक्ष्म-पतपुरवठा (Micro-credit) देतात. / SHGs emerged to fill gaps in the formal credit system, providing micro-credit to needy members from pooled member savings.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-agriculture-eco-0020",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "medium",
+    "question": "गुजरातमधील दूध सहकारी संस्थांचे यश (Operation Flood) प्रामुख्याने कशाशी संबंधित आहे? / The success of milk cooperatives (Operation Flood) in Gujarat is mainly associated with which of the following?",
+    "options": [
+      "A. सहकारी विपणनाद्वारे शेतकऱ्यांना दुधाला योग्य भाव मिळवून देणे / Assuring farmers a fair price for milk through cooperative marketing",
+      "B. गव्हाच्या हरित क्रांतीशी / The Green Revolution in wheat",
+      "C. कापूस उत्पादनाच्या निर्यातीशी / Export of cotton produce",
+      "D. जमीन एकत्रीकरण कायद्याशी / Consolidation of Holdings Act"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "'ऑपरेशन फ्लड' अंतर्गत दूध उत्पादक सहकारी संस्थांनी दुधाचे संकलन, प्रक्रिया व विपणन करून शेतकऱ्यांना योग्य भाव मिळवून दिला, ज्यामुळे गुजरातचे मॉडेल इतर राज्यांत अनुसरले गेले. / Under 'Operation Flood', dairy cooperatives collected, processed and marketed milk to assure farmers a fair price, making Gujarat's model widely emulated across states.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-agriculture-eco-0021",
+    "subject": "economy",
+    "subtopic": "agriculture-eco",
+    "difficulty": "hard",
+    "question": "सेंद्रिय शेतीच्या (Organic Farming) मर्यादांबाबत खालीलपैकी कोणते विधान बरोबर आहे? / Which of the following statements about the limitations of organic farming is correct?",
+    "options": [
+      "A. सुरुवातीच्या वर्षांत उत्पादन पारंपरिक शेतीपेक्षा जास्त येते / Yields in the initial years are higher than conventional farming",
+      "B. सुरुवातीच्या वर्षांत उत्पादन पारंपरिक शेतीपेक्षा कमी येते व विपणनाची समस्या असते / Yields in the initial years are lower than conventional farming and marketing is a challenge",
+      "C. सेंद्रिय शेतीत कोणतीही मर्यादा नाही / Organic farming has no limitations",
+      "D. सेंद्रिय शेतीसाठी कमी श्रम लागतात / Organic farming requires less labour"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "सेंद्रिय शेतीत सुरुवातीच्या वर्षांत उत्पादन आधुनिक शेतीपेक्षा कमी येते, उत्पादनाचा टिकाऊपणा कमी असतो व पायाभूत सुविधा-विपणनाची अपुरी उपलब्धता ही मोठी आव्हाने आहेत. / In organic farming, yields in the initial years are lower than modern farming, produce has shorter shelf life, and inadequate infrastructure and marketing are major challenges.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
   }
 ]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "economy-employment-0001",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "easy",
+    "question": "राष्ट्रीय ग्रामीण रोजगार कार्यक्रम (NREP) कोणत्या वर्षी सुरू करण्यात आला? / In which year was the National Rural Employment Programme (NREP) launched?",
+    "options": [
+      "A. 1975",
+      "B. 1980",
+      "C. 1985",
+      "D. 1989"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NREP ग्रामीण भागात रोजंदारी रोजगार व टिकाऊ सामूहिक मालमत्ता निर्माण करण्यासाठी 1980 मध्ये सुरू करण्यात आला. / NREP was launched in 1980 to provide wage employment in rural areas and build durable community assets.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-employment-0002",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "medium",
+    "question": "1989 मध्ये जवाहर रोजगार योजना (JRY) कोणत्या दोन योजनांच्या विलीनीकरणातून तयार झाली? / JRY (1989) was formed by merging which two earlier schemes?",
+    "options": [
+      "A. EAS आणि JGSY / EAS and JGSY",
+      "B. NREP आणि RLEGP / NREP and RLEGP",
+      "C. SGRY आणि NFFWP / SGRY and NFFWP",
+      "D. RLEGP आणि EAS / RLEGP and EAS"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "1989 मध्ये NREP आणि RLEGP यांचे विलीनीकरण करून जवाहर रोजगार योजना (JRY) तयार करण्यात आली. / In 1989, NREP and RLEGP were merged to form the Jawahar Rozgar Yojana (JRY).",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-employment-0003",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "medium",
+    "question": "संपूर्ण ग्रामीण रोजगार योजना (SGRY, 2001) कोणत्या दोन योजनांच्या विलीनीकरणातून अस्तित्वात आली? / SGRY (2001) came into existence by merging which two schemes?",
+    "options": [
+      "A. NREP आणि JRY / NREP and JRY",
+      "B. JGSY आणि NFFWP / JGSY and NFFWP",
+      "C. EAS आणि JGSY / EAS and JGSY",
+      "D. RLEGP आणि JGSY / RLEGP and JGSY"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "2001 मध्ये रोजगार आश्वासन योजना (EAS) आणि जवाहर ग्राम समृद्धी योजना (JGSY) यांचे विलीनीकरण करून SGRY तयार करण्यात आली. / SGRY was formed in 2001 by merging the Employment Assurance Scheme (EAS) and Jawahar Gram Samriddhi Yojana (JGSY).",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-employment-0004",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "easy",
+    "question": "राष्ट्रीय ग्रामीण रोजगार हमी कायदा (NREGA), जो पुढे महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार हमी कायदा (MGNREGA) म्हणून ओळखला गेला, कोणत्या वर्षी पारित झाला? / In which year was the National Rural Employment Guarantee Act (NREGA), later renamed MGNREGA, passed?",
+    "options": [
+      "A. 1999",
+      "B. 2001",
+      "C. 2004",
+      "D. 2005"
+    ],
+    "answer": "D",
+    "language": "bilingual",
+    "explanation": "NREGA 2005 मध्ये पारित झाला व पुढे त्याचे नामकरण MGNREGA असे करण्यात आले. / NREGA was passed in 2005 and was later renamed MGNREGA (Mahatma Gandhi NREGA).",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-employment-0005",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "medium",
+    "question": "MGNREGA अंतर्गत ग्रामीण कुटुंबांना दरवर्षी किती दिवसांच्या रोजंदारी रोजगाराची कायदेशीर हमी दिली जाते? / Under MGNREGA, how many days of wage employment per year are legally guaranteed to willing rural households?",
+    "options": [
+      "A. 50 दिवस / 50 days",
+      "B. 100 दिवस / 100 days",
+      "C. 150 दिवस / 150 days",
+      "D. 365 दिवस / 365 days"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "अकुशल शारीरिक कामासाठी इच्छुक असलेल्या प्रत्येक ग्रामीण कुटुंबाला वर्षाला किमान 100 दिवसांच्या रोजंदारी रोजगाराची कायदेशीर हमी MGNREGA देते. / MGNREGA guarantees at least 100 days of wage employment per year to every rural household whose adult members volunteer to do unskilled manual work — a legal right, unlike earlier discretionary schemes.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-employment-0006",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "easy",
+    "question": "राष्ट्रीय कामासाठी अन्न कार्यक्रम (NFFWP, 2004) चे वैशिष्ट्य काय होते? / What was a distinguishing feature of the National Food for Work Programme (NFFWP, 2004)?",
+    "options": [
+      "A. वेतनाचा काही भाग अन्नधान्याच्या स्वरूपात दिला जात असे / Part of the wages was paid in foodgrains",
+      "B. फक्त शहरी बेरोजगारांसाठी होता / It was meant only for urban unemployed",
+      "C. यात कायदेशीर हमी होती / It provided a legal guarantee",
+      "D. हा NREP आणि RLEGP च्या विलीनीकरणातून तयार झाला / It was formed by merging NREP and RLEGP"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "सर्वाधिक मागास जिल्ह्यांमध्ये 2004 मध्ये सुरू झालेल्या NFFWP मध्ये मजुरीचा काही भाग अन्नधान्याच्या स्वरूपात दिला जात असे. / Launched in 2004 in the most backward districts, NFFWP paid part of the wages in foodgrains; it was a government programme, not a legal guarantee like NREGA.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-employment-0007",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "medium",
+    "question": "NCERT नुसार, 'औपचारिक (संघटित) क्षेत्र' म्हणून कोणती आस्थापना ओळखली जाते? / As per NCERT, which establishment is classified as belonging to the 'formal (organised) sector'?",
+    "options": [
+      "A. 10 पेक्षा कमी कामगार असलेली कोणतीही खासगी आस्थापना / Any private establishment with fewer than 10 hired workers",
+      "B. सर्व सरकारी आस्थापने व 10 किंवा अधिक कामगार असलेली खासगी आस्थापने / All public-sector establishments and private establishments employing 10 or more hired workers",
+      "C. फक्त शेतीशी संबंधित आस्थापने / Only agriculture-related establishments",
+      "D. स्वयंरोजगारित व्यक्तींचा समूह / A group of self-employed individuals"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "सर्व सार्वजनिक क्षेत्रातील आस्थापने आणि 10 किंवा अधिक कामगार नियुक्त करणारी खासगी आस्थापने औपचारिक (संघटित) क्षेत्र म्हणून गणली जातात; बाकी सर्व अनौपचारिक क्षेत्रात मोडतात. / All public-sector establishments plus private establishments with 10 or more hired workers count as the formal sector; everything else is informal.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-employment-0008",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "hard",
+    "question": "एका शेतकऱ्याला त्याच्या शेतावर प्रत्यक्षात फक्त दोन मजुरांची गरज असताना तो पाच मजूर व कुटुंबातील सदस्यांना कामावर ठेवतो, तरीही उत्पादन घटत नाही — या स्थितीला काय म्हणतात? / A farmer employs five workers (plus family) though the farm actually needs only two — output would not fall even if the 'extra' workers left. What is this situation called?",
+    "options": [
+      "A. खुली बेरोजगारी / Open unemployment",
+      "B. हंगामी बेरोजगारी / Seasonal unemployment",
+      "C. छुपी/प्रच्छन्न बेरोजगारी / Disguised unemployment",
+      "D. रोजगारविरहित वाढ / Jobless growth"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "प्रत्यक्ष गरजेपेक्षा जास्त लोक शेतीवर राबत असून त्यांना काढले तरी उत्पादनात घट होत नाही, अशा स्थितीला छुपी किंवा प्रच्छन्न बेरोजगारी म्हणतात — ही भारतीय शेतीत सामान्यपणे आढळते. / When more people work on a farm than actually needed, such that removing them would not reduce output, it is called disguised unemployment — common on Indian farms.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-employment-0009",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "medium",
+    "question": "सकल देशांतर्गत उत्पादन (GDP) सातत्याने वाढत असूनही रोजगार वाढीचा दर मात्र त्या तुलनेत खूपच कमी राहतो, या स्थितीला अर्थशास्त्रज्ञ काय म्हणतात? / When GDP keeps rising steadily but employment grows at a much slower rate, economists refer to this phenomenon as?",
+    "options": [
+      "A. आकस्मिकीकरण / Casualisation",
+      "B. रोजगारविरहित वाढ / Jobless growth",
+      "C. अनौपचारिकीकरण / Informalisation",
+      "D. हंगामी बेरोजगारी / Seasonal unemployment"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "GDP मध्ये सातत्याने वाढ होत असतानाही रोजगारवाढीचा दर त्या तुलनेत खूपच कमी राहणे — विशेषतः 1990 च्या दशकाच्या उत्तरार्धापासून हे अंतर रुंदावले — यास 'रोजगारविरहित वाढ' (jobless growth) म्हणतात. / GDP growth outpacing employment growth — with the gap widening notably from the late 1990s — is termed jobless growth.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-employment-0010",
+    "subject": "economy",
+    "subtopic": "employment",
+    "difficulty": "hard",
+    "question": "स्वयंरोजगार व नियमित वेतनी नोकऱ्यांकडून कामगार आकस्मिक/रोजंदारी कामाकडे वळण्याच्या प्रक्रियेस काय म्हणतात, आणि याचा कामगारांवर काय परिणाम होतो? / The shift of workers away from self-employment and regular salaried jobs toward casual wage work is called what, and what effect does it have on workers?",
+    "options": [
+      "A. रोजगारविरहित वाढ — यामुळे कामगारांचे उत्पन्न स्थिर राहते / Jobless growth — it keeps workers' income stable",
+      "B. कामाचे आकस्मिकीकरण (casualisation) — यामुळे कामगारांची असुरक्षितता वाढते / Casualisation of workforce — it increases workers' vulnerability",
+      "C. अनौपचारिकीकरण — यामुळे सामाजिक सुरक्षा वाढते / Informalisation — it increases social security",
+      "D. औपचारिकीकरण — यामुळे कामगारांना अधिक स्थैर्य मिळते / Formalisation — it gives workers more stability"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "स्वयंरोजगार व नियमित वेतनी नोकरीकडून आकस्मिक/रोजंदारी कामाकडे होणाऱ्या स्थलांतरास 'कामाचे आकस्मिकीकरण' (casualisation of workforce) म्हणतात; यामुळे कामगारांची नोकरीची सुरक्षितता व सामाजिक सुरक्षा कमी होऊन असुरक्षितता वाढते. / The movement of workers from self-employment and regular salaried work toward casual wage labour is called casualisation of the workforce, and it makes workers more vulnerable (less job security, fewer benefits).",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  }
+]

@@ -196,5 +196,167 @@
     "explanation": "गिनी गुणांक हा 0 ते 1 (किंवा 0 ते 100) दरम्यान उत्पन्न किंवा संपत्तीच्या वितरणातील विषमता मोजण्यासाठी वापरला जाणारा सांख्यिकीय निर्देशांक आहे.",
     "tags": [],
     "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-national-income-0012",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "easy",
+    "question": "निव्वळ गुंतवणूक (Net Investment) काढण्याचे सूत्र काय आहे? / What is the formula for Net Investment?",
+    "options": [
+      "A. स्थूल गुंतवणूक + घसारा / Gross Investment + Depreciation",
+      "B. स्थूल गुंतवणूक − घसारा / Gross Investment − Depreciation",
+      "C. GDP − घसारा / GDP − Depreciation",
+      "D. GNP + घसारा / GNP + Depreciation"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार घसारा (Depreciation) हा स्थूल गुंतवणुकीतून वजा केल्यावर भांडवल साठ्यात झालेली प्रत्यक्ष निव्वळ भर मिळते: Net Investment = Gross Investment − Depreciation / As per NCERT, deducting depreciation from gross investment gives the actual net addition to capital stock: Net Investment = Gross Investment − Depreciation.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-national-income-0013",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "easy",
+    "question": "GDP Deflator काढण्याचे योग्य सूत्र कोणते? / Which is the correct formula for GDP Deflator?",
+    "options": [
+      "A. (वास्तविक GDP ÷ चालू GDP) × 100 / (Real GDP ÷ Nominal GDP) × 100",
+      "B. (चालू GDP ÷ वास्तविक GDP) × 100 / (Nominal GDP ÷ Real GDP) × 100",
+      "C. चालू GDP − वास्तविक GDP / Nominal GDP − Real GDP",
+      "D. वास्तविक GDP × चालू GDP / Real GDP × Nominal GDP"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार GDP Deflator = (Nominal GDP ÷ Real GDP), टक्केवारीत मांडल्यास × 100 करतात; हा आधारभूत वर्षापासून झालेल्या किंमतवाढीचा निर्देशांक आहे / As per NCERT, GDP Deflator = Nominal GDP ÷ Real GDP, expressed in percentage as × 100; it is an index of price rise from the base year.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-national-income-0014",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "easy",
+    "question": "खालीलपैकी कोणते चल 'साठा' (Stock) आहे, 'प्रवाह' (Flow) नाही? / Which of the following is a 'Stock' variable, not a 'Flow'?",
+    "options": [
+      "A. वार्षिक उत्पन्न / Annual income",
+      "B. भांडवल साठा / Capital stock",
+      "C. वार्षिक गुंतवणूक / Annual investment",
+      "D. वार्षिक उत्पादन / Annual production"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार साठा (Stock) हा एका विशिष्ट क्षणी मोजला जातो (उदा. भांडवल साठा), तर उत्पन्न, गुंतवणूक व उत्पादन हे ठराविक कालावधीत मोजले जाणारे प्रवाह (Flow) आहेत / As per NCERT, a stock is measured at a point in time (e.g. capital stock), whereas income, investment and production are flows measured over a period of time.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-national-income-0015",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "medium",
+    "question": "एका अर्थव्यवस्थेत शेतकऱ्याने रु.१०० चा गहू पिकवला, त्यातील रु.५० चा गहू बेकरला विकला. बेकरने त्यापासून रु.२०० ची ब्रेड बनवून विकली. मूल्यवर्धन पद्धतीने अर्थव्यवस्थेचे एकूण उत्पन्न किती? / In an economy, a farmer produces wheat worth Rs 100 and sells Rs 50 worth to a baker, who uses it to produce bread worth Rs 200. What is the economy's total income by the value added method?",
+    "options": [
+      "A. रु. ३०० / Rs 300",
+      "B. रु. २५० / Rs 250",
+      "C. रु. २०० / Rs 200",
+      "D. रु. १५० / Rs 150"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT च्या उदाहरणानुसार शेतकऱ्याचे मूल्यवर्धन रु.१०० (कोणतीही मध्यस्थ वस्तू न वापरता) व बेकरचे मूल्यवर्धन रु.२०० − ५० = रु.१५०; एकूण = १०० + १५० = रु.२५०. रु.३०० हे उत्तर दुहेरी गणनेची चूक ठरेल / As per the NCERT example, the farmer's value added is Rs 100 (no intermediate goods used) and the baker's value added is Rs 200 − 50 = Rs 150; total = 100 + 150 = Rs 250. Rs 300 would be the double-counting error.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-national-income-0016",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "medium",
+    "question": "GNP (Gross National Product) आणि GDP यांच्यातील संबंध कोणता? / What is the relationship between GNP and GDP?",
+    "options": [
+      "A. GNP = GDP − घसारा / GNP = GDP − Depreciation",
+      "B. GNP = GDP + निव्वळ परकीय घटक उत्पन्न (NFIA) / GNP = GDP + Net Factor Income from Abroad (NFIA)",
+      "C. GNP = GDP + अप्रत्यक्ष कर / GNP = GDP + Indirect Taxes",
+      "D. GNP = GDP × लोकसंख्या / GNP = GDP × Population"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार GNP ≡ GDP + परदेशातून निव्वळ घटक उत्पन्न (NFIA); यात देशाच्या नागरिकांना परदेशातून मिळणारे उत्पन्न मिळवून व परदेशी नागरिकांना देशांतर्गत मिळणारे उत्पन्न वजा केले जाते / As per NCERT, GNP ≡ GDP + Net Factor Income from Abroad (NFIA) — adding income earned by domestic factors abroad and subtracting income earned by foreign factors domestically.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-national-income-0017",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "medium",
+    "question": "NNP at Factor Cost यास आणखी कोणत्या नावाने ओळखले जाते? / NNP at Factor Cost is also known by which other name?",
+    "options": [
+      "A. दरडोई उत्पन्न / Per Capita Income",
+      "B. वैयक्तिक उत्पन्न / Personal Income",
+      "C. राष्ट्रीय उत्पन्न (National Income) / National Income",
+      "D. विनियोज्य उत्पन्न / Disposable Income"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार NNP at Factor Cost ≡ National Income (NI); हे बाजारभावाच्या NNP मधून निव्वळ अप्रत्यक्ष कर वजा करून काढले जाते / As per NCERT, NNP at Factor Cost ≡ National Income (NI), obtained by deducting net indirect taxes from NNP at market price.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-national-income-0018",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "medium",
+    "question": "उत्पन्न पद्धतीने (Income Method) राष्ट्रीय उत्पन्न काढताना कोणत्या घटकांची बेरीज केली जाते? / Which components are summed while calculating national income by the Income Method?",
+    "options": [
+      "A. उपभोग + गुंतवणूक + सरकारी खर्च + निव्वळ निर्यात / Consumption + Investment + Government spending + Net exports",
+      "B. वेतन + व्याज + भाडे + नफा (व मिश्र उत्पन्न) / Wages + Interest + Rent + Profit (and mixed income)",
+      "C. सर्व क्षेत्रांचे मूल्यवर्धन / Value added of all sectors",
+      "D. आयात + निर्यात / Imports + Exports"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार उत्पन्न पद्धतीत GDP ≡ W (वेतन) + P (नफा) + In (व्याज) + R (भाडे); ही उत्पादन घटकांना मिळणाऱ्या मोबदल्याची बेरीज असते, हस्तांतरण देयके यात समाविष्ट नसतात / As per NCERT, in the income method GDP ≡ W (Wages) + P (Profit) + In (Interest) + R (Rent) — the sum of factor payments; transfer payments are excluded.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-national-income-0019",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "hard",
+    "question": "ग्राहक किंमत निर्देशांक (CPI) आणि GDP Deflator यांतील खालीलपैकी कोणते विधान बरोबर आहे? / Which of the following statements about the difference between CPI and GDP Deflator is correct (as per NCERT)?",
+    "options": [
+      "A. CPI मधील भारांक (weights) प्रत्येक वस्तूच्या चालू उत्पादन पातळीनुसार बदलतात, GDP Deflator मधील भारांक स्थिर असतात / CPI weights vary with current output level of each good, while GDP Deflator weights are fixed",
+      "B. CPI मधील भारांक स्थिर असतात, तर GDP Deflator मधील भारांक प्रत्येक वस्तूच्या उत्पादन पातळीनुसार बदलतात / CPI weights are constant, while GDP Deflator weights vary according to the production level of each good",
+      "C. दोन्ही निर्देशांकांचे भारांक कायम सारखेच असतात / Both indices always have identical weights",
+      "D. CPI मध्ये फक्त निर्यात वस्तूंच्या किमतींचा समावेश असतो / CPI includes only prices of exported goods"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार CPI मधील भारांक स्थिर (fixed basket) असतात, तर GDP Deflator मधील भारांक प्रत्येक वस्तूच्या चालू उत्पादन पातळीनुसार बदलत असतात; तसेच CPI मध्ये आयात वस्तूंच्या किमतीही समाविष्ट असतात पण GDP Deflator मध्ये नाहीत / As per NCERT, CPI weights are constant (fixed basket), while GDP deflator weights differ according to production level of each good; also, CPI includes prices of imported goods but GDP deflator does not.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-national-income-0020",
+    "subject": "economy",
+    "subtopic": "national-income",
+    "difficulty": "hard",
+    "question": "NCERT नुसार GDP ला कल्याणाचे (welfare) योग्य मोजमाप मानता येत नाही, यामागील कारण खालीलपैकी कोणते नाही? / As per NCERT, which of the following is NOT among the reasons why GDP cannot be treated as a proper measure of welfare?",
+    "options": [
+      "A. GDP च्या वितरणातील असमानता / Unequal distribution of GDP",
+      "B. बिगर-आर्थिक (वस्तुविनिमय) व्यवहार मोजले न जाणे / Non-monetary (barter) exchanges not being recorded",
+      "C. बाह्यता (Externalities) मोजल्या न जाणे / Externalities not being accounted for",
+      "D. देशाच्या लोकसंख्या वाढीचा दर / The country's population growth rate"
+    ],
+    "answer": "D",
+    "language": "bilingual",
+    "explanation": "NCERT मध्ये GDP कल्याणाचे परिपूर्ण मोजमाप नसण्याची तीन कारणे दिली आहेत: (१) GDP च्या वितरणातील असमानता (२) बिगर-आर्थिक व्यवहार (३) बाह्यता (Externalities); लोकसंख्या वाढीचा दर हे यापैकी नमूद केलेले कारण नाही (जरी दरडोई उत्पन्नावर त्याचा परिणाम होतो, ते वेगळे) / NCERT lists three reasons: (1) unequal distribution of GDP (2) non-monetary exchanges (3) externalities; population growth rate is not one of these listed reasons (though it separately affects per capita income).",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
   }
 ]

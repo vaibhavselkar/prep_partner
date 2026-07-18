@@ -214,5 +214,185 @@
     "explanation": "As per Article 110, a Money Bill, including the Finance Bill related to the budget, can be introduced only in the Lok Sabha.",
     "tags": [],
     "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-govt-finance-0013",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "easy",
+    "question": "अर्थसंकल्पाच्या वाटप कार्याअंतर्गत (Allocation Function) सरकार कोणत्या प्रकारच्या वस्तू पुरवते? / Under the allocation function of the government budget, what kind of goods does the government provide?",
+    "options": [
+      "A. सार्वजनिक वस्तू, ज्या अ-प्रतिस्पर्धी व अ-वगळणीय असतात / Public goods, which are non-rivalrous and non-excludable",
+      "B. फक्त निर्यातयोग्य वस्तू / Only exportable goods",
+      "C. फक्त चैनीच्या वस्तू / Only luxury goods",
+      "D. केवळ कृषी उत्पादने / Only agricultural produce"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "अर्थसंकल्पाचे वाटप कार्य अशा सार्वजनिक वस्तू (उदा. संरक्षण, रस्ते) पुरवते ज्या बाजार यंत्रणा देऊ शकत नाही, कारण त्या अ-प्रतिस्पर्धी (एकाच्या उपभोगाने इतरांचा वाटा कमी होत नाही) व अ-वगळणीय (न भरणाऱ्यांनाही वगळता येत नाही) असतात. / The allocation function provides public goods (e.g., defence, roads) that markets cannot, since they are non-rivalrous (one person's consumption doesn't reduce availability to others) and non-excludable (non-payers cannot be excluded).",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-govt-finance-0014",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "easy",
+    "question": "कर आकारणी व हस्तांतरणांद्वारे व्यक्तींच्या विनियोज्य उत्पन्नावर परिणाम करून समाजात 'न्याय्य' उत्पन्न वितरण साध्य करणे हे अर्थसंकल्पाचे कोणते कार्य आहे? / Which function of the government budget achieves a 'fair' income distribution in society by affecting personal disposable income through taxation and transfers?",
+    "options": [
+      "A. वाटप कार्य / Allocation function",
+      "B. पुनर्वितरण कार्य / Redistribution function",
+      "C. स्थिरीकरण कार्य / Stabilisation function",
+      "D. नियमन कार्य / Regulation function"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "पुनर्वितरण कार्याद्वारे सरकार कर व हस्तांतरणांच्या माध्यमातून व्यक्तींच्या विनियोज्य उत्पन्नावर परिणाम करते व समाजाला न्याय्य वाटणारी उत्पन्न वाटणी घडवते. / Through the redistribution function, government influences personal disposable income via taxes and transfers to bring about an income distribution considered fair by society.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-govt-finance-0015",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "question": "एकूण मागणी अपुरी असल्याने बेरोजगारी वाढल्यास सरकार खर्च वाढवून/कर कमी करून मागणी वाढवते, तर मागणी अतिरिक्त असल्याने महागाई वाढल्यास ती कमी करते — हे अर्थसंकल्पाचे कोणते कार्य आहे? / When the government raises spending/cuts taxes to boost demand during unemployment, and reduces demand during inflation, which budget function is this?",
+    "options": [
+      "A. वाटप कार्य / Allocation function",
+      "B. पुनर्वितरण कार्य / Redistribution function",
+      "C. स्थिरीकरण कार्य / Stabilisation function",
+      "D. भांडवली कार्य / Capital function"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "स्थिरीकरण कार्याद्वारे सरकार एकूण मागणीतील चढ-उतार दूर करून उत्पन्न व रोजगार स्थिर ठेवण्याचा प्रयत्न करते, कारण वेतन व किंमती आपोआप समायोजित होत नाहीत. / The stabilisation function is used by government to correct fluctuations in aggregate demand and stabilise output and employment, since wages and prices do not automatically adjust.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-govt-finance-0016",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "easy",
+    "question": "महसुली जमा (Revenue Receipts) यांचे मुख्य वैशिष्ट्य काय आहे? / What is the key characteristic of Revenue Receipts?",
+    "options": [
+      "A. त्यांच्यामुळे सरकारवर दायित्व निर्माण होते / They create a liability on government",
+      "B. त्या अ-परतफेडयोग्य (non-redeemable) असतात व दायित्व निर्माण करत नाहीत / They are non-redeemable and do not create a liability",
+      "C. त्या नेहमी कर्जातून येतात / They always come from borrowings",
+      "D. त्या केवळ भांडवली मालमत्ता विक्रीतून येतात / They come only from sale of capital assets"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "महसुली जमा या अशा जमा असतात ज्यामुळे सरकारवर कोणतेही दायित्व निर्माण होत नाही, म्हणून त्यांना 'अ-परतफेडयोग्य' म्हटले जाते; यांचे कर व करेतर असे दोन उपप्रकार आहेत. / Revenue receipts do not create a claim/liability on government, hence termed non-redeemable; they are divided into tax and non-tax revenue.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-govt-finance-0017",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "question": "खालीलपैकी कोणती जमा भांडवली जमा (Capital Receipts) म्हणून वर्गीकृत होते? / Which of the following is classified as a Capital Receipt?",
+    "options": [
+      "A. वैयक्तिक आयकर / Personal income tax",
+      "B. सरकारी गुंतवणुकीवरील लाभांश / Dividends on government investments",
+      "C. सार्वजनिक उपक्रमांच्या समभागांची विक्री (निर्गुंतवणूक) / Sale of PSU shares (disinvestment)",
+      "D. सेवांसाठी आकारलेली फी / Fees for services rendered"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "PSU निर्गुंतवणुकीतून मिळणारी रक्कम सरकारची वित्तीय मालमत्ता कमी करते, म्हणून ती भांडवली जमा (ऋण-रहित प्रकारची) मानली जाते; आयकर, लाभांश व फी या महसुली जमा आहेत. / Proceeds from PSU disinvestment reduce government's financial assets, hence classified as capital receipts (non-debt creating type); income tax, dividends and fees are revenue receipts.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-govt-finance-0018",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "question": "प्रत्यक्ष कर आकारणीबाबत खालीलपैकी कोणते विधान बरोबर आहे? / Which of the following statements about direct taxation is correct as per NCERT?",
+    "options": [
+      "A. वैयक्तिक आयकर प्रगतीशील (progressive) पद्धतीने आकारला जातो, तर कंपनी कर प्रमाणशीर (proportional) असतो / Personal income tax is levied progressively, while corporation tax is proportional",
+      "B. दोन्ही कर नेहमी प्रमाणशीर (proportional) असतात / Both taxes are always proportional",
+      "C. वैयक्तिक आयकर प्रमाणशीर व कंपनी कर प्रगतीशील असतो / Personal income tax is proportional and corporation tax is progressive",
+      "D. दोन्ही कर अप्रत्यक्ष कर मानले जातात / Both are considered indirect taxes"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "पुनर्वितरण उद्दिष्ट साध्य करण्यासाठी वैयक्तिक आयकर प्रगतीशील पद्धतीने (जास्त उत्पन्नावर जास्त दर) आकारला जातो, तर कंपन्यांवरील कर प्रमाणशीर आधारावर (नफ्याच्या ठराविक प्रमाणात) आकारला जातो. / To achieve the redistribution objective, personal income tax follows a progressive rate (higher income, higher rate), while firms are taxed on a proportional basis (a fixed proportion of profits).",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-govt-finance-0019",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "hard",
+    "question": "महसुली खर्च (Revenue Expenditure) व भांडवली खर्च (Capital Expenditure) यांतील फरकाबाबत खालीलपैकी कोणते विधान बरोबर आहे? / Which statement correctly distinguishes Revenue Expenditure from Capital Expenditure?",
+    "options": [
+      "A. कर्जावरील व्याज देयके ही भांडवली खर्च आहे / Interest payments on debt are capital expenditure",
+      "B. यंत्रसामग्री खरेदी ही महसुली खर्च आहे / Purchase of machinery is revenue expenditure",
+      "C. व्याज देयके, संरक्षण खर्च व अनुदाने हे महसुली खर्चाचे प्रमुख घटक आहेत, तर जमीन/यंत्रसामग्री खरेदी भांडवली खर्च आहे / Interest payments, defence expenditure and subsidies are major components of revenue expenditure, while acquisition of land/machinery is capital expenditure",
+      "D. दोन्ही प्रकारचे खर्च नेहमी मालमत्ता निर्माण करतात / Both types of expenditure always create assets"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "महसुली खर्च (व्याज देयके, संरक्षण खर्च, अनुदाने, वेतन) कोणतीही मालमत्ता निर्माण करत नाही, तर भांडवली खर्च (जमीन, इमारत, यंत्रसामग्री खरेदी, गुंतवणूक) भौतिक/वित्तीय मालमत्ता निर्माण करतो किंवा दायित्व कमी करतो. / Revenue expenditure (interest payments, defence, subsidies, salaries) does not create assets, whereas capital expenditure (land, building, machinery acquisition, investment) creates physical/financial assets or reduces liabilities.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-govt-finance-0020",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "hard",
+    "question": "अंदाजपत्रकीय तूट (Budgetary Deficit) ही संकल्पना भारतीय अर्थसंकल्पीय दस्तऐवजांतून केव्हापासून वगळण्यात आली? / Since which budget has the practice of showing Budgetary Deficit been discontinued in India?",
+    "options": [
+      "A. १९९१-९२ चा अर्थसंकल्प / The 1991-92 budget",
+      "B. १९९७-९८ चा अर्थसंकल्प / The 1997-98 budget",
+      "C. २००३-०४ चा अर्थसंकल्प / The 2003-04 budget",
+      "D. २०१७-१८ चा अर्थसंकल्प / The 2017-18 budget"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "अंदाजपत्रकीय तूट (एकूण जमा वजा एकूण खर्च) ही जुनी संकल्पना असून १९९७-९८ च्या अर्थसंकल्पापासून ती दाखवण्याची पद्धत बंद करण्यात आली. / Budgetary deficit (total receipts minus total expenditure) is an older concept, and the practice of showing it was discontinued from the 1997-98 budget onward.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-govt-finance-0021",
+    "subject": "economy",
+    "subtopic": "govt-finance",
+    "difficulty": "medium",
+    "question": "राजकोषीय धोरण (Fiscal Policy) द्वारे उत्पन्न व रोजगार स्थिर ठेवण्याची कल्पना कोणत्या अर्थशास्त्रज्ञाच्या सिद्धांतावर आधारित आहे? / The idea of using fiscal policy to stabilise output and employment is based on the theory of which economist?",
+    "options": [
+      "A. अॅडम स्मिथ / Adam Smith",
+      "B. जॉन मेनार्ड केन्स / John Maynard Keynes",
+      "C. मिल्टन फ्रीडमन / Milton Friedman",
+      "D. डेव्हिड रिकार्डो / David Ricardo"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "'The General Theory of Employment, Interest and Money' या ग्रंथात जॉन मेनार्ड केन्स यांनी मांडले की सरकारी खर्च व करआकारणीद्वारे उत्पन्न व रोजगार पातळी स्थिर ठेवता येते. / In 'The General Theory of Employment, Interest and Money,' John Maynard Keynes argued that government fiscal policy (spending and taxation) should be used to stabilise output and employment levels.",
+    "tags": [
+      "ncert"
+    ],
+    "verifiedAt": "2026-07-19"
   }
 ]

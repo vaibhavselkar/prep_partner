@@ -214,5 +214,167 @@
     "explanation": "Bank Rate is the rate at which RBI provides long-term finance without any collateral/repurchase agreement, whereas Repo Rate involves short-term collateralized borrowing (typically overnight) against government securities.",
     "tags": [],
     "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-trade-banking-0013",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "easy",
+    "question": "पैशाचे प्राथमिक व सर्वात महत्त्वाचे कार्य कोणते? / Which is the primary and most important function of money?",
+    "options": [
+      "A. विनिमयाचे माध्यम (Medium of Exchange) / Medium of Exchange",
+      "B. फक्त मूल्यसंचयाचे साधन / Only a Store of Value",
+      "C. फक्त हिशोबाचे एकक / Only a Unit of Account",
+      "D. फक्त परकीय चलन विनिमयाचे साधन / Only a tool for foreign exchange"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "पैशाचे पहिले व प्रमुख कार्य विनिमयाचे माध्यम असणे हे आहे, ज्यामुळे वस्तु-विनिमय पद्धतीतील गरजांच्या दुहेरी योगायोगाची अडचण दूर होते; हिशोबाचे एकक व मूल्यसंचय ही त्याची इतर कार्ये आहेत. / Money's foremost function is acting as a medium of exchange, removing the need for a double coincidence of wants inherent in barter; unit of account and store of value are its other functions.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-trade-banking-0014",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "easy",
+    "question": "वस्तु-विनिमय पद्धतीची (Barter System) मुख्य अडचण कोणती? / What is the main drawback of the Barter System?",
+    "options": [
+      "A. गरजांचा दुहेरी योगायोग (Double Coincidence of Wants) आवश्यक असतो / It requires a double coincidence of wants",
+      "B. त्यात व्याजदर खूप जास्त असतो / It involves excessively high interest rates",
+      "C. त्यात परकीय चलन वापरावे लागते / It requires the use of foreign currency",
+      "D. त्यात फक्त बँकांमार्फतच व्यवहार होतात / Transactions can only occur through banks"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "वस्तु-विनिमय पद्धतीत दोन्ही पक्षांकडे एकमेकांना हवी असलेली नेमकी वस्तू असावी लागते (गरजांचा दुहेरी योगायोग); व्यक्तींची संख्या वाढल्यास अशा जोड्या शोधण्याचा खर्च खूप वाढतो, म्हणून पैशाची गरज निर्माण होते. / Barter requires both parties to want exactly what the other offers (double coincidence of wants); search costs rise prohibitively as the number of individuals increases, creating the need for money.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-trade-banking-0015",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "medium",
+    "question": "पैशाचा पुरवठा मोजण्यासाठी M1 (संकुचित पैसा) कसा परिभाषित केला जातो? / How is M1 (narrow money) defined for measuring money supply?",
+    "options": [
+      "A. चलन (जनतेकडील नोटा व नाणी) + निव्वळ मागणी ठेवी / Currency with the public + Net Demand Deposits with banks",
+      "B. फक्त टपाल बचत बँकांतील ठेवी / Only savings deposits with Post Office savings banks",
+      "C. फक्त बँकांच्या मुदत ठेवी / Only time deposits of commercial banks",
+      "D. फक्त RBI कडील परकीय चलन साठा / Only RBI's foreign exchange reserves"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "M1 = CU (चलन) + DD (निव्वळ मागणी ठेवी); M1 व M2 यांना संकुचित पैसा (Narrow Money) म्हणतात कारण ते सर्वाधिक तरल मापदंड आहेत. / M1 = CU (Currency) + DD (Net Demand Deposits); M1 and M2 are called Narrow Money as they are the most liquid measures of money supply.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-trade-banking-0016",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "medium",
+    "question": "जर रोख राखीव प्रमाण (Reserve Ratio) 25% असेल, तर पैसा गुणक (Money Multiplier) किती असेल? / If the Reserve Ratio is 25%, what will the Money Multiplier be?",
+    "options": [
+      "A. 4 (1 ÷ 0.25) / 4 (1 ÷ 0.25)",
+      "B. 25 / 25",
+      "C. 0.25 / 0.25",
+      "D. 2.5 / 2.5"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "पैसा गुणक हा राखीव प्रमाणाच्या व्यस्त प्रमाणात असतो (गुणक = 1 ÷ राखीव प्रमाण); त्यामुळे 25% राखीव प्रमाणासाठी गुणक 1 ÷ 0.25 = 4 इतका असतो. राखीव प्रमाण वाढल्यास गुणक कमी होतो. / The money multiplier is the reciprocal of the reserve ratio (Multiplier = 1 ÷ Reserve Ratio); for a 25% reserve ratio this equals 1 ÷ 0.25 = 4. A higher reserve ratio lowers the multiplier.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-trade-banking-0017",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "medium",
+    "question": "केंद्रीय बँकेने जारी केलेल्या व जनता/व्यापारी बँकांकडे असलेल्या चलनास काय म्हणतात, जे पत निर्मितीचा पाया असते? / What is the currency issued by the central bank, held by the public or commercial banks, called - forming the basis for credit creation?",
+    "options": [
+      "A. उच्च शक्ती चलन / राखीव पैसा (High-Powered Money / Reserve Money) / High-Powered Money / Reserve Money",
+      "B. व्यापक पैसा (Broad Money) / Broad Money",
+      "C. परकीय चलन साठा (Forex Reserves) / Forex Reserves",
+      "D. सांविधिक तरलता प्रमाण (SLR) / Statutory Liquidity Ratio (SLR)"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "केंद्रीय बँकेने जारी केलेले व जनतेकडे किंवा व्यापारी बँकांकडे असलेले चलन 'उच्च शक्ती चलन' (High-Powered Money), 'राखीव पैसा' (Reserve Money) किंवा 'चलनी आधार' (Monetary Base) म्हणून ओळखले जाते, आणि ते पत निर्मितीचा आधार असते. / Currency issued by the central bank and held by the public or commercial banks is known as High-Powered Money, Reserve Money, or Monetary Base, and it acts as the basis for credit creation.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-trade-banking-0018",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "hard",
+    "question": "'अवमूल्यन' (Devaluation) व 'अवक्षय' (Depreciation) यांच्यातील फरक काय आहे? / What is the difference between 'Devaluation' and 'Depreciation'?",
+    "options": [
+      "A. अवमूल्यन हे स्थिर विनिमय दर पद्धतीत सरकारच्या जाणीवपूर्वक कृतीने घडते, तर अवक्षय हे लवचिक दर पद्धतीत बाजारशक्तींमुळे आपोआप घडते / Devaluation is a deliberate government action under a fixed exchange rate system, whereas Depreciation is a market-driven fall under a flexible exchange rate system",
+      "B. दोन्ही एकसारखेच असून फक्त वेगवेगळ्या नावांनी ओळखले जातात / Both are identical concepts known by different names",
+      "C. अवमूल्यन फक्त सोन्याच्या किमतीशी संबंधित असते / Devaluation relates only to gold prices",
+      "D. अवक्षय फक्त भांडवली खात्याशी संबंधित असतो / Depreciation relates only to the capital account"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "स्थिर विनिमय दर पद्धतीत सरकार जाणीवपूर्वक विनिमय दर वाढवून (चलन स्वस्त करून) कृती करते तेव्हा त्यास अवमूल्यन (Devaluation) म्हणतात; लवचिक दर पद्धतीत बाजारातील मागणी-पुरवठ्यामुळे चलनाचे मूल्य आपोआप घसरल्यास त्यास अवक्षय (Depreciation) म्हणतात. / Under a fixed exchange rate system, a deliberate government action raising the exchange rate (making currency cheaper) is Devaluation; under a flexible system, a market-driven fall in currency value due to demand-supply forces is Depreciation.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-trade-banking-0019",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "medium",
+    "question": "'व्यवस्थापित तरंगता विनिमय दर पद्धती' (Managed Floating Exchange Rate System) याविषयी कोणते विधान बरोबर आहे? / Which statement about the 'Managed Floating Exchange Rate System' is correct?",
+    "options": [
+      "A. ही लवचिक व स्थिर विनिमय दर पद्धतींचे मिश्रण आहे, ज्यात बाजार दर ठरवतो पण केंद्रीय बँक अस्थिरता टाळण्यासाठी अधूनमधून हस्तक्षेप करते / It is a mixture of flexible and fixed systems, where the market largely determines the rate but the central bank intervenes occasionally to moderate volatility",
+      "B. यात केंद्रीय बँक कधीही हस्तक्षेप करत नाही / Under this system the central bank never intervenes",
+      "C. यात सरकार विनिमय दर कायमस्वरूपी एका पातळीवर स्थिर ठेवते / Under this system the government permanently fixes the exchange rate at one level",
+      "D. ही पद्धत फक्त सोन्याच्या मानकावर (Gold Standard) आधारित असते / This system is based solely on the Gold Standard"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "व्यवस्थापित तरंगता पद्धती, ज्यास 'डर्टी फ्लोटिंग' असेही म्हणतात, ही लवचिक (तरंगता भाग) व स्थिर (व्यवस्थापित भाग) दर पद्धतींचे मिश्रण आहे; यात केंद्रीय बँक विनिमय दरातील अतिरेकी चढ-उतार टाळण्यासाठी अधूनमधून हस्तक्षेप करते. / Managed Floating, also called 'dirty floating', blends the flexible (float) and fixed (managed) systems; the central bank intervenes occasionally to moderate excessive exchange rate movements.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-trade-banking-0020",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "hard",
+    "question": "जर देशाच्या चालू खात्यात तूट (Current Account Deficit) असेल, तर व्यवहार तोलाच्या समतोलासाठी काय आवश्यक असते? / If a country has a Current Account Deficit, what is required for Balance of Payments equilibrium?",
+    "options": [
+      "A. ती तूट भांडवली खात्यातील तितक्याच अधिशेषाने (निव्वळ परकीय भांडवल ओघाने) भरून काढावी लागते / The deficit must be financed by an equal surplus in the Capital Account (net capital inflow)",
+      "B. चालू खात्यातील तूट आपोआप नाहीशी होते व तिला कशानेही भरून काढण्याची गरज नसते / The current account deficit disappears automatically and need not be financed",
+      "C. फक्त सोन्याचा साठा वाढवूनच ही तूट भरून काढता येते / Only by increasing gold reserves can this deficit be financed",
+      "D. भांडवली खात्यात तूट असल्यासच व्यवहार तोल संतुलित होतो / BoP balances only when the capital account is also in deficit"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "ज्याप्रमाणे उत्पन्नापेक्षा जास्त खर्च करणाऱ्या व्यक्तीला मालमत्ता विकून किंवा कर्ज घेऊन फरक भरून काढावा लागतो, त्याचप्रमाणे चालू खात्यातील तूट असलेल्या देशाला ती भांडवली खात्यातील अधिशेषाद्वारे (निव्वळ भांडवल ओघाद्वारे) भरून काढावी लागते; आदर्शतः चालू खाते + भांडवली खाते = शून्य असते. / Just as an individual spending more than income must finance the gap by selling assets or borrowing, a country with a current account deficit must finance it via a capital account surplus (net capital inflow); ideally Current Account + Capital Account ≡ 0.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-trade-banking-0021",
+    "subject": "economy",
+    "subtopic": "trade-banking",
+    "difficulty": "easy",
+    "question": "'व्यापार तोल' (Balance of Trade - BOT) कशाशी संबंधित असतो? / What does the 'Balance of Trade' (BOT) refer to?",
+    "options": [
+      "A. केवळ वस्तूंच्या (दृश्य वस्तूंच्या) निर्यात व आयात यामधील फरक / Only the difference between exports and imports of goods (visible items)",
+      "B. सेवा, प्रेषणे व हस्तांतरणे यांचा एकत्रित समतोल / The combined balance of services, remittances and transfers",
+      "C. भांडवली खात्यातील परकीय गुंतवणुकीचा समतोल / The balance of foreign investment in the capital account",
+      "D. देशाच्या एकूण परकीय चलन साठ्याचे मूल्य / The total value of the country's foreign exchange reserves"
+    ],
+    "answer": "A",
+    "language": "bilingual",
+    "explanation": "व्यापार तोल (BOT) म्हणजे फक्त वस्तूंच्या (दृश्य व्यापाराच्या) निर्यात व आयात मूल्यातील फरक; तो चालू खात्याचा एक भाग आहे, तर सेवा व हस्तांतरणे 'अदृश्य व्यापार' (Invisibles) या वेगळ्या घटकात मोजली जातात. / Balance of Trade (BOT) is the difference between the value of exports and imports of goods (visible trade) only; it is one component of the Current Account, while services and transfers are recorded separately under 'Invisibles'.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
   }
 ]

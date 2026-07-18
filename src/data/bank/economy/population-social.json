@@ -214,5 +214,167 @@
     "explanation": "NSSO (राष्ट्रीय सांख्यिकी कार्यालयांतर्गत) 2017 पासून वार्षिक PLFS राबवत आहे, ज्याने पूर्वीच्या पंचवार्षिक रोजगार-बेरोजगारी सर्वेक्षणाची जागा घेतली.",
     "tags": [],
     "verifiedAt": "2026-07-08"
+  },
+  {
+    "id": "economy-population-social-0013",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "easy",
+    "question": "NCERT नुसार मानवी भांडवल निर्मितीचे (Human Capital Formation) दोन सर्वात महत्त्वाचे स्रोत कोणते? / As per NCERT, which are the two most important sources of human capital formation?",
+    "options": [
+      "A. स्थलांतर व माहिती / Migration and information",
+      "B. शिक्षण व आरोग्य / Education and health",
+      "C. नोकरीवरील प्रशिक्षण व स्थलांतर / On-the-job training and migration",
+      "D. माहिती व नोकरीवरील प्रशिक्षण / Information and on-the-job training"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "शिक्षण व आरोग्य यांवरील गुंतवणूक ही मानवी भांडवल निर्मितीचे सर्वात महत्त्वाचे स्रोत मानली जाते, जरी नोकरीवरील प्रशिक्षण, स्थलांतर व माहिती हेही इतर स्रोत आहेत.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-population-social-0014",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "question": "NCERT नुसार मानवी भांडवल निर्मितीचे एकूण किती स्रोत सांगितले आहेत? / As per NCERT, how many sources of human capital formation are identified in total?",
+    "options": [
+      "A. तीन / Three",
+      "B. चार / Four",
+      "C. पाच / Five",
+      "D. सहा / Six"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "शिक्षणावरील खर्च, आरोग्यावरील खर्च, नोकरीवरील प्रशिक्षण, स्थलांतर आणि माहिती असे एकूण पाच स्रोत NCERT मध्ये नमूद केले आहेत.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-population-social-0015",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "question": "NCERT नुसार भौतिक भांडवल आणि मानवी भांडवल यांतील फरकाबाबत खालीलपैकी कोणते विधान बरोबर आहे? / As per NCERT, which of the following statements correctly distinguishes physical capital from human capital?",
+    "options": [
+      "A. भौतिक भांडवल अमूर्त असते, मानवी भांडवल मूर्त असते / Physical capital is intangible, human capital is tangible",
+      "B. भौतिक भांडवल मालकापासून वेगळे करता येते, मानवी भांडवल मालकापासून वेगळे करता येत नाही / Physical capital is separable from its owner, human capital is not separable from its owner",
+      "C. दोन्ही प्रकारचे भांडवल फक्त खासगी लाभ देतात / Both forms of capital create only private benefits",
+      "D. भौतिक भांडवलाची निर्मिती नेहमी सामाजिक प्रक्रिया असते / Physical capital formation is always a social process"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT च्या बॉक्स ४.१ नुसार भौतिक भांडवल (उदा. बस) मालकापासून वेगळे करता येते, तर मानवी भांडवल (उदा. चालक) मालकाच्या शरीर-मनात अंतर्भूत असल्याने मालकापासून वेगळे करता येत नाही.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-population-social-0016",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "hard",
+    "question": "NCERT नुसार 'मानवी भांडवल' (Human Capital) व 'मानवी विकास' (Human Development) या संकल्पनांतील मूलभूत फरक काय आहे? / As per NCERT, what is the fundamental difference between 'Human Capital' and 'Human Development'?",
+    "options": [
+      "A. मानवी भांडवल दृष्टिकोनात मानवाला साध्य (end) मानले जाते, मानवी विकासात साधन (means) / Human capital treats humans as ends, human development treats them as means",
+      "B. मानवी भांडवल दृष्टिकोनात शिक्षण/आरोग्य उत्पादकता वाढवण्याचे साधन (means) मानले जाते, तर मानवी विकासात ते मानवी कल्याणासाठी साध्य (ends) मानले जाते / Human capital treats education/health as means to raise productivity, while human development treats them as ends for human well-being",
+      "C. दोन्ही संकल्पना पूर्णपणे समान आहेत, फरक नाही / Both concepts are entirely identical, no difference",
+      "D. मानवी विकास फक्त आर्थिक वाढीशी संबंधित आहे / Human development is concerned only with economic growth"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "मानवी भांडवल दृष्टिकोनात शिक्षण व आरोग्य ही उत्पादकता वाढवण्याची साधने मानली जातात; मानवी विकास दृष्टिकोनात मानवाला साध्य मानले जाते व उत्पादकता वाढो अथवा न वाढो, शिक्षण-आरोग्य मूलभूत हक्क मानले जातात.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-population-social-0017",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "easy",
+    "question": "ब्रिटिश भारताची पहिली अधिकृत जनगणना कोणत्या वर्षी घेण्यात आली? / In which year was the first official census of British India conducted?",
+    "options": [
+      "A. १८७२ / 1872",
+      "B. १८८१ / 1881",
+      "C. १९०१ / 1901",
+      "D. १९२१ / 1921"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार ब्रिटिश भारताची लोकसंख्येविषयीची माहिती प्रथम १८८१ मध्ये जनगणनेद्वारे संकलित करण्यात आली, त्यानंतर दर दहा वर्षांनी जनगणना होऊ लागली.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-population-social-0018",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "question": "भारताच्या लोकसंख्याशास्त्रीय संक्रमणातील (demographic transition) पहिल्या अवस्थेतून दुसऱ्या अवस्थेत प्रवेश कोणत्या वर्षानंतर झाला असे मानले जाते ('मोठी उलथापालथ'/Great Divide)? / After which year is India considered to have moved from the first to the second stage of demographic transition (the 'Great Divide')?",
+    "options": [
+      "A. १९०१ / 1901",
+      "B. १९११ / 1911",
+      "C. १९२१ / 1921",
+      "D. १९४७ / 1947"
+    ],
+    "answer": "C",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार १९२१ पूर्वी भारत लोकसंख्याशास्त्रीय संक्रमणाच्या पहिल्या अवस्थेत होता; १९२१ नंतर दुसरी अवस्था सुरू झाली, म्हणून १९२१ हे 'मोठी उलथापालथ' (Great Divide) चे वर्ष मानले जाते.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-population-social-0019",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "medium",
+    "question": "स्वातंत्र्याच्या वेळी (सन १९४७ च्या सुमारास) भारताचा एकूण साक्षरता दर अंदाजे किती होता? / At the time of independence (around 1947), India's overall literacy rate was approximately what?",
+    "options": [
+      "A. १०% पेक्षा कमी / Less than 10%",
+      "B. १६% पेक्षा कमी / Less than 16%",
+      "C. सुमारे ३०% / About 30%",
+      "D. सुमारे ४५% / About 45%"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार स्वातंत्र्यपूर्व काळात भारताचा एकूण साक्षरता दर १६% पेक्षा कमी होता, ज्यात स्त्री साक्षरता दर जेमतेम सुमारे ७% इतकाच होता.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-population-social-0020",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "hard",
+    "question": "स्वातंत्र्याच्या वेळी भारताचा बाल मृत्युदर (Infant Mortality Rate) अंदाजे किती (प्रति हजार) होता? / At the time of independence, India's Infant Mortality Rate was approximately how much (per thousand)?",
+    "options": [
+      "A. सुमारे २८ / About 28",
+      "B. सुमारे ८० / About 80",
+      "C. सुमारे १४६ / About 146",
+      "D. सुमारे २१८ / About 218"
+    ],
+    "answer": "D",
+    "language": "bilingual",
+    "explanation": "NCERT नुसार स्वातंत्र्याच्या वेळी भारताचा बाल मृत्युदर सुमारे २१८ प्रति हजार इतका अत्यंत उच्च होता, तर सध्याचा दर सुमारे २८ प्रति हजार आहे.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
+  },
+  {
+    "id": "economy-population-social-0021",
+    "subject": "economy",
+    "subtopic": "population-social",
+    "difficulty": "hard",
+    "question": "शिक्षणावर GDP च्या किमान ६% रक्कम खर्च करण्याची शिफारस कोणत्या समिती/आयोगाने केली होती? / Which commission/committee recommended that at least 6% of GDP be spent on education?",
+    "options": [
+      "A. तेंडुलकर समिती / Tendulkar Committee",
+      "B. शिक्षण आयोग (१९६४-६६) / Education Commission (1964-66)",
+      "C. तपस मुजुमदार समिती / Tapas Majumdar Committee",
+      "D. रंगराजन समिती / Rangarajan Committee"
+    ],
+    "answer": "B",
+    "language": "bilingual",
+    "explanation": "शिक्षण आयोगाने (१९६४-६६) शिक्षणातील लक्षणीय वाढीसाठी GDP च्या किमान ६% रक्कम शिक्षणावर खर्च करण्याची शिफारस केली होती; प्रत्यक्ष खर्च अजूनही सुमारे ४% च्या आसपास आहे.",
+    "tags": ["ncert"],
+    "verifiedAt": "2026-07-19"
   }
 ]
