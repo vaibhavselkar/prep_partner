@@ -1,0 +1,322 @@
+[
+  {
+    "id": "num-sys-01",
+    "difficulty": "easy",
+    "question": "पुढीलपैकी सर्वात लहान नैसर्गिक संख्या (natural number) कोणती? / Which of the following is the smallest natural number?",
+    "options": ["A. 0", "B. 1", "C. -1", "D. 2"],
+    "answer": "B",
+    "explanation": "नैसर्गिक संख्या 1, 2, 3, ... यापासून सुरू होतात, त्यामुळे सर्वात लहान नैसर्गिक संख्या 1 आहे. / Natural numbers start from 1, 2, 3, ..., so the smallest natural number is 1."
+  },
+  {
+    "id": "num-sys-02",
+    "difficulty": "easy",
+    "question": "पुढीलपैकी सर्वात लहान पूर्ण संख्या (whole number) कोणती? / Which of the following is the smallest whole number?",
+    "options": ["A. 0", "B. 1", "C. -1", "D. 2"],
+    "answer": "A",
+    "explanation": "पूर्ण संख्या 0, 1, 2, 3, ... यापासून सुरू होतात, म्हणजे नैसर्गिक संख्यांमध्ये 0 समाविष्ट केल्यास पूर्ण संख्या मिळतात. त्यामुळे सर्वात लहान पूर्ण संख्या 0 आहे. / Whole numbers are 0, 1, 2, 3, ... i.e., natural numbers plus 0. Hence the smallest whole number is 0."
+  },
+  {
+    "id": "num-sys-03",
+    "difficulty": "easy",
+    "question": "पुढीलपैकी कोणती संख्या पूर्णांक (integer) नाही? / Which of the following is NOT an integer?",
+    "options": ["A. -5", "B. 0", "C. 3/2", "D. 7"],
+    "answer": "C",
+    "explanation": "पूर्णांकांमध्ये सर्व धन, ऋण संख्या व शून्य यांचा समावेश होतो, पण अपूर्णांक (भिन्न) यांचा समावेश नसतो. 3/2 = 1.5 ही पूर्णांक नाही. / Integers include all positive, negative whole numbers and zero, but not fractions. 3/2 = 1.5 is not an integer."
+  },
+  {
+    "id": "num-sys-04",
+    "difficulty": "easy",
+    "question": "2/3 ही कोणत्या प्रकारची संख्या आहे? / What type of number is 2/3?",
+    "options": ["A. नैसर्गिक संख्या / Natural number", "B. पूर्ण संख्या / Whole number", "C. परिमेय संख्या / Rational number", "D. अपरिमेय संख्या / Irrational number"],
+    "answer": "C",
+    "explanation": "2/3 ही p/q (q ≠ 0) या स्वरूपात लिहिता येते, त्यामुळे ती परिमेय संख्या (rational number) आहे. / 2/3 can be written in the form p/q (q ≠ 0), so it is a rational number."
+  },
+  {
+    "id": "num-sys-05",
+    "difficulty": "easy",
+    "question": "पुढीलपैकी कोणती संख्या अपरिमेय (irrational) आहे? / Which of the following is an irrational number?",
+    "options": ["A. √4", "B. √2", "C. 0.5", "D. 3/7"],
+    "answer": "B",
+    "explanation": "√4 = 2 (परिमेय), 0.5 = 1/2 (परिमेय), 3/7 (परिमेय). पण √2 = 1.414... हा न संपणारा, न पुनरावृत्ती होणारा दशांश आहे, त्यामुळे तो अपरिमेय आहे. / √4 = 2 (rational), 0.5 = 1/2 (rational), 3/7 (rational). But √2 = 1.414... is a non-terminating, non-repeating decimal, so it is irrational."
+  },
+  {
+    "id": "num-sys-06",
+    "difficulty": "easy",
+    "question": "सर्वात लहान मूळ संख्या (prime number) कोणती? / What is the smallest prime number?",
+    "options": ["A. 1", "B. 2", "C. 3", "D. 0"],
+    "answer": "B",
+    "explanation": "मूळ संख्येला फक्त 1 आणि स्वतः हे दोनच अवयव असतात. 1 ला फक्त एकच अवयव (1) असल्याने तो मूळ संख्या नाही. सर्वात लहान व एकमेव सम मूळ संख्या 2 आहे. / A prime number has exactly two factors: 1 and itself. 1 has only one factor, so it is not prime. The smallest (and only even) prime number is 2."
+  },
+  {
+    "id": "num-sys-07",
+    "difficulty": "easy",
+    "question": "सर्वात लहान संयुक्त संख्या (composite number) कोणती? / What is the smallest composite number?",
+    "options": ["A. 2", "B. 3", "C. 4", "D. 6"],
+    "answer": "C",
+    "explanation": "2 व 3 या मूळ संख्या आहेत (फक्त 2 अवयव). 4 ला 1, 2, 4 असे 3 अवयव असल्याने ती सर्वात लहान संयुक्त संख्या आहे. / 2 and 3 are prime numbers (only 2 factors). 4 has three factors — 1, 2, 4 — making it the smallest composite number."
+  },
+  {
+    "id": "num-sys-08",
+    "difficulty": "easy",
+    "question": "0 ही सम (even) संख्या आहे की विषम (odd)? / Is 0 an even number or an odd number?",
+    "options": ["A. सम संख्या / Even number", "B. विषम संख्या / Odd number", "C. दोन्ही / Both", "D. यापैकी नाही / Neither"],
+    "answer": "A",
+    "explanation": "जी संख्या 2 ने पूर्णतः भाग जाते ती सम संख्या असते. 0 ÷ 2 = 0, बाकी 0 राहते, म्हणून 0 ही सम संख्या आहे. / A number divisible by 2 with no remainder is even. 0 ÷ 2 = 0 with remainder 0, so 0 is an even number."
+  },
+  {
+    "id": "num-sys-09",
+    "difficulty": "easy",
+    "question": "पुढीलपैकी कोणती जोडी सहमूळ (co-prime) संख्यांची आहे? / Which of the following pairs are co-prime numbers?",
+    "options": ["A. (4, 8)", "B. (9, 16)", "C. (6, 9)", "D. (15, 20)"],
+    "answer": "B",
+    "explanation": "दोन संख्यांचा म.सा.वि. (HCF) 1 असेल तर त्या सहमूळ असतात. HCF(4,8)=4, HCF(6,9)=3, HCF(15,20)=5, पण HCF(9,16)=1 (9=3², 16=2⁴, समान अवयव नाहीत). म्हणून (9,16) सहमूळ आहे. / Two numbers are co-prime if their HCF is 1. HCF(4,8)=4, HCF(6,9)=3, HCF(15,20)=5, but HCF(9,16)=1 since 9=3² and 16=2⁴ share no common factor. So (9,16) is the co-prime pair."
+  },
+  {
+    "id": "num-sys-10",
+    "difficulty": "easy",
+    "question": "5847 या संख्येत 8 चे स्थानिक किंमत (place value) किती आहे? / What is the place value of the digit 8 in the number 5847?",
+    "options": ["A. 8", "B. 80", "C. 800", "D. 8000"],
+    "answer": "C",
+    "explanation": "5847 मध्ये अंकांची स्थाने अशी आहेत: 5-हजार, 8-शतक, 4-दशक, 7-एकक. त्यामुळे 8 चे स्थानिक किंमत = 8 × 100 = 800. / In 5847: 5-thousands, 8-hundreds, 4-tens, 7-units. So the place value of 8 = 8 × 100 = 800."
+  },
+  {
+    "id": "num-sys-11",
+    "difficulty": "easy",
+    "question": "5847 या संख्येत 8 चे दर्शनी किंमत (face value) किती आहे? / What is the face value of the digit 8 in the number 5847?",
+    "options": ["A. 8", "B. 80", "C. 800", "D. 8000"],
+    "answer": "A",
+    "explanation": "दर्शनी किंमत म्हणजे अंकाची स्वतःची किंमत, स्थानाचा विचार न करता. त्यामुळे 8 चे दर्शनी किंमत नेहमी 8 च राहते. / Face value is the digit's own value, regardless of its position. So the face value of 8 is always simply 8."
+  },
+  {
+    "id": "num-sys-12",
+    "difficulty": "easy",
+    "question": "123456 या संख्येत किती अंक आहेत? / How many digits are there in the number 123456?",
+    "options": ["A. 5", "B. 6", "C. 7", "D. 4"],
+    "answer": "B",
+    "explanation": "1, 2, 3, 4, 5, 6 असे एकूण 6 अंक 123456 या संख्येत आहेत. / Counting 1, 2, 3, 4, 5, 6 gives a total of 6 digits in 123456."
+  },
+  {
+    "id": "num-sys-13",
+    "difficulty": "easy",
+    "question": "12 या संख्येला एकूण किती अवयव (factors) आहेत? / How many factors does the number 12 have?",
+    "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+    "answer": "C",
+    "explanation": "12 चे अवयव: 1, 2, 3, 4, 6, 12 — एकूण 6 अवयव. / Factors of 12 are 1, 2, 3, 4, 6, 12 — a total of 6 factors."
+  },
+  {
+    "id": "num-sys-14",
+    "difficulty": "easy",
+    "question": "6 चा 5वा गुणज (multiple) कोणता? / What is the 5th multiple of 6?",
+    "options": ["A. 24", "B. 30", "C. 36", "D. 18"],
+    "answer": "B",
+    "explanation": "6 चे गुणज: 6, 12, 18, 24, 30, ... त्यामुळे 6 चा 5वा गुणज = 6 × 5 = 30. / Multiples of 6 are 6, 12, 18, 24, 30, ... so the 5th multiple of 6 = 6 × 5 = 30."
+  },
+  {
+    "id": "num-sys-15",
+    "difficulty": "easy",
+    "question": "पुढीलपैकी कोणती संख्या 2 ने पूर्णतः भाग जाते? / Which of the following numbers is exactly divisible by 2?",
+    "options": ["A. 235", "B. 341", "C. 468", "D. 573"],
+    "answer": "C",
+    "explanation": "जी संख्या सम अंकाने (0,2,4,6,8) संपते ती 2 ने भाग जाते. 468 चा शेवटचा अंक 8 (सम) आहे, तर 235, 341, 573 विषम अंकांनी संपतात. / A number is divisible by 2 if it ends in an even digit (0,2,4,6,8). 468 ends in 8 (even), while 235, 341, 573 end in odd digits."
+  },
+  {
+    "id": "num-sys-16",
+    "difficulty": "easy",
+    "question": "पुढीलपैकी कोणती संख्या 5 ने पूर्णतः भाग जाते? / Which of the following numbers is exactly divisible by 5?",
+    "options": ["A. 342", "B. 455", "C. 468", "D. 573"],
+    "answer": "B",
+    "explanation": "जी संख्या 0 किंवा 5 ने संपते ती 5 ने भाग जाते. 455 चा शेवटचा अंक 5 आहे, म्हणून ती 5 ने पूर्णतः भाग जाते; इतर पर्याय 0 किंवा 5 ने संपत नाहीत. / A number is divisible by 5 if it ends in 0 or 5. 455 ends in 5, so it is exactly divisible by 5; the other options do not end in 0 or 5."
+  },
+  {
+    "id": "num-sys-17",
+    "difficulty": "medium",
+    "question": "पुढीलपैकी कोणती संख्या 3 ने पूर्णतः भाग जाते? / Which of the following numbers is exactly divisible by 3?",
+    "options": ["A. 124", "B. 235", "C. 342", "D. 577"],
+    "answer": "C",
+    "explanation": "अंकांची बेरीज 3 ने भाग गेल्यास संख्या 3 ने भाग जाते. 342: 3+4+2=9 (3 ने भाग जातो) ✓. 124: 1+2+4=7 ✗, 235: 2+3+5=10 ✗, 577: 5+7+7=19 ✗. म्हणून उत्तर 342. / A number is divisible by 3 if the sum of its digits is divisible by 3. 342: 3+4+2=9 (divisible by 3) ✓. 124: sum=7 ✗, 235: sum=10 ✗, 577: sum=19 ✗. So the answer is 342."
+  },
+  {
+    "id": "num-sys-18",
+    "difficulty": "medium",
+    "question": "पुढीलपैकी कोणती संख्या 9 ने पूर्णतः भाग जाते? / Which of the following numbers is exactly divisible by 9?",
+    "options": ["A. 124", "B. 235", "C. 468", "D. 577"],
+    "answer": "C",
+    "explanation": "अंकांची बेरीज 9 ने भाग गेल्यास संख्या 9 ने भाग जाते. 468: 4+6+8=18 (9 ने भाग जातो) ✓. 124: सरळ 7, 235: 10, 577: 19 — यापैकी कोणतीही 9 ने भाग जात नाही. / A number is divisible by 9 if the sum of its digits is divisible by 9. 468: 4+6+8=18 (divisible by 9) ✓. 124: sum=7, 235: sum=10, 577: sum=19 — none divisible by 9."
+  },
+  {
+    "id": "num-sys-19",
+    "difficulty": "medium",
+    "question": "पुढीलपैकी कोणती संख्या 11 ने पूर्णतः भाग जाते? / Which of the following numbers is exactly divisible by 11?",
+    "options": ["A. 121", "B. 122", "C. 123", "D. 124"],
+    "answer": "A",
+    "explanation": "121 = 11 × 11, म्हणजे 121 ÷ 11 = 11, बाकी शून्य. उर्वरित 122, 123, 124 यांना 11 ने भागले असता बाकी अनुक्रमे 1, 2, 3 राहते, म्हणजे ते पूर्णतः भाग जात नाहीत. / 121 = 11 × 11, so 121 ÷ 11 = 11 exactly with no remainder. The others (122, 123, 124) leave remainders of 1, 2, 3 respectively when divided by 11, so they are not exactly divisible."
+  },
+  {
+    "id": "num-sys-20",
+    "difficulty": "medium",
+    "question": "पुढीलपैकी कोणती संख्या 4 ने पूर्णतः भाग जाते? / Which of the following numbers is exactly divisible by 4?",
+    "options": ["A. 1234", "B. 1236", "C. 1238", "D. 1235"],
+    "answer": "B",
+    "explanation": "संख्येच्या शेवटच्या दोन अंकांनी बनलेली संख्या 4 ने भाग गेली, तर मूळ संख्याही 4 ने भाग जाते. 1236 चे शेवटचे दोन अंक 36, आणि 36 ÷ 4 = 9 (पूर्ण भाग). 1234→34, 1238→38, 1235→35 — यापैकी कोणतीही 4 ने भाग जात नाही. / If the last two digits of a number are divisible by 4, the whole number is divisible by 4. 1236's last two digits are 36, and 36 ÷ 4 = 9 exactly. 1234→34, 1238→38, 1235→35 — none divisible by 4."
+  },
+  {
+    "id": "num-sys-21",
+    "difficulty": "medium",
+    "question": "पुढीलपैकी कोणती संख्या 8 ने पूर्णतः भाग जाते? / Which of the following numbers is exactly divisible by 8?",
+    "options": ["A. 1416", "B. 1418", "C. 1420", "D. 1422"],
+    "answer": "A",
+    "explanation": "संख्येच्या शेवटच्या तीन अंकांनी बनलेली संख्या 8 ने भाग गेली, तर मूळ संख्याही 8 ने भाग जाते. 1416 चे शेवटचे तीन अंक 416, आणि 416 ÷ 8 = 52 (पूर्ण भाग). 1418→418, 1420→420, 1422→422 — यापैकी कोणतीही 8 ने पूर्ण भाग जात नाही. / If the last three digits of a number are divisible by 8, the whole number is divisible by 8. 1416's last three digits are 416, and 416 ÷ 8 = 52 exactly. 1418→418, 1420→420, 1422→422 — none exactly divisible by 8."
+  },
+  {
+    "id": "num-sys-22",
+    "difficulty": "medium",
+    "question": "पुढीलपैकी कोणती संख्या 6 ने पूर्णतः भाग जाते? / Which of the following numbers is exactly divisible by 6?",
+    "options": ["A. 123", "B. 124", "C. 126", "D. 128"],
+    "answer": "C",
+    "explanation": "एखादी संख्या 2 आणि 3 या दोघांनी भाग गेली, तरच ती 6 ने भाग जाते. 126: सम अंक (2 ने भाग जातो) व अंकांची बेरीज 1+2+6=9 (3 ने भाग जातो) — म्हणून 6 ने भाग जातो. 123 विषम आहे, 124 व 128 ची अंकबेरीज 3 ने भाग जात नाही. / A number is divisible by 6 only if it is divisible by both 2 and 3. 126 is even (divisible by 2) and its digit sum 1+2+6=9 is divisible by 3 — so it is divisible by 6. 123 is odd, and 124, 128 have digit sums not divisible by 3."
+  },
+  {
+    "id": "num-sys-23",
+    "difficulty": "medium",
+    "question": "451_ ही संख्या 3 ने पूर्णतः भाग जाण्यासाठी रिकाम्या जागी येणारा सर्वात लहान अंक कोणता? / What is the smallest digit that can replace the blank so that 451_ is exactly divisible by 3?",
+    "options": ["A. 1", "B. 2", "C. 3", "D. 5"],
+    "answer": "B",
+    "explanation": "4+5+1=10. रिकाम्या जागेतील अंक x असल्यास (10+x) ही बेरीज 3 ने भाग गेली पाहिजे. 10+x=12 साठी x=2 (सर्वात लहान शक्य मूल्य). पडताळणी: 4512, अंकबेरीज 12, 12÷3=4 (पूर्ण भाग). / 4+5+1=10. If the blank digit is x, then (10+x) must be divisible by 3. The smallest such value is x=2, giving 10+2=12. Check: 4512, digit sum = 12, and 12÷3=4 exactly."
+  },
+  {
+    "id": "num-sys-24",
+    "difficulty": "medium",
+    "question": "2_435 ही संख्या 11 ने पूर्णतः भाग जाण्यासाठी रिकाम्या जागी कोणता अंक यावा? / What digit should replace the blank so that 2_435 is exactly divisible by 11?",
+    "options": ["A. 6", "B. 7", "C. 8", "D. 9"],
+    "answer": "C",
+    "explanation": "उजवीकडून विषम स्थानांची बेरीज (5+4+2=11) व सम स्थानांची बेरीज (3+x) यांतील फरक 11 च्या पटीत असावा लागतो: 11-(3+x)=8-x. x=8 घेतल्यास फरक शून्य (11 ची पट). पडताळणी: 28435 ÷ 11 = 2585 (पूर्ण भाग). / From the right, the sum of digits at odd positions (5+4+2=11) minus the sum at even positions (3+x) must be a multiple of 11: 11-(3+x)=8-x. Taking x=8 gives a difference of 0. Check: 28435 ÷ 11 = 2585 exactly."
+  },
+  {
+    "id": "num-sys-25",
+    "difficulty": "medium",
+    "question": "360 चे मूळ अवयवीकरण (prime factorization) काय आहे? / What is the prime factorization of 360?",
+    "options": ["A. 2³ × 3² × 5", "B. 2² × 3³ × 5", "C. 2³ × 3 × 5²", "D. 2⁴ × 3²"],
+    "answer": "A",
+    "explanation": "360 = 2×180 = 2×2×90 = 2×2×2×45 = 2³×45 = 2³×9×5 = 2³×3²×5. पडताळणी: 8×9×5=360. / 360 = 2×180 = 2×2×90 = 2×2×2×45 = 2³×45 = 2³×9×5 = 2³×3²×5. Check: 8×9×5=360."
+  },
+  {
+    "id": "num-sys-26",
+    "difficulty": "medium",
+    "question": "72 या संख्येला एकूण किती अवयव (factors) आहेत? / How many factors does the number 72 have?",
+    "options": ["A. 10", "B. 11", "C. 12", "D. 14"],
+    "answer": "C",
+    "explanation": "72 = 2³ × 3². अवयवांची संख्या = (3+1)×(2+1) = 4×3 = 12. पडताळणी: 1,2,3,4,6,8,9,12,18,24,36,72 — एकूण 12 अवयव. / 72 = 2³ × 3². Number of factors = (3+1)×(2+1) = 4×3 = 12. Check by listing: 1,2,3,4,6,8,9,12,18,24,36,72 — 12 factors in total."
+  },
+  {
+    "id": "num-sys-27",
+    "difficulty": "medium",
+    "question": "28 च्या सर्व अवयवांची (factors) बेरीज किती आहे? / What is the sum of all factors of 28?",
+    "options": ["A. 28", "B. 42", "C. 56", "D. 48"],
+    "answer": "C",
+    "explanation": "28 चे अवयव: 1, 2, 4, 7, 14, 28. त्यांची बेरीज = 1+2+4+7+14+28 = 56. / Factors of 28 are 1, 2, 4, 7, 14, 28. Their sum = 1+2+4+7+14+28 = 56."
+  },
+  {
+    "id": "num-sys-28",
+    "difficulty": "medium",
+    "question": "24 आणि 36 यांचा म.सा.वि. (HCF) किती आहे? / What is the HCF of 24 and 36?",
+    "options": ["A. 6", "B. 12", "C. 18", "D. 24"],
+    "answer": "B",
+    "explanation": "24 = 2³×3, 36 = 2²×3². समान लहान घातांक घेतल्यास HCF = 2²×3 = 4×3 = 12. / 24 = 2³×3, 36 = 2²×3². Taking the lowest common powers: HCF = 2²×3 = 4×3 = 12."
+  },
+  {
+    "id": "num-sys-29",
+    "difficulty": "medium",
+    "question": "12 आणि 18 यांचा ल.सा.वि. (LCM) किती आहे? / What is the LCM of 12 and 18?",
+    "options": ["A. 24", "B. 36", "C. 48", "D. 72"],
+    "answer": "B",
+    "explanation": "12 = 2²×3, 18 = 2×3². समान मोठे घातांक घेतल्यास LCM = 2²×3² = 4×9 = 36. / 12 = 2²×3, 18 = 2×3². Taking the highest common powers: LCM = 2²×3² = 4×9 = 36."
+  },
+  {
+    "id": "num-sys-30",
+    "difficulty": "medium",
+    "question": "दोन संख्यांचा गुणाकार 240 आहे आणि त्यांचा म.सा.वि. (HCF) 4 आहे, तर त्यांचा ल.सा.वि. (LCM) किती? / The product of two numbers is 240 and their HCF is 4. What is their LCM?",
+    "options": ["A. 40", "B. 50", "C. 60", "D. 80"],
+    "answer": "C",
+    "explanation": "दोन संख्यांचा गुणाकार = HCF × LCM. म्हणून LCM = गुणाकार ÷ HCF = 240 ÷ 4 = 60. / For two numbers, product = HCF × LCM. So LCM = product ÷ HCF = 240 ÷ 4 = 60."
+  },
+  {
+    "id": "num-sys-31",
+    "difficulty": "medium",
+    "question": "2/3 आणि 4/9 या अपूर्णांकांचा म.सा.वि. (HCF) किती आहे? / What is the HCF of the fractions 2/3 and 4/9?",
+    "options": ["A. 2/9", "B. 4/3", "C. 2/3", "D. 8/9"],
+    "answer": "A",
+    "explanation": "अपूर्णांकांचा HCF = (अंशांचा HCF) ÷ (छेदांचा LCM). अंशांचा HCF(2,4)=2, छेदांचा LCM(3,9)=9. म्हणून HCF = 2/9. / HCF of fractions = HCF of numerators ÷ LCM of denominators. HCF(2,4)=2, LCM(3,9)=9. So HCF = 2/9."
+  },
+  {
+    "id": "num-sys-32",
+    "difficulty": "medium",
+    "question": "2/3 आणि 4/9 या अपूर्णांकांचा ल.सा.वि. (LCM) किती आहे? / What is the LCM of the fractions 2/3 and 4/9?",
+    "options": ["A. 4/3", "B. 2/9", "C. 8/9", "D. 4/9"],
+    "answer": "A",
+    "explanation": "अपूर्णांकांचा LCM = (अंशांचा LCM) ÷ (छेदांचा HCF). अंशांचा LCM(2,4)=4, छेदांचा HCF(3,9)=3. म्हणून LCM = 4/3. / LCM of fractions = LCM of numerators ÷ HCF of denominators. LCM(2,4)=4, HCF(3,9)=3. So LCM = 4/3."
+  },
+  {
+    "id": "num-sys-33",
+    "difficulty": "hard",
+    "question": "3⁷ चा एकक अंक (unit digit) किती आहे? / What is the unit digit of 3⁷?",
+    "options": ["A. 1", "B. 3", "C. 7", "D. 9"],
+    "answer": "C",
+    "explanation": "3 चे एकक अंक 4 च्या आवर्तनात बदलतात: 3¹=3, 3²=9, 3³=27(7), 3⁴=81(1), नंतर पुनरावृत्ती. 7 ÷ 4 = 1 बाकी 3, म्हणजे 3⁷ चा एकक अंक 3³ प्रमाणे = 7. / The unit digit of powers of 3 cycles every 4: 3¹=3, 3²=9, 3³=27(7), 3⁴=81(1), then repeats. 7 ÷ 4 leaves remainder 3, so the unit digit of 3⁷ matches 3³, which is 7."
+  },
+  {
+    "id": "num-sys-34",
+    "difficulty": "hard",
+    "question": "7¹⁰⁰ ला 5 ने भागल्यास बाकी (remainder) किती राहते? / What is the remainder when 7¹⁰⁰ is divided by 5?",
+    "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+    "answer": "A",
+    "explanation": "7 ÷ 5 ची बाकी 2 असल्याने 7¹⁰⁰ mod 5 = 2¹⁰⁰ mod 5 शी समान. 2 च्या घातांची बाकी 4 च्या आवर्तनात बदलते: 2¹→2, 2²→4, 2³→3, 2⁴→1, नंतर पुनरावृत्ती. 100 ÷ 4 = 25 बाकी 0, म्हणजे 2⁴ प्रमाणे बाकी = 1. / Since 7 mod 5 = 2, 7¹⁰⁰ mod 5 = 2¹⁰⁰ mod 5. Remainders of powers of 2 mod 5 cycle every 4: 2¹→2, 2²→4, 2³→3, 2⁴→1, then repeat. 100 ÷ 4 leaves remainder 0, corresponding to the 4th position, giving remainder 1."
+  },
+  {
+    "id": "num-sys-35",
+    "difficulty": "hard",
+    "question": "2²⁰²³ चा एकक अंक (unit digit) किती आहे? / What is the unit digit of 2²⁰²³?",
+    "options": ["A. 2", "B. 4", "C. 6", "D. 8"],
+    "answer": "D",
+    "explanation": "2 चे एकक अंक 4 च्या आवर्तनात बदलतात: 2¹=2, 2²=4, 2³=8, 2⁴=6, नंतर पुनरावृत्ती. 2023 ÷ 4 = 505 बाकी 3, म्हणजे 2³ प्रमाणे एकक अंक = 8. / Unit digits of powers of 2 cycle every 4: 2¹=2, 2²=4, 2³=8, 2⁴=6, then repeat. 2023 ÷ 4 leaves remainder 3, matching 2³, so the unit digit is 8."
+  },
+  {
+    "id": "num-sys-36",
+    "difficulty": "hard",
+    "question": "सोपे करा (Simplify): 18 ÷ 3 × (2 + 4) − 5 = ?",
+    "options": ["A. 25", "B. 31", "C. 36", "D. 13"],
+    "answer": "B",
+    "explanation": "BODMAS नियमानुसार: प्रथम कंस (2+4)=6. नंतर डावीकडून उजवीकडे ÷ आणि ×: 18÷3=6, नंतर 6×6=36. शेवटी 36−5=31. / By BODMAS: first the bracket (2+4)=6. Then ÷ and × left to right: 18÷3=6, then 6×6=36. Finally 36−5=31."
+  },
+  {
+    "id": "num-sys-37",
+    "difficulty": "hard",
+    "question": "सोपे करा (Simplify): 2/3 + 1/6 × 3/4 = ?",
+    "options": ["A. 19/24", "B. 3/4", "C. 7/8", "D. 5/6"],
+    "answer": "A",
+    "explanation": "BODMAS नियमानुसार गुणाकार आधी करावा: 1/6 × 3/4 = 3/24 = 1/8. नंतर 2/3 + 1/8, समच्छेद 24 घेतल्यास = 16/24 + 3/24 = 19/24. / By BODMAS, multiplication is done first: 1/6 × 3/4 = 3/24 = 1/8. Then 2/3 + 1/8, using LCD 24: 16/24 + 3/24 = 19/24."
+  },
+  {
+    "id": "num-sys-38",
+    "difficulty": "hard",
+    "question": "√50 + √8 यांची सर्वात सोपी करणी (simplest surd form) काढा. / Simplify √50 + √8 to its simplest surd form.",
+    "options": ["A. 7√2", "B. √58", "C. 9√2", "D. 6√2"],
+    "answer": "A",
+    "explanation": "√50 = √(25×2) = 5√2, आणि √8 = √(4×2) = 2√2. म्हणून √50+√8 = 5√2+2√2 = 7√2. / √50 = √(25×2) = 5√2, and √8 = √(4×2) = 2√2. So √50+√8 = 5√2+2√2 = 7√2."
+  },
+  {
+    "id": "num-sys-39",
+    "difficulty": "hard",
+    "question": "1 ते 50 पर्यंतच्या नैसर्गिक संख्यांची बेरीज किती आहे? / What is the sum of natural numbers from 1 to 50?",
+    "options": ["A. 1250", "B. 1275", "C. 1225", "D. 1300"],
+    "answer": "B",
+    "explanation": "सूत्र: बेरीज = n(n+1)/2. येथे n=50, म्हणून बेरीज = 50×51/2 = 2550/2 = 1275. / Formula: sum = n(n+1)/2. Here n=50, so sum = 50×51/2 = 2550/2 = 1275."
+  },
+  {
+    "id": "num-sys-40",
+    "difficulty": "hard",
+    "question": "1² + 2² + 3² + 4² + 5² यांची बेरीज किती आहे? / What is the sum 1² + 2² + 3² + 4² + 5²?",
+    "options": ["A. 45", "B. 50", "C. 55", "D. 60"],
+    "answer": "C",
+    "explanation": "सूत्र: वर्गांची बेरीज = n(n+1)(2n+1)/6. येथे n=5, म्हणून बेरीज = 5×6×11/6 = 330/6 = 55. पडताळणी: 1+4+9+16+25=55. / Formula: sum of squares = n(n+1)(2n+1)/6. Here n=5, so sum = 5×6×11/6 = 330/6 = 55. Check: 1+4+9+16+25=55."
+  }
+]

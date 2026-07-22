@@ -8,5 +8,15 @@
     "marksPerQ": 1,
     "negativePerWrong": 0.25,
     "questionCount": 40
+  },
+  {
+    "id": "number-system",
+    "titleMr": "संख्या पद्धती (गणित)",
+    "titleEn": "Number System (Maths)",
+    "subject": "arithmetic",
+    "durationMin": 24,
+    "marksPerQ": 1,
+    "negativePerWrong": 0.25,
+    "questionCount": 40
   }
 ]

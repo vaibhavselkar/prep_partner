@@ -1,0 +1,7 @@
+# Local-development-only tools that must NOT be deployed to Vercel.
+#
+# api/ingest-local OCRs a folder of scanned images read from the local disk
+# (process.cwd() + a dynamic folderPath). It cannot run on Vercel's read-only,
+# ephemeral serverless filesystem, and its dynamic fs tracing bloats the function
+# bundle past Vercel's 250 MB limit — breaking the whole build. Excluded here.
+src/app/api/ingest-local
