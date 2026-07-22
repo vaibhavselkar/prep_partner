@@ -18,8 +18,8 @@ export function statusOf(
 }
 
 const CLS: Record<QStatus, string> = {
-  "not-visited": "bg-gray-700 text-gray-200",
-  "not-answered": "bg-red-600 text-white",
+  "not-visited": "bg-gray-100 text-gray-600 border border-gray-300",
+  "not-answered": "bg-red-500 text-white",
   answered: "bg-green-600 text-white",
   marked: "bg-purple-600 text-white",
   "ans-marked": "bg-purple-600 text-white ring-2 ring-green-400",
@@ -53,7 +53,7 @@ export function ExamPalette({
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs text-gray-300">
+      <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs text-gray-600">
         {legend.map((l) => (
           <div key={l.s} className="flex items-center gap-1.5">
             <span className={`inline-block w-4 h-4 rounded ${CLS[l.s]}`} />

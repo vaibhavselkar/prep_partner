@@ -2,321 +2,321 @@
   {
     "id": "mh-reg-geo-01",
     "difficulty": "easy",
-    "question": "महाराष्ट्राला किती किलोमीटरचा किनारा लाभला आहे? / What is the approximate length of Maharashtra's coastline?",
-    "options": ["A. ७२० किमी / 720 km", "B. ५०० किमी / 500 km", "C. ९०० किमी / 900 km", "D. ६०० किमी / 600 km"],
+    "question": "महाराष्ट्रात एकूण किती महसूल विभाग (Revenue Divisions) आहेत? / How many revenue divisions does Maharashtra have in total?",
+    "options": ["A. ६ / 6", "B. ४ / 4", "C. ५ / 5", "D. ८ / 8"],
     "answer": "A",
-    "explanation": "महाराष्ट्राला अरबी समुद्रालगत सुमारे ७२० किमी लांबीचा किनारा लाभला आहे, जो कोकण किनारपट्टी म्हणून ओळखला जातो. / Maharashtra has an approximately 720 km long coastline along the Arabian Sea, known as the Konkan coastal strip."
+    "explanation": "महाराष्ट्राचे प्रशासकीय दृष्ट्या कोकण, पुणे, नाशिक, छत्रपती संभाजीनगर (औरंगाबाद), अमरावती व नागपूर असे एकूण ६ महसूल विभाग आहेत. / Maharashtra is administratively divided into 6 revenue divisions: Konkan, Pune, Nashik, Chhatrapati Sambhajinagar (Aurangabad), Amravati, and Nagpur."
   },
   {
     "id": "mh-reg-geo-02",
     "difficulty": "easy",
-    "question": "महाराष्ट्राच्या भौगोलिक विभागांपैकी पश्चिमेकडील अरबी समुद्र आणि सह्याद्री यांच्यामधील अरुंद किनारपट्टीला काय म्हणतात? / The narrow coastal strip between the Arabian Sea and the Sahyadri is known as?",
-    "options": ["A. कोकण / Konkan", "B. देश / Desh", "C. विदर्भ / Vidarbha", "D. खानदेश / Khandesh"],
+    "question": "महाराष्ट्रात सध्या एकूण किती जिल्हे आहेत? / How many districts does Maharashtra currently have?",
+    "options": ["A. ३६ / 36", "B. ३५ / 35", "C. ३४ / 34", "D. ३३ / 33"],
     "answer": "A",
-    "explanation": "कोकण ही सह्याद्री आणि अरबी समुद्र यांच्यामधील अरुंद, सखल किनारपट्टी आहे. / Konkan is the narrow, low-lying coastal strip lying between the Sahyadri range and the Arabian Sea."
+    "explanation": "२०१४ मध्ये पालघर जिल्ह्याची निर्मिती झाल्यानंतर महाराष्ट्रातील जिल्ह्यांची एकूण संख्या ३६ झाली. / After the formation of Palghar district in 2014, the total number of districts in Maharashtra became 36."
   },
   {
     "id": "mh-reg-geo-03",
     "difficulty": "easy",
-    "question": "महाराष्ट्राच्या पश्चिम सीमेवर उत्तर-दक्षिण पसरलेल्या मुख्य पर्वतरांगेचे नाव काय आहे? / What is the name of the main mountain range running north-south along Maharashtra's western edge?",
-    "options": ["A. सह्याद्री (पश्चिम घाट) / Sahyadri (Western Ghats)", "B. सातपुडा / Satpuda", "C. अजिंठा रांग / Ajanta range", "D. बालाघाट रांग / Balaghat range"],
+    "question": "महाराष्ट्राचा सर्वात नवीन (सर्वात अलीकडे निर्माण झालेला) जिल्हा कोणता? / Which is Maharashtra's newest (most recently formed) district?",
+    "options": ["A. पालघर / Palghar", "B. वाशिम / Washim", "C. गोंदिया / Gondia", "D. हिंगोली / Hingoli"],
     "answer": "A",
-    "explanation": "सह्याद्री म्हणजेच पश्चिम घाट ही महाराष्ट्राच्या पश्चिम भागात उत्तर-दक्षिण पसरलेली प्रमुख पर्वतरांग आहे. / The Sahyadri, also called the Western Ghats, is the principal range running north-south along the western part of Maharashtra."
+    "explanation": "पालघर जिल्ह्याची निर्मिती १ ऑगस्ट २०१४ रोजी झाली, तो महाराष्ट्राचा ३६ वा व सर्वात नवीन जिल्हा आहे. / Palghar district was formed on 1 August 2014, making it Maharashtra's 36th and newest district."
   },
   {
     "id": "mh-reg-geo-04",
     "difficulty": "easy",
-    "question": "सह्याद्रीच्या पूर्वेस पसरलेल्या पठारी प्रदेशाला काय म्हणतात? / The plateau region lying to the east of the Sahyadri is called?",
-    "options": ["A. देश / Desh", "B. कोकण / Konkan", "C. मराठवाडा किनारा / Marathwada coast", "D. सिंधुदुर्ग पठार / Sindhudurg plateau"],
+    "question": "पालघर जिल्हा कोणत्या जिल्ह्याचे विभाजन करून तयार करण्यात आला? / Palghar district was carved out of which existing district?",
+    "options": ["A. ठाणे / Thane", "B. रायगड / Raigad", "C. नाशिक / Nashik", "D. मुंबई उपनगर / Mumbai Suburban"],
     "answer": "A",
-    "explanation": "सह्याद्रीच्या पूर्वेकडील बेसाल्ट खडकाच्या पठारी प्रदेशाला 'देश' किंवा महाराष्ट्र पठार म्हणतात. / The basaltic plateau region east of the Sahyadri is called 'Desh' or the Maharashtra Plateau."
+    "explanation": "ठाणे जिल्ह्यातील काही तालुके वेगळे करून २०१४ मध्ये पालघर हा नवा जिल्हा निर्माण करण्यात आला. / Palghar was created in 2014 by separating certain talukas from Thane district."
   },
   {
     "id": "mh-reg-geo-05",
     "difficulty": "easy",
-    "question": "महाराष्ट्राच्या उत्तर सीमेवर मध्य प्रदेशला लागून असलेली पर्वतरांग कोणती? / Which mountain range lies along Maharashtra's northern border adjoining Madhya Pradesh?",
-    "options": ["A. सातपुडा रांग / Satpuda range", "B. सह्याद्री रांग / Sahyadri range", "C. अजिंठा रांग / Ajanta range", "D. शंभू महादेव रांग / Shambhu Mahadev range"],
+    "question": "औरंगाबाद शहर व जिल्ह्याचे अलीकडे बदललेले नाव काय आहे? / What is the recently changed name of Aurangabad city and district?",
+    "options": ["A. छत्रपती संभाजीनगर / Chhatrapati Sambhajinagar", "B. संभाजीनगर पठार / Sambhajinagar Plateau", "C. औरंगाबाद पूर्व / Aurangabad East", "D. देवगिरी / Devagiri"],
     "answer": "A",
-    "explanation": "सातपुडा पर्वतरांग महाराष्ट्राच्या उत्तर सीमेवर पूर्व-पश्चिम पसरलेली असून ती मध्य प्रदेशला लागून आहे. / The Satpuda range runs east-west along Maharashtra's northern border, adjoining Madhya Pradesh."
+    "explanation": "२०२३ मध्ये औरंगाबाद शहर व जिल्ह्याचे नाव बदलून छत्रपती संभाजीनगर करण्यात आले. / In 2023, Aurangabad city and district were renamed Chhatrapati Sambhajinagar."
   },
   {
     "id": "mh-reg-geo-06",
     "difficulty": "medium",
-    "question": "तापी आणि पूर्णा नद्यांची दरी कोणत्या प्रदेशात आहे? / The Tapi-Purna river valley lies in which region?",
-    "options": ["A. खानदेश / Khandesh", "B. कोकण / Konkan", "C. मराठवाडा / Marathwada", "D. पश्चिम महाराष्ट्र / Western Maharashtra"],
+    "question": "उस्मानाबाद जिल्ह्याचे नवीन नाव काय आहे? / What is the new name of Osmanabad district?",
+    "options": ["A. धाराशिव / Dharashiv", "B. तुळजापूर / Tuljapur", "C. उमरगा / Umarga", "D. लातूर / Latur"],
     "answer": "A",
-    "explanation": "तापी-पूर्णा नदीखोरे खानदेश प्रदेशात (जळगाव, धुळे, नंदुरबार जिल्हे) असून सातपुडा व अजिंठा रांगांमध्ये पसरले आहे. / The Tapi-Purna valley lies in the Khandesh region (Jalgaon, Dhule, Nandurbar districts), sandwiched between the Satpuda and Ajanta ranges."
+    "explanation": "उस्मानाबाद जिल्ह्याचे नाव बदलून धाराशिव करण्यात आले असून तो छत्रपती संभाजीनगर (औरंगाबाद) विभागात येतो. / Osmanabad district was renamed Dharashiv and falls under the Chhatrapati Sambhajinagar (Aurangabad) division."
   },
   {
     "id": "mh-reg-geo-07",
     "difficulty": "easy",
-    "question": "महाराष्ट्रातील सर्वात लांब नदी कोणती? / Which is the longest river in Maharashtra?",
-    "options": ["A. गोदावरी / Godavari", "B. कृष्णा / Krishna", "C. तापी / Tapi", "D. भीमा / Bhima"],
+    "question": "कोकण महसूल विभागात एकूण किती जिल्हे समाविष्ट आहेत? / How many districts are included in the Konkan revenue division?",
+    "options": ["A. ७ / 7", "B. ६ / 6", "C. ५ / 5", "D. ८ / 8"],
     "answer": "A",
-    "explanation": "गोदावरी ही महाराष्ट्रातील सर्वात लांब नदी असून तिला 'वृद्ध गंगा' असेही म्हणतात, तिचा उगम त्र्यंबकेश्वर (नाशिक) येथे होतो. / The Godavari is the longest river in Maharashtra, also called 'Vridha Ganga', and originates at Trimbakeshwar in Nashik district."
+    "explanation": "कोकण विभागात मुंबई शहर, मुंबई उपनगर, ठाणे, पालघर, रायगड, रत्नागिरी व सिंधुदुर्ग असे ७ जिल्हे येतात. / The Konkan division comprises 7 districts: Mumbai City, Mumbai Suburban, Thane, Palghar, Raigad, Ratnagiri, and Sindhudurg."
   },
   {
     "id": "mh-reg-geo-08",
-    "difficulty": "easy",
-    "question": "कृष्णा नदीचा उगम कोठे होतो? / Where does the Krishna river originate?",
-    "options": ["A. महाबळेश्वर / Mahabaleshwar", "B. त्र्यंबकेश्वर / Trimbakeshwar", "C. भीमाशंकर / Bhimashankar", "D. मुळशी / Mulshi"],
+    "difficulty": "medium",
+    "question": "महाराष्ट्रातील कोणत्या विभागात सर्वाधिक जिल्हे आहेत? / Which division of Maharashtra has the highest number of districts?",
+    "options": ["A. छत्रपती संभाजीनगर (औरंगाबाद) विभाग / Chhatrapati Sambhajinagar (Aurangabad) division", "B. कोकण विभाग / Konkan division", "C. नागपूर विभाग / Nagpur division", "D. पुणे विभाग / Pune division"],
     "answer": "A",
-    "explanation": "कृष्णा नदीचा उगम सातारा जिल्ह्यातील महाबळेश्वर येथे सह्याद्रीत होतो. / The Krishna river originates at Mahabaleshwar in Satara district, in the Sahyadri range."
+    "explanation": "छत्रपती संभाजीनगर (औरंगाबाद) विभागात औरंगाबाद, जालना, परभणी, हिंगोली, बीड, लातूर, धाराशिव व नांदेड असे ८ जिल्हे असून हा सर्वाधिक जिल्हे असलेला विभाग आहे. / The Chhatrapati Sambhajinagar (Aurangabad) division has 8 districts (Aurangabad, Jalna, Parbhani, Hingoli, Beed, Latur, Dharashiv, Nanded) — the most of any division."
   },
   {
     "id": "mh-reg-geo-09",
-    "difficulty": "medium",
-    "question": "भीमा नदीचा उगम कोणत्या ठिकाणी होतो? / Where does the Bhima river originate?",
-    "options": ["A. भीमाशंकर (पुणे जिल्हा) / Bhimashankar (Pune district)", "B. महाबळेश्वर / Mahabaleshwar", "C. सातमाळा रांग / Satmala range", "D. साल्हेर / Salher"],
+    "difficulty": "easy",
+    "question": "कोल्हापूर जिल्हा कोणत्या महसूल विभागात येतो? / Under which revenue division does Kolhapur district fall?",
+    "options": ["A. पुणे विभाग / Pune division", "B. नाशिक विभाग / Nashik division", "C. कोकण विभाग / Konkan division", "D. अमरावती विभाग / Amravati division"],
     "answer": "A",
-    "explanation": "भीमा नदीचा उगम पुणे जिल्ह्यातील भीमाशंकर येथे होतो आणि पुढे ती कृष्णा नदीची उपनदी आहे. / The Bhima river originates at Bhimashankar in Pune district and is a tributary of the Krishna river."
+    "explanation": "कोल्हापूर जिल्हा पुणे, सातारा, सांगली व सोलापूर यांसह पुणे महसूल विभागाचा भाग आहे. / Kolhapur district, along with Pune, Satara, Sangli, and Solapur, is part of the Pune revenue division."
   },
   {
     "id": "mh-reg-geo-10",
-    "difficulty": "medium",
-    "question": "तापी नदी कोणत्या दिशेने वाहते, जी महाराष्ट्रातील बहुतांश नद्यांच्या विरुद्ध आहे? / In which unusual direction (opposite to most Maharashtra rivers) does the Tapi river flow?",
-    "options": ["A. पूर्वेकडून पश्चिमेकडे / East to west", "B. पश्चिमेकडून पूर्वेकडे / West to east", "C. उत्तरेकडून दक्षिणेकडे / North to south", "D. दक्षिणेकडून उत्तरेकडे / South to north"],
+    "difficulty": "easy",
+    "question": "गडचिरोली जिल्हा कोणत्या महसूल विभागात येतो? / Under which revenue division does Gadchiroli district fall?",
+    "options": ["A. नागपूर विभाग / Nagpur division", "B. अमरावती विभाग / Amravati division", "C. छत्रपती संभाजीनगर विभाग / Chhatrapati Sambhajinagar division", "D. कोकण विभाग / Konkan division"],
     "answer": "A",
-    "explanation": "महाराष्ट्रातील बहुतांश मोठ्या नद्या पूर्वेकडे वाहतात, पण तापी नदी खानदेशातून पश्चिमेकडे वाहत जाऊन गुजरातमधील खंबायतच्या आखातात अरबी समुद्रास मिळते. / While most major Maharashtra rivers flow eastward, the Tapi flows westward through Khandesh and empties into the Gulf of Khambhat (Arabian Sea) in Gujarat."
+    "explanation": "गडचिरोली जिल्हा नागपूर, वर्धा, भंडारा, गोंदिया व चंद्रपूर यांसह नागपूर विभागाचा भाग आहे. / Gadchiroli district, along with Nagpur, Wardha, Bhandara, Gondia, and Chandrapur, is part of the Nagpur revenue division."
   },
   {
     "id": "mh-reg-geo-11",
     "difficulty": "medium",
-    "question": "वर्धा आणि वैनगंगा या नद्या कोणत्या नदीप्रणालीचा भाग आहेत? / The Wardha and Wainganga rivers are part of which river system?",
-    "options": ["A. गोदावरी प्रणाली / Godavari system", "B. कृष्णा प्रणाली / Krishna system", "C. तापी प्रणाली / Tapi system", "D. नर्मदा प्रणाली / Narmada system"],
+    "question": "अमरावती महसूल विभागात कोणत्या जिल्ह्यांचा समावेश होतो? / Which districts are included in the Amravati revenue division?",
+    "options": ["A. अमरावती, अकोला, बुलढाणा, वाशिम, यवतमाळ / Amravati, Akola, Buldhana, Washim, Yavatmal", "B. नागपूर, वर्धा, भंडारा, गोंदिया, चंद्रपूर / Nagpur, Wardha, Bhandara, Gondia, Chandrapur", "C. नाशिक, धुळे, नंदुरबार, जळगाव, अहमदनगर / Nashik, Dhule, Nandurbar, Jalgaon, Ahmednagar", "D. पुणे, सातारा, सांगली, सोलापूर, कोल्हापूर / Pune, Satara, Sangli, Solapur, Kolhapur"],
     "answer": "A",
-    "explanation": "वर्धा आणि वैनगंगा या विदर्भातील नद्या एकत्र येऊन प्राणहिता नावाने पुढे गोदावरीला मिळतात, त्यामुळे त्या गोदावरी प्रणालीचा भाग आहेत. / The Wardha and Wainganga rivers of Vidarbha join to form the Pranahita, which merges with the Godavari, making them part of the Godavari river system."
+    "explanation": "अमरावती विभागात अमरावती, अकोला, बुलढाणा, वाशिम व यवतमाळ हे ५ जिल्हे येतात. / The Amravati division consists of 5 districts: Amravati, Akola, Buldhana, Washim, and Yavatmal."
   },
   {
     "id": "mh-reg-geo-12",
     "difficulty": "medium",
-    "question": "कोयना नदी ही कोणत्या नदीची उपनदी आहे? / The Koyna river is a tributary of which river?",
-    "options": ["A. कृष्णा / Krishna", "B. गोदावरी / Godavari", "C. तापी / Tapi", "D. भीमा / Bhima"],
+    "question": "नागपूर महसूल विभागात एकूण किती जिल्हे आहेत? / How many districts are there in the Nagpur revenue division?",
+    "options": ["A. ६ / 6", "B. ५ / 5", "C. ७ / 7", "D. ४ / 4"],
     "answer": "A",
-    "explanation": "कोयना नदी सातारा जिल्ह्यात उगम पावून कृष्णा नदीला मिळते; कोयना धरणामुळे तयार झालेला जलाशय 'शिवसागर' म्हणून ओळखला जातो. / The Koyna river originates in Satara district and joins the Krishna; the reservoir formed by the Koyna dam is known as Shivsagar."
+    "explanation": "नागपूर विभागात नागपूर, वर्धा, भंडारा, गोंदिया, चंद्रपूर व गडचिरोली असे ६ जिल्हे आहेत. / The Nagpur division has 6 districts: Nagpur, Wardha, Bhandara, Gondia, Chandrapur, and Gadchiroli."
   },
   {
     "id": "mh-reg-geo-13",
-    "difficulty": "hard",
-    "question": "पांझरा नदी कोणत्या नदीची उपनदी आहे? / The Panzara river is a tributary of which river?",
-    "options": ["A. तापी / Tapi", "B. गोदावरी / Godavari", "C. कृष्णा / Krishna", "D. नर्मदा / Narmada"],
+    "difficulty": "medium",
+    "question": "नाशिक महसूल विभागात कोणत्या जिल्ह्यांचा समावेश होतो? / Which districts are included in the Nashik revenue division?",
+    "options": ["A. नाशिक, धुळे, नंदुरबार, जळगाव, अहमदनगर / Nashik, Dhule, Nandurbar, Jalgaon, Ahmednagar", "B. नाशिक, ठाणे, पालघर, रायगड, रत्नागिरी / Nashik, Thane, Palghar, Raigad, Ratnagiri", "C. नाशिक, पुणे, सातारा, सांगली, कोल्हापूर / Nashik, Pune, Satara, Sangli, Kolhapur", "D. नाशिक, बीड, जालना, परभणी, लातूर / Nashik, Beed, Jalna, Parbhani, Latur"],
     "answer": "A",
-    "explanation": "पांझरा नदी धुळे जिल्ह्यातून वाहते व ती तापी नदीची उपनदी आहे. / The Panzara river flows through Dhule district and is a tributary of the Tapi river."
+    "explanation": "नाशिक विभागात नाशिक, धुळे, नंदुरबार, जळगाव व अहमदनगर (अहिल्यानगर) हे ५ जिल्हे येतात. / The Nashik division comprises 5 districts: Nashik, Dhule, Nandurbar, Jalgaon, and Ahmednagar (Ahilyanagar)."
   },
   {
     "id": "mh-reg-geo-14",
-    "difficulty": "medium",
-    "question": "सह्याद्रीच्या पश्चिमेकडे वाहणाऱ्या नद्यांबद्दल (उदा. वैतरणा, उल्हास, सावित्री) खालीलपैकी कोणते विधान बरोबर आहे? / Which statement is correct about west-flowing rivers of the Sahyadri (e.g., Vaitarna, Ulhas, Savitri)?",
-    "options": ["A. त्या लहान व वेगवान असून थेट अरबी समुद्रास मिळतात / They are short and swift, draining directly into the Arabian Sea", "B. त्या लांब असून बंगालच्या उपसागरास मिळतात / They are long and drain into the Bay of Bengal", "C. त्या फक्त हिवाळ्यात वाहतात / They flow only in winter", "D. त्या सर्व गोदावरीला मिळतात / They all join the Godavari"],
+    "difficulty": "easy",
+    "question": "महाराष्ट्राच्या सीमा एकूण किती राज्यांना लागून आहेत? / How many states border Maharashtra?",
+    "options": ["A. ६ / 6", "B. ५ / 5", "C. ७ / 7", "D. ४ / 4"],
     "answer": "A",
-    "explanation": "कोकणातील पश्चिमवाहिनी नद्या (वैतरणा, उल्हास, सावित्री, वशिष्ठी इ.) लहान पल्ल्याच्या, वेगवान असून सह्याद्रीतून थेट अरबी समुद्रात जाऊन मिळतात. / The west-flowing rivers of Konkan (Vaitarna, Ulhas, Savitri, Vashishthi, etc.) are short, swift streams that descend from the Sahyadri directly into the Arabian Sea."
+    "explanation": "महाराष्ट्राला गुजरात, मध्य प्रदेश, छत्तीसगड, तेलंगणा, कर्नाटक व गोवा अशा ६ राज्यांच्या सीमा लागून आहेत. / Maharashtra borders 6 states: Gujarat, Madhya Pradesh, Chhattisgarh, Telangana, Karnataka, and Goa."
   },
   {
     "id": "mh-reg-geo-15",
     "difficulty": "easy",
-    "question": "महाराष्ट्रातील पूर्ववाहिनी प्रमुख नद्यांमध्ये (गोदावरी, कृष्णा, भीमा) यांचा प्रवाह अंतिमतः कोणत्या दिशेस जातो? / East-flowing major rivers of Maharashtra (Godavari, Krishna, Bhima) ultimately drain toward?",
-    "options": ["A. बंगालचा उपसागर / Bay of Bengal", "B. अरबी समुद्र / Arabian Sea", "C. हिंदी महासागर सरळ / Directly into the Indian Ocean south of India", "D. खंबायतचे आखात / Gulf of Khambhat"],
+    "question": "महाराष्ट्राला लागून असलेला केंद्रशासित प्रदेश (UT) कोणता? / Which Union Territory shares a border with Maharashtra?",
+    "options": ["A. दादरा व नगर हवेली / Dadra and Nagar Haveli", "B. दीव व दमण / Diu and Daman", "C. लक्षद्वीप / Lakshadweep", "D. पुद्दुचेरी / Puducherry"],
     "answer": "A",
-    "explanation": "गोदावरी, कृष्णा आणि भीमा या पूर्ववाहिनी नद्या दख्खनच्या पठारावरून वाहत जाऊन शेवटी बंगालच्या उपसागरास मिळतात. / The Godavari, Krishna, and Bhima flow eastward across the Deccan plateau and ultimately drain into the Bay of Bengal."
+    "explanation": "दादरा व नगर हवेली हा केंद्रशासित प्रदेश महाराष्ट्राच्या वायव्य सीमेला (पालघर/नाशिक/ठाणे जिल्ह्यांलगत) लागून आहे. / Dadra and Nagar Haveli is the Union Territory bordering Maharashtra's northwest edge, adjoining Palghar/Nashik/Thane districts."
   },
   {
     "id": "mh-reg-geo-16",
     "difficulty": "easy",
-    "question": "महाराष्ट्रातील सर्वोच्च शिखर कोणते? / Which is the highest peak in Maharashtra?",
-    "options": ["A. कळसुबाई / Kalsubai", "B. साल्हेर / Salher", "C. हरिश्चंद्रगड / Harishchandragad", "D. महाबळेश्वर / Mahabaleshwar"],
+    "question": "सिंधुदुर्ग जिल्हा कोणत्या राज्याच्या सीमेला लागून आहे? / Which state does Sindhudurg district border?",
+    "options": ["A. गोवा / Goa", "B. कर्नाटक / Karnataka", "C. आंध्र प्रदेश / Andhra Pradesh", "D. गुजरात / Gujarat"],
     "answer": "A",
-    "explanation": "कळसुबाई हे महाराष्ट्रातील सर्वोच्च शिखर असून त्याची उंची सुमारे १६४६ मीटर आहे, ते अहमदनगर जिल्ह्यातील अकोले तालुक्यात सह्याद्रीत आहे. / Kalsubai is the highest peak in Maharashtra at approximately 1646 metres, located in Akole taluka of Ahmednagar district in the Sahyadri range."
+    "explanation": "कोकणातील सिंधुदुर्ग जिल्हा दक्षिणेस गोवा राज्याच्या सीमेला लागून आहे. / Sindhudurg district in Konkan borders Goa state to its south."
   },
   {
     "id": "mh-reg-geo-17",
-    "difficulty": "medium",
-    "question": "महाराष्ट्रातील दुसऱ्या क्रमांकाचे सर्वोच्च शिखर कोणते? / Which is the second-highest peak in Maharashtra?",
-    "options": ["A. साल्हेर / Salher", "B. हरिश्चंद्रगड / Harishchandragad", "C. त्र्यंबक / Trimbak", "D. रायगड / Raigad"],
+    "difficulty": "easy",
+    "question": "कोल्हापूर जिल्हा कोणत्या राज्याच्या सीमेला लागून आहे? / Which state does Kolhapur district border?",
+    "options": ["A. कर्नाटक / Karnataka", "B. गोवा / Goa", "C. आंध्र प्रदेश / Andhra Pradesh", "D. तेलंगणा / Telangana"],
     "answer": "A",
-    "explanation": "साल्हेर हे महाराष्ट्रातील दुसरे सर्वोच्च शिखर (सुमारे १५६७ मीटर) असून ते नाशिक जिल्ह्यात गुजरात सीमेजवळ सह्याद्रीत आहे. / Salher, at about 1567 metres, is the second-highest peak in Maharashtra, located in Nashik district near the Gujarat border in the Sahyadri range."
+    "explanation": "कोल्हापूर जिल्हा दक्षिणेस कर्नाटक राज्याच्या सीमेला लागून आहे. / Kolhapur district borders Karnataka state to its south."
   },
   {
     "id": "mh-reg-geo-18",
     "difficulty": "medium",
-    "question": "हरिश्चंद्रगड हा किल्ला/शिखर कोणत्या जिल्ह्यात आहे? / In which district is the Harishchandragad peak/fort located?",
-    "options": ["A. अहमदनगर / Ahmednagar", "B. सातारा / Satara", "C. रत्नागिरी / Ratnagiri", "D. नाशिक / Nashik"],
+    "question": "नंदुरबार जिल्हा कोणकोणत्या दोन राज्यांच्या सीमेला लागून आहे? / Which two states does Nandurbar district border?",
+    "options": ["A. गुजरात व मध्य प्रदेश / Gujarat and Madhya Pradesh", "B. गुजरात व छत्तीसगड / Gujarat and Chhattisgarh", "C. मध्य प्रदेश व कर्नाटक / Madhya Pradesh and Karnataka", "D. गुजरात व तेलंगणा / Gujarat and Telangana"],
     "answer": "A",
-    "explanation": "हरिश्चंद्रगड हे अहमदनगर जिल्ह्यात सह्याद्रीत असलेले प्रसिद्ध शिखर व किल्ला आहे. / Harishchandragad is a well-known peak and fort in the Sahyadri, located in Ahmednagar district."
+    "explanation": "खानदेशातील नंदुरबार जिल्हा पश्चिम व उत्तरेस गुजरात, तर उत्तर-पूर्वेस मध्य प्रदेश या राज्यांच्या सीमेला लागून आहे. / Nandurbar district in Khandesh borders Gujarat to its west/north and Madhya Pradesh to its north-east."
   },
   {
     "id": "mh-reg-geo-19",
-    "difficulty": "hard",
-    "question": "गोदावरी आणि तापी नदीखोऱ्यांना विभागणारी पर्वतरांग कोणती? / Which range separates the Godavari and Tapi river basins?",
-    "options": ["A. अजिंठा रांग / Ajanta range", "B. बालाघाट रांग / Balaghat range", "C. शंभू महादेव रांग / Shambhu Mahadev range", "D. हरिश्चंद्र-बालाघाट रांग / Harishchandra-Balaghat range"],
+    "difficulty": "medium",
+    "question": "गडचिरोली जिल्हा कोणकोणत्या दोन राज्यांच्या सीमेला लागून आहे? / Which two states does Gadchiroli district border?",
+    "options": ["A. छत्तीसगड व तेलंगणा / Chhattisgarh and Telangana", "B. मध्य प्रदेश व छत्तीसगड / Madhya Pradesh and Chhattisgarh", "C. तेलंगणा व कर्नाटक / Telangana and Karnataka", "D. छत्तीसगड व आंध्र प्रदेश / Chhattisgarh and Andhra Pradesh"],
     "answer": "A",
-    "explanation": "अजिंठा रांग सह्याद्रीपासून पूर्वेस पसरलेली असून ती गोदावरी (उत्तरेकडे) आणि तापी-पूर्णा (उत्तरेकडे वेगळे) खोऱ्यांमधील जलविभाजक आहे; याच रांगेत प्रसिद्ध अजिंठा लेणी आहेत. / The Ajanta range, extending eastward from the Sahyadri, forms the watershed between the Godavari basin and the Tapi-Purna basin, and is home to the famous Ajanta caves."
+    "explanation": "विदर्भातील गडचिरोली जिल्हा पूर्वेस छत्तीसगड व दक्षिणेस तेलंगणा या राज्यांच्या सीमेला लागून आहे. / Gadchiroli district in Vidarbha borders Chhattisgarh to its east and Telangana to its south."
   },
   {
     "id": "mh-reg-geo-20",
-    "difficulty": "hard",
-    "question": "बालाघाट रांग ही कोणत्या नद्यांच्या खोऱ्यांमधील जलविभाजक आहे? / The Balaghat range forms the watershed between which river basins?",
-    "options": ["A. गोदावरी आणि भीमा-कृष्णा / Godavari and Bhima-Krishna", "B. तापी आणि नर्मदा / Tapi and Narmada", "C. कोकणातील नद्या आणि गोदावरी / Konkan rivers and Godavari", "D. वैनगंगा आणि वर्धा / Wainganga and Wardha"],
+    "difficulty": "medium",
+    "question": "चंद्रपूर जिल्हा कोणत्या राज्याच्या सीमेला लागून आहे? / Which state does Chandrapur district border?",
+    "options": ["A. तेलंगणा / Telangana", "B. छत्तीसगड / Chhattisgarh", "C. कर्नाटक / Karnataka", "D. मध्य प्रदेश / Madhya Pradesh"],
     "answer": "A",
-    "explanation": "बालाघाट रांग ही गोदावरी नदीखोरे आणि भीमा-कृष्णा नदीखोरे यांच्यामधील जलविभाजक म्हणून काम करते, ही रांग अहमदनगर-बीड-उस्मानाबाद भागातून जाते. / The Balaghat range acts as the watershed dividing the Godavari basin from the Bhima-Krishna basin, running through the Ahmednagar-Beed-Osmanabad tract."
+    "explanation": "विदर्भातील चंद्रपूर जिल्हा दक्षिणेस तेलंगणा राज्याच्या सीमेला लागून आहे. / Chandrapur district in Vidarbha borders Telangana state to its south."
   },
   {
     "id": "mh-reg-geo-21",
-    "difficulty": "hard",
-    "question": "शंभू महादेव रांग ही कोणत्या दोन नद्यांमधील जलविभाजक आहे? / The Shambhu Mahadev range forms the watershed between which two rivers?",
-    "options": ["A. भीमा आणि कृष्णा / Bhima and Krishna", "B. गोदावरी आणि तापी / Godavari and Tapi", "C. कृष्णा आणि कोयना / Krishna and Koyna", "D. वैनगंगा आणि पैनगंगा / Wainganga and Painganga"],
+    "difficulty": "medium",
+    "question": "जळगाव जिल्हा कोणत्या राज्याच्या सीमेला लागून आहे? / Which state does Jalgaon district border?",
+    "options": ["A. मध्य प्रदेश / Madhya Pradesh", "B. गुजरात / Gujarat", "C. छत्तीसगड / Chhattisgarh", "D. कर्नाटक / Karnataka"],
     "answer": "A",
-    "explanation": "शंभू महादेव रांग ही सह्याद्रीची पूर्वेकडील शाखा असून सातारा-सांगली भागातून कर्नाटकापर्यंत पसरलेली आहे; ती भीमा (उत्तरेस) आणि कृष्णा (दक्षिणेस) या नद्यांच्या खोऱ्यांमधील जलविभाजक आहे. / The Shambhu Mahadev range, an eastward spur of the Sahyadri extending from the Satara-Sangli tract into Karnataka, forms the watershed between the Bhima basin (to its north) and the Krishna basin (to its south)."
+    "explanation": "खानदेशातील जळगाव जिल्हा उत्तरेस मध्य प्रदेश राज्याच्या सीमेला लागून आहे. / Jalgaon district in Khandesh borders Madhya Pradesh state to its north."
   },
   {
     "id": "mh-reg-geo-22",
-    "difficulty": "easy",
-    "question": "थळ घाट (कसारा घाट) कोणत्या दोन शहरांना/प्रदेशांना जोडतो? / The Thal Ghat (Kasara Ghat) connects which two regions?",
-    "options": ["A. नाशिक आणि ठाणे-मुंबई / Nashik and Thane-Mumbai", "B. पुणे आणि मुंबई / Pune and Mumbai", "C. कोल्हापूर आणि रत्नागिरी / Kolhapur and Ratnagiri", "D. सातारा आणि रायगड / Satara and Raigad"],
+    "difficulty": "hard",
+    "question": "गडचिरोली जिल्हा महाराष्ट्रासह आणखी दोन राज्यांच्या 'त्रि-राज्य सीमा बिंदू' (tribal tri-junction) वर स्थित आहे. ती दोन राज्ये कोणती? / Gadchiroli district lies at a tribal tri-junction of Maharashtra with two other states. Which two states form this tri-junction?",
+    "options": ["A. तेलंगणा व छत्तीसगड / Telangana and Chhattisgarh", "B. आंध्र प्रदेश व छत्तीसगड / Andhra Pradesh and Chhattisgarh", "C. तेलंगणा व ओडिशा / Telangana and Odisha", "D. मध्य प्रदेश व छत्तीसगड / Madhya Pradesh and Chhattisgarh"],
     "answer": "A",
-    "explanation": "थळ घाट (कसारा घाट) सह्याद्रीतून नाशिक भागाला ठाणे-मुंबई भागाशी जोडतो; येथून मुंबई-आग्रा महामार्ग व मध्य रेल्वे मार्ग जातो. / The Thal Ghat (Kasara Ghat) connects the Nashik area to the Thane-Mumbai region across the Sahyadri; the Mumbai-Agra highway and Central Railway line pass through it."
+    "explanation": "गडचिरोली जिल्ह्याच्या आग्नेय टोकावर महाराष्ट्र, तेलंगणा व छत्तीसगड या तीन राज्यांचा संगम (ट्रायबल ट्राय-जंक्शन) होतो. / At the south-eastern tip of Gadchiroli district, Maharashtra, Telangana, and Chhattisgarh meet at a tribal tri-junction."
   },
   {
     "id": "mh-reg-geo-23",
-    "difficulty": "medium",
-    "question": "भोर घाट कोणत्या दोन शहरांना जोडणाऱ्या मार्गावर आहे? / The Bhor Ghat lies on the route connecting which two cities?",
-    "options": ["A. मुंबई आणि पुणे / Mumbai and Pune", "B. नाशिक आणि मुंबई / Nashik and Mumbai", "C. कोल्हापूर आणि गोवा / Kolhapur and Goa", "D. नागपूर आणि अमरावती / Nagpur and Amravati"],
+    "difficulty": "hard",
+    "question": "महाराष्ट्रातील एकूण किती जिल्हे इतर राज्यांच्या/केंद्रशासित प्रदेशाच्या सीमेला थेट लागून आहेत? / How many districts of Maharashtra directly border other states/Union Territories?",
+    "options": ["A. २० / 20", "B. १५ / 15", "C. २५ / 25", "D. १८ / 18"],
     "answer": "A",
-    "explanation": "भोर घाट सह्याद्रीत खंडाळा-लोणावळा परिसरात असून मुंबई-पुणे महामार्ग व रेल्वे मार्ग याच घाटातून जातो. / The Bhor Ghat lies in the Sahyadri near Khandala-Lonavala, and the Mumbai-Pune highway and railway line pass through it."
+    "explanation": "महाराष्ट्रातील ३६ पैकी सुमारे २० जिल्हे शेजारील राज्यांच्या किंवा दादरा-नगर हवेली या केंद्रशासित प्रदेशाच्या सीमेला लागून आहेत. / Out of Maharashtra's 36 districts, about 20 directly border neighbouring states or the Dadra and Nagar Haveli UT."
   },
   {
     "id": "mh-reg-geo-24",
-    "difficulty": "hard",
-    "question": "आंबा घाट कोणत्या दोन जिल्ह्यांना जोडतो? / The Amba Ghat connects which two districts?",
-    "options": ["A. कोल्हापूर आणि रत्नागिरी / Kolhapur and Ratnagiri", "B. नाशिक आणि ठाणे / Nashik and Thane", "C. पुणे आणि रायगड / Pune and Raigad", "D. सातारा आणि सांगली / Satara and Sangli"],
+    "difficulty": "easy",
+    "question": "महाराष्ट्राच्या कोकण किनारपट्टीत एकूण किती जिल्हे येतात? / How many districts make up Maharashtra's Konkan coastal belt?",
+    "options": ["A. ६ / 6", "B. ५ / 5", "C. ७ / 7", "D. ४ / 4"],
     "answer": "A",
-    "explanation": "आंबा घाट सह्याद्रीत कोल्हापूर आणि रत्नागिरी जिल्ह्यांना जोडणाऱ्या मार्गावर आहे. / The Amba Ghat lies on the Sahyadri route connecting Kolhapur and Ratnagiri districts."
+    "explanation": "पालघर, ठाणे, मुंबई (शहर व उपनगर), रायगड, रत्नागिरी व सिंधुदुर्ग असे ६ जिल्हे कोकण किनारपट्टीवर आहेत. / Palghar, Thane, Mumbai (City & Suburban), Raigad, Ratnagiri, and Sindhudurg — 6 districts lie along the Konkan coast."
   },
   {
     "id": "mh-reg-geo-25",
-    "difficulty": "hard",
-    "question": "फोंडा घाट हा प्रामुख्याने कोणत्या भागांना जोडतो? / The Fonda Ghat primarily connects which areas?",
-    "options": ["A. सिंधुदुर्ग/गोवा आणि कोल्हापूर / Sindhudurg/Goa and Kolhapur", "B. नागपूर आणि भंडारा / Nagpur and Bhandara", "C. जळगाव आणि धुळे / Jalgaon and Dhule", "D. अहमदनगर आणि पुणे / Ahmednagar and Pune"],
+    "difficulty": "easy",
+    "question": "कोकण किनारपट्टीतील सर्वात दक्षिणेकडील जिल्हा कोणता? / Which is the southernmost district of the Konkan coastal belt?",
+    "options": ["A. सिंधुदुर्ग / Sindhudurg", "B. रत्नागिरी / Ratnagiri", "C. रायगड / Raigad", "D. ठाणे / Thane"],
     "answer": "A",
-    "explanation": "फोंडा घाट सह्याद्रीत सिंधुदुर्ग/गोवा प्रदेश व कोल्हापूर यांना जोडणारा मार्ग आहे. / The Fonda Ghat is a Sahyadri route connecting the Sindhudurg/Goa area with Kolhapur."
+    "explanation": "सिंधुदुर्ग जिल्हा कोकण किनारपट्टीच्या सर्वात दक्षिण टोकाला असून तो गोवा राज्याच्या सीमेला लागून आहे. / Sindhudurg district lies at the southernmost end of the Konkan coast and borders Goa."
   },
   {
     "id": "mh-reg-geo-26",
-    "difficulty": "easy",
-    "question": "महाराष्ट्रात सर्वाधिक पाऊस कोठे पडतो? / Where does Maharashtra receive its heaviest rainfall?",
-    "options": ["A. सह्याद्रीचा माथा व कोकण / Sahyadri crest and Konkan", "B. मराठवाडा / Marathwada", "C. देश (पठारी भाग) / Desh (plateau region)", "D. विदर्भाचा पूर्व भाग / Eastern Vidarbha"],
+    "difficulty": "medium",
+    "question": "पालघर जिल्हा कोणत्या महसूल विभागात येतो? / Under which revenue division does Palghar district fall?",
+    "options": ["A. कोकण विभाग / Konkan division", "B. नाशिक विभाग / Nashik division", "C. पुणे विभाग / Pune division", "D. अमरावती विभाग / Amravati division"],
     "answer": "A",
-    "explanation": "मान्सूनला थेट सामोरे जाणाऱ्या सह्याद्रीच्या माथ्यावर व कोकण किनारपट्टीवर सर्वाधिक (अनेक ठिकाणी ४००० मिमी पेक्षा जास्त) पाऊस पडतो. / Being directly exposed to the monsoon, the Sahyadri crest and the Konkan coast receive the heaviest rainfall in Maharashtra, exceeding 4000 mm at many places."
+    "explanation": "पालघर हा ठाणे जिल्ह्यातून वेगळा झालेला जिल्हा असून तो कोकण महसूल विभागाचा भाग आहे. / Palghar, carved out of Thane district, is part of the Konkan revenue division."
   },
   {
     "id": "mh-reg-geo-27",
     "difficulty": "medium",
-    "question": "सह्याद्रीच्या पूर्वेकडील 'देश' प्रदेशात तुलनेने कमी पाऊस पडण्याच्या स्थितीला काय म्हणतात? / The condition of relatively low rainfall in the 'Desh' region east of the Sahyadri is known as?",
-    "options": ["A. पर्जन्यछाया प्रदेश / Rain-shadow region", "B. मान्सून पट्टा / Monsoon belt", "C. आर्द्र प्रदेश / Humid zone", "D. वादळ प्रदेश / Storm zone"],
+    "question": "मुंबई शहर (Mumbai City) जिल्हा कोणत्या महसूल विभागात येतो? / Under which revenue division does Mumbai City district fall?",
+    "options": ["A. कोकण विभाग / Konkan division", "B. पुणे विभाग / Pune division", "C. नाशिक विभाग / Nashik division", "D. अमरावती विभाग / Amravati division"],
     "answer": "A",
-    "explanation": "सह्याद्री ओलांडल्यानंतर मान्सून वारे कोरडे होतात, त्यामुळे पूर्वेकडील देश प्रदेशात पर्जन्यछाया परिणामामुळे कमी पाऊस पडतो. / After crossing the Sahyadri, the monsoon winds lose moisture, so the eastern 'Desh' region receives less rainfall due to the rain-shadow effect."
+    "explanation": "मुंबई शहर व मुंबई उपनगर हे दोन्ही जिल्हे कोकण महसूल विभागाचा भाग आहेत. / Both Mumbai City and Mumbai Suburban districts are part of the Konkan revenue division."
   },
   {
     "id": "mh-reg-geo-28",
     "difficulty": "easy",
-    "question": "बेसाल्ट खडकाच्या विदारणातून तयार होणारी काळी कापूस मृदा महाराष्ट्रात कोणत्या नावाने ओळखली जाते? / The black cotton soil formed from the weathering of basalt rock is known in Maharashtra as?",
-    "options": ["A. रेगुर मृदा / Regur soil", "B. जांभा मृदा / Laterite soil", "C. गाळाची मृदा / Alluvial soil", "D. वालुकामय मृदा / Sandy soil"],
+    "question": "महाराष्ट्राला अरबी समुद्रालगत अंदाजे किती किमी लांबीचा किनारा लाभला आहे? / What is the approximate length of Maharashtra's coastline along the Arabian Sea?",
+    "options": ["A. ७२० किमी / 720 km", "B. ५०० किमी / 500 km", "C. ९०० किमी / 900 km", "D. ६०० किमी / 600 km"],
     "answer": "A",
-    "explanation": "दख्खनच्या पठारावरील बेसाल्ट खडकापासून तयार झालेल्या काळ्या मृदेला रेगुर मृदा म्हणतात, जी कापूस पिकासाठी उत्तम आहे. / The black soil derived from the weathering of Deccan basalt is called regur soil, well suited for growing cotton."
+    "explanation": "महाराष्ट्राला सुमारे ७२० किमी लांबीचा अरबी समुद्र किनारा लाभला आहे, जो कोकण किनारपट्टी म्हणून ओळखला जातो. / Maharashtra has an approximately 720 km long Arabian Sea coastline, known as the Konkan coast."
   },
   {
     "id": "mh-reg-geo-29",
     "difficulty": "medium",
-    "question": "रेगुर (काळी कापूस) मृदा महाराष्ट्रात प्रामुख्याने कोणत्या भागांत आढळते? / Regur (black cotton) soil is mainly found in which parts of Maharashtra?",
-    "options": ["A. विदर्भ, मराठवाडा व खानदेश / Vidarbha, Marathwada and Khandesh", "B. कोकण किनारपट्टी / Konkan coast", "C. सह्याद्रीचा माथा / Sahyadri crest", "D. फक्त कोल्हापूर जिल्हा / Only Kolhapur district"],
+    "question": "क्षेत्रफळाच्या दृष्टीने महाराष्ट्रातील सर्वात मोठा जिल्हा कोणता? / Which is the largest district of Maharashtra by area?",
+    "options": ["A. अहमदनगर (अहिल्यानगर) / Ahmednagar (Ahilyanagar)", "B. पुणे / Pune", "C. नाशिक / Nashik", "D. यवतमाळ / Yavatmal"],
     "answer": "A",
-    "explanation": "रेगुर मृदा प्रामुख्याने विदर्भ, मराठवाडा आणि खानदेश या दख्खन ट्रॅप पठारी भागांत आढळते, जिथे कापसाचे मोठ्या प्रमाणावर उत्पादन घेतले जाते. / Regur soil is chiefly found in the Vidarbha, Marathwada, and Khandesh regions of the Deccan trap plateau, where cotton is extensively cultivated."
+    "explanation": "अहमदनगर (अहिल्यानगर) जिल्हा सुमारे १७,०४८ चौ.किमी क्षेत्रफळासह महाराष्ट्रातील सर्वात मोठा जिल्हा आहे. / Ahmednagar (Ahilyanagar) district, with an area of about 17,048 sq km, is Maharashtra's largest district."
   },
   {
     "id": "mh-reg-geo-30",
-    "difficulty": "easy",
-    "question": "जांभा (लॅटराइट) मृदा महाराष्ट्रात प्रामुख्याने कोठे आढळते? / Laterite (jambha) soil is mainly found in which part of Maharashtra?",
-    "options": ["A. कोकण व सह्याद्रीचा माथा / Konkan and the Sahyadri crest", "B. विदर्भाचे मैदान / Vidarbha plains", "C. मराठवाड्याचे पठार / Marathwada plateau", "D. खानदेशातील खोरे / Khandesh valley"],
+    "difficulty": "hard",
+    "question": "क्षेत्रफळाच्या दृष्टीने महाराष्ट्रातील सर्वात लहान जिल्हा कोणता? / Which is the smallest district of Maharashtra by area?",
+    "options": ["A. मुंबई शहर / Mumbai City", "B. मुंबई उपनगर / Mumbai Suburban", "C. भंडारा / Bhandara", "D. सिंधुदुर्ग / Sindhudurg"],
     "answer": "A",
-    "explanation": "अतिवृष्टीमुळे खनिजद्रव्यांचे निक्षालन होऊन कोकण किनारपट्टी व सह्याद्रीच्या माथ्यावर जांभा (लॅटराइट) मृदा तयार होते. / Heavy rainfall causes leaching of minerals, forming laterite (jambha) soil along the Konkan coast and the Sahyadri crest."
+    "explanation": "मुंबई शहर जिल्हा सुमारे १५७ चौ.किमी क्षेत्रफळासह महाराष्ट्रातील सर्वात लहान जिल्हा आहे. / Mumbai City district, with an area of about 157 sq km, is Maharashtra's smallest district by area."
   },
   {
     "id": "mh-reg-geo-31",
     "difficulty": "easy",
-    "question": "महाबळेश्वर हे थंड हवेचे ठिकाण कोणत्या जिल्ह्यात आहे? / In which district is the hill station of Mahabaleshwar located?",
-    "options": ["A. सातारा / Satara", "B. रायगड / Raigad", "C. पुणे / Pune", "D. रत्नागिरी / Ratnagiri"],
+    "question": "महाराष्ट्राचे एकूण भौगोलिक क्षेत्रफळ अंदाजे किती आहे? / What is the approximate total geographical area of Maharashtra?",
+    "options": ["A. सुमारे ३.०८ लाख चौ.किमी / About 3.08 lakh sq km", "B. सुमारे २ लाख चौ.किमी / About 2 lakh sq km", "C. सुमारे ४ लाख चौ.किमी / About 4 lakh sq km", "D. सुमारे १.५ लाख चौ.किमी / About 1.5 lakh sq km"],
     "answer": "A",
-    "explanation": "महाबळेश्वर हे सातारा जिल्ह्यातील प्रसिद्ध थंड हवेचे ठिकाण असून कृष्णा नदीचा उगमही येथे आहे. / Mahabaleshwar is a famous hill station in Satara district and is also the source of the Krishna river."
+    "explanation": "महाराष्ट्राचे एकूण क्षेत्रफळ अंदाजे ३,०७,७१३ चौ.किमी (सुमारे ३.०८ लाख चौ.किमी) आहे. / Maharashtra's total area is approximately 3,07,713 sq km (about 3.08 lakh sq km)."
   },
   {
     "id": "mh-reg-geo-32",
-    "difficulty": "medium",
-    "question": "माथेरान हे थंड हवेचे ठिकाण कोणत्या जिल्ह्यात आहे व त्याचे वैशिष्ट्य काय? / In which district is Matheran located, and what is it noted for?",
-    "options": ["A. रायगड; वाहनांना प्रवेशबंदी असलेले ठिकाण / Raigad; a place where motor vehicles are banned", "B. सातारा; सर्वात उंच शिखर / Satara; the highest peak", "C. नाशिक; द्राक्ष उत्पादन / Nashik; grape production", "D. अमरावती; विदर्भातील सर्वोच्च ठिकाण / Amravati; highest point in Vidarbha"],
+    "difficulty": "hard",
+    "question": "क्षेत्रफळाच्या दृष्टीने भारतीय राज्यांमध्ये महाराष्ट्राचा क्रमांक कितवा आहे? / What is Maharashtra's rank among Indian states by area?",
+    "options": ["A. तिसरा / Third", "B. दुसरा / Second", "C. पहिला / First", "D. चौथा / Fourth"],
     "answer": "A",
-    "explanation": "माथेरान हे रायगड जिल्ह्यातील एक छोटे थंड हवेचे ठिकाण असून तेथे मोटार वाहनांना प्रवेशबंदी आहे, हे त्याचे वैशिष्ट्य आहे. / Matheran is a small hill station in Raigad district, notably a place where motor vehicles are banned."
+    "explanation": "क्षेत्रफळाच्या दृष्टीने राजस्थान व मध्य प्रदेश नंतर महाराष्ट्राचा भारतात तिसरा क्रमांक लागतो. / By area, Maharashtra ranks third among Indian states, after Rajasthan and Madhya Pradesh."
   },
   {
     "id": "mh-reg-geo-33",
-    "difficulty": "easy",
-    "question": "पाचगणी हे थंड हवेचे ठिकाण कोणत्या जिल्ह्यात आहे? / In which district is the hill station of Panchgani located?",
-    "options": ["A. सातारा / Satara", "B. पुणे / Pune", "C. नाशिक / Nashik", "D. कोल्हापूर / Kolhapur"],
+    "difficulty": "hard",
+    "question": "लोकसंख्येच्या दृष्टीने भारतीय राज्यांमध्ये महाराष्ट्राचा क्रमांक कितवा आहे? / What is Maharashtra's rank among Indian states by population?",
+    "options": ["A. दुसरा / Second", "B. पहिला / First", "C. तिसरा / Third", "D. पाचवा / Fifth"],
     "answer": "A",
-    "explanation": "पाचगणी हे सातारा जिल्ह्यात महाबळेश्वरजवळ वसलेले प्रसिद्ध थंड हवेचे ठिकाण आहे. / Panchgani is a well-known hill station in Satara district, located near Mahabaleshwar."
+    "explanation": "उत्तर प्रदेश नंतर लोकसंख्येच्या दृष्टीने महाराष्ट्राचा भारतात दुसरा क्रमांक लागतो. / By population, Maharashtra ranks second among Indian states, after Uttar Pradesh."
   },
   {
     "id": "mh-reg-geo-34",
-    "difficulty": "medium",
-    "question": "विदर्भातील सर्वात उंच थंड हवेचे ठिकाण कोणते? / Which is the highest hill station in Vidarbha?",
-    "options": ["A. चिखलदरा / Chikhaldara", "B. माथेरान / Matheran", "C. पाचगणी / Panchgani", "D. तोरणमाळ / Toranmal"],
+    "difficulty": "hard",
+    "question": "सध्याच्या (पालघर विभाजनानंतरच्या) जिल्हा सीमांनुसार महाराष्ट्रातील सर्वाधिक लोकसंख्या असलेला जिल्हा कोणता? / As per current district boundaries (after the Palghar split), which district of Maharashtra has the highest population?",
+    "options": ["A. पुणे / Pune", "B. ठाणे / Thane", "C. मुंबई उपनगर / Mumbai Suburban", "D. नाशिक / Nashik"],
     "answer": "A",
-    "explanation": "चिखलदरा हे अमरावती जिल्ह्यातील मेळघाट भागात असलेले विदर्भातील एकमेव व सर्वात उंच थंड हवेचे ठिकाण आहे. / Chikhaldara, located in the Melghat area of Amravati district, is Vidarbha's only and highest hill station."
+    "explanation": "२०१४ मध्ये पालघर वेगळे झाल्यावर ठाण्याची लोकसंख्या कमी झाली, त्यामुळे सध्याच्या सीमांनुसार पुणे जिल्हा सर्वाधिक लोकसंख्येचा जिल्हा ठरतो. / After Palghar split off from Thane in 2014 (reducing Thane's population), Pune district became the most populous district under current boundaries."
   },
   {
     "id": "mh-reg-geo-35",
-    "difficulty": "easy",
-    "question": "महाराष्ट्रात प्रशासकीय दृष्ट्या किती महसूल विभाग आहेत? / How many revenue divisions does Maharashtra have administratively?",
-    "options": ["A. ६ / 6", "B. ४ / 4", "C. ८ / 8", "D. ५ / 5"],
+    "difficulty": "hard",
+    "question": "लोकसंख्येच्या दृष्टीने महाराष्ट्रातील सर्वात कमी लोकसंख्या असलेला जिल्हा कोणता? / Which district of Maharashtra has the lowest population?",
+    "options": ["A. सिंधुदुर्ग / Sindhudurg", "B. गडचिरोली / Gadchiroli", "C. हिंगोली / Hingoli", "D. वर्धा / Wardha"],
     "answer": "A",
-    "explanation": "महाराष्ट्रात कोकण, पुणे, नाशिक, छत्रपती संभाजीनगर (औरंगाबाद), अमरावती व नागपूर असे एकूण ६ महसूल विभाग आहेत. / Maharashtra has six revenue divisions: Konkan, Pune, Nashik, Chhatrapati Sambhajinagar (Aurangabad), Amravati, and Nagpur."
+    "explanation": "सिंधुदुर्ग हा महाराष्ट्रातील सर्वात कमी लोकसंख्या असलेला जिल्हा आहे. / Sindhudurg is Maharashtra's least populous district."
   },
   {
     "id": "mh-reg-geo-36",
-    "difficulty": "medium",
-    "question": "खालीलपैकी कोणता महाराष्ट्राचा महसूल विभाग नाही? / Which of the following is NOT a revenue division of Maharashtra?",
-    "options": ["A. मराठवाडा / Marathwada", "B. नागपूर / Nagpur", "C. अमरावती / Amravati", "D. कोकण / Konkan"],
+    "difficulty": "hard",
+    "question": "महाराष्ट्राचा उत्तर-दक्षिण विस्तार (लांबी) अंदाजे किती किमी आहे? / What is the approximate north-south extent (length) of Maharashtra?",
+    "options": ["A. ७२० किमी / 720 km", "B. ८०० किमी / 800 km", "C. ६०० किमी / 600 km", "D. ५०० किमी / 500 km"],
     "answer": "A",
-    "explanation": "मराठवाडा हा एक सांस्कृतिक/भौगोलिक प्रदेश आहे, तो अधिकृत महसूल विभाग नाही; त्या भागाचा प्रशासकीय महसूल विभाग 'छत्रपती संभाजीनगर (औरंगाबाद)' आहे. / Marathwada is a cultural/geographical region, not an official revenue division; the administrative revenue division covering that area is Chhatrapati Sambhajinagar (Aurangabad)."
+    "explanation": "महाराष्ट्राचा उत्तर-दक्षिण विस्तार अंदाजे ७२० किमी असून पूर्व-पश्चिम रुंदी सुमारे ८०० किमी आहे. / Maharashtra's north-south extent is about 720 km, while its east-west breadth is about 800 km."
   },
   {
     "id": "mh-reg-geo-37",
     "difficulty": "medium",
-    "question": "सध्या (पालघर जिल्हा वेगळा झाल्यानंतर) महाराष्ट्रात एकूण किती जिल्हे आहेत? / How many total districts does Maharashtra currently have (after Palghar was carved out)?",
-    "options": ["A. ३६ / 36", "B. ३३ / 33", "C. ३५ / 35", "D. ३८ / 38"],
+    "question": "महाराष्ट्राचा पूर्व-पश्चिम विस्तार (रुंदी) अंदाजे किती किमी आहे? / What is the approximate east-west extent (breadth) of Maharashtra?",
+    "options": ["A. ८०० किमी / 800 km", "B. ७२० किमी / 720 km", "C. ९०० किमी / 900 km", "D. ६५० किमी / 650 km"],
     "answer": "A",
-    "explanation": "२०१४ मध्ये ठाणे जिल्ह्यातून पालघर हा नवा जिल्हा वेगळा झाल्यानंतर महाराष्ट्रात एकूण ३६ जिल्हे झाले. / After Palghar was carved out of Thane district in 2014, Maharashtra's total number of districts became 36."
+    "explanation": "महाराष्ट्राची पूर्व-पश्चिम रुंदी सुमारे ८०० किमी आहे, तर उत्तर-दक्षिण लांबी सुमारे ७२० किमी आहे. / Maharashtra's east-west breadth is about 800 km, while its north-south length is about 720 km."
   },
   {
     "id": "mh-reg-geo-38",
     "difficulty": "medium",
-    "question": "खालीलपैकी कोणता महाराष्ट्राचा प्रादेशिक/सांस्कृतिक भाग नाही? / Which of the following is NOT a regional/cultural division of Maharashtra?",
-    "options": ["A. तेलंगणा / Telangana", "B. मराठवाडा / Marathwada", "C. विदर्भ / Vidarbha", "D. खानदेश / Khandesh"],
+    "question": "विदर्भ या सांस्कृतिक प्रदेशात कोणकोणत्या महसूल विभागांचा समावेश होतो? / Which revenue divisions together form the Vidarbha cultural region?",
+    "options": ["A. नागपूर व अमरावती विभाग / Nagpur and Amravati divisions", "B. नाशिक व पुणे विभाग / Nashik and Pune divisions", "C. कोकण व पुणे विभाग / Konkan and Pune divisions", "D. छत्रपती संभाजीनगर व अमरावती विभाग / Chhatrapati Sambhajinagar and Amravati divisions"],
     "answer": "A",
-    "explanation": "तेलंगणा हे स्वतंत्र राज्य आहे, महाराष्ट्राचा भाग नाही; मराठवाडा, विदर्भ, खानदेश व कोकण/पश्चिम महाराष्ट्र हे महाराष्ट्रातील प्रादेशिक विभाग आहेत. / Telangana is a separate state, not part of Maharashtra; Marathwada, Vidarbha, Khandesh, and Konkan/Western Maharashtra are the regional divisions within Maharashtra."
+    "explanation": "विदर्भ प्रदेशात नागपूर विभाग (६ जिल्हे) व अमरावती विभाग (५ जिल्हे) मिळून एकूण ११ जिल्हे येतात. / The Vidarbha region comprises the Nagpur division (6 districts) and Amravati division (5 districts), totalling 11 districts."
   },
   {
     "id": "mh-reg-geo-39",
-    "difficulty": "hard",
-    "question": "कोयना धरणामुळे तयार झालेल्या जलाशयाचे नाव काय आहे? / What is the name of the reservoir formed by the Koyna dam?",
-    "options": ["A. शिवसागर / Shivsagar", "B. जायकवाडी जलाशय / Jayakwadi reservoir", "C. उजनी जलाशय / Ujani reservoir", "D. गंगापूर जलाशय / Gangapur reservoir"],
+    "difficulty": "medium",
+    "question": "मराठवाडा हा सांस्कृतिक प्रदेश कोणत्या महसूल विभागाशी एकरूप आहे? / The Marathwada cultural region corresponds to which revenue division?",
+    "options": ["A. छत्रपती संभाजीनगर (औरंगाबाद) विभाग / Chhatrapati Sambhajinagar (Aurangabad) division", "B. नागपूर विभाग / Nagpur division", "C. नाशिक विभाग / Nashik division", "D. पुणे विभाग / Pune division"],
     "answer": "A",
-    "explanation": "कोयना नदीवरील धरणामुळे तयार झालेल्या जलाशयाला 'शिवसागर' म्हणतात, हे सातारा जिल्ह्यात आहे. / The reservoir created by the dam on the Koyna river is named Shivsagar, located in Satara district."
+    "explanation": "मराठवाडा प्रदेशात औरंगाबाद (छत्रपती संभाजीनगर), जालना, परभणी, हिंगोली, बीड, लातूर, धाराशिव व नांदेड हे ८ जिल्हे येतात, जे छत्रपती संभाजीनगर विभागाशी एकरूप आहेत. / The Marathwada region's 8 districts (Aurangabad/Chhatrapati Sambhajinagar, Jalna, Parbhani, Hingoli, Beed, Latur, Dharashiv, Nanded) coincide exactly with the Chhatrapati Sambhajinagar division."
   },
   {
     "id": "mh-reg-geo-40",
-    "difficulty": "hard",
-    "question": "गोदावरी नदीवरील जायकवाडी धरणाचा जलाशय कोणत्या नावाने ओळखला जातो? / The reservoir of the Jayakwadi dam on the Godavari river is known by which name?",
-    "options": ["A. नाथसागर / Nathsagar", "B. शिवसागर / Shivsagar", "C. उजनी सागर / Ujani Sagar", "D. यशवंत सागर / Yashwant Sagar"],
+    "difficulty": "medium",
+    "question": "खानदेश या सांस्कृतिक प्रदेशात कोणत्या जिल्ह्यांचा समावेश होतो? / Which districts are included in the Khandesh cultural region?",
+    "options": ["A. जळगाव, धुळे, नंदुरबार / Jalgaon, Dhule, Nandurbar", "B. नाशिक, अहमदनगर, पुणे / Nashik, Ahmednagar, Pune", "C. जळगाव, बुलढाणा, अकोला / Jalgaon, Buldhana, Akola", "D. धुळे, औरंगाबाद, जालना / Dhule, Aurangabad, Jalna"],
     "answer": "A",
-    "explanation": "छत्रपती संभाजीनगर (औरंगाबाद) जिल्ह्यातील गोदावरी नदीवरील जायकवाडी धरणाच्या जलाशयाला 'नाथसागर' म्हणतात. / The reservoir of the Jayakwadi dam on the Godavari river in Chhatrapati Sambhajinagar (Aurangabad) district is called Nathsagar."
+    "explanation": "खानदेश प्रदेशात जळगाव, धुळे व नंदुरबार हे तीन जिल्हे येतात, हा प्रदेश तापी नदीच्या खोऱ्यात आहे. / The Khandesh region comprises three districts — Jalgaon, Dhule, and Nandurbar — located in the Tapi river valley."
   }
 ]
