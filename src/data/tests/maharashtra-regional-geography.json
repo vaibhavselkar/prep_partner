@@ -1,0 +1,322 @@
+[
+  {
+    "id": "mh-reg-geo-01",
+    "difficulty": "easy",
+    "question": "महाराष्ट्राला किती किलोमीटरचा किनारा लाभला आहे? / What is the approximate length of Maharashtra's coastline?",
+    "options": ["A. ७२० किमी / 720 km", "B. ५०० किमी / 500 km", "C. ९०० किमी / 900 km", "D. ६०० किमी / 600 km"],
+    "answer": "A",
+    "explanation": "महाराष्ट्राला अरबी समुद्रालगत सुमारे ७२० किमी लांबीचा किनारा लाभला आहे, जो कोकण किनारपट्टी म्हणून ओळखला जातो. / Maharashtra has an approximately 720 km long coastline along the Arabian Sea, known as the Konkan coastal strip."
+  },
+  {
+    "id": "mh-reg-geo-02",
+    "difficulty": "easy",
+    "question": "महाराष्ट्राच्या भौगोलिक विभागांपैकी पश्चिमेकडील अरबी समुद्र आणि सह्याद्री यांच्यामधील अरुंद किनारपट्टीला काय म्हणतात? / The narrow coastal strip between the Arabian Sea and the Sahyadri is known as?",
+    "options": ["A. कोकण / Konkan", "B. देश / Desh", "C. विदर्भ / Vidarbha", "D. खानदेश / Khandesh"],
+    "answer": "A",
+    "explanation": "कोकण ही सह्याद्री आणि अरबी समुद्र यांच्यामधील अरुंद, सखल किनारपट्टी आहे. / Konkan is the narrow, low-lying coastal strip lying between the Sahyadri range and the Arabian Sea."
+  },
+  {
+    "id": "mh-reg-geo-03",
+    "difficulty": "easy",
+    "question": "महाराष्ट्राच्या पश्चिम सीमेवर उत्तर-दक्षिण पसरलेल्या मुख्य पर्वतरांगेचे नाव काय आहे? / What is the name of the main mountain range running north-south along Maharashtra's western edge?",
+    "options": ["A. सह्याद्री (पश्चिम घाट) / Sahyadri (Western Ghats)", "B. सातपुडा / Satpuda", "C. अजिंठा रांग / Ajanta range", "D. बालाघाट रांग / Balaghat range"],
+    "answer": "A",
+    "explanation": "सह्याद्री म्हणजेच पश्चिम घाट ही महाराष्ट्राच्या पश्चिम भागात उत्तर-दक्षिण पसरलेली प्रमुख पर्वतरांग आहे. / The Sahyadri, also called the Western Ghats, is the principal range running north-south along the western part of Maharashtra."
+  },
+  {
+    "id": "mh-reg-geo-04",
+    "difficulty": "easy",
+    "question": "सह्याद्रीच्या पूर्वेस पसरलेल्या पठारी प्रदेशाला काय म्हणतात? / The plateau region lying to the east of the Sahyadri is called?",
+    "options": ["A. देश / Desh", "B. कोकण / Konkan", "C. मराठवाडा किनारा / Marathwada coast", "D. सिंधुदुर्ग पठार / Sindhudurg plateau"],
+    "answer": "A",
+    "explanation": "सह्याद्रीच्या पूर्वेकडील बेसाल्ट खडकाच्या पठारी प्रदेशाला 'देश' किंवा महाराष्ट्र पठार म्हणतात. / The basaltic plateau region east of the Sahyadri is called 'Desh' or the Maharashtra Plateau."
+  },
+  {
+    "id": "mh-reg-geo-05",
+    "difficulty": "easy",
+    "question": "महाराष्ट्राच्या उत्तर सीमेवर मध्य प्रदेशला लागून असलेली पर्वतरांग कोणती? / Which mountain range lies along Maharashtra's northern border adjoining Madhya Pradesh?",
+    "options": ["A. सातपुडा रांग / Satpuda range", "B. सह्याद्री रांग / Sahyadri range", "C. अजिंठा रांग / Ajanta range", "D. शंभू महादेव रांग / Shambhu Mahadev range"],
+    "answer": "A",
+    "explanation": "सातपुडा पर्वतरांग महाराष्ट्राच्या उत्तर सीमेवर पूर्व-पश्चिम पसरलेली असून ती मध्य प्रदेशला लागून आहे. / The Satpuda range runs east-west along Maharashtra's northern border, adjoining Madhya Pradesh."
+  },
+  {
+    "id": "mh-reg-geo-06",
+    "difficulty": "medium",
+    "question": "तापी आणि पूर्णा नद्यांची दरी कोणत्या प्रदेशात आहे? / The Tapi-Purna river valley lies in which region?",
+    "options": ["A. खानदेश / Khandesh", "B. कोकण / Konkan", "C. मराठवाडा / Marathwada", "D. पश्चिम महाराष्ट्र / Western Maharashtra"],
+    "answer": "A",
+    "explanation": "तापी-पूर्णा नदीखोरे खानदेश प्रदेशात (जळगाव, धुळे, नंदुरबार जिल्हे) असून सातपुडा व अजिंठा रांगांमध्ये पसरले आहे. / The Tapi-Purna valley lies in the Khandesh region (Jalgaon, Dhule, Nandurbar districts), sandwiched between the Satpuda and Ajanta ranges."
+  },
+  {
+    "id": "mh-reg-geo-07",
+    "difficulty": "easy",
+    "question": "महाराष्ट्रातील सर्वात लांब नदी कोणती? / Which is the longest river in Maharashtra?",
+    "options": ["A. गोदावरी / Godavari", "B. कृष्णा / Krishna", "C. तापी / Tapi", "D. भीमा / Bhima"],
+    "answer": "A",
+    "explanation": "गोदावरी ही महाराष्ट्रातील सर्वात लांब नदी असून तिला 'वृद्ध गंगा' असेही म्हणतात, तिचा उगम त्र्यंबकेश्वर (नाशिक) येथे होतो. / The Godavari is the longest river in Maharashtra, also called 'Vridha Ganga', and originates at Trimbakeshwar in Nashik district."
+  },
+  {
+    "id": "mh-reg-geo-08",
+    "difficulty": "easy",
+    "question": "कृष्णा नदीचा उगम कोठे होतो? / Where does the Krishna river originate?",
+    "options": ["A. महाबळेश्वर / Mahabaleshwar", "B. त्र्यंबकेश्वर / Trimbakeshwar", "C. भीमाशंकर / Bhimashankar", "D. मुळशी / Mulshi"],
+    "answer": "A",
+    "explanation": "कृष्णा नदीचा उगम सातारा जिल्ह्यातील महाबळेश्वर येथे सह्याद्रीत होतो. / The Krishna river originates at Mahabaleshwar in Satara district, in the Sahyadri range."
+  },
+  {
+    "id": "mh-reg-geo-09",
+    "difficulty": "medium",
+    "question": "भीमा नदीचा उगम कोणत्या ठिकाणी होतो? / Where does the Bhima river originate?",
+    "options": ["A. भीमाशंकर (पुणे जिल्हा) / Bhimashankar (Pune district)", "B. महाबळेश्वर / Mahabaleshwar", "C. सातमाळा रांग / Satmala range", "D. साल्हेर / Salher"],
+    "answer": "A",
+    "explanation": "भीमा नदीचा उगम पुणे जिल्ह्यातील भीमाशंकर येथे होतो आणि पुढे ती कृष्णा नदीची उपनदी आहे. / The Bhima river originates at Bhimashankar in Pune district and is a tributary of the Krishna river."
+  },
+  {
+    "id": "mh-reg-geo-10",
+    "difficulty": "medium",
+    "question": "तापी नदी कोणत्या दिशेने वाहते, जी महाराष्ट्रातील बहुतांश नद्यांच्या विरुद्ध आहे? / In which unusual direction (opposite to most Maharashtra rivers) does the Tapi river flow?",
+    "options": ["A. पूर्वेकडून पश्चिमेकडे / East to west", "B. पश्चिमेकडून पूर्वेकडे / West to east", "C. उत्तरेकडून दक्षिणेकडे / North to south", "D. दक्षिणेकडून उत्तरेकडे / South to north"],
+    "answer": "A",
+    "explanation": "महाराष्ट्रातील बहुतांश मोठ्या नद्या पूर्वेकडे वाहतात, पण तापी नदी खानदेशातून पश्चिमेकडे वाहत जाऊन गुजरातमधील खंबायतच्या आखातात अरबी समुद्रास मिळते. / While most major Maharashtra rivers flow eastward, the Tapi flows westward through Khandesh and empties into the Gulf of Khambhat (Arabian Sea) in Gujarat."
+  },
+  {
+    "id": "mh-reg-geo-11",
+    "difficulty": "medium",
+    "question": "वर्धा आणि वैनगंगा या नद्या कोणत्या नदीप्रणालीचा भाग आहेत? / The Wardha and Wainganga rivers are part of which river system?",
+    "options": ["A. गोदावरी प्रणाली / Godavari system", "B. कृष्णा प्रणाली / Krishna system", "C. तापी प्रणाली / Tapi system", "D. नर्मदा प्रणाली / Narmada system"],
+    "answer": "A",
+    "explanation": "वर्धा आणि वैनगंगा या विदर्भातील नद्या एकत्र येऊन प्राणहिता नावाने पुढे गोदावरीला मिळतात, त्यामुळे त्या गोदावरी प्रणालीचा भाग आहेत. / The Wardha and Wainganga rivers of Vidarbha join to form the Pranahita, which merges with the Godavari, making them part of the Godavari river system."
+  },
+  {
+    "id": "mh-reg-geo-12",
+    "difficulty": "medium",
+    "question": "कोयना नदी ही कोणत्या नदीची उपनदी आहे? / The Koyna river is a tributary of which river?",
+    "options": ["A. कृष्णा / Krishna", "B. गोदावरी / Godavari", "C. तापी / Tapi", "D. भीमा / Bhima"],
+    "answer": "A",
+    "explanation": "कोयना नदी सातारा जिल्ह्यात उगम पावून कृष्णा नदीला मिळते; कोयना धरणामुळे तयार झालेला जलाशय 'शिवसागर' म्हणून ओळखला जातो. / The Koyna river originates in Satara district and joins the Krishna; the reservoir formed by the Koyna dam is known as Shivsagar."
+  },
+  {
+    "id": "mh-reg-geo-13",
+    "difficulty": "hard",
+    "question": "पांझरा नदी कोणत्या नदीची उपनदी आहे? / The Panzara river is a tributary of which river?",
+    "options": ["A. तापी / Tapi", "B. गोदावरी / Godavari", "C. कृष्णा / Krishna", "D. नर्मदा / Narmada"],
+    "answer": "A",
+    "explanation": "पांझरा नदी धुळे जिल्ह्यातून वाहते व ती तापी नदीची उपनदी आहे. / The Panzara river flows through Dhule district and is a tributary of the Tapi river."
+  },
+  {
+    "id": "mh-reg-geo-14",
+    "difficulty": "medium",
+    "question": "सह्याद्रीच्या पश्चिमेकडे वाहणाऱ्या नद्यांबद्दल (उदा. वैतरणा, उल्हास, सावित्री) खालीलपैकी कोणते विधान बरोबर आहे? / Which statement is correct about west-flowing rivers of the Sahyadri (e.g., Vaitarna, Ulhas, Savitri)?",
+    "options": ["A. त्या लहान व वेगवान असून थेट अरबी समुद्रास मिळतात / They are short and swift, draining directly into the Arabian Sea", "B. त्या लांब असून बंगालच्या उपसागरास मिळतात / They are long and drain into the Bay of Bengal", "C. त्या फक्त हिवाळ्यात वाहतात / They flow only in winter", "D. त्या सर्व गोदावरीला मिळतात / They all join the Godavari"],
+    "answer": "A",
+    "explanation": "कोकणातील पश्चिमवाहिनी नद्या (वैतरणा, उल्हास, सावित्री, वशिष्ठी इ.) लहान पल्ल्याच्या, वेगवान असून सह्याद्रीतून थेट अरबी समुद्रात जाऊन मिळतात. / The west-flowing rivers of Konkan (Vaitarna, Ulhas, Savitri, Vashishthi, etc.) are short, swift streams that descend from the Sahyadri directly into the Arabian Sea."
+  },
+  {
+    "id": "mh-reg-geo-15",
+    "difficulty": "easy",
+    "question": "महाराष्ट्रातील पूर्ववाहिनी प्रमुख नद्यांमध्ये (गोदावरी, कृष्णा, भीमा) यांचा प्रवाह अंतिमतः कोणत्या दिशेस जातो? / East-flowing major rivers of Maharashtra (Godavari, Krishna, Bhima) ultimately drain toward?",
+    "options": ["A. बंगालचा उपसागर / Bay of Bengal", "B. अरबी समुद्र / Arabian Sea", "C. हिंदी महासागर सरळ / Directly into the Indian Ocean south of India", "D. खंबायतचे आखात / Gulf of Khambhat"],
+    "answer": "A",
+    "explanation": "गोदावरी, कृष्णा आणि भीमा या पूर्ववाहिनी नद्या दख्खनच्या पठारावरून वाहत जाऊन शेवटी बंगालच्या उपसागरास मिळतात. / The Godavari, Krishna, and Bhima flow eastward across the Deccan plateau and ultimately drain into the Bay of Bengal."
+  },
+  {
+    "id": "mh-reg-geo-16",
+    "difficulty": "easy",
+    "question": "महाराष्ट्रातील सर्वोच्च शिखर कोणते? / Which is the highest peak in Maharashtra?",
+    "options": ["A. कळसुबाई / Kalsubai", "B. साल्हेर / Salher", "C. हरिश्चंद्रगड / Harishchandragad", "D. महाबळेश्वर / Mahabaleshwar"],
+    "answer": "A",
+    "explanation": "कळसुबाई हे महाराष्ट्रातील सर्वोच्च शिखर असून त्याची उंची सुमारे १६४६ मीटर आहे, ते अहमदनगर जिल्ह्यातील अकोले तालुक्यात सह्याद्रीत आहे. / Kalsubai is the highest peak in Maharashtra at approximately 1646 metres, located in Akole taluka of Ahmednagar district in the Sahyadri range."
+  },
+  {
+    "id": "mh-reg-geo-17",
+    "difficulty": "medium",
+    "question": "महाराष्ट्रातील दुसऱ्या क्रमांकाचे सर्वोच्च शिखर कोणते? / Which is the second-highest peak in Maharashtra?",
+    "options": ["A. साल्हेर / Salher", "B. हरिश्चंद्रगड / Harishchandragad", "C. त्र्यंबक / Trimbak", "D. रायगड / Raigad"],
+    "answer": "A",
+    "explanation": "साल्हेर हे महाराष्ट्रातील दुसरे सर्वोच्च शिखर (सुमारे १५६७ मीटर) असून ते नाशिक जिल्ह्यात गुजरात सीमेजवळ सह्याद्रीत आहे. / Salher, at about 1567 metres, is the second-highest peak in Maharashtra, located in Nashik district near the Gujarat border in the Sahyadri range."
+  },
+  {
+    "id": "mh-reg-geo-18",
+    "difficulty": "medium",
+    "question": "हरिश्चंद्रगड हा किल्ला/शिखर कोणत्या जिल्ह्यात आहे? / In which district is the Harishchandragad peak/fort located?",
+    "options": ["A. अहमदनगर / Ahmednagar", "B. सातारा / Satara", "C. रत्नागिरी / Ratnagiri", "D. नाशिक / Nashik"],
+    "answer": "A",
+    "explanation": "हरिश्चंद्रगड हे अहमदनगर जिल्ह्यात सह्याद्रीत असलेले प्रसिद्ध शिखर व किल्ला आहे. / Harishchandragad is a well-known peak and fort in the Sahyadri, located in Ahmednagar district."
+  },
+  {
+    "id": "mh-reg-geo-19",
+    "difficulty": "hard",
+    "question": "गोदावरी आणि तापी नदीखोऱ्यांना विभागणारी पर्वतरांग कोणती? / Which range separates the Godavari and Tapi river basins?",
+    "options": ["A. अजिंठा रांग / Ajanta range", "B. बालाघाट रांग / Balaghat range", "C. शंभू महादेव रांग / Shambhu Mahadev range", "D. हरिश्चंद्र-बालाघाट रांग / Harishchandra-Balaghat range"],
+    "answer": "A",
+    "explanation": "अजिंठा रांग सह्याद्रीपासून पूर्वेस पसरलेली असून ती गोदावरी (उत्तरेकडे) आणि तापी-पूर्णा (उत्तरेकडे वेगळे) खोऱ्यांमधील जलविभाजक आहे; याच रांगेत प्रसिद्ध अजिंठा लेणी आहेत. / The Ajanta range, extending eastward from the Sahyadri, forms the watershed between the Godavari basin and the Tapi-Purna basin, and is home to the famous Ajanta caves."
+  },
+  {
+    "id": "mh-reg-geo-20",
+    "difficulty": "hard",
+    "question": "बालाघाट रांग ही कोणत्या नद्यांच्या खोऱ्यांमधील जलविभाजक आहे? / The Balaghat range forms the watershed between which river basins?",
+    "options": ["A. गोदावरी आणि भीमा-कृष्णा / Godavari and Bhima-Krishna", "B. तापी आणि नर्मदा / Tapi and Narmada", "C. कोकणातील नद्या आणि गोदावरी / Konkan rivers and Godavari", "D. वैनगंगा आणि वर्धा / Wainganga and Wardha"],
+    "answer": "A",
+    "explanation": "बालाघाट रांग ही गोदावरी नदीखोरे आणि भीमा-कृष्णा नदीखोरे यांच्यामधील जलविभाजक म्हणून काम करते, ही रांग अहमदनगर-बीड-उस्मानाबाद भागातून जाते. / The Balaghat range acts as the watershed dividing the Godavari basin from the Bhima-Krishna basin, running through the Ahmednagar-Beed-Osmanabad tract."
+  },
+  {
+    "id": "mh-reg-geo-21",
+    "difficulty": "hard",
+    "question": "शंभू महादेव रांग ही कोणत्या दोन नद्यांमधील जलविभाजक आहे? / The Shambhu Mahadev range forms the watershed between which two rivers?",
+    "options": ["A. भीमा आणि कृष्णा / Bhima and Krishna", "B. गोदावरी आणि तापी / Godavari and Tapi", "C. कृष्णा आणि कोयना / Krishna and Koyna", "D. वैनगंगा आणि पैनगंगा / Wainganga and Painganga"],
+    "answer": "A",
+    "explanation": "शंभू महादेव रांग ही सह्याद्रीची पूर्वेकडील शाखा असून सातारा-सांगली भागातून कर्नाटकापर्यंत पसरलेली आहे; ती भीमा (उत्तरेस) आणि कृष्णा (दक्षिणेस) या नद्यांच्या खोऱ्यांमधील जलविभाजक आहे. / The Shambhu Mahadev range, an eastward spur of the Sahyadri extending from the Satara-Sangli tract into Karnataka, forms the watershed between the Bhima basin (to its north) and the Krishna basin (to its south)."
+  },
+  {
+    "id": "mh-reg-geo-22",
+    "difficulty": "easy",
+    "question": "थळ घाट (कसारा घाट) कोणत्या दोन शहरांना/प्रदेशांना जोडतो? / The Thal Ghat (Kasara Ghat) connects which two regions?",
+    "options": ["A. नाशिक आणि ठाणे-मुंबई / Nashik and Thane-Mumbai", "B. पुणे आणि मुंबई / Pune and Mumbai", "C. कोल्हापूर आणि रत्नागिरी / Kolhapur and Ratnagiri", "D. सातारा आणि रायगड / Satara and Raigad"],
+    "answer": "A",
+    "explanation": "थळ घाट (कसारा घाट) सह्याद्रीतून नाशिक भागाला ठाणे-मुंबई भागाशी जोडतो; येथून मुंबई-आग्रा महामार्ग व मध्य रेल्वे मार्ग जातो. / The Thal Ghat (Kasara Ghat) connects the Nashik area to the Thane-Mumbai region across the Sahyadri; the Mumbai-Agra highway and Central Railway line pass through it."
+  },
+  {
+    "id": "mh-reg-geo-23",
+    "difficulty": "medium",
+    "question": "भोर घाट कोणत्या दोन शहरांना जोडणाऱ्या मार्गावर आहे? / The Bhor Ghat lies on the route connecting which two cities?",
+    "options": ["A. मुंबई आणि पुणे / Mumbai and Pune", "B. नाशिक आणि मुंबई / Nashik and Mumbai", "C. कोल्हापूर आणि गोवा / Kolhapur and Goa", "D. नागपूर आणि अमरावती / Nagpur and Amravati"],
+    "answer": "A",
+    "explanation": "भोर घाट सह्याद्रीत खंडाळा-लोणावळा परिसरात असून मुंबई-पुणे महामार्ग व रेल्वे मार्ग याच घाटातून जातो. / The Bhor Ghat lies in the Sahyadri near Khandala-Lonavala, and the Mumbai-Pune highway and railway line pass through it."
+  },
+  {
+    "id": "mh-reg-geo-24",
+    "difficulty": "hard",
+    "question": "आंबा घाट कोणत्या दोन जिल्ह्यांना जोडतो? / The Amba Ghat connects which two districts?",
+    "options": ["A. कोल्हापूर आणि रत्नागिरी / Kolhapur and Ratnagiri", "B. नाशिक आणि ठाणे / Nashik and Thane", "C. पुणे आणि रायगड / Pune and Raigad", "D. सातारा आणि सांगली / Satara and Sangli"],
+    "answer": "A",
+    "explanation": "आंबा घाट सह्याद्रीत कोल्हापूर आणि रत्नागिरी जिल्ह्यांना जोडणाऱ्या मार्गावर आहे. / The Amba Ghat lies on the Sahyadri route connecting Kolhapur and Ratnagiri districts."
+  },
+  {
+    "id": "mh-reg-geo-25",
+    "difficulty": "hard",
+    "question": "फोंडा घाट हा प्रामुख्याने कोणत्या भागांना जोडतो? / The Fonda Ghat primarily connects which areas?",
+    "options": ["A. सिंधुदुर्ग/गोवा आणि कोल्हापूर / Sindhudurg/Goa and Kolhapur", "B. नागपूर आणि भंडारा / Nagpur and Bhandara", "C. जळगाव आणि धुळे / Jalgaon and Dhule", "D. अहमदनगर आणि पुणे / Ahmednagar and Pune"],
+    "answer": "A",
+    "explanation": "फोंडा घाट सह्याद्रीत सिंधुदुर्ग/गोवा प्रदेश व कोल्हापूर यांना जोडणारा मार्ग आहे. / The Fonda Ghat is a Sahyadri route connecting the Sindhudurg/Goa area with Kolhapur."
+  },
+  {
+    "id": "mh-reg-geo-26",
+    "difficulty": "easy",
+    "question": "महाराष्ट्रात सर्वाधिक पाऊस कोठे पडतो? / Where does Maharashtra receive its heaviest rainfall?",
+    "options": ["A. सह्याद्रीचा माथा व कोकण / Sahyadri crest and Konkan", "B. मराठवाडा / Marathwada", "C. देश (पठारी भाग) / Desh (plateau region)", "D. विदर्भाचा पूर्व भाग / Eastern Vidarbha"],
+    "answer": "A",
+    "explanation": "मान्सूनला थेट सामोरे जाणाऱ्या सह्याद्रीच्या माथ्यावर व कोकण किनारपट्टीवर सर्वाधिक (अनेक ठिकाणी ४००० मिमी पेक्षा जास्त) पाऊस पडतो. / Being directly exposed to the monsoon, the Sahyadri crest and the Konkan coast receive the heaviest rainfall in Maharashtra, exceeding 4000 mm at many places."
+  },
+  {
+    "id": "mh-reg-geo-27",
+    "difficulty": "medium",
+    "question": "सह्याद्रीच्या पूर्वेकडील 'देश' प्रदेशात तुलनेने कमी पाऊस पडण्याच्या स्थितीला काय म्हणतात? / The condition of relatively low rainfall in the 'Desh' region east of the Sahyadri is known as?",
+    "options": ["A. पर्जन्यछाया प्रदेश / Rain-shadow region", "B. मान्सून पट्टा / Monsoon belt", "C. आर्द्र प्रदेश / Humid zone", "D. वादळ प्रदेश / Storm zone"],
+    "answer": "A",
+    "explanation": "सह्याद्री ओलांडल्यानंतर मान्सून वारे कोरडे होतात, त्यामुळे पूर्वेकडील देश प्रदेशात पर्जन्यछाया परिणामामुळे कमी पाऊस पडतो. / After crossing the Sahyadri, the monsoon winds lose moisture, so the eastern 'Desh' region receives less rainfall due to the rain-shadow effect."
+  },
+  {
+    "id": "mh-reg-geo-28",
+    "difficulty": "easy",
+    "question": "बेसाल्ट खडकाच्या विदारणातून तयार होणारी काळी कापूस मृदा महाराष्ट्रात कोणत्या नावाने ओळखली जाते? / The black cotton soil formed from the weathering of basalt rock is known in Maharashtra as?",
+    "options": ["A. रेगुर मृदा / Regur soil", "B. जांभा मृदा / Laterite soil", "C. गाळाची मृदा / Alluvial soil", "D. वालुकामय मृदा / Sandy soil"],
+    "answer": "A",
+    "explanation": "दख्खनच्या पठारावरील बेसाल्ट खडकापासून तयार झालेल्या काळ्या मृदेला रेगुर मृदा म्हणतात, जी कापूस पिकासाठी उत्तम आहे. / The black soil derived from the weathering of Deccan basalt is called regur soil, well suited for growing cotton."
+  },
+  {
+    "id": "mh-reg-geo-29",
+    "difficulty": "medium",
+    "question": "रेगुर (काळी कापूस) मृदा महाराष्ट्रात प्रामुख्याने कोणत्या भागांत आढळते? / Regur (black cotton) soil is mainly found in which parts of Maharashtra?",
+    "options": ["A. विदर्भ, मराठवाडा व खानदेश / Vidarbha, Marathwada and Khandesh", "B. कोकण किनारपट्टी / Konkan coast", "C. सह्याद्रीचा माथा / Sahyadri crest", "D. फक्त कोल्हापूर जिल्हा / Only Kolhapur district"],
+    "answer": "A",
+    "explanation": "रेगुर मृदा प्रामुख्याने विदर्भ, मराठवाडा आणि खानदेश या दख्खन ट्रॅप पठारी भागांत आढळते, जिथे कापसाचे मोठ्या प्रमाणावर उत्पादन घेतले जाते. / Regur soil is chiefly found in the Vidarbha, Marathwada, and Khandesh regions of the Deccan trap plateau, where cotton is extensively cultivated."
+  },
+  {
+    "id": "mh-reg-geo-30",
+    "difficulty": "easy",
+    "question": "जांभा (लॅटराइट) मृदा महाराष्ट्रात प्रामुख्याने कोठे आढळते? / Laterite (jambha) soil is mainly found in which part of Maharashtra?",
+    "options": ["A. कोकण व सह्याद्रीचा माथा / Konkan and the Sahyadri crest", "B. विदर्भाचे मैदान / Vidarbha plains", "C. मराठवाड्याचे पठार / Marathwada plateau", "D. खानदेशातील खोरे / Khandesh valley"],
+    "answer": "A",
+    "explanation": "अतिवृष्टीमुळे खनिजद्रव्यांचे निक्षालन होऊन कोकण किनारपट्टी व सह्याद्रीच्या माथ्यावर जांभा (लॅटराइट) मृदा तयार होते. / Heavy rainfall causes leaching of minerals, forming laterite (jambha) soil along the Konkan coast and the Sahyadri crest."
+  },
+  {
+    "id": "mh-reg-geo-31",
+    "difficulty": "easy",
+    "question": "महाबळेश्वर हे थंड हवेचे ठिकाण कोणत्या जिल्ह्यात आहे? / In which district is the hill station of Mahabaleshwar located?",
+    "options": ["A. सातारा / Satara", "B. रायगड / Raigad", "C. पुणे / Pune", "D. रत्नागिरी / Ratnagiri"],
+    "answer": "A",
+    "explanation": "महाबळेश्वर हे सातारा जिल्ह्यातील प्रसिद्ध थंड हवेचे ठिकाण असून कृष्णा नदीचा उगमही येथे आहे. / Mahabaleshwar is a famous hill station in Satara district and is also the source of the Krishna river."
+  },
+  {
+    "id": "mh-reg-geo-32",
+    "difficulty": "medium",
+    "question": "माथेरान हे थंड हवेचे ठिकाण कोणत्या जिल्ह्यात आहे व त्याचे वैशिष्ट्य काय? / In which district is Matheran located, and what is it noted for?",
+    "options": ["A. रायगड; वाहनांना प्रवेशबंदी असलेले ठिकाण / Raigad; a place where motor vehicles are banned", "B. सातारा; सर्वात उंच शिखर / Satara; the highest peak", "C. नाशिक; द्राक्ष उत्पादन / Nashik; grape production", "D. अमरावती; विदर्भातील सर्वोच्च ठिकाण / Amravati; highest point in Vidarbha"],
+    "answer": "A",
+    "explanation": "माथेरान हे रायगड जिल्ह्यातील एक छोटे थंड हवेचे ठिकाण असून तेथे मोटार वाहनांना प्रवेशबंदी आहे, हे त्याचे वैशिष्ट्य आहे. / Matheran is a small hill station in Raigad district, notably a place where motor vehicles are banned."
+  },
+  {
+    "id": "mh-reg-geo-33",
+    "difficulty": "easy",
+    "question": "पाचगणी हे थंड हवेचे ठिकाण कोणत्या जिल्ह्यात आहे? / In which district is the hill station of Panchgani located?",
+    "options": ["A. सातारा / Satara", "B. पुणे / Pune", "C. नाशिक / Nashik", "D. कोल्हापूर / Kolhapur"],
+    "answer": "A",
+    "explanation": "पाचगणी हे सातारा जिल्ह्यात महाबळेश्वरजवळ वसलेले प्रसिद्ध थंड हवेचे ठिकाण आहे. / Panchgani is a well-known hill station in Satara district, located near Mahabaleshwar."
+  },
+  {
+    "id": "mh-reg-geo-34",
+    "difficulty": "medium",
+    "question": "विदर्भातील सर्वात उंच थंड हवेचे ठिकाण कोणते? / Which is the highest hill station in Vidarbha?",
+    "options": ["A. चिखलदरा / Chikhaldara", "B. माथेरान / Matheran", "C. पाचगणी / Panchgani", "D. तोरणमाळ / Toranmal"],
+    "answer": "A",
+    "explanation": "चिखलदरा हे अमरावती जिल्ह्यातील मेळघाट भागात असलेले विदर्भातील एकमेव व सर्वात उंच थंड हवेचे ठिकाण आहे. / Chikhaldara, located in the Melghat area of Amravati district, is Vidarbha's only and highest hill station."
+  },
+  {
+    "id": "mh-reg-geo-35",
+    "difficulty": "easy",
+    "question": "महाराष्ट्रात प्रशासकीय दृष्ट्या किती महसूल विभाग आहेत? / How many revenue divisions does Maharashtra have administratively?",
+    "options": ["A. ६ / 6", "B. ४ / 4", "C. ८ / 8", "D. ५ / 5"],
+    "answer": "A",
+    "explanation": "महाराष्ट्रात कोकण, पुणे, नाशिक, छत्रपती संभाजीनगर (औरंगाबाद), अमरावती व नागपूर असे एकूण ६ महसूल विभाग आहेत. / Maharashtra has six revenue divisions: Konkan, Pune, Nashik, Chhatrapati Sambhajinagar (Aurangabad), Amravati, and Nagpur."
+  },
+  {
+    "id": "mh-reg-geo-36",
+    "difficulty": "medium",
+    "question": "खालीलपैकी कोणता महाराष्ट्राचा महसूल विभाग नाही? / Which of the following is NOT a revenue division of Maharashtra?",
+    "options": ["A. मराठवाडा / Marathwada", "B. नागपूर / Nagpur", "C. अमरावती / Amravati", "D. कोकण / Konkan"],
+    "answer": "A",
+    "explanation": "मराठवाडा हा एक सांस्कृतिक/भौगोलिक प्रदेश आहे, तो अधिकृत महसूल विभाग नाही; त्या भागाचा प्रशासकीय महसूल विभाग 'छत्रपती संभाजीनगर (औरंगाबाद)' आहे. / Marathwada is a cultural/geographical region, not an official revenue division; the administrative revenue division covering that area is Chhatrapati Sambhajinagar (Aurangabad)."
+  },
+  {
+    "id": "mh-reg-geo-37",
+    "difficulty": "medium",
+    "question": "सध्या (पालघर जिल्हा वेगळा झाल्यानंतर) महाराष्ट्रात एकूण किती जिल्हे आहेत? / How many total districts does Maharashtra currently have (after Palghar was carved out)?",
+    "options": ["A. ३६ / 36", "B. ३३ / 33", "C. ३५ / 35", "D. ३८ / 38"],
+    "answer": "A",
+    "explanation": "२०१४ मध्ये ठाणे जिल्ह्यातून पालघर हा नवा जिल्हा वेगळा झाल्यानंतर महाराष्ट्रात एकूण ३६ जिल्हे झाले. / After Palghar was carved out of Thane district in 2014, Maharashtra's total number of districts became 36."
+  },
+  {
+    "id": "mh-reg-geo-38",
+    "difficulty": "medium",
+    "question": "खालीलपैकी कोणता महाराष्ट्राचा प्रादेशिक/सांस्कृतिक भाग नाही? / Which of the following is NOT a regional/cultural division of Maharashtra?",
+    "options": ["A. तेलंगणा / Telangana", "B. मराठवाडा / Marathwada", "C. विदर्भ / Vidarbha", "D. खानदेश / Khandesh"],
+    "answer": "A",
+    "explanation": "तेलंगणा हे स्वतंत्र राज्य आहे, महाराष्ट्राचा भाग नाही; मराठवाडा, विदर्भ, खानदेश व कोकण/पश्चिम महाराष्ट्र हे महाराष्ट्रातील प्रादेशिक विभाग आहेत. / Telangana is a separate state, not part of Maharashtra; Marathwada, Vidarbha, Khandesh, and Konkan/Western Maharashtra are the regional divisions within Maharashtra."
+  },
+  {
+    "id": "mh-reg-geo-39",
+    "difficulty": "hard",
+    "question": "कोयना धरणामुळे तयार झालेल्या जलाशयाचे नाव काय आहे? / What is the name of the reservoir formed by the Koyna dam?",
+    "options": ["A. शिवसागर / Shivsagar", "B. जायकवाडी जलाशय / Jayakwadi reservoir", "C. उजनी जलाशय / Ujani reservoir", "D. गंगापूर जलाशय / Gangapur reservoir"],
+    "answer": "A",
+    "explanation": "कोयना नदीवरील धरणामुळे तयार झालेल्या जलाशयाला 'शिवसागर' म्हणतात, हे सातारा जिल्ह्यात आहे. / The reservoir created by the dam on the Koyna river is named Shivsagar, located in Satara district."
+  },
+  {
+    "id": "mh-reg-geo-40",
+    "difficulty": "hard",
+    "question": "गोदावरी नदीवरील जायकवाडी धरणाचा जलाशय कोणत्या नावाने ओळखला जातो? / The reservoir of the Jayakwadi dam on the Godavari river is known by which name?",
+    "options": ["A. नाथसागर / Nathsagar", "B. शिवसागर / Shivsagar", "C. उजनी सागर / Ujani Sagar", "D. यशवंत सागर / Yashwant Sagar"],
+    "answer": "A",
+    "explanation": "छत्रपती संभाजीनगर (औरंगाबाद) जिल्ह्यातील गोदावरी नदीवरील जायकवाडी धरणाच्या जलाशयाला 'नाथसागर' म्हणतात. / The reservoir of the Jayakwadi dam on the Godavari river in Chhatrapati Sambhajinagar (Aurangabad) district is called Nathsagar."
+  }
+]

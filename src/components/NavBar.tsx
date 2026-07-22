@@ -42,6 +42,7 @@ const NAV_ITEMS = [
   { href: "/study", label: "अभ्यास", labelEn: "Study", icon: "🎤" },
   { href: "/notes", label: "नोट्स", labelEn: "Notes", icon: "📝" },
   { href: "/quiz", label: "प्रश्नमंजुषा", labelEn: "Quiz", icon: "❓" },
+  { href: "/test-series", label: "चाचणी", labelEn: "Test Series", icon: "📝" },
   { href: "/chapters", label: "अध्याय", labelEn: "Chapters", icon: "📚" },
   { href: "/memes", label: "मीम", labelEn: "Memes", icon: "🖼️" },
   { href: "/progress", label: "प्रगती", labelEn: "Progress", icon: "📊" },
